@@ -1,0 +1,14 @@
+{
+  "name": "somni-vertical-2",
+  "version": "1.0.0",
+  "description": "Vanilla JS port of Expo 2",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -p 3002 .",
+    "generate-csv": "node generateCsv.cjs http://localhost:3002",
+    "generate-prod-csv": "node generateCsv.cjs https://jsmiragregori.github.io/expo-2"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}

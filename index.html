@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maisse - Somni Vertical</title>
+    
+    <!-- Tailwind CSS (CDN for PoC) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              bg: '#0a0a0a',
+              accent: '#f51c20',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Anton', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+          }
+        }
+      }
+    </script>
+    
+    <!-- Feather Icons (Lucide alternative for Vanilla JS) -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans bg-bg text-white selection:bg-accent selection:text-white">
+    
+    <!-- Main Application Wrapper -->
+    <div id="app" class="relative"></div>
+
+    <!-- Data Module (window.translations) -->
+    <script src="data.js"></script>
+    
+    <!-- Main App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
