@@ -1,4 +1,4 @@
-const translations = {
+window.translations = {
   "es": {
     "nav": {
       "galeria": "La Galería",
@@ -26,9 +26,9 @@ const translations = {
     "rooms": [
       {
         "id": "urban-1",
-        "title": "Espacio Urbano 1",
+        "title": "El Castell",
         "subtitle": "Intervención en la ciudad",
-        "description": "Una colección de fotografías integradas en el entorno arquitectónico de Benidorm.",
+        "description": "Descripción del espacio de arte \"El Castell\"",
         "photos": [
           {
             "id": "urban-1-photo-1",
@@ -61,9 +61,9 @@ const translations = {
       },
       {
         "id": "urban-2",
-        "title": "Espacio Urbano 2",
+        "title": "Hispanitat",
         "subtitle": "Intervención en la ciudad",
-        "description": "Una colección de fotografías integradas en el entorno arquitectónico de Benidorm.",
+        "description": "Descripción del espacio de arte \"Hispanitat\"",
         "photos": [
           {
             "id": "urban-2-photo-1",
@@ -114,9 +114,9 @@ const translations = {
       },
       {
         "id": "urban-3",
-        "title": "Espacio Urbano 3",
+        "title": "El Pont",
         "subtitle": "Intervención en la ciudad",
-        "description": "Una colección de fotografías integradas en el entorno arquitectónico de Benidorm.",
+        "description": "Descripción del espacio de arte \"El Pont\"",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -185,9 +185,9 @@ const translations = {
       },
       {
         "id": "urban-4",
-        "title": "Espacio Urbano 4",
+        "title": "El Campo",
         "subtitle": "Intervención en la ciudad",
-        "description": "Una colección de fotografías integradas en el entorno arquitectónico de Benidorm.",
+        "description": "Descripción del espacio de arte \"El Campo\"",
         "photos": [
           {
             "id": "urban-4-photo-1",
@@ -265,9 +265,9 @@ const translations = {
       },
       {
         "id": "urban-5",
-        "title": "Espacio Urbano 5",
+        "title": "Carrascos",
         "subtitle": "Intervención en la ciudad",
-        "description": "Una colección de fotografías integradas en el entorno arquitectónico de Benidorm.",
+        "description": "Descripción del espacio de arte \"Carrascos\"",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -363,9 +363,9 @@ const translations = {
       },
       {
         "id": "urban-6",
-        "title": "Espacio Urbano 6",
+        "title": "Els Tolls",
         "subtitle": "Intervención en la ciudad",
-        "description": "Una colección de fotografías integradas en el entorno arquitectónico de Benidorm.",
+        "description": "Descripción del espacio de arte \"Els Tolls\"",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -479,9 +479,9 @@ const translations = {
       },
       {
         "id": "urban-7",
-        "title": "Espacio Urbano 7",
+        "title": "Passeig de Ponent",
         "subtitle": "Intervención en la ciudad",
-        "description": "Una colección de fotografías integradas en el entorno arquitectónico de Benidorm.",
+        "description": "Descripción del espacio de arte \"Passeig de Ponent\"",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -633,7 +633,7 @@ const translations = {
         "id": "indoor-1",
         "title": "La Casilla - Sala 1",
         "subtitle": "Exposición Interior",
-        "description": "Subespacio interior enfocado en el detalle y la intimidad de la obra.",
+        "description": "Descripción del espacio de arte \"La Casilla - Sala 1\"",
         "photos": [
           {
             "id": "indoor-1-photo-1",
@@ -749,7 +749,7 @@ const translations = {
         "id": "indoor-2",
         "title": "La Casilla - Sala 2",
         "subtitle": "Exposición Interior",
-        "description": "Subespacio interior enfocado en el detalle y la intimidad de la obra.",
+        "description": "Descripción del espacio de arte \"La Casilla - Sala 2\"",
         "photos": [
           {
             "id": "indoor-2-photo-1",
@@ -865,7 +865,7 @@ const translations = {
         "id": "indoor-3",
         "title": "La Casilla - Sala 3",
         "subtitle": "Exposición Interior",
-        "description": "Subespacio interior enfocado en el detalle y la intimidad de la obra.",
+        "description": "Descripción del espacio de arte \"La Casilla - Sala 3\"",
         "photos": [
           {
             "id": "indoor-3-photo-1",
@@ -963,7 +963,7 @@ const translations = {
         "id": "indoor-4",
         "title": "La Casilla - Sala 4",
         "subtitle": "Exposición Interior",
-        "description": "Subespacio interior enfocado en el detalle y la intimidad de la obra.",
+        "description": "Descripción del espacio de arte \"La Casilla - Sala 4\"",
         "photos": [
           {
             "id": "indoor-4-photo-1",
@@ -1147,9 +1147,9 @@ const translations = {
     "rooms": [
       {
         "id": "urban-1",
-        "title": "Espai Urbà 1",
+        "title": "El Castell",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Una col·lecció de fotografies integrades en l'entorn arquitectònic de Benidorm.",
+        "description": "Descripció de l'espai d'art \"El Castell\"",
         "photos": [
           {
             "id": "urban-1-photo-1",
@@ -1182,9 +1182,9 @@ const translations = {
       },
       {
         "id": "urban-2",
-        "title": "Espai Urbà 2",
+        "title": "Hispanitat",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Una col·lecció de fotografies integrades en l'entorn arquitectònic de Benidorm.",
+        "description": "Descripció de l'espai d'art \"Hispanitat\"",
         "photos": [
           {
             "id": "urban-2-photo-1",
@@ -1235,9 +1235,9 @@ const translations = {
       },
       {
         "id": "urban-3",
-        "title": "Espai Urbà 3",
+        "title": "El Pont",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Una col·lecció de fotografies integrades en l'entorn arquitectònic de Benidorm.",
+        "description": "Descripció de l'espai d'art \"El Pont\"",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -1306,9 +1306,9 @@ const translations = {
       },
       {
         "id": "urban-4",
-        "title": "Espai Urbà 4",
+        "title": "El Campo",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Una col·lecció de fotografies integrades en l'entorn arquitectònic de Benidorm.",
+        "description": "Descripció de l'espai d'art \"El Campo\"",
         "photos": [
           {
             "id": "urban-4-photo-1",
@@ -1386,9 +1386,9 @@ const translations = {
       },
       {
         "id": "urban-5",
-        "title": "Espai Urbà 5",
+        "title": "Carrascos",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Una col·lecció de fotografies integrades en l'entorn arquitectònic de Benidorm.",
+        "description": "Descripció de l'espai d'art \"Carrascos\"",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -1484,9 +1484,9 @@ const translations = {
       },
       {
         "id": "urban-6",
-        "title": "Espai Urbà 6",
+        "title": "Els Tolls",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Una col·lecció de fotografies integrades en l'entorn arquitectònic de Benidorm.",
+        "description": "Descripció de l'espai d'art \"Els Tolls\"",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -1600,9 +1600,9 @@ const translations = {
       },
       {
         "id": "urban-7",
-        "title": "Espai Urbà 7",
+        "title": "Passeig de Ponent",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Una col·lecció de fotografies integrades en l'entorn arquitectònic de Benidorm.",
+        "description": "Descripció de l'espai d'art \"Passeig de Ponent\"",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -1754,7 +1754,7 @@ const translations = {
         "id": "indoor-1",
         "title": "La Casilla - Sala 1",
         "subtitle": "Exposició Interior",
-        "description": "Subespai interior enfocat en el detall i la intimitat de l'obra.",
+        "description": "Descripció de l'espai d'art \"La Casilla - Sala 1\"",
         "photos": [
           {
             "id": "indoor-1-photo-1",
@@ -1870,7 +1870,7 @@ const translations = {
         "id": "indoor-2",
         "title": "La Casilla - Sala 2",
         "subtitle": "Exposició Interior",
-        "description": "Subespai interior enfocat en el detall i la intimitat de l'obra.",
+        "description": "Descripció de l'espai d'art \"La Casilla - Sala 2\"",
         "photos": [
           {
             "id": "indoor-2-photo-1",
@@ -1986,7 +1986,7 @@ const translations = {
         "id": "indoor-3",
         "title": "La Casilla - Sala 3",
         "subtitle": "Exposició Interior",
-        "description": "Subespai interior enfocat en el detall i la intimitat de l'obra.",
+        "description": "Descripció de l'espai d'art \"La Casilla - Sala 3\"",
         "photos": [
           {
             "id": "indoor-3-photo-1",
@@ -2084,7 +2084,7 @@ const translations = {
         "id": "indoor-4",
         "title": "La Casilla - Sala 4",
         "subtitle": "Exposició Interior",
-        "description": "Subespai interior enfocat en el detall i la intimitat de l'obra.",
+        "description": "Descripció de l'espai d'art \"La Casilla - Sala 4\"",
         "photos": [
           {
             "id": "indoor-4-photo-1",
@@ -2268,9 +2268,9 @@ const translations = {
     "rooms": [
       {
         "id": "urban-1",
-        "title": "Urban Space 1",
+        "title": "El Castell",
         "subtitle": "City intervention",
-        "description": "A collection of photographs integrated into the architectural environment of Benidorm.",
+        "description": "Description of the art space \"El Castell\"",
         "photos": [
           {
             "id": "urban-1-photo-1",
@@ -2303,9 +2303,9 @@ const translations = {
       },
       {
         "id": "urban-2",
-        "title": "Urban Space 2",
+        "title": "Hispanitat",
         "subtitle": "City intervention",
-        "description": "A collection of photographs integrated into the architectural environment of Benidorm.",
+        "description": "Description of the art space \"Hispanitat\"",
         "photos": [
           {
             "id": "urban-2-photo-1",
@@ -2356,9 +2356,9 @@ const translations = {
       },
       {
         "id": "urban-3",
-        "title": "Urban Space 3",
+        "title": "El Pont",
         "subtitle": "City intervention",
-        "description": "A collection of photographs integrated into the architectural environment of Benidorm.",
+        "description": "Description of the art space \"El Pont\"",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -2427,9 +2427,9 @@ const translations = {
       },
       {
         "id": "urban-4",
-        "title": "Urban Space 4",
+        "title": "El Campo",
         "subtitle": "City intervention",
-        "description": "A collection of photographs integrated into the architectural environment of Benidorm.",
+        "description": "Description of the art space \"El Campo\"",
         "photos": [
           {
             "id": "urban-4-photo-1",
@@ -2507,9 +2507,9 @@ const translations = {
       },
       {
         "id": "urban-5",
-        "title": "Urban Space 5",
+        "title": "Carrascos",
         "subtitle": "City intervention",
-        "description": "A collection of photographs integrated into the architectural environment of Benidorm.",
+        "description": "Description of the art space \"Carrascos\"",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -2605,9 +2605,9 @@ const translations = {
       },
       {
         "id": "urban-6",
-        "title": "Urban Space 6",
+        "title": "Els Tolls",
         "subtitle": "City intervention",
-        "description": "A collection of photographs integrated into the architectural environment of Benidorm.",
+        "description": "Description of the art space \"Els Tolls\"",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -2721,9 +2721,9 @@ const translations = {
       },
       {
         "id": "urban-7",
-        "title": "Urban Space 7",
+        "title": "Passeig de Ponent",
         "subtitle": "City intervention",
-        "description": "A collection of photographs integrated into the architectural environment of Benidorm.",
+        "description": "Description of the art space \"Passeig de Ponent\"",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -2875,7 +2875,7 @@ const translations = {
         "id": "indoor-1",
         "title": "La Casilla - Room 1",
         "subtitle": "Indoor Exhibition",
-        "description": "Indoor subspace focused on the detail and intimacy of the work.",
+        "description": "Description of the art space \"La Casilla - Room 1\"",
         "photos": [
           {
             "id": "indoor-1-photo-1",
@@ -2991,7 +2991,7 @@ const translations = {
         "id": "indoor-2",
         "title": "La Casilla - Room 2",
         "subtitle": "Indoor Exhibition",
-        "description": "Indoor subspace focused on the detail and intimacy of the work.",
+        "description": "Description of the art space \"La Casilla - Room 2\"",
         "photos": [
           {
             "id": "indoor-2-photo-1",
@@ -3107,7 +3107,7 @@ const translations = {
         "id": "indoor-3",
         "title": "La Casilla - Room 3",
         "subtitle": "Indoor Exhibition",
-        "description": "Indoor subspace focused on the detail and intimacy of the work.",
+        "description": "Description of the art space \"La Casilla - Room 3\"",
         "photos": [
           {
             "id": "indoor-3-photo-1",
@@ -3205,7 +3205,7 @@ const translations = {
         "id": "indoor-4",
         "title": "La Casilla - Room 4",
         "subtitle": "Indoor Exhibition",
-        "description": "Indoor subspace focused on the detail and intimacy of the work.",
+        "description": "Description of the art space \"La Casilla - Room 4\"",
         "photos": [
           {
             "id": "indoor-4-photo-1",
@@ -3363,4 +3363,3 @@ const translations = {
     }
   }
 };
-window.translations = translations;
