@@ -186,6 +186,12 @@ function renderApp() {
             return `
             <div class="fixed inset-0 z-[200] bg-black/95 flex flex-col items-center justify-center p-4 lg:p-12 text-white" data-action="close-lightbox">
                 
+                <div class="absolute top-6 left-6 lg:top-12 lg:left-12 flex gap-4 font-mono text-xs tracking-widest uppercase z-[201] p-4">
+                    <button data-action="set-lang" data-lang="es" class="${currentLang === 'es' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_es}</button>
+                    <button data-action="set-lang" data-lang="ca" class="${currentLang === 'ca' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_ca}</button>
+                    <button data-action="set-lang" data-lang="en" class="${currentLang === 'en' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_en}</button>
+                </div>
+
                 <button data-action="close-lightbox" class="absolute top-6 right-6 lg:top-12 lg:right-12 p-4 text-white hover:text-accent transition-colors z-[201]">
                     <i data-feather="x" class="w-8 h-8 pointer-events-none"></i>
                 </button>
@@ -231,6 +237,18 @@ document.getElementById('app').addEventListener('click', (e) => {
     if (action === 'set-lang') {
         currentLang = target.getAttribute('data-lang');
         localStorage.setItem('maisse_lang', currentLang);
+        
+        if (lightboxState.isOpen && lightboxState.roomId) {
+            const room = window.translations[currentLang].rooms.find(r => r.id === lightboxState.roomId);
+            if (room) lightboxState.photos = room.photos;
+            
+            if (lightboxState.audio) {
+                lightboxState.audio.pause();
+                lightboxState.playing = false;
+                lightboxState.audio = null;
+            }
+        }
+        
         renderApp();
         return;
     }
@@ -288,7 +306,7 @@ document.getElementById('app').addEventListener('click', (e) => {
                     externalAudio.pause();
                     playingExternalId = null;
                 }
-                lightboxState = { isOpen: true, photos: room.photos, currentIndex: index, playing: false, audio: null };
+                lightboxState = { isOpen: true, photos: room.photos, currentIndex: index, playing: false, audio: null, roomId: roomId };
                 document.body.style.overflow = 'hidden';
                 window.history.pushState(null, '', `#photo-${photoId}`);
                 renderApp();
