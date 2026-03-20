@@ -14,7 +14,7 @@ function getDynamicText(type) {
         'body': ['text-lg lg:text-base', 'text-xl lg:text-lg', 'text-2xl lg:text-xl'],
         'lead': ['text-xl lg:text-lg', 'text-2xl lg:text-xl', 'text-3xl lg:text-2xl'],
         'manifesto': ['text-xl lg:text-3xl', 'text-2xl lg:text-4xl', 'text-3xl lg:text-5xl'],
-        'label': ['text-xs', 'text-sm', 'text-base']
+        'label': ['text-base', 'text-lg', 'text-xl']
     };
     const idx = textSizeLevels.indexOf(currentTextSize);
     return sizeMap[type][idx >= 0 ? idx : 0];
