@@ -1,5 +1,9 @@
 window.translations = {
   "es": {
+    "labels": {
+      "urban_space": "Espacio de arte urbano",
+      "indoor_space": "Espacio de arte interior"
+    },
     "nav": {
       "galeria": "La Galería",
       "manifiesto": "Manifiesto",
@@ -1106,6 +1110,10 @@ window.translations = {
     }
   },
   "ca": {
+    "labels": {
+      "urban_space": "Espai d'art urbà",
+      "indoor_space": "Espai d'art interior"
+    },
     "nav": {
       "galeria": "La Galeria",
       "manifiesto": "Manifest",
@@ -2212,6 +2220,10 @@ window.translations = {
     }
   },
   "en": {
+    "labels": {
+      "urban_space": "Urban Art Space",
+      "indoor_space": "Indoor Art Space"
+    },
     "nav": {
       "galeria": "The Gallery",
       "manifiesto": "Manifesto",
