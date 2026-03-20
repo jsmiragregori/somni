@@ -254,8 +254,19 @@ document.getElementById('app').addEventListener('click', (e) => {
         } else {
             if (externalAudio) externalAudio.pause();
             
-            // Hardcode PoC external audio path
-            externalAudio = new Audio('./audio/20260308-WA0017.mp3');
+            // Get correct audioUrl
+            let foundAudioUrl = null;
+            const rooms = window.translations[currentLang].rooms;
+            for (const room of rooms) {
+                const photo = room.photos.find(p => p.id === photoId);
+                if (photo) {
+                    foundAudioUrl = photo.audioUrl;
+                    break;
+                }
+            }
+            if (!foundAudioUrl) return;
+
+            externalAudio = new Audio(foundAudioUrl);
             externalAudio.play();
             playingExternalId = photoId;
             externalAudio.onended = () => {
@@ -333,8 +344,9 @@ document.getElementById('app').addEventListener('click', (e) => {
             renderApp();
         } else {
             if (!lightboxState.audio) {
-                // Hardcode PoC Audio path:
-                lightboxState.audio = new Audio('./audio/20260308-WA0017.mp3');
+                const photo = lightboxState.photos[lightboxState.currentIndex];
+                if (!photo || !photo.audioUrl) return;
+                lightboxState.audio = new Audio(photo.audioUrl);
                 lightboxState.audio.onended = () => {
                     lightboxState.playing = false;
                     renderApp();
