@@ -109,7 +109,7 @@ function renderApp() {
 
     app.innerHTML = `
         <!-- Navigation -->
-        <nav class="fixed top-0 left-0 w-full z-50 px-6 lg:px-12 py-6 flex justify-between items-center mix-blend-difference">
+        <nav class="fixed top-0 left-0 w-full z-50 px-6 lg:px-12 py-4 md:py-6 flex justify-between items-center bg-black/70 backdrop-blur-md border-b border-white/5">
             <a href="#" class="font-display text-2xl uppercase tracking-tighter text-white">Maisse</a>
             <div class="flex items-center gap-6 lg:gap-8 text-white">
                 <button data-action="toggle-text-size" class="text-white/60 hover:text-white transition-colors" title="Tamaño de texto">
