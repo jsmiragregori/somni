@@ -180,75 +180,53 @@ window.translations = {
         "photos": [
           {
             "id": "urban-4-photo-1",
-            "url": "https://picsum.photos/seed/urban-4-photo-1/800/600",
-            "title": "Obra urban-4-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-1-es.mp3"
+            "url": "./img/urban-4_photo_1.jpg",
+            "orientation": "portrait",
+            "title": "Obra 01",
+            "description": "Bienvenidos a El Campo. Mira el Intempo: Eva posando entre acero y reflejos dorados en 2021. Una imagen que une el pasado marinero con el futuro vertical. Ahora, alza la vista al final de esta calle San Pedro: ahí tienes el edificio real, imponente y moderno.",
+            "year": "2021",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "urban-4-photo-2",
-            "url": "https://picsum.photos/seed/urban-4-photo-2/800/600",
-            "title": "Obra urban-4-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/urban-4_photo_2.jpg",
+            "orientation": "portrait",
+            "title": "Obra 02",
+            "description": "Aproximémonos al detalle. Fíjate en las columnas doradas del Intempo y los reflejos que multiplican la verticalidad. Ahora, gira la vista a la derecha: al fondo de la calle verás la silueta dorada del edificio real, repitiendo el mismo patrón de la fotografía.",
+            "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-2-es.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-4-photo-3",
-            "url": "https://picsum.photos/seed/urban-4-photo-3/800/600",
-            "title": "Obra urban-4-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/urban-4_photo_3.jpg",
+            "orientation": "portrait",
+            "title": "Obra 03",
+            "description": "Terraza del hotel Milords Suites. Editorial ‘Benidorm Horizontal’. Esta era nuestra base de operaciones para los cambios de vestuario. Fijaos en el fondo: el Bali y las luces de Ponent se deshacen en un 'bokeh' que nos transporta a una ciudad nocturna y elegante.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-3-es.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-4-photo-4",
-            "url": "https://picsum.photos/seed/urban-4-photo-4/800/600",
-            "title": "Obra urban-4-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/urban-4_photo_4.jpg",
+            "orientation": "portrait",
+            "title": "Obra 04",
+            "description": "Escalinata del Castillo, editorial Benidorm Horizontal. Para lograr esta imagen tuvimos que correr: cambio de vestuario en el hotel y vuelta rápida para no perder la luz. El esfuerzo merece la pena al ver cómo el blanco de la piedra resalta la elegancia del momento.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-4-es.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-4-photo-5",
-            "url": "https://picsum.photos/seed/urban-4-photo-5/800/600",
-            "title": "Obra urban-4-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-4-photo-5-es.mp3"
-          },
-          {
-            "id": "urban-4-photo-6",
-            "url": "https://picsum.photos/seed/urban-4-photo-6/800/600",
-            "title": "Obra urban-4-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/urban-4_photo_5.jpg",
+            "orientation": "portrait",
+            "title": "Obra 05",
+            "description": "Castell de Benidorm, editorial Benidorm Horizontal. En cada sesión trabajamos hasta seis 'looks' diferentes. Quería que Benidorm luciera como un escenario de gran producción, como en las revistas de Nueva York que han publicado mi trabajo. Una mirada sofisticada a nuestra propia casa.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-6-es.mp3"
-          },
-          {
-            "id": "urban-4-photo-7",
-            "url": "https://picsum.photos/seed/urban-4-photo-7/800/600",
-            "title": "Obra urban-4-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-7-es.mp3"
-          },
-          {
-            "id": "urban-4-photo-8",
-            "url": "https://picsum.photos/seed/urban-4-photo-8/800/600",
-            "title": "Obra urban-4-photo-8",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-8-es.mp3"
+            "audioUrl": null
           }
         ]
       },
@@ -260,93 +238,43 @@ window.translations = {
         "photos": [
           {
             "id": "urban-5-photo-1",
-            "url": "https://picsum.photos/seed/urban-5-photo-1/800/600",
-            "title": "Obra urban-5-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-1-es.mp3"
+            "url": "./img/urban-5_photo_1.jpg",
+            "orientation": "portrait",
+            "title": "Obra 01",
+            "description": "Plaza del Ayuntamiento, editorial ‘Benidorm Horizontal’. En este plano celebramos la complicidad y el detalle. Los materiales artesanales de la modelo fueron diseñados por nuestro equipo para dialogar con el cielo de Benidorm. Todo se preparó minutos antes en un hotel cercano para capturar la luz mediterránea exacta.",
+            "year": "2020",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "urban-5-photo-2",
-            "url": "https://picsum.photos/seed/urban-5-photo-2/800/600",
-            "title": "Obra urban-5-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/urban-5_photo_2.jpg",
+            "orientation": "portrait",
+            "title": "Obra 02",
+            "description": "Bienvenidos a la editorial 'Benidorm Horizontal'. Fijaos en el contraste: el azul eléctrico del outfit y los globos rompen la geometría del Ayuntamiento que acabamos de dejar atrás. Es la moda conquistando el espacio público.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-2-es.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-5-photo-3",
-            "url": "https://picsum.photos/seed/urban-5-photo-3/800/600",
-            "title": "Obra urban-5-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/urban-5_photo_3.jpg",
+            "orientation": "portrait",
+            "title": "Obra 03",
+            "description": "Mirad la textura del vestido, un reto de diseño para capturar la luz. Pero fijaos bien en los globos: en uno de los reflejos se esconde una sorpresa que no todos ven a primera vista. ¿Sois capaces de encontrar el secreto de esta sesión?",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-3-es.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-5-photo-4",
-            "url": "https://picsum.photos/seed/urban-5-photo-4/800/600",
-            "title": "Obra urban-5-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/urban-5_photo_4.jpg",
+            "orientation": "portrait",
+            "title": "Obra 04",
+            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-4-es.mp3"
-          },
-          {
-            "id": "urban-5-photo-5",
-            "url": "https://picsum.photos/seed/urban-5-photo-5/800/600",
-            "title": "Obra urban-5-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-5-photo-5-es.mp3"
-          },
-          {
-            "id": "urban-5-photo-6",
-            "url": "https://picsum.photos/seed/urban-5-photo-6/800/600",
-            "title": "Obra urban-5-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-6-es.mp3"
-          },
-          {
-            "id": "urban-5-photo-7",
-            "url": "https://picsum.photos/seed/urban-5-photo-7/800/600",
-            "title": "Obra urban-5-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-7-es.mp3"
-          },
-          {
-            "id": "urban-5-photo-8",
-            "url": "https://picsum.photos/seed/urban-5-photo-8/800/600",
-            "title": "Obra urban-5-photo-8",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-8-es.mp3"
-          },
-          {
-            "id": "urban-5-photo-9",
-            "url": "https://picsum.photos/seed/urban-5-photo-9/800/600",
-            "title": "Obra urban-5-photo-9",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-9-es.mp3"
-          },
-          {
-            "id": "urban-5-photo-10",
-            "url": "https://picsum.photos/seed/urban-5-photo-10/800/600",
-            "title": "Obra urban-5-photo-10",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-5-photo-10-es.mp3"
+            "audioUrl": null
           }
         ]
       },
@@ -1290,75 +1218,53 @@ window.translations = {
         "photos": [
           {
             "id": "urban-4-photo-1",
-            "url": "https://picsum.photos/seed/urban-4-photo-1/800/600",
-            "title": "Obra urban-4-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-1-ca.mp3"
+            "url": "./img/urban-4_photo_1.jpg",
+            "orientation": "portrait",
+            "title": "Obra 01",
+            "description": "Benvinguts a El Campo. Mira l'Intempo: l'Eva posant entre acer i reflexos daurats el 2021. Una imatge que uneix el passat mariner amb el futur vertical. Ara, alça la vista al final d'aquest carrer Sant Pere: ahí tens l'edifici real, imponent i modern.",
+            "year": "2021",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "urban-4-photo-2",
-            "url": "https://picsum.photos/seed/urban-4-photo-2/800/600",
-            "title": "Obra urban-4-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/urban-4_photo_2.jpg",
+            "orientation": "portrait",
+            "title": "Obra 02",
+            "description": "Aproximem-nos al detall. Fixa't en les columnes daurades de l'Intempo i els reflexos que multipliquen la verticalitat. Ara, gira la vista a la dreta: al fons del carrer veuràs la silueta daurada de l'edifici real, repetint el mateix patró de la fotografia.",
+            "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-2-ca.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-4-photo-3",
-            "url": "https://picsum.photos/seed/urban-4-photo-3/800/600",
-            "title": "Obra urban-4-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/urban-4_photo_3.jpg",
+            "orientation": "portrait",
+            "title": "Obra 03",
+            "description": "Terrassa de l'hotel Milords Suites. Editorial 'Benidorm Horitzontal'. Aquesta era la nostra base d'operacions per als canvis de vestuari. Fixeu-vos en el fons: el Bali i les llums de Ponent es desfan en un 'bokeh' que ens transporta a una ciutat nocturna i elegant.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-3-ca.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-4-photo-4",
-            "url": "https://picsum.photos/seed/urban-4-photo-4/800/600",
-            "title": "Obra urban-4-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/urban-4_photo_4.jpg",
+            "orientation": "portrait",
+            "title": "Obra 04",
+            "description": "Escalinata del Castell, editorial Benidorm Horitzontal. Per a aconseguir aquesta imatge vam haver de córrer: canvi de vestuari a l’hotel i tornada ràpida per a no perdre la llum. L’esforç paga la pena quan veus com el blanc de la pedra ressalta l’elegància del moment.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-4-ca.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-4-photo-5",
-            "url": "https://picsum.photos/seed/urban-4-photo-5/800/600",
-            "title": "Obra urban-4-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-4-photo-5-ca.mp3"
-          },
-          {
-            "id": "urban-4-photo-6",
-            "url": "https://picsum.photos/seed/urban-4-photo-6/800/600",
-            "title": "Obra urban-4-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/urban-4_photo_5.jpg",
+            "orientation": "portrait",
+            "title": "Obra 05",
+            "description": "Castell de Benidorm, editorial Benidorm Horitzontal. En cada sessió treballem fins a sis 'looks' diferents. Volia que Benidorm lluïra com un escenari de gran producció, com en les revistes de Nova York que han publicat el meu treball. Una mirada sofisticada a la nostra pròpia casa.\"",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-6-ca.mp3"
-          },
-          {
-            "id": "urban-4-photo-7",
-            "url": "https://picsum.photos/seed/urban-4-photo-7/800/600",
-            "title": "Obra urban-4-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-7-ca.mp3"
-          },
-          {
-            "id": "urban-4-photo-8",
-            "url": "https://picsum.photos/seed/urban-4-photo-8/800/600",
-            "title": "Obra urban-4-photo-8",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-8-ca.mp3"
+            "audioUrl": null
           }
         ]
       },
@@ -1370,93 +1276,43 @@ window.translations = {
         "photos": [
           {
             "id": "urban-5-photo-1",
-            "url": "https://picsum.photos/seed/urban-5-photo-1/800/600",
-            "title": "Obra urban-5-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-1-ca.mp3"
+            "url": "./img/urban-5_photo_1.jpg",
+            "orientation": "portrait",
+            "title": "Obra 01",
+            "description": "Plaça de l’Ajuntament, editorial ‘Benidorm Horitzontal’. En aquest plànol celebrem la complicitat i el detall. Els materials que llueix la model són artesanals, dissenyats exclusivament pel nostre equip per a dialogar amb el cel de Benidorm. Tot el que veieu va ser preparat minuts abans en un hotel proper per a capturar la llum mediterrània exacta.",
+            "year": "2020",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "urban-5-photo-2",
-            "url": "https://picsum.photos/seed/urban-5-photo-2/800/600",
-            "title": "Obra urban-5-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/urban-5_photo_2.jpg",
+            "orientation": "portrait",
+            "title": "Obra 02",
+            "description": "Benvinguts a l'editorial Benidorm Horitzontal. Fixeu-vos en el contrast: el blau elèctric de l'outfit i els globus busquen trencar la geometria de l'edifici de l'Ajuntament que acabem de deixar enrere. És la moda conquistant l'espai públic.\"",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-2-ca.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-5-photo-3",
-            "url": "https://picsum.photos/seed/urban-5-photo-3/800/600",
-            "title": "Obra urban-5-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/urban-5_photo_3.jpg",
+            "orientation": "portrait",
+            "title": "Obra 03",
+            "description": "Mireu la textura del vestit, un repte de disseny per a capturar la llum. Però fixeu-vos bé en els globus: en un dels reflexos s’amaga una sorpresa que no tots veuen a primera vista. Sou capaços de trobar el secret d’aquesta sessió?",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-3-ca.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-5-photo-4",
-            "url": "https://picsum.photos/seed/urban-5-photo-4/800/600",
-            "title": "Obra urban-5-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/urban-5_photo_4.jpg",
+            "orientation": "portrait",
+            "title": "Obra 04",
+            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-4-ca.mp3"
-          },
-          {
-            "id": "urban-5-photo-5",
-            "url": "https://picsum.photos/seed/urban-5-photo-5/800/600",
-            "title": "Obra urban-5-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-5-photo-5-ca.mp3"
-          },
-          {
-            "id": "urban-5-photo-6",
-            "url": "https://picsum.photos/seed/urban-5-photo-6/800/600",
-            "title": "Obra urban-5-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-6-ca.mp3"
-          },
-          {
-            "id": "urban-5-photo-7",
-            "url": "https://picsum.photos/seed/urban-5-photo-7/800/600",
-            "title": "Obra urban-5-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-7-ca.mp3"
-          },
-          {
-            "id": "urban-5-photo-8",
-            "url": "https://picsum.photos/seed/urban-5-photo-8/800/600",
-            "title": "Obra urban-5-photo-8",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-8-ca.mp3"
-          },
-          {
-            "id": "urban-5-photo-9",
-            "url": "https://picsum.photos/seed/urban-5-photo-9/800/600",
-            "title": "Obra urban-5-photo-9",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-9-ca.mp3"
-          },
-          {
-            "id": "urban-5-photo-10",
-            "url": "https://picsum.photos/seed/urban-5-photo-10/800/600",
-            "title": "Obra urban-5-photo-10",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-5-photo-10-ca.mp3"
+            "audioUrl": null
           }
         ]
       },
@@ -2400,75 +2256,53 @@ window.translations = {
         "photos": [
           {
             "id": "urban-4-photo-1",
-            "url": "https://picsum.photos/seed/urban-4-photo-1/800/600",
-            "title": "Artwork urban-4-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-1-en.mp3"
+            "url": "./img/urban-4_photo_1.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 01",
+            "description": "Welcome to El Campo. Look at the Intempo: Eva posing amid steel and golden reflections in 2021. An image joining the maritime past with the vertical future. Now, look up towards the end of San Pedro street: there is the real building, imposing and modern.",
+            "year": "2021",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "urban-4-photo-2",
-            "url": "https://picsum.photos/seed/urban-4-photo-2/800/600",
-            "title": "Artwork urban-4-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/urban-4_photo_2.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 02",
+            "description": "Let’s focus on the details. Notice Intempo's golden columns and the reflections multiplying the verticality. Now, look to your right: at the end of the street, you'll see the real building's golden silhouette, repeating the same pattern as the photograph.",
+            "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-2-en.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-4-photo-3",
-            "url": "https://picsum.photos/seed/urban-4-photo-3/800/600",
-            "title": "Artwork urban-4-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/urban-4_photo_3.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 03",
+            "description": "Terrace of Hotel Milords Suites. ‘Benidorm Horitzontal’ editorial. This was our base of operations for outfit changes. Look at the background: the Bali hotel and the Ponent lights melt into a bokeh, transporting us to an elegant, nighttime city.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-3-en.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-4-photo-4",
-            "url": "https://picsum.photos/seed/urban-4-photo-4/800/600",
-            "title": "Artwork urban-4-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/urban-4_photo_4.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 04",
+            "description": "The Castle Staircase, 'Benidorm Horizontal' editorial. To get this shot, we had to rush: an outfit change at the hotel and a quick return to catch the light. The effort is worth it when you see how the white stone highlights the elegance of the moment.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-4-en.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-4-photo-5",
-            "url": "https://picsum.photos/seed/urban-4-photo-5/800/600",
-            "title": "Artwork urban-4-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-4-photo-5-en.mp3"
-          },
-          {
-            "id": "urban-4-photo-6",
-            "url": "https://picsum.photos/seed/urban-4-photo-6/800/600",
-            "title": "Artwork urban-4-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/urban-4_photo_5.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 05",
+            "description": "Benidorm Castle, 'Benidorm Horizontal' editorial. In each session, we work with up to six different looks. I wanted Benidorm to look like a high-end production set, like the New York magazines that have featured my work. A sophisticated look at our own home.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-6-en.mp3"
-          },
-          {
-            "id": "urban-4-photo-7",
-            "url": "https://picsum.photos/seed/urban-4-photo-7/800/600",
-            "title": "Artwork urban-4-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-7-en.mp3"
-          },
-          {
-            "id": "urban-4-photo-8",
-            "url": "https://picsum.photos/seed/urban-4-photo-8/800/600",
-            "title": "Artwork urban-4-photo-8",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-4-photo-8-en.mp3"
+            "audioUrl": null
           }
         ]
       },
@@ -2480,93 +2314,43 @@ window.translations = {
         "photos": [
           {
             "id": "urban-5-photo-1",
-            "url": "https://picsum.photos/seed/urban-5-photo-1/800/600",
-            "title": "Artwork urban-5-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-1-en.mp3"
+            "url": "./img/urban-5_photo_1.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 01",
+            "description": "Town Hall Square, ‘Benidorm horitzontal’ editorial. In this frame, we celebrate complicity and detail. The model's handmade materials were designed by our team to dialogue with Benidorm’s sky. Everything was prepared minutes before in a nearby hotel to capture the exact Mediterranean light.",
+            "year": "2020",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "urban-5-photo-2",
-            "url": "https://picsum.photos/seed/urban-5-photo-2/800/600",
-            "title": "Artwork urban-5-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/urban-5_photo_2.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 02",
+            "description": "Welcome to the 'Benidorm Horizontal' editorial. Notice the contrast: the electric blue outfit and the balloons break the geometry of the City Hall we just left behind. This is fashion conquering public space.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-2-en.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-5-photo-3",
-            "url": "https://picsum.photos/seed/urban-5-photo-3/800/600",
-            "title": "Artwork urban-5-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/urban-5_photo_3.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 03",
+            "description": "Look at the texture of the dress, a design challenge to capture the light. But look closely at the balloons: a surprise is hidden in one of the reflections that not everyone sees at first glance. Can you find the secret of this shoot?",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-3-en.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-5-photo-4",
-            "url": "https://picsum.photos/seed/urban-5-photo-4/800/600",
-            "title": "Artwork urban-5-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/urban-5_photo_4.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 04",
+            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-4-en.mp3"
-          },
-          {
-            "id": "urban-5-photo-5",
-            "url": "https://picsum.photos/seed/urban-5-photo-5/800/600",
-            "title": "Artwork urban-5-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-5-photo-5-en.mp3"
-          },
-          {
-            "id": "urban-5-photo-6",
-            "url": "https://picsum.photos/seed/urban-5-photo-6/800/600",
-            "title": "Artwork urban-5-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-6-en.mp3"
-          },
-          {
-            "id": "urban-5-photo-7",
-            "url": "https://picsum.photos/seed/urban-5-photo-7/800/600",
-            "title": "Artwork urban-5-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-7-en.mp3"
-          },
-          {
-            "id": "urban-5-photo-8",
-            "url": "https://picsum.photos/seed/urban-5-photo-8/800/600",
-            "title": "Artwork urban-5-photo-8",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-8-en.mp3"
-          },
-          {
-            "id": "urban-5-photo-9",
-            "url": "https://picsum.photos/seed/urban-5-photo-9/800/600",
-            "title": "Artwork urban-5-photo-9",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-5-photo-9-en.mp3"
-          },
-          {
-            "id": "urban-5-photo-10",
-            "url": "https://picsum.photos/seed/urban-5-photo-10/800/600",
-            "title": "Artwork urban-5-photo-10",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-5-photo-10-en.mp3"
+            "audioUrl": null
           }
         ]
       },
