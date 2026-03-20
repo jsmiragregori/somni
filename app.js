@@ -13,7 +13,8 @@ function getDynamicText(type) {
         'caption': ['text-base lg:text-sm', 'text-lg lg:text-base', 'text-xl lg:text-lg'],
         'body': ['text-lg lg:text-base', 'text-xl lg:text-lg', 'text-2xl lg:text-xl'],
         'lead': ['text-xl lg:text-lg', 'text-2xl lg:text-xl', 'text-3xl lg:text-2xl'],
-        'manifesto': ['text-xl lg:text-3xl', 'text-2xl lg:text-4xl', 'text-3xl lg:text-5xl']
+        'manifesto': ['text-xl lg:text-3xl', 'text-2xl lg:text-4xl', 'text-3xl lg:text-5xl'],
+        'label': ['text-xs', 'text-sm', 'text-base']
     };
     const idx = textSizeLevels.indexOf(currentTextSize);
     return sizeMap[type][idx >= 0 ? idx : 0];
@@ -94,7 +95,7 @@ function renderApp() {
         <section id="${room.id}" class="min-h-screen py-24 px-6 lg:px-24 flex flex-col justify-center border-t border-white/5">
             <div class="max-w-7xl mx-auto w-full">
                 <div class="mb-16 fade-in">
-                    <span class="font-mono text-xs text-accent mb-4 block">Sala 0${index + 1}</span>
+                    <span class="font-mono ${getDynamicText('label')} uppercase text-accent mb-4 block">${room.id.startsWith('urban') ? t.labels.urban_space : t.labels.indoor_space}</span>
                     <h2 class="font-display text-5xl lg:text-8xl py-1 uppercase mb-6 tracking-tighter">${room.title}</h2>
                     <p class="max-w-xl ${getDynamicText('lead')} text-white/60 font-light leading-relaxed">${room.description}</p>
                 </div>
