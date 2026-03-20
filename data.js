@@ -118,66 +118,53 @@ window.translations = {
         "photos": [
           {
             "id": "urban-3-photo-1",
-            "url": "https://picsum.photos/seed/urban-3-photo-1/800/600",
-            "title": "Obra urban-3-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-1-es.mp3"
+            "url": "./img/urban-3_photo_1.jpg",
+            "orientation": "portrait",
+            "title": "Obra 01",
+            "description": "Calle Emilio Ortuño, noviembre de 2020, editorial ‘Benidorm Horizontal’. Esta imagen se tomó justo encima de tu cabeza, arriba del Puente. Era época post-pandemia y el silencio nos permitió capturar un Benidorm casi vacío, con el hotel Madeira vigilando una ciudad que, poco a poco, volvía a la vida.",
+            "year": "2020",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "urban-3-photo-2",
-            "url": "https://picsum.photos/seed/urban-3-photo-2/800/600",
-            "title": "Obra urban-3-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/urban-3_photo_2.jpg",
+            "orientation": "portrait",
+            "title": "Obra 02",
+            "description": "Calle Emilio Ortuño. Seguimos aquí arriba, en un momento donde la carretera aún no bullía de tráfico. Ese contexto post-pandemia convirtió el Puente en nuestra pasarela privada, donde el diseño escocés y el casco antiguo se miran cara a cara.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-2-es.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-3-photo-3",
-            "url": "https://picsum.photos/seed/urban-3-photo-3/800/600",
-            "title": "Obra urban-3-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/urban-3_photo_3.jpg",
+            "orientation": "portrait",
+            "title": "Obra 03",
+            "description": "Calle Emilio Ortuño, frente al hotel Bristol. La última foto hecha arriba del Puente. Sin el ruido habitual de los coches de 2020, pudimos centrar toda la atención en el detalle y la elegancia, transformando una calle tan transitada en un auténtico escenario de moda.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-3-es.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-3-photo-4",
-            "url": "https://picsum.photos/seed/urban-3-photo-4/800/600",
-            "title": "Obra urban-3-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/urban-3_photo_4.jpg",
+            "orientation": "portrait",
+            "title": "Obra 04",
+            "description": "Calle del Pont, editorial ‘Benidorm Horizontal’. En esta imagen, si miramos al fondo detrás de la pareja, divisamos el Puente y el hotel Bristol. Para conseguir este 'look', tuvimos que correr al hotel a cambiarnos y volver en un momento; una coreografía de moda sobre un asfalto que aún estaba medio dormido.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-4-es.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-3-photo-5",
-            "url": "https://picsum.photos/seed/urban-3-photo-5/800/600",
-            "title": "Obra urban-3-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-3-photo-5-es.mp3"
-          },
-          {
-            "id": "urban-3-photo-6",
-            "url": "https://picsum.photos/seed/urban-3-photo-6/800/600",
-            "title": "Obra urban-3-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/urban-3_photo_5.jpg",
+            "orientation": "portrait",
+            "title": "Obra 05",
+            "description": "Calle del Pont, noviembre de 2020. Aquí la perspectiva del fondo se abre hacia la plaza de la Hispanitat. Elegimos los globos para conectar con los patrones del paso de cebra que tienes delante. Es el fruto de muchas carreras al hotel para transformar, cambio tras cambio, la calle en una pasarela de sueño.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-6-es.mp3"
-          },
-          {
-            "id": "urban-3-photo-7",
-            "url": "https://picsum.photos/seed/urban-3-photo-7/800/600",
-            "title": "Obra urban-3-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-7-es.mp3"
+            "audioUrl": null
           }
         ]
       },
@@ -1237,66 +1224,53 @@ window.translations = {
         "photos": [
           {
             "id": "urban-3-photo-1",
-            "url": "https://picsum.photos/seed/urban-3-photo-1/800/600",
-            "title": "Obra urban-3-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-1-ca.mp3"
+            "url": "./img/urban-3_photo_1.jpg",
+            "orientation": "portrait",
+            "title": "Obra 01",
+            "description": "Carrer Emilio Ortuño, novembre de 2020, editorial ‘Benidorm Horitzontal’. Esta imatge es va prendre just dalt del teu cap, dalt del Pont. Era època post-pandèmia i el silenci ens va permetre capturar un Benidorm gairebé buit, amb l’hotel Madeira vigilant una ciutat que, a poc a poc, tornava a la vida.",
+            "year": "2020",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "urban-3-photo-2",
-            "url": "https://picsum.photos/seed/urban-3-photo-2/800/600",
-            "title": "Obra urban-3-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/urban-3_photo_2.jpg",
+            "orientation": "portrait",
+            "title": "Obra 02",
+            "description": "Carrer Emilio Ortuño. Seguim ací dalt, en un moment on la carretera encara no bullia de trànsit. Eixe context post-pandèmia va convertir el Pont en la nostra passarel·la privada, on el disseny escocès i el casc antic es miren cara a cara.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-2-ca.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-3-photo-3",
-            "url": "https://picsum.photos/seed/urban-3-photo-3/800/600",
-            "title": "Obra urban-3-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/urban-3_photo_3.jpg",
+            "orientation": "portrait",
+            "title": "Obra 03",
+            "description": "Carrer Emilio Ortuño, davant l'hotel Bristol. L’última foto feta dalt del Pont. Sense el soroll habitual dels cotxes de 2020, vam poder centrar tota l'atenció en el detall i l'elegància, transformant un carrer tan transitat en un autèntic escenari de moda.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-3-ca.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-3-photo-4",
-            "url": "https://picsum.photos/seed/urban-3-photo-4/800/600",
-            "title": "Obra urban-3-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/urban-3_photo_4.jpg",
+            "orientation": "portrait",
+            "title": "Obra 04",
+            "description": "Carrer del Pont, editorial ‘Benidorm Horitzontal’. En esta imatge, si mirem al fons darrere de la parella, divisem el Pont i l'hotel Bristol. Per a aconseguir este 'look', vam haver de córrer a l'hotel a canviar-nos i tornar en un moment; una coreografia de moda sobre un asfalt que encara estava mig adormit.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-4-ca.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-3-photo-5",
-            "url": "https://picsum.photos/seed/urban-3-photo-5/800/600",
-            "title": "Obra urban-3-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-3-photo-5-ca.mp3"
-          },
-          {
-            "id": "urban-3-photo-6",
-            "url": "https://picsum.photos/seed/urban-3-photo-6/800/600",
-            "title": "Obra urban-3-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/urban-3_photo_5.jpg",
+            "orientation": "portrait",
+            "title": "Obra 05",
+            "description": "Carrer del Pont, novembre de 2020. Ací la perspectiva del fons s'obri cap a la plaça de la Hispanitat. Triem els globus per a connectar amb els patrons del pas de zebra que tens davant. És el fruit de moltes corregudes a l'hotel per a transformar, canvi rere canvi, el carrer en una passarel·la de somni.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-6-ca.mp3"
-          },
-          {
-            "id": "urban-3-photo-7",
-            "url": "https://picsum.photos/seed/urban-3-photo-7/800/600",
-            "title": "Obra urban-3-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-7-ca.mp3"
+            "audioUrl": null
           }
         ]
       },
@@ -2356,66 +2330,53 @@ window.translations = {
         "photos": [
           {
             "id": "urban-3-photo-1",
-            "url": "https://picsum.photos/seed/urban-3-photo-1/800/600",
-            "title": "Artwork urban-3-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-1-en.mp3"
+            "url": "./img/urban-3_photo_1.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 01",
+            "description": "Emilio Ortuño Street, November 2020, ‘Benidorm Horizontal’ editorial. This shot was taken right above your head, on top of the Bridge. It was the post-pandemic era, and the silence let us capture a nearly empty Benidorm, with Hotel Madeira watching over a city slowly coming back to life.",
+            "year": "2020",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "urban-3-photo-2",
-            "url": "https://picsum.photos/seed/urban-3-photo-2/800/600",
-            "title": "Artwork urban-3-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/urban-3_photo_2.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 02",
+            "description": "Emilio Ortuño Street. Still up here, at a time when the road wasn't yet buzzing with traffic. That post-pandemic setting turned the Bridge into our private runway, where Scottish design and the old town meet face to face.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-2-en.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-3-photo-3",
-            "url": "https://picsum.photos/seed/urban-3-photo-3/800/600",
-            "title": "Artwork urban-3-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/urban-3_photo_3.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 03",
+            "description": "Emilio Ortuño Street, in front of Hotel Bristol. The last photo taken on top of the Bridge. Without the usual 2020 traffic noise, we could focus entirely on detail and elegance, turning such a busy street into a true fashion set.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-3-en.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-3-photo-4",
-            "url": "https://picsum.photos/seed/urban-3-photo-4/800/600",
-            "title": "Artwork urban-3-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/urban-3_photo_4.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 04",
+            "description": "Carrer del Pont, to the left of the biography. In this image, looking past the couple into the background, we can see the Bridge and Hotel Bristol. To achieve this look, we had to rush to the hotel for a change and hurry back; a fashion choreography on an asphalt that was still half-asleep.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-4-en.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-3-photo-5",
-            "url": "https://picsum.photos/seed/urban-3-photo-5/800/600",
-            "title": "Artwork urban-3-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-3-photo-5-en.mp3"
-          },
-          {
-            "id": "urban-3-photo-6",
-            "url": "https://picsum.photos/seed/urban-3-photo-6/800/600",
-            "title": "Artwork urban-3-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/urban-3_photo_5.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 05",
+            "description": "Carrer del Pont, November 2020. Here, the background perspective opens up towards Hispanitat Square. We chose the balloons to match the patterns of the crosswalk right in front of you. This is the result of many trips back to the hotel to turn the street, outfit after outfit, into a dream runway.",
+            "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-6-en.mp3"
-          },
-          {
-            "id": "urban-3-photo-7",
-            "url": "https://picsum.photos/seed/urban-3-photo-7/800/600",
-            "title": "Artwork urban-3-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-3-photo-7-en.mp3"
+            "audioUrl": null
           }
         ]
       },
