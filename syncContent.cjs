@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const sizeOf = require('image-size');
 
 const PROJECT_DIR = __dirname;
 // Buscamos la carpeta Contenidos_Somni un nivel por encima del proyecto web
@@ -72,11 +73,20 @@ galleryFolders.forEach(galleryFolder => {
         // --- IMAGEN ---
         const imgFile = files.find(f => f.match(/\.(jpg|jpeg|png|webp|gif)$/i));
         let imgUrl = `https://picsum.photos/seed/${photoId}/800/600`; // Fallback PoC
+        let orientation = 'landscape';
         if (imgFile) {
             const ext = path.extname(imgFile);
             const newImgName = `${roomId}_photo_${pIndex + 1}${ext}`;
-            fs.copyFileSync(path.join(photoPath, imgFile), path.join(IMG_DEST, newImgName));
+            const sourceImgPath = path.join(photoPath, imgFile);
+            fs.copyFileSync(sourceImgPath, path.join(IMG_DEST, newImgName));
             imgUrl = `./img/${newImgName}`;
+            
+            try {
+                const dimensions = sizeOf(sourceImgPath);
+                orientation = (dimensions.width >= dimensions.height) ? 'landscape' : 'portrait';
+            } catch (err) {
+                console.warn(`    ⚠️ No se pudo leer dimensiones de ${imgFile}, asumiendo landscape.`);
+            }
         }
         
         // --- AUDIO ---
@@ -119,6 +129,7 @@ galleryFolders.forEach(galleryFolder => {
             newPhotos[lang].push({
                 id: photoId,
                 url: imgUrl,
+                orientation: orientation,
                 title: getTitle(lang),
                 description: getDesc(lang),
                 year: getYear(),

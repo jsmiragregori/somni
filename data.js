@@ -33,6 +33,7 @@ window.translations = {
           {
             "id": "urban-1-photo-1",
             "url": "./img/urban-1_photo_1.jpg",
+            "orientation": "landscape",
             "title": "Obra 01",
             "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
             "year": "2019",
@@ -42,6 +43,7 @@ window.translations = {
           {
             "id": "urban-1-photo-2",
             "url": "./img/urban-1_photo_2.jpg",
+            "orientation": "landscape",
             "title": "Obra 02",
             "description": "El Castillo de Benidorm, editorial Benidorm Horizontal. Aquí, pasado y futuro se miran cara a cara. Es fascinante cómo se funde la complicidad de la pareja con el mar, el skyline de Ponent y las montañas al fondo, como testigos de un sueño que no se detiene.",
             "year": "2020",
@@ -51,6 +53,7 @@ window.translations = {
           {
             "id": "urban-1-photo-3",
             "url": "./img/urban-1_photo_3.jpg",
+            "orientation": "landscape",
             "title": "Obra 03",
             "description": "Plaza del Ayuntamiento, editorial Benidorm Horizontal, noviembre de 2020. Una oda a la geometría y al color azul. Fijaos en los reflejos del cristal; están pensados para resaltar la fuerza de la moda en un entorno transparente y moderno.",
             "year": "2020",
@@ -60,6 +63,7 @@ window.translations = {
           {
             "id": "urban-1-photo-4",
             "url": "./img/urban-1_photo_4.jpg",
+            "orientation": "landscape",
             "title": "Obra 04",
             "description": "Calle Russafa, noviembre de 2020. Editorial Benidorm Horizontal. Eran las siete de la mañana en un Benidorm post-pandemia. ¿La anécdota? Aprovechamos el silencio y el vacío de la ciudad para bailar sobre esas curvas tan originales. Un grito de esperanza.",
             "year": "2020",
@@ -77,6 +81,7 @@ window.translations = {
           {
             "id": "urban-2-photo-1",
             "url": "./img/urban-2_photo_1.jpg",
+            "orientation": "portrait",
             "title": "Obra 01",
             "description": "Avenida Mediterráneo, marzo de 2021, editorial Benidorm de noche. Lo que más me gusta de esta imagen es cómo las luces circulares parecen ovnis suspendidos a juego con los círculos del paso de cebra. Un juego de futurismo y originalidad en el corazón de nuestra ciudad.",
             "year": "2021",
@@ -86,6 +91,7 @@ window.translations = {
           {
             "id": "urban-2-photo-2",
             "url": "./img/urban-2_photo_2.jpg",
+            "orientation": "portrait",
             "title": "Obra 02",
             "description": "Calle Gambo, editorial Benidorm de noche. Si miras al fondo de la imagen, detrás de la modelo, verás el hotel Madeira. Es el mismo edificio que, si apartas la vista de la foto y miras a tu izquierda, domina la calle donde te encuentras ahora. Me encanta cómo su silueta vigila el ritmo de nuestros pasos.",
             "year": "2021",
@@ -95,6 +101,7 @@ window.translations = {
           {
             "id": "urban-2-photo-3",
             "url": "./img/urban-2_photo_3.jpg",
+            "orientation": "portrait",
             "title": "Obra 03",
             "description": "Planta 20 del hotel Madeira, editorial Benidorm Horizontal. Estamos casi en el mismo punto donde te encuentras ahora, pero veinte plantas más arriba para divisar esta vista panorámica de la ciudad. Un regalo visual para contemplar cómo el sol se funde con nuestra ciudad.",
             "year": "2021",
@@ -1145,6 +1152,7 @@ window.translations = {
           {
             "id": "urban-1-photo-1",
             "url": "./img/urban-1_photo_1.jpg",
+            "orientation": "landscape",
             "title": "Obra 01",
             "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial Benidorm Vertical, ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
             "year": "2019",
@@ -1154,6 +1162,7 @@ window.translations = {
           {
             "id": "urban-1-photo-2",
             "url": "./img/urban-1_photo_2.jpg",
+            "orientation": "landscape",
             "title": "Obra 02",
             "description": "El Castell de Benidorm, editorial Benidorm Horitzontal. Ací, el passat i el futur es miren cara a cara. És fascinant com es fon la complicitat de la parella amb la mar, l’skyline de Ponent i les muntanyes al fons, com a testimonis d'un somni que no s'atura.",
             "year": "2020",
@@ -1163,6 +1172,7 @@ window.translations = {
           {
             "id": "urban-1-photo-3",
             "url": "./img/urban-1_photo_3.jpg",
+            "orientation": "landscape",
             "title": "Obra 03",
             "description": "Plaça de l'Ajuntament, editorial Benidorm Horitzontal, novembre de 2020. Una oda a la geometria i al color blau. Fixeu-vos en els reflexos del vidre; estan pensats per a ressaltar la força de la moda en un entorn transparent i modern.",
             "year": "2020",
@@ -1172,6 +1182,7 @@ window.translations = {
           {
             "id": "urban-1-photo-4",
             "url": "./img/urban-1_photo_4.jpg",
+            "orientation": "landscape",
             "title": "Obra 04",
             "description": "Carrer Russafa, novembre de 2020. Editorial Benidorm Horitzontal.  Eren les set del matí en un Benidorm post-pandèmia. L'anècdota? Aprofitem el silenci i el buit de la ciutat per a ballar sobre eixes corbes tan originals. Un crit d'esperança.",
             "year": "2020",
@@ -1189,6 +1200,7 @@ window.translations = {
           {
             "id": "urban-2-photo-1",
             "url": "./img/urban-2_photo_1.jpg",
+            "orientation": "portrait",
             "title": "Obra 01",
             "description": "Avinguda Mediterrani, març de 2021, editorial Benidorm de nit. El que més m'agrada d'esta imatge és com les llums circulars semblen ovnis suspesos fent joc amb els cercles del pas de zebra. Un joc de futurisme i originalitat en el cor de la nostra ciutat.",
             "year": "2021",
@@ -1198,6 +1210,7 @@ window.translations = {
           {
             "id": "urban-2-photo-2",
             "url": "./img/urban-2_photo_2.jpg",
+            "orientation": "portrait",
             "title": "Obra 02",
             "description": "Carrer Gambo, editorial Benidorm de nit. Si mires al fons de la imatge, darrere de la model, veuràs l'hotel Madeira. És el mateix edifici que, si apartes la vista de la foto i mires a la teua esquerra, domina el carrer on et trobes ara. M'encanta com la seua silueta vigila el ritme dels nostres passos.",
             "year": "2021",
@@ -1207,6 +1220,7 @@ window.translations = {
           {
             "id": "urban-2-photo-3",
             "url": "./img/urban-2_photo_3.jpg",
+            "orientation": "portrait",
             "title": "Obra 03",
             "description": "Planta 20 de l'hotel Madeira, editorial Benidorm Horitzontal. Estem quasi al mateix punt on et trobes ara, però vint plantes més amunt per a divisar esta vista panoràmica de la ciutat. Un regal visual per a contemplar com el sol es fon amb la nostra ciutat.",
             "year": "2021",
@@ -2257,6 +2271,7 @@ window.translations = {
           {
             "id": "urban-1-photo-1",
             "url": "./img/urban-1_photo_1.jpg",
+            "orientation": "landscape",
             "title": "Artwork 01",
             "description": "Ti Ximo Cove, December 2019. At the end of an intense day shooting the 'Benidorm Vertical' editorial, the sunset light turned everything magical. Our most intimate beach offered a moment of peace to bring this dream to a close.",
             "year": "2019",
@@ -2266,6 +2281,7 @@ window.translations = {
           {
             "id": "urban-1-photo-2",
             "url": "./img/urban-1_photo_2.jpg",
+            "orientation": "landscape",
             "title": "Artwork 02",
             "description": "Benidorm Castle, 'Benidorm Horizontal' editorial. Here, past and future meet face to face. It’s loving the connection between the couple with the sea, the Ponent skyline and the mountains at the background, as witnesses to a dream that never stops.",
             "year": "2020",
@@ -2275,6 +2291,7 @@ window.translations = {
           {
             "id": "urban-1-photo-3",
             "url": "./img/urban-1_photo_3.jpg",
+            "orientation": "landscape",
             "title": "Artwork 03",
             "description": "Town Hall Square, 'Benidorm Horizontal' editorial, november 2020. An ode to geometry and the blue color. Look at the glass reflections; they are meant to highlight the power of fashion in a transparent and modern setting.",
             "year": "2020",
@@ -2284,6 +2301,7 @@ window.translations = {
           {
             "id": "urban-1-photo-4",
             "url": "./img/urban-1_photo_4.jpg",
+            "orientation": "landscape",
             "title": "Artwork 04",
             "description": "Russafa Street, November 2020. ‘Benidorm Horizontal’ editorial. It was 7 a.m. in a post-pandemic Benidorm. The story here? We took advantage of the city’s silence and emptiness to dance over those original curves. A shout of hope.",
             "year": "2020",
@@ -2301,6 +2319,7 @@ window.translations = {
           {
             "id": "urban-2-photo-1",
             "url": "./img/urban-2_photo_1.jpg",
+            "orientation": "portrait",
             "title": "Artwork 01",
             "description": "Mediterrani Avenue, March 2021, 'Benidorm by Night' editorial. What I love most about this image is how the circular lights look like suspended UFOs, matching the patterns of the crosswalk. A play of futurism and originality in the heart of our city.",
             "year": "2021",
@@ -2310,6 +2329,7 @@ window.translations = {
           {
             "id": "urban-2-photo-2",
             "url": "./img/urban-2_photo_2.jpg",
+            "orientation": "portrait",
             "title": "Artwork 02",
             "description": "Gambo Street, 'Benidorm at Night' editorial. In the background of this photo, behind the model, you can see Hotel Madeira. It’s the same building that, if you look away from the photo and to your left, dominates the street where you are standing now. I love how its silhouette watches over the city's rhythm.",
             "year": "2021",
@@ -2319,6 +2339,7 @@ window.translations = {
           {
             "id": "urban-2-photo-3",
             "url": "./img/urban-2_photo_3.jpg",
+            "orientation": "portrait",
             "title": "Artwork 03",
             "description": "20th floor of Hotel Madeira, 'Benidorm Horizontal' editorial. We are almost at the same spot where you are standing, but twenty floors higher to take in this panoramic view of the city. A visual gift to watch the sun melt into our city.",
             "year": "2021",

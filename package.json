@@ -9,6 +9,7 @@
     "generate-prod-csv": "node generateCsv.cjs https://jsmiragregori.github.io/expo-2"
   },
   "dependencies": {
+    "image-size": "^1.1.1",
     "serve": "^14.2.4"
   }
 }

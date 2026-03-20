@@ -42,16 +42,37 @@ function renderApp() {
         if (index === 0) pauseHtml = `<div class="py-24 lg:py-48 px-6 text-center border-t border-white/5"><div class="max-w-3xl mx-auto"><span class="font-mono text-accent text-xs tracking-widest uppercase mb-8 block">Pausa Curatorial</span><p class="font-display text-3xl lg:text-5xl leading-tight">"${t.pauses.pause1}"</p></div></div>`;
         if (index === 1) pauseHtml = `<div class="py-24 lg:py-48 px-6 text-center border-t border-white/5"><div class="max-w-3xl mx-auto"><span class="font-mono text-accent text-xs tracking-widest uppercase mb-8 block">Pausa Curatorial</span><p class="font-display text-3xl lg:text-5xl leading-tight">"${t.pauses.pause2}"</p></div></div>`;
 
-        let photosHtml = room.photos.map((photo, pIndex) => `
+        let photosHtml = room.photos.map((photo, pIndex) => {
+            let layoutVars = { col: '', aspect: 'aspect-[4/5]' };
+            
+            if (photo.isMasterpiece) {
+                if (photo.orientation === 'portrait') {
+                    layoutVars.col = 'md:col-span-1 md:row-span-2';
+                    layoutVars.aspect = 'aspect-[3/4] h-full min-h-[60vh] md:min-h-0';
+                } else {
+                    layoutVars.col = 'md:col-span-2';
+                    layoutVars.aspect = 'aspect-[3/2]';
+                }
+            } else {
+                if (photo.orientation === 'landscape') {
+                    layoutVars.col = '';
+                    layoutVars.aspect = 'aspect-[4/3] lg:aspect-[3/2]';
+                } else {
+                    layoutVars.col = '';
+                    layoutVars.aspect = 'aspect-[4/5]';
+                }
+            }
+
+            return `
             <div 
-                class="group cursor-crosshair focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent ${photo.isMasterpiece ? 'md:col-span-2' : ''}"
+                class="group flex flex-col cursor-crosshair focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent ${layoutVars.col}"
                 data-action="open-lightbox"
                 data-room-id="${room.id}"
                 data-photo-id="${photo.id}"
                 tabindex="0"
             >
-                <div class="overflow-hidden bg-zinc-900 mb-4 relative rounded-sm ${photo.isMasterpiece ? 'aspect-[16/9]' : 'aspect-[4/5]'} pointer-events-none">
-                    <img src="${photo.url}" alt="${photo.title}" loading="lazy" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 pointer-events-auto">
+                <div class="overflow-hidden bg-zinc-900 mb-4 flex-grow relative rounded-sm ${layoutVars.aspect} pointer-events-none">
+                    <img src="${photo.url}" alt="${photo.title}" loading="lazy" class="w-full h-full absolute inset-0 object-cover transition-transform duration-700 group-hover:scale-105 pointer-events-auto">
                     
                     ${photo.audioUrl ? `
                     <button data-action="play-external-audio" data-photo-id="${photo.id}" class="absolute top-4 right-4 z-10 bg-black/60 rounded-full p-2 backdrop-blur-sm border border-white/20 flex items-center gap-2 pointer-events-auto hover:bg-black/80 transition-colors">
@@ -66,7 +87,8 @@ function renderApp() {
                 </div>
                 <p class="text-white/40 ${getDynamicText('caption')} italic pointer-events-none">${photo.description}</p>
             </div>
-        `).join('');
+        `;
+        }).join('');
 
         return `
         <section id="${room.id}" class="min-h-screen py-24 px-6 lg:px-24 flex flex-col justify-center border-t border-white/5">
