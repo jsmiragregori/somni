@@ -34,7 +34,7 @@ window.translations = {
             "id": "urban-1-photo-1",
             "url": "./img/urban-1_photo_1.jpg",
             "title": "Obra 01",
-            "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía instante de paz para cerrar el sueño.",
+            "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
             "year": "2019",
             "isMasterpiece": true,
             "audioUrl": "./audio/urban-1_photo_1_es.mp3"
@@ -43,7 +43,7 @@ window.translations = {
             "id": "urban-1-photo-2",
             "url": "./img/urban-1_photo_2.jpg",
             "title": "Obra 02",
-            "description": "El Castillo de Benidorm, editorial Benidorm Horizontal. Aquí, pasado y futuro se miran cara a cara. Es fascinante cómo se funden la complicidad de la pareja con el mar, el skyline de Ponent y las montañas al fondo, como testigos de un sueño que no se detiene.",
+            "description": "El Castillo de Benidorm, editorial Benidorm Horizontal. Aquí, pasado y futuro se miran cara a cara. Es fascinante cómo se funde la complicidad de la pareja con el mar, el skyline de Ponent y las montañas al fondo, como testigos de un sueño que no se detiene.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -52,7 +52,7 @@ window.translations = {
             "id": "urban-1-photo-3",
             "url": "./img/urban-1_photo_3.jpg",
             "title": "Obra 03",
-            "description": "Plaza del Ayuntamiento, editorial Benidorm Horizontal. Una oda a la geometría y la luz limpia. Fíjate en los reflejos del cristal; están pensados para resaltar la fuerza de la moda en un entorno transparente y moderno.",
+            "description": "Plaza del Ayuntamiento, editorial Benidorm Horizontal, noviembre de 2020. Una oda a la geometría y al color azul. Fijaos en los reflejos del cristal; están pensados para resaltar la fuerza de la moda en un entorno transparente y moderno.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -61,7 +61,7 @@ window.translations = {
             "id": "urban-1-photo-4",
             "url": "./img/urban-1_photo_4.jpg",
             "title": "Obra 04",
-            "description": "Calle Russafa, noviembre de 2020. Eran las siete de la mañana en un Benidorm post-pandemia. ¿La anécdota? Aprovechamos el silencio y el vacío de la ciudad para bailar sobre esas curvas tan originales. Un grito de esperanza.\"",
+            "description": "Calle Russafa, noviembre de 2020. Editorial Benidorm Horizontal. Eran las siete de la mañana en un Benidorm post-pandemia. ¿La anécdota? Aprovechamos el silencio y el vacío de la ciudad para bailar sobre esas curvas tan originales. Un grito de esperanza.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1155,7 +1155,7 @@ window.translations = {
             "id": "urban-1-photo-2",
             "url": "./img/urban-1_photo_2.jpg",
             "title": "Obra 02",
-            "description": "El Castell de Benidorm, editorial Benidorm Horitzontal. Ací, el passat i el futur es miren cara a cara. És fascinant com es complementen la complicitat de la parella amb la mar, l’skyline de Ponent i les muntanyes al fons, com a testimonis d'un somni que no s'atura.",
+            "description": "El Castell de Benidorm, editorial Benidorm Horitzontal. Ací, el passat i el futur es miren cara a cara. És fascinant com es fon la complicitat de la parella amb la mar, l’skyline de Ponent i les muntanyes al fons, com a testimonis d'un somni que no s'atura.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1164,7 +1164,7 @@ window.translations = {
             "id": "urban-1-photo-3",
             "url": "./img/urban-1_photo_3.jpg",
             "title": "Obra 03",
-            "description": "Plaça de l'Ajuntament, editorial Benidorm Horitzontal. Una oda a la geometria i a la llum neta. Fixa't en els reflexos del vidre; estan pensats per a ressaltar la força de la moda en un entorn transparent i modern.",
+            "description": "Plaça de l'Ajuntament, editorial Benidorm Horitzontal, novembre de 2020. Una oda a la geometria i al color blau. Fixeu-vos en els reflexos del vidre; estan pensats per a ressaltar la força de la moda en un entorn transparent i modern.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1173,7 +1173,7 @@ window.translations = {
             "id": "urban-1-photo-4",
             "url": "./img/urban-1_photo_4.jpg",
             "title": "Obra 04",
-            "description": "Carrer Russafa, novembre de 2020. Eren les set del matí en un Benidorm post-pandèmia. L'anècdota? Aprofitem el silenci i el buit de la ciutat per a ballar sobre eixes corbes tan originals. Un crit d'esperança.",
+            "description": "Carrer Russafa, novembre de 2020. Editorial Benidorm Horitzontal.  Eren les set del matí en un Benidorm post-pandèmia. L'anècdota? Aprofitem el silenci i el buit de la ciutat per a ballar sobre eixes corbes tan originals. Un crit d'esperança.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2276,7 +2276,7 @@ window.translations = {
             "id": "urban-1-photo-3",
             "url": "./img/urban-1_photo_3.jpg",
             "title": "Artwork 03",
-            "description": "Town Hall Square, 'Benidorm Horizontal' editorial. An ode to geometry and clean light. Look at the glass reflections; they are meant to highlight the power of fashion in a transparent and modern setting.",
+            "description": "Town Hall Square, 'Benidorm Horizontal' editorial, november 2020. An ode to geometry and the blue color. Look at the glass reflections; they are meant to highlight the power of fashion in a transparent and modern setting.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2285,7 +2285,7 @@ window.translations = {
             "id": "urban-1-photo-4",
             "url": "./img/urban-1_photo_4.jpg",
             "title": "Artwork 04",
-            "description": "Russafa Street, November 2020. It was 7 a.m. in a post-pandemic Benidorm. The story here? We took advantage of the city’s silence and emptiness to dance over those original curves. A shout of hope.",
+            "description": "Russafa Street, November 2020. ‘Benidorm Horizontal’ editorial. It was 7 a.m. in a post-pandemic Benidorm. The story here? We took advantage of the city’s silence and emptiness to dance over those original curves. A shout of hope.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
