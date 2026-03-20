@@ -86,7 +86,7 @@ function renderApp() {
                         <p class="text-sm font-mono tracking-wider text-white">${photo.year}</p>
                     </div>
                 </div>
-                <p class="text-white/40 ${getDynamicText('caption')} italic pointer-events-none">${photo.description}</p>
+                <p class="text-white/60 ${getDynamicText('caption')} italic pointer-events-none">${photo.description}</p>
             </div>
         `;
         }).join('');
@@ -97,7 +97,7 @@ function renderApp() {
                 <div class="mb-16 fade-in">
                     <span class="font-mono ${getDynamicText('label')} uppercase text-accent mb-4 block">${room.id.startsWith('urban') ? t.labels.urban_space : t.labels.indoor_space}</span>
                     <h2 class="font-display text-5xl lg:text-8xl py-1 uppercase mb-6 tracking-tighter">${room.title}</h2>
-                    <p class="max-w-xl ${getDynamicText('lead')} text-white/60 font-light leading-relaxed">${room.description}</p>
+                    <p class="max-w-xl ${getDynamicText('lead')} text-white/80 font-light leading-relaxed">${room.description}</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 grid-flow-row-dense fade-in">
                     ${photosHtml}
@@ -113,14 +113,14 @@ function renderApp() {
         <nav class="fixed top-0 left-0 w-full z-50 px-6 lg:px-12 py-4 md:py-6 flex justify-between items-center bg-black/70 backdrop-blur-md border-b border-white/5">
             <a href="#" class="font-display text-2xl uppercase tracking-tighter text-white">Maisse</a>
             <div class="flex items-center gap-6 lg:gap-8 text-white">
-                <button data-action="toggle-text-size" class="text-white/60 hover:text-white transition-colors" title="Tamaño de texto">
+                <button data-action="toggle-text-size" class="text-white/80 hover:text-white transition-colors" title="Tamaño de texto">
                     <i data-feather="type" class="w-5 h-5 lg:w-4 lg:h-4"></i>
                 </button>
                 <div class="hidden md:flex gap-4 font-mono text-xs tracking-widest uppercase items-center">
                     <span class="text-white/20">|</span>
-                    <button data-action="set-lang" data-lang="es" class="${currentLang==='es' ? 'text-white' : 'text-white/40 hover:text-white transition-colors'}">${t.nav.lang_es}</button>
-                    <button data-action="set-lang" data-lang="ca" class="${currentLang==='ca' ? 'text-white' : 'text-white/40 hover:text-white transition-colors'}">${t.nav.lang_ca}</button>
-                    <button data-action="set-lang" data-lang="en" class="${currentLang==='en' ? 'text-white' : 'text-white/40 hover:text-white transition-colors'}">${t.nav.lang_en}</button>
+                    <button data-action="set-lang" data-lang="es" class="${currentLang==='es' ? 'text-white' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_es}</button>
+                    <button data-action="set-lang" data-lang="ca" class="${currentLang==='ca' ? 'text-white' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_ca}</button>
+                    <button data-action="set-lang" data-lang="en" class="${currentLang==='en' ? 'text-white' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_en}</button>
                 </div>
                 <button data-action="toggle-menu" class="p-3 hover:opacity-70 transition-opacity flex items-center justify-center">
                     <i data-feather="menu"></i>
@@ -137,9 +137,9 @@ function renderApp() {
             <div class="w-full h-full overflow-y-auto px-6 py-24 flex flex-col">
                 <div class="m-auto flex flex-col items-center w-full max-w-lg">
                     <div class="md:hidden mb-12 flex gap-6 font-mono text-sm tracking-widest uppercase">
-                        <button data-action="set-lang" data-lang="es" class="${currentLang==='es' ? 'text-white' : 'text-white/40'}">${t.nav.lang_es}</button>
-                        <button data-action="set-lang" data-lang="ca" class="${currentLang==='ca' ? 'text-white' : 'text-white/40'}">${t.nav.lang_ca}</button>
-                        <button data-action="set-lang" data-lang="en" class="${currentLang==='en' ? 'text-white' : 'text-white/40'}">${t.nav.lang_en}</button>
+                        <button data-action="set-lang" data-lang="es" class="${currentLang==='es' ? 'text-white' : 'text-white/60'}">${t.nav.lang_es}</button>
+                        <button data-action="set-lang" data-lang="ca" class="${currentLang==='ca' ? 'text-white' : 'text-white/60'}">${t.nav.lang_ca}</button>
+                        <button data-action="set-lang" data-lang="en" class="${currentLang==='en' ? 'text-white' : 'text-white/60'}">${t.nav.lang_en}</button>
                     </div>
                     <ul class="flex flex-col items-center gap-6">
                         <li><a href="#rooms" data-action="toggle-menu" class="font-display uppercase tracking-tighter hover:text-accent transition-colors text-center block text-5xl lg:text-7xl mt-4">${t.nav.galeria}</a></li>
@@ -164,7 +164,7 @@ function renderApp() {
                 </div>
                 
                 <div class="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 fade-in">
-                    <span class="font-mono text-[10px] tracking-[0.3em] uppercase text-white/50">${t.hero.scroll}</span>
+                    <span class="font-mono text-[10px] tracking-[0.3em] uppercase text-white/70">${t.hero.scroll}</span>
                     <div class="w-[1px] h-16 bg-gradient-to-b from-white/50 to-transparent"></div>
                 </div>
             </section>
@@ -205,7 +205,7 @@ function renderApp() {
                 <div class="max-w-2xl mx-auto fade-in">
                     <span class="font-mono text-xs text-accent uppercase tracking-widest mb-4 block">${t.contact.label}</span>
                     <h2 class="font-display text-5xl lg:text-7xl uppercase mb-8 text-white">${t.contact.title}</h2>
-                    <p class="text-white/50 mb-12 ${getDynamicText('lead')}">${t.contact.description}</p>
+                    <p class="text-white/70 mb-12 ${getDynamicText('lead')}">${t.contact.description}</p>
                     <a href="mailto:hello@maisse.art" aria-label="${t.contact.aria_button}" class="inline-block px-12 py-5 border border-white/20 font-display uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-500 rounded-full">${t.contact.button}</a>
                 </div>
             </section>
@@ -228,11 +228,11 @@ function renderApp() {
             <div class="fixed inset-0 z-[999] bg-black flex flex-col items-center justify-center p-4 lg:p-12 text-white" data-action="close-lightbox">
                 
                 <div class="absolute top-6 left-6 lg:top-12 lg:left-12 flex gap-4 font-mono text-xs tracking-widest uppercase z-[1000] p-4 pointer-events-auto items-center">
-                    <button data-action="toggle-text-size" class="p-2 -m-2 text-white/60 hover:text-white transition-colors" title="Tamaño de texto"><i data-feather="type" class="w-4 h-4"></i></button>
+                    <button data-action="toggle-text-size" class="p-2 -m-2 text-white/80 hover:text-white transition-colors" title="Tamaño de texto"><i data-feather="type" class="w-4 h-4"></i></button>
                     <span class="text-white/20">|</span>
-                    <button data-action="set-lang" data-lang="es" class="p-2 -m-2 ${currentLang === 'es' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_es}</button>
-                    <button data-action="set-lang" data-lang="ca" class="p-2 -m-2 ${currentLang === 'ca' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_ca}</button>
-                    <button data-action="set-lang" data-lang="en" class="p-2 -m-2 ${currentLang === 'en' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_en}</button>
+                    <button data-action="set-lang" data-lang="es" class="p-2 -m-2 ${currentLang === 'es' ? 'text-accent' : 'text-white/80 hover:text-white transition-colors'}">${t.nav.lang_es}</button>
+                    <button data-action="set-lang" data-lang="ca" class="p-2 -m-2 ${currentLang === 'ca' ? 'text-accent' : 'text-white/80 hover:text-white transition-colors'}">${t.nav.lang_ca}</button>
+                    <button data-action="set-lang" data-lang="en" class="p-2 -m-2 ${currentLang === 'en' ? 'text-accent' : 'text-white/80 hover:text-white transition-colors'}">${t.nav.lang_en}</button>
                 </div>
 
                 <button data-action="close-lightbox" class="absolute top-6 right-6 lg:top-12 lg:right-12 p-4 text-white hover:text-accent transition-colors z-[201]">
