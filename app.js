@@ -50,7 +50,6 @@ function renderApp() {
                         <p class="text-sm font-mono tracking-wider text-white">${photo.year}</p>
                     </div>
                 </div>
-                <h3 class="text-xl font-medium mb-1 pointer-events-none">${photo.title}</h3>
                 <p class="text-white/40 text-sm italic pointer-events-none">${photo.description}</p>
             </div>
         `).join('');
@@ -212,7 +211,6 @@ function renderApp() {
                 </div>
 
                 <div class="mt-8 max-w-2xl text-center z-[201] px-6">
-                    <h3 class="text-2xl font-display uppercase tracking-widest mb-3">${photo.title}</h3>
                     <p class="text-white/70 font-light leading-relaxed text-sm lg:text-base">${photo.description}</p>
                     <p class="text-white/30 text-xs font-mono mt-4 tracking-widest">${lightboxState.currentIndex + 1} / ${lightboxState.photos.length}</p>
                 </div>
