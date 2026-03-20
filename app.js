@@ -184,12 +184,12 @@ function renderApp() {
         ${lightboxState.isOpen ? (() => {
             const photo = lightboxState.photos[lightboxState.currentIndex];
             return `
-            <div class="fixed inset-0 z-[200] bg-black/95 flex flex-col items-center justify-center p-4 lg:p-12 text-white" data-action="close-lightbox">
+            <div class="fixed inset-0 z-[999] bg-black flex flex-col items-center justify-center p-4 lg:p-12 text-white" data-action="close-lightbox">
                 
-                <div class="absolute top-6 left-6 lg:top-12 lg:left-12 flex gap-4 font-mono text-xs tracking-widest uppercase z-[201] p-4">
-                    <button data-action="set-lang" data-lang="es" class="${currentLang === 'es' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_es}</button>
-                    <button data-action="set-lang" data-lang="ca" class="${currentLang === 'ca' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_ca}</button>
-                    <button data-action="set-lang" data-lang="en" class="${currentLang === 'en' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_en}</button>
+                <div class="absolute top-6 left-6 lg:top-12 lg:left-12 flex gap-4 font-mono text-xs tracking-widest uppercase z-[1000] p-4 pointer-events-auto">
+                    <button data-action="set-lang" data-lang="es" class="p-2 -m-2 ${currentLang === 'es' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_es}</button>
+                    <button data-action="set-lang" data-lang="ca" class="p-2 -m-2 ${currentLang === 'ca' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_ca}</button>
+                    <button data-action="set-lang" data-lang="en" class="p-2 -m-2 ${currentLang === 'en' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_en}</button>
                 </div>
 
                 <button data-action="close-lightbox" class="absolute top-6 right-6 lg:top-12 lg:right-12 p-4 text-white hover:text-accent transition-colors z-[201]">
