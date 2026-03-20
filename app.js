@@ -388,7 +388,7 @@ function handleHash() {
                     externalAudio.pause();
                     playingExternalId = null;
                 }
-                lightboxState = { isOpen: true, photos: room.photos, currentIndex: index, playing: false, audio: null };
+                lightboxState = { isOpen: true, photos: room.photos, currentIndex: index, playing: false, audio: null, roomId: room.id };
                 document.body.style.overflow = 'hidden';
                 renderApp();
                 return;
