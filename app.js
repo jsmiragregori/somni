@@ -5,6 +5,20 @@ if (!['es', 'ca', 'en'].includes(currentLang)) {
     currentLang = ['es', 'ca', 'en'].includes(browserLang) ? browserLang : 'en';
 }
 
+let textSizeLevels = ['normal', 'large', 'xl'];
+let currentTextSize = localStorage.getItem('maisse_text_size') || 'normal';
+
+function getDynamicText(type) {
+    const sizeMap = {
+        'caption': ['text-base lg:text-sm', 'text-lg lg:text-base', 'text-xl lg:text-lg'],
+        'body': ['text-lg lg:text-base', 'text-xl lg:text-lg', 'text-2xl lg:text-xl'],
+        'lead': ['text-xl lg:text-lg', 'text-2xl lg:text-xl', 'text-3xl lg:text-2xl'],
+        'manifesto': ['text-xl lg:text-3xl', 'text-2xl lg:text-4xl', 'text-3xl lg:text-5xl']
+    };
+    const idx = textSizeLevels.indexOf(currentTextSize);
+    return sizeMap[type][idx >= 0 ? idx : 0];
+}
+
 let isMenuOpen = false;
 let lightboxState = {
     isOpen: false,
@@ -50,7 +64,7 @@ function renderApp() {
                         <p class="text-sm font-mono tracking-wider text-white">${photo.year}</p>
                     </div>
                 </div>
-                <p class="text-white/40 text-sm italic pointer-events-none">${photo.description}</p>
+                <p class="text-white/40 ${getDynamicText('caption')} italic pointer-events-none">${photo.description}</p>
             </div>
         `).join('');
 
@@ -60,7 +74,7 @@ function renderApp() {
                 <div class="mb-16 fade-in">
                     <span class="font-mono text-xs text-accent mb-4 block">Sala 0${index + 1}</span>
                     <h2 class="font-display text-5xl lg:text-8xl py-1 uppercase mb-6 tracking-tighter">${room.title}</h2>
-                    <p class="max-w-xl text-lg text-white/60 font-light leading-relaxed">${room.description}</p>
+                    <p class="max-w-xl ${getDynamicText('lead')} text-white/60 font-light leading-relaxed">${room.description}</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 grid-flow-row-dense fade-in">
                     ${photosHtml}
@@ -75,8 +89,12 @@ function renderApp() {
         <!-- Navigation -->
         <nav class="fixed top-0 left-0 w-full z-50 px-6 lg:px-12 py-6 flex justify-between items-center mix-blend-difference">
             <a href="#" class="font-display text-2xl uppercase tracking-tighter text-white">Maisse</a>
-            <div class="flex items-center gap-8 text-white">
-                <div class="hidden md:flex gap-4 font-mono text-xs tracking-widest uppercase">
+            <div class="flex items-center gap-6 lg:gap-8 text-white">
+                <button data-action="toggle-text-size" class="text-white/60 hover:text-white transition-colors" title="Tamaño de texto">
+                    <i data-feather="type" class="w-5 h-5 lg:w-4 lg:h-4"></i>
+                </button>
+                <div class="hidden md:flex gap-4 font-mono text-xs tracking-widest uppercase items-center">
+                    <span class="text-white/20">|</span>
                     <button data-action="set-lang" data-lang="es" class="${currentLang==='es' ? 'text-white' : 'text-white/40 hover:text-white transition-colors'}">${t.nav.lang_es}</button>
                     <button data-action="set-lang" data-lang="ca" class="${currentLang==='ca' ? 'text-white' : 'text-white/40 hover:text-white transition-colors'}">${t.nav.lang_ca}</button>
                     <button data-action="set-lang" data-lang="en" class="${currentLang==='en' ? 'text-white' : 'text-white/40 hover:text-white transition-colors'}">${t.nav.lang_en}</button>
@@ -136,7 +154,7 @@ function renderApp() {
                         <h2 class="font-display text-4xl lg:text-5xl uppercase tracking-tighter text-white">${t.manifesto.title}</h2>
                     </div>
                     <div class="lg:w-2/3 fade-in">
-                        <p class="text-xl lg:text-3xl font-light leading-relaxed text-white/80">${t.manifesto.text}</p>
+                        <p class="${getDynamicText('manifesto')} font-light leading-relaxed text-white/80">${t.manifesto.text}</p>
                     </div>
                 </div>
             </section>
@@ -154,7 +172,7 @@ function renderApp() {
                     <div class="w-full md:w-1/2 fade-in">
                         <span class="font-mono text-xs text-accent uppercase tracking-widest mb-4 block">${t.author.title}</span>
                         <h2 class="font-display text-5xl lg:text-7xl uppercase mb-8 text-bg">${t.author.name}</h2>
-                        <p class="text-lg lg:text-xl font-light leading-relaxed text-bg/70">${t.author.bio}</p>
+                        <p class="${getDynamicText('lead')} font-light leading-relaxed text-bg/70">${t.author.bio}</p>
                     </div>
                 </div>
             </section>
@@ -164,7 +182,7 @@ function renderApp() {
                 <div class="max-w-2xl mx-auto fade-in">
                     <span class="font-mono text-xs text-accent uppercase tracking-widest mb-4 block">${t.contact.label}</span>
                     <h2 class="font-display text-5xl lg:text-7xl uppercase mb-8 text-white">${t.contact.title}</h2>
-                    <p class="text-white/50 mb-12 text-lg">${t.contact.description}</p>
+                    <p class="text-white/50 mb-12 ${getDynamicText('lead')}">${t.contact.description}</p>
                     <a href="mailto:hello@maisse.art" aria-label="${t.contact.aria_button}" class="inline-block px-12 py-5 border border-white/20 font-display uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-500 rounded-full">${t.contact.button}</a>
                 </div>
             </section>
@@ -186,7 +204,9 @@ function renderApp() {
             return `
             <div class="fixed inset-0 z-[999] bg-black flex flex-col items-center justify-center p-4 lg:p-12 text-white" data-action="close-lightbox">
                 
-                <div class="absolute top-6 left-6 lg:top-12 lg:left-12 flex gap-4 font-mono text-xs tracking-widest uppercase z-[1000] p-4 pointer-events-auto">
+                <div class="absolute top-6 left-6 lg:top-12 lg:left-12 flex gap-4 font-mono text-xs tracking-widest uppercase z-[1000] p-4 pointer-events-auto items-center">
+                    <button data-action="toggle-text-size" class="p-2 -m-2 text-white/60 hover:text-white transition-colors" title="Tamaño de texto"><i data-feather="type" class="w-4 h-4"></i></button>
+                    <span class="text-white/20">|</span>
                     <button data-action="set-lang" data-lang="es" class="p-2 -m-2 ${currentLang === 'es' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_es}</button>
                     <button data-action="set-lang" data-lang="ca" class="p-2 -m-2 ${currentLang === 'ca' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_ca}</button>
                     <button data-action="set-lang" data-lang="en" class="p-2 -m-2 ${currentLang === 'en' ? 'text-accent' : 'text-white/60 hover:text-white transition-colors'}">${t.nav.lang_en}</button>
@@ -217,7 +237,7 @@ function renderApp() {
                 </div>
 
                 <div class="mt-8 max-w-2xl text-center z-[201] px-6">
-                    <p class="text-white/70 font-light leading-relaxed text-sm lg:text-base">${photo.description}</p>
+                    <p class="text-white/70 font-light leading-relaxed ${getDynamicText('body')}">${photo.description}</p>
                     <p class="text-white/30 text-xs font-mono mt-4 tracking-widest">${lightboxState.currentIndex + 1} / ${lightboxState.photos.length}</p>
                 </div>
             </div>`;
@@ -233,6 +253,16 @@ document.getElementById('app').addEventListener('click', (e) => {
     if (!target) return;
 
     const action = target.getAttribute('data-action');
+    
+    if (action === 'toggle-text-size') {
+        e.stopPropagation();
+        let idx = textSizeLevels.indexOf(currentTextSize);
+        idx = (idx + 1) % textSizeLevels.length;
+        currentTextSize = textSizeLevels[idx];
+        localStorage.setItem('maisse_text_size', currentTextSize);
+        renderApp();
+        return;
+    }
     
     if (action === 'set-lang') {
         currentLang = target.getAttribute('data-lang');

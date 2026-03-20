@@ -76,48 +76,30 @@ window.translations = {
         "photos": [
           {
             "id": "urban-2-photo-1",
-            "url": "https://picsum.photos/seed/urban-2-photo-1/800/600",
-            "title": "Obra urban-2-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-2-photo-1-es.mp3"
+            "url": "./img/urban-2_photo_1.jpg",
+            "title": "Obra 01",
+            "description": "Avenida Mediterráneo, marzo de 2021, editorial Benidorm de noche. Lo que más me gusta de esta imagen es cómo las luces circulares parecen ovnis suspendidos a juego con los círculos del paso de cebra. Un juego de futurismo y originalidad en el corazón de nuestra ciudad.",
+            "year": "2021",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "urban-2-photo-2",
-            "url": "https://picsum.photos/seed/urban-2-photo-2/800/600",
-            "title": "Obra urban-2-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/urban-2_photo_2.jpg",
+            "title": "Obra 02",
+            "description": "Calle Gambo, editorial Benidorm de noche. Si miras al fondo de la imagen, detrás de la modelo, verás el hotel Madeira. Es el mismo edificio que, si apartas la vista de la foto y miras a tu izquierda, domina la calle donde te encuentras ahora. Me encanta cómo su silueta vigila el ritmo de nuestros pasos.",
+            "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-2-photo-2-es.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-2-photo-3",
-            "url": "https://picsum.photos/seed/urban-2-photo-3/800/600",
-            "title": "Obra urban-2-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/urban-2_photo_3.jpg",
+            "title": "Obra 03",
+            "description": "Planta 20 del hotel Madeira, editorial Benidorm Horizontal. Estamos casi en el mismo punto donde te encuentras ahora, pero veinte plantas más arriba para divisar esta vista panorámica de la ciudad. Un regalo visual para contemplar cómo el sol se funde con nuestra ciudad.",
+            "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-2-photo-3-es.mp3"
-          },
-          {
-            "id": "urban-2-photo-4",
-            "url": "https://picsum.photos/seed/urban-2-photo-4/800/600",
-            "title": "Obra urban-2-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-2-photo-4-es.mp3"
-          },
-          {
-            "id": "urban-2-photo-5",
-            "url": "https://picsum.photos/seed/urban-2-photo-5/800/600",
-            "title": "Obra urban-2-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-2-photo-5-es.mp3"
+            "audioUrl": null
           }
         ]
       },
@@ -1206,48 +1188,30 @@ window.translations = {
         "photos": [
           {
             "id": "urban-2-photo-1",
-            "url": "https://picsum.photos/seed/urban-2-photo-1/800/600",
-            "title": "Obra urban-2-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-2-photo-1-ca.mp3"
+            "url": "./img/urban-2_photo_1.jpg",
+            "title": "Obra 01",
+            "description": "Avinguda Mediterrani, març de 2021, editorial Benidorm de nit. El que més m'agrada d'esta imatge és com les llums circulars semblen ovnis suspesos fent joc amb els cercles del pas de zebra. Un joc de futurisme i originalitat en el cor de la nostra ciutat.",
+            "year": "2021",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "urban-2-photo-2",
-            "url": "https://picsum.photos/seed/urban-2-photo-2/800/600",
-            "title": "Obra urban-2-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/urban-2_photo_2.jpg",
+            "title": "Obra 02",
+            "description": "Carrer Gambo, editorial Benidorm de nit. Si mires al fons de la imatge, darrere de la model, veuràs l'hotel Madeira. És el mateix edifici que, si apartes la vista de la foto i mires a la teua esquerra, domina el carrer on et trobes ara. M'encanta com la seua silueta vigila el ritme dels nostres passos.",
+            "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-2-photo-2-ca.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-2-photo-3",
-            "url": "https://picsum.photos/seed/urban-2-photo-3/800/600",
-            "title": "Obra urban-2-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/urban-2_photo_3.jpg",
+            "title": "Obra 03",
+            "description": "Planta 20 de l'hotel Madeira, editorial Benidorm Horitzontal. Estem quasi al mateix punt on et trobes ara, però vint plantes més amunt per a divisar esta vista panoràmica de la ciutat. Un regal visual per a contemplar com el sol es fon amb la nostra ciutat.",
+            "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-2-photo-3-ca.mp3"
-          },
-          {
-            "id": "urban-2-photo-4",
-            "url": "https://picsum.photos/seed/urban-2-photo-4/800/600",
-            "title": "Obra urban-2-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-2-photo-4-ca.mp3"
-          },
-          {
-            "id": "urban-2-photo-5",
-            "url": "https://picsum.photos/seed/urban-2-photo-5/800/600",
-            "title": "Obra urban-2-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-2-photo-5-ca.mp3"
+            "audioUrl": null
           }
         ]
       },
@@ -2336,48 +2300,30 @@ window.translations = {
         "photos": [
           {
             "id": "urban-2-photo-1",
-            "url": "https://picsum.photos/seed/urban-2-photo-1/800/600",
-            "title": "Artwork urban-2-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-2-photo-1-en.mp3"
+            "url": "./img/urban-2_photo_1.jpg",
+            "title": "Artwork 01",
+            "description": "Mediterrani Avenue, March 2021, 'Benidorm by Night' editorial. What I love most about this image is how the circular lights look like suspended UFOs, matching the patterns of the crosswalk. A play of futurism and originality in the heart of our city.",
+            "year": "2021",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "urban-2-photo-2",
-            "url": "https://picsum.photos/seed/urban-2-photo-2/800/600",
-            "title": "Artwork urban-2-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/urban-2_photo_2.jpg",
+            "title": "Artwork 02",
+            "description": "Gambo Street, 'Benidorm at Night' editorial. In the background of this photo, behind the model, you can see Hotel Madeira. It’s the same building that, if you look away from the photo and to your left, dominates the street where you are standing now. I love how its silhouette watches over the city's rhythm.",
+            "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-2-photo-2-en.mp3"
+            "audioUrl": null
           },
           {
             "id": "urban-2-photo-3",
-            "url": "https://picsum.photos/seed/urban-2-photo-3/800/600",
-            "title": "Artwork urban-2-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/urban-2_photo_3.jpg",
+            "title": "Artwork 03",
+            "description": "20th floor of Hotel Madeira, 'Benidorm Horizontal' editorial. We are almost at the same spot where you are standing, but twenty floors higher to take in this panoramic view of the city. A visual gift to watch the sun melt into our city.",
+            "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-2-photo-3-en.mp3"
-          },
-          {
-            "id": "urban-2-photo-4",
-            "url": "https://picsum.photos/seed/urban-2-photo-4/800/600",
-            "title": "Artwork urban-2-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-urban-2-photo-4-en.mp3"
-          },
-          {
-            "id": "urban-2-photo-5",
-            "url": "https://picsum.photos/seed/urban-2-photo-5/800/600",
-            "title": "Artwork urban-2-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-urban-2-photo-5-en.mp3"
+            "audioUrl": null
           }
         ]
       },
