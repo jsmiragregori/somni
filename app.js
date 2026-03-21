@@ -106,7 +106,7 @@ function renderApp() {
                 <div class="mb-16 fade-in">
                     <span class="font-mono ${getDynamicText('label')} uppercase text-accent mb-4 block">${room.id.startsWith('urban') ? t.labels.urban_space : t.labels.indoor_space}</span>
                     <h2 class="font-display text-5xl lg:text-8xl py-1 uppercase mb-6 tracking-tighter">${room.title}</h2>
-                    <p class="max-w-xl ${getDynamicText('lead')} text-white/80 font-light leading-relaxed">${room.description}</p>
+                    <p class="w-full ${getDynamicText('lead')} text-white/80 font-light leading-relaxed">${room.description}</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 grid-flow-row-dense fade-in">
                     ${photosHtml}
