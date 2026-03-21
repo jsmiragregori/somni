@@ -107,7 +107,7 @@ window.translations = {
             "url": "./img/urban-2_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Planta 20 del hotel Madeira, editorial Benidorm Horizontal. Estamos casi en el mismo punto donde te encuentras ahora, pero veinte plantas más arriba para divisar esta vista panorámica de la ciudad. Un regalo visual para contemplar cómo el sol se funde con nuestra ciudad.",
+            "description": "Planta 20 del hotel Madeira, editorial Benidorm Horizontal. Estamos casi en el mismo punto donde te encuentras ahora, pero veinte plantas más arriba para divisar esta vista panorámica de la ciudad. Un regalo visual para contemplar cómo el Sol se funde con nuestra ciudad.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -183,7 +183,7 @@ window.translations = {
             "url": "./img/urban-4_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Bienvenidos a El Campo. Mira el Intempo: Eva posando entre acero y reflejos dorados en 2021. Una imagen que une el pasado marinero con el futuro vertical. Ahora, alza la vista al final de esta calle San Pedro: ahí tienes el edificio real, imponente y moderno.",
+            "description": "Bienvenidos a El Campo. Mira el Intempo: Eva posando entre acero y reflejos dorados en 2021. Una imagen que une el pasado marinero con el futuro vertical. Ahora, alza la vista al final de esta calle San Pedro: ahí tienes el edificio real, imponente, moderno.",
             "year": "2021",
             "isMasterpiece": true,
             "audioUrl": null
@@ -193,7 +193,7 @@ window.translations = {
             "url": "./img/urban-4_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Aproximémonos al detalle. Fíjate en las columnas doradas del Intempo y los reflejos que multiplican la verticalidad. Ahora, gira la vista a la derecha: al fondo de la calle verás la silueta dorada del edificio real, repitiendo el mismo patrón de la fotografía.",
+            "description": "Aproximémonos al detalle. Fíjate en las columnas doradas del Intempo y en los reflejos que multiplican la verticalidad. Ahora, gira la vista a la derecha: al fondo de la calle verás la silueta dorada del edificio real, repitiendo el mismo patrón de la fotografía.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -203,7 +203,7 @@ window.translations = {
             "url": "./img/urban-4_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Terraza del hotel Milords Suites. Editorial ‘Benidorm Horizontal’. Esta era nuestra base de operaciones para los cambios de vestuario. Fijaos en el fondo: el Bali y las luces de Ponent se deshacen en un 'bokeh' que nos transporta a una ciudad nocturna y elegante.",
+            "description": "Terraza del hotel Milords Suites. Editorial ‘Benidorm Horizontal’. Esta era nuestra base de operaciones para los cambios de vestuario. Fijaos en los ojos de sorpresa de Eva, cómo expresa el encanto que acaba de descubrir: el Bali y las luces de Ponent se deshacen en un 'bokeh' que nos transporta a una ciudad nocturna y elegante.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -251,7 +251,7 @@ window.translations = {
             "url": "./img/urban-5_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Bienvenidos a la editorial 'Benidorm Horizontal'. Fijaos en el contraste: el azul eléctrico del outfit y los globos rompen la geometría del Ayuntamiento que acabamos de dejar atrás. Es la moda conquistando el espacio público.",
+            "description": "Bienvenidos a la editorial 'Benidorm Horizontal'. Fijaos en el contraste: el azul eléctrico del outfit y los globos contrastan con la geometría del Ayuntamiento como fondo. Es la moda conquistando el espacio público.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -273,6 +273,66 @@ window.translations = {
             "title": "Obra 04",
             "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
             "year": "2020",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-5",
+            "url": "./img/urban-5_photo_5.jpg",
+            "orientation": "portrait",
+            "title": "Obra 05",
+            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-6",
+            "url": "./img/urban-5_photo_6.jpg",
+            "orientation": "portrait",
+            "title": "Obra 06",
+            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-7",
+            "url": "./img/urban-5_photo_7.jpg",
+            "orientation": "portrait",
+            "title": "Obra 07",
+            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-8",
+            "url": "./img/urban-5_photo_8.jpg",
+            "orientation": "portrait",
+            "title": "Obra 08",
+            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-9",
+            "url": "./img/urban-5_photo_9.jpg",
+            "orientation": "portrait",
+            "title": "Obra 09",
+            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-10",
+            "url": "./img/urban-5_photo_10.jpg",
+            "orientation": "portrait",
+            "title": "Obra 10",
+            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
           }
@@ -1145,7 +1205,7 @@ window.translations = {
             "url": "./img/urban-2_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Planta 20 de l'hotel Madeira, editorial Benidorm Horitzontal. Estem quasi al mateix punt on et trobes ara, però vint plantes més amunt per a divisar esta vista panoràmica de la ciutat. Un regal visual per a contemplar com el sol es fon amb la nostra ciutat.",
+            "description": "Planta 20 de l'hotel Madeira, editorial Benidorm Horitzontal. Estem quasi al mateix punt on et trobes ara, però vint plantes més amunt per a divisar esta vista panoràmica de la ciutat. Un regal visual per a contemplar com el Sol es fon amb la nostra ciutat.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1221,7 +1281,7 @@ window.translations = {
             "url": "./img/urban-4_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Benvinguts a El Campo. Mira l'Intempo: l'Eva posant entre acer i reflexos daurats el 2021. Una imatge que uneix el passat mariner amb el futur vertical. Ara, alça la vista al final d'aquest carrer Sant Pere: ahí tens l'edifici real, imponent i modern.",
+            "description": "Benvinguts a El Campo. Mira l'Intempo: l'Eva posant entre acer i reflexos daurats el 2021. Una imatge que uneix el passat mariner amb el futur vertical. Ara, alça la vista al final d'aquest carrer Sant Pere: ahí tens l'edifici real, imponent, modern.",
             "year": "2021",
             "isMasterpiece": true,
             "audioUrl": null
@@ -1231,7 +1291,7 @@ window.translations = {
             "url": "./img/urban-4_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Aproximem-nos al detall. Fixa't en les columnes daurades de l'Intempo i els reflexos que multipliquen la verticalitat. Ara, gira la vista a la dreta: al fons del carrer veuràs la silueta daurada de l'edifici real, repetint el mateix patró de la fotografia.",
+            "description": "Aproximem-nos al detall. Fixa't en les columnes daurades de l'Intempo i en els reflexos que multipliquen la verticalitat. Ara, gira la vista a la dreta: al fons del carrer veuràs la silueta daurada de l'edifici real, repetint el mateix patró de la fotografia.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1241,7 +1301,7 @@ window.translations = {
             "url": "./img/urban-4_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Terrassa de l'hotel Milords Suites. Editorial 'Benidorm Horitzontal'. Aquesta era la nostra base d'operacions per als canvis de vestuari. Fixeu-vos en el fons: el Bali i les llums de Ponent es desfan en un 'bokeh' que ens transporta a una ciutat nocturna i elegant.",
+            "description": "Terrassa de l'hotel Milords Suites. Editorial ‘Benidorm Horitzontal’. Aquesta era la nostra base d'operacions per als canvis de vestuari. Fixeu-vos en els ulls de sorpresa d’Eva, com expressa l’encant que acaba de edscobrir: el Bali i les llums de Ponent es desfan en un 'bokeh' que ens transporta a una ciutat nocturna i elegant.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1279,7 +1339,7 @@ window.translations = {
             "url": "./img/urban-5_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Plaça de l’Ajuntament, editorial ‘Benidorm Horitzontal’. En aquest plànol celebrem la complicitat i el detall. Els materials que llueix la model són artesanals, dissenyats exclusivament pel nostre equip per a dialogar amb el cel de Benidorm. Tot el que veieu va ser preparat minuts abans en un hotel proper per a capturar la llum mediterrània exacta.",
+            "description": "Plaça de l’Ajuntament, editorial ‘Benidorm Horitzontal’. En aquest pla celebrem la complicitat i el detall. Els materials que llueix la model són artesanals, dissenyats exclusivament pel nostre equip per a dialogar amb el cel de Benidorm. Tot el que veieu va ser preparat minuts abans en un hotel proper per a capturar la llum mediterrània exacta.",
             "year": "2020",
             "isMasterpiece": true,
             "audioUrl": null
@@ -1289,7 +1349,7 @@ window.translations = {
             "url": "./img/urban-5_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Benvinguts a l'editorial Benidorm Horitzontal. Fixeu-vos en el contrast: el blau elèctric de l'outfit i els globus busquen trencar la geometria de l'edifici de l'Ajuntament que acabem de deixar enrere. És la moda conquistant l'espai públic.\"",
+            "description": "Benvinguts a l'editorial Benidorm Horitzontal. Fixeu-vos en el contrast: el blau elèctric de l'outfit i els globus contrasten amb la geometria de l'edifici de l'Ajuntament com a fons. És la moda conquistant l'espai públic.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1311,6 +1371,66 @@ window.translations = {
             "title": "Obra 04",
             "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
             "year": "2020",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-5",
+            "url": "./img/urban-5_photo_5.jpg",
+            "orientation": "portrait",
+            "title": "Obra 05",
+            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-6",
+            "url": "./img/urban-5_photo_6.jpg",
+            "orientation": "portrait",
+            "title": "Obra 06",
+            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-7",
+            "url": "./img/urban-5_photo_7.jpg",
+            "orientation": "portrait",
+            "title": "Obra 07",
+            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-8",
+            "url": "./img/urban-5_photo_8.jpg",
+            "orientation": "portrait",
+            "title": "Obra 08",
+            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-9",
+            "url": "./img/urban-5_photo_9.jpg",
+            "orientation": "portrait",
+            "title": "Obra 09",
+            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-10",
+            "url": "./img/urban-5_photo_10.jpg",
+            "orientation": "portrait",
+            "title": "Obra 10",
+            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
           }
@@ -2183,7 +2303,7 @@ window.translations = {
             "url": "./img/urban-2_photo_3.jpg",
             "orientation": "portrait",
             "title": "Artwork 03",
-            "description": "20th floor of Hotel Madeira, 'Benidorm Horizontal' editorial. We are almost at the same spot where you are standing, but twenty floors higher to take in this panoramic view of the city. A visual gift to watch the sun melt into our city.",
+            "description": "20th floor of Hotel Madeira, 'Benidorm Horizontal' editorial. We are almost at the same spot where you are standing, but twenty floors higher to take in this panoramic view of the city. A visual gift to watch the Sun melt into our city.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2259,7 +2379,7 @@ window.translations = {
             "url": "./img/urban-4_photo_1.jpg",
             "orientation": "portrait",
             "title": "Artwork 01",
-            "description": "Welcome to El Campo. Look at the Intempo: Eva posing amid steel and golden reflections in 2021. An image joining the maritime past with the vertical future. Now, look up towards the end of San Pedro street: there is the real building, imposing and modern.",
+            "description": "Welcome to El Campo. Look at the Intempo: Eva posing amid steel and golden reflections in 2021. An image joining the maritime past with the vertical future. Now, look up towards the end of San Pedro street: there is the real building, imposing, modern.",
             "year": "2021",
             "isMasterpiece": true,
             "audioUrl": null
@@ -2279,7 +2399,7 @@ window.translations = {
             "url": "./img/urban-4_photo_3.jpg",
             "orientation": "portrait",
             "title": "Artwork 03",
-            "description": "Terrace of Hotel Milords Suites. ‘Benidorm Horitzontal’ editorial. This was our base of operations for outfit changes. Look at the background: the Bali hotel and the Ponent lights melt into a bokeh, transporting us to an elegant, nighttime city.",
+            "description": "Milords Suites Hotel terrace. ‘Benidorm Horizontal’ editorial. This was our base of operations for outfit changes. Look at the wonder in Eva’s eyes, expressing the charm she has just discovered: the Bali hotel and the Ponent lights melt into a 'bokeh' that transports us to an elegant, nighttime city.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2327,7 +2447,7 @@ window.translations = {
             "url": "./img/urban-5_photo_2.jpg",
             "orientation": "portrait",
             "title": "Artwork 02",
-            "description": "Welcome to the 'Benidorm Horizontal' editorial. Notice the contrast: the electric blue outfit and the balloons break the geometry of the City Hall we just left behind. This is fashion conquering public space.",
+            "description": "Welcome to the 'Benidorm Horizontal' editorial. Notice the contrast: the electric blue outfit and the balloons break with the geometry of the City Hall as the background. This is fashion conquering public space.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2349,6 +2469,66 @@ window.translations = {
             "title": "Artwork 04",
             "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
             "year": "2020",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-5",
+            "url": "./img/urban-5_photo_5.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 05",
+            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-6",
+            "url": "./img/urban-5_photo_6.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 06",
+            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-7",
+            "url": "./img/urban-5_photo_7.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 07",
+            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-8",
+            "url": "./img/urban-5_photo_8.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 08",
+            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-9",
+            "url": "./img/urban-5_photo_9.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 09",
+            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "year": "2018",
+            "isMasterpiece": false,
+            "audioUrl": null
+          },
+          {
+            "id": "urban-5-photo-10",
+            "url": "./img/urban-5_photo_10.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 10",
+            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
           }
