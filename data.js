@@ -232,9 +232,9 @@ window.translations = {
       },
       {
         "id": "urban-5",
-        "title": "Carrascos",
+        "title": "Els Carrascos",
         "subtitle": "Intervención en la ciudad",
-        "description": "Descripción del espacio de arte \"Carrascos\"",
+        "description": "Descripción del espacio de arte \"Els Carrascos\"",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -1330,9 +1330,9 @@ window.translations = {
       },
       {
         "id": "urban-5",
-        "title": "Carrascos",
+        "title": "Els Carrascos",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Descripció de l'espai d'art \"Carrascos\"",
+        "description": "Descripció de l'espai d'art \"Els Carrascos\"",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -2428,9 +2428,9 @@ window.translations = {
       },
       {
         "id": "urban-5",
-        "title": "Carrascos",
+        "title": "Els Carrascos",
         "subtitle": "City intervention",
-        "description": "Description of the art space \"Carrascos\"",
+        "description": "Description of the art space \"Els Carrascos\"",
         "photos": [
           {
             "id": "urban-5-photo-1",
