@@ -281,7 +281,7 @@ window.translations = {
             "url": "./img/urban-5_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "description": "Adéntrate en el verde de l’Aigüera. Estás ante Patricia en la que fue mi primera sesión con modelos en Benidorm en agosto de 2018. Estas fotos intentan ofrecer un contraste vital con el hormigón. Aquí, la figura humana se funde con la naturaleza.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -291,7 +291,7 @@ window.translations = {
             "url": "./img/urban-5_photo_6.jpg",
             "orientation": "portrait",
             "title": "Obra 06",
-            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "description": "Benidorm no son solo rascacielos; también tiene pulmones verdes. En este plano más cercano, Patricia nos invita a hacer una pausa. Fíjate en la textura de la madera y la luz solar: Ofrécete un momento para relajarte y reflexionar.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -301,7 +301,7 @@ window.translations = {
             "url": "./img/urban-5_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "description": "En este plano más cerrado, veis el diálogo entre la piel, el tejido y la corteza de los árboles. Es curioso como en una quedada, cada fotógrafo encuentra un lugar donde hacer las fotos a cada modelo y todas las fotos quedan diferentes.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -311,7 +311,7 @@ window.translations = {
             "url": "./img/urban-5_photo_8.jpg",
             "orientation": "portrait",
             "title": "Obra 08",
-            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "description": "El Parque de l’Aigüera es un oasis de diseño. Aquí, la modelo se funde con la naturaleza y las líneas rectas trazadas por el arquitecto Ricardo Bofill. Es el 'bosque urbano' donde Benidorm respira.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -321,7 +321,7 @@ window.translations = {
             "url": "./img/urban-5_photo_9.jpg",
             "orientation": "portrait",
             "title": "Obra 09",
-            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "description": "Fíjate en la composición. La limpieza del vestido blanco de Patricia destaca con fuerza contra las líneas de las escaleras del parque. Esta imagen captura el diálogo sincero entre arquitectura y figura humana en mis inicios con modelos.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -331,7 +331,7 @@ window.translations = {
             "url": "./img/urban-5_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1379,7 +1379,7 @@ window.translations = {
             "url": "./img/urban-5_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "description": "Endinsa't en el verd de l'Aigüera. Estàs davant de Patricia en la que va ser la meua primera sessió amb models a Benidorm en agost de 2018. Estes fotos intenten oferir un contrast vital amb el formigó. Ací, la figura humana es fon amb la natura.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1389,7 +1389,7 @@ window.translations = {
             "url": "./img/urban-5_photo_6.jpg",
             "orientation": "portrait",
             "title": "Obra 06",
-            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "description": "Benidorm no és només gratacels; també té pulmons verds. En aquest pla més proper, Patricia ens convida a fer una pausa. Fixa't en la textura de la fusta i la llum solar: ofereix-te un moment per a relajar-se i reflexionar.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1399,7 +1399,7 @@ window.translations = {
             "url": "./img/urban-5_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "description": "En aquest pla més tancat, veieu el diàleg entre la pell, el teixit i l'escorça dels arbres. És curiós com en una quedada, cada fotògraf troba un lloc on fa les fotos a cada model i totes les fotos eixen diferents.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1409,7 +1409,7 @@ window.translations = {
             "url": "./img/urban-5_photo_8.jpg",
             "orientation": "portrait",
             "title": "Obra 08",
-            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "description": "El Parc de l'Aigüera és un oasi de disseny. Ací, la model es fon amb la natura i les línies rectes que va traçar l'arquitecte Ricardo Bofill. És el 'bosc urbà' on Benidorm respira.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1419,7 +1419,7 @@ window.translations = {
             "url": "./img/urban-5_photo_9.jpg",
             "orientation": "portrait",
             "title": "Obra 09",
-            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "description": "Fixa't en la composició. La netedat del vestit blanc de Patricia destaca amb força contra les línies de les escales del parc. Aquesta imatge captura el diàleg sincer entre l'arquitectura i la figura humana en una de les meues primeres sessions amb models a Benidorm.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1429,7 +1429,7 @@ window.translations = {
             "url": "./img/urban-5_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "description": "Fixa't en la força i la seguretat d'aquesta imatge. Els complements y els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2477,7 +2477,7 @@ window.translations = {
             "url": "./img/urban-5_photo_5.jpg",
             "orientation": "portrait",
             "title": "Artwork 05",
-            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "description": "Immerse yourself in the green of l’Aigüera. You are looking at Patricia in what was my first session with models in Benidorm, agost 2018. These photographs try to offer a vital contrast to the concrete. Here, the human figure merges with nature.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2487,7 +2487,7 @@ window.translations = {
             "url": "./img/urban-5_photo_6.jpg",
             "orientation": "portrait",
             "title": "Artwork 06",
-            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "description": "Benidorm isn’t just about skyscrapers; it also has green lungs. In this closer shot, Patricia invites us to pause. Notice the texture of the wood and the sunlight: give yourself a moment to relax and reflect.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2497,7 +2497,7 @@ window.translations = {
             "url": "./img/urban-5_photo_7.jpg",
             "orientation": "portrait",
             "title": "Artwork 07",
-            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "description": "In this tighter shot, you see the dialogue between skin, fabric, and tree bark. It’s fascinating how during a photo meet-up, each photographer finds their own spot for the model, and yet every single result is unique.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2507,7 +2507,7 @@ window.translations = {
             "url": "./img/urban-5_photo_8.jpg",
             "orientation": "portrait",
             "title": "Artwork 08",
-            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "description": "L’Aigüera Park is a design oasis. Here, the model merges with nature and the straight lines drawn by architect Ricardo Bofill. It is the 'urban forest' where Benidorm breathes.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2517,7 +2517,7 @@ window.translations = {
             "url": "./img/urban-5_photo_9.jpg",
             "orientation": "portrait",
             "title": "Artwork 09",
-            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "description": "Look at the composition. The crispness of Patricia’s white dress stands out strongly against the concrete lines of the park. This image captures the sincere dialogue between architecture and the human figure in my early work with models.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2527,7 +2527,7 @@ window.translations = {
             "url": "./img/urban-5_photo_10.jpg",
             "orientation": "portrait",
             "title": "Artwork 10",
-            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "description": "Notice the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
