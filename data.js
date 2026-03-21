@@ -1636,7 +1636,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervenció a la ciutat",
-        "description": "\"Et trobes a l'espai d'art de Ponent. Aquest recorregut inclou dos dels edificis més icònics que defineixen el skyline d'aquesta platja: el Bali i l'Intempo, que eren els dos més alts en 2019 quan es va realitzar l'exposició 'Benidorm Vertical'. Aquesta editorial va arribar a Nova York amb la publicació en una revista. A través d'aquestes imatges, podràs veure com la moda dialoga amb aquests gegants de formigó. Si en acabar de visitar-la t'has quedat amb ganes de més art, podries visitar l'exposició interior a La Casilla, al carrer Emilio Ortuño, per a completar la teua experiència cultural.\"",
+        "description": "Et trobes a l'espai d'art de Ponent. Aquest recorregut inclou dos dels edificis més icònics que defineixen el skyline d'aquesta platja: el Bali i l'Intempo, que eren els dos més alts en 2019 quan es va realitzar l'exposició 'Benidorm Vertical'. Aquesta editorial va arribar a Nova York amb la publicació en una revista. A través d'aquestes imatges, podràs veure com la moda dialoga amb aquests gegants de formigó. Si en acabar de visitar-la t'has quedat amb ganes de més art, podries visitar l'exposició interior a La Casilla, al carrer Emilio Ortuño, per a completar la teua experiència cultural.",
         "photos": [
           {
             "id": "urban-7-photo-1",
