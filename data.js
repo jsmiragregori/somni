@@ -349,8 +349,8 @@ window.translations = {
             "url": "./img/urban-6_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Plaza del Ayuntamiento, editorial ‘Benidorm Horizontal’. En este plano celebramos la complicidad y el detalle. Los materiales artesanales de la modelo fueron diseñados por nuestro equipo para dialogar con el cielo de Benidorm. Todo se preparó minutos antes en un hotel cercano para capturar la luz mediterránea exacta.",
-            "year": "2019",
+            "description": "Una imagen que transpira elegancia y misterio. Fíjate en la altura de la terraza. ¿Adivinas dónde se encuentra esta pareja? Están en la planta 20 del hotel Madeira. Desde donde estás ahora en Los Tolls, ya tienes buenas vistas, ¿pero te imaginas ese viento de poniente de noviembre de 2020? Un cierre de lujo para la editorial 'Benidorm Horizontal'.",
+            "year": "2020",
             "isMasterpiece": true,
             "audioUrl": null
           },
@@ -379,7 +379,7 @@ window.translations = {
             "url": "./img/urban-6_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "description": "Seguimos en el Kronos. La verticalidad del edificio hace juego con la destreza de la modelo para mantener el equilibrio con unos tacones tan altos sobre el banco. Es la mimesis total entre moda y arquitectura.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -389,7 +389,7 @@ window.translations = {
             "url": "./img/urban-6_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Adéntrate en el verde de l’Aigüera. Estás ante Patricia en la que fue mi primera sesión con modelos en Benidorm en agosto de 2018. Estas fotos intentan ofrecer un contraste vital con el hormigón. Aquí, la figura humana se funde con la naturaleza.",
+            "description": "Fíjate en el sombrero que oculta la mirada. Aquí los complementos toman el control. Nada es casualidad: cada pose y cada accesorio están trabajados y ensayados mucho antes de la sesión para conseguir esa imagen icónica que viajó hasta Nueva York.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -399,7 +399,7 @@ window.translations = {
             "url": "./img/urban-6_photo_6.jpg",
             "orientation": "portrait",
             "title": "Obra 06",
-            "description": "Benidorm no son solo rascacielos; también tiene pulmones verdes. En este plano más cercano, Patricia nos invita a hacer una pausa. Fíjate en la textura de la madera y la luz solar: Ofrécete un momento para relajarte y reflexionar.",
+            "description": "El edificio Negurigane es único por sus formas cilíndricas. Con 148m de altura y 43 plantas, era el cuarto edificio más alto en 2019. Aquí busqué el contrapicado donde la modelo parece casi tan alta como él.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -409,7 +409,7 @@ window.translations = {
             "url": "./img/urban-6_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "En este plano más cerrado, veis el diálogo entre la piel, el tejido y la corteza de los árboles. Es curioso como en una quedada, cada fotógrafo encuentra un lugar donde hacer las fotos a cada modelo y todas las fotos quedan diferentes.",
+            "description": "En esta imagen, fíjate en la pose de la modelo. Cómo cada nueva pose está trabajada previamente para ofrecer ese diálogo entre modelo y rascacielos que lo hace tan íntimo.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -419,7 +419,7 @@ window.translations = {
             "url": "./img/urban-6_photo_8.jpg",
             "orientation": "portrait",
             "title": "Obra 08",
-            "description": "El Parque de l’Aigüera es un oasis de diseño. Aquí, la modelo se funde con la naturaleza y las líneas rectas trazadas por el arquitecto Ricardo Bofill. Es el 'bosque urbano' donde Benidorm respira.",
+            "description": "Nos hemos movido hasta el Rincón de Loix para encontrar el edificio Don Jorge, de 136 metros de altura y 36 plantas. Los edificios de Benidorm no son solo cemento; son reflectores gigantes de la luz del Mediterráneo.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -429,7 +429,7 @@ window.translations = {
             "url": "./img/urban-6_photo_9.jpg",
             "orientation": "portrait",
             "title": "Obra 09",
-            "description": "Fíjate en la composición. La limpieza del vestido blanco de Patricia destaca con fuerza contra las líneas de las escaleras del parque. Esta imagen captura el diálogo sincero entre arquitectura y figura humana en mis inicios con modelos.",
+            "description": "Si os fijáis, el outfit de la modelo ha cambiado. Tuvimos que hacerlo con el vestidor portátil para no perder ni un minuto de luz en esta sesión de Benidorm Vertical en diciembre de 2019.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -439,7 +439,7 @@ window.translations = {
             "url": "./img/urban-6_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
+            "description": "La Torre Lúgano es el techo de Levante, con 158m de altura y 43 plantas. Desde aquí arriba, la sensación de verticalidad es casi vertiginosa. Quería que la modelo pareciera estar conquistando la cima de la ciudad, fusionándose con uno de los puntos más altos de Benidorm.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -449,7 +449,7 @@ window.translations = {
             "url": "./img/urban-6_photo_11.jpg",
             "orientation": "portrait",
             "title": "Obra 11",
-            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
+            "description": "Esta fue una de las localizaciones más complejas. Tuvimos que visitar cada lugar previamente para encontrar el ángulo exacto donde el edificio luciera su mejor estética. Una planificación absoluta de todo el equipo para que nada fuera fruto del azar.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -459,7 +459,7 @@ window.translations = {
             "url": "./img/urban-6_photo_12.jpg",
             "orientation": "portrait",
             "title": "Obra 12",
-            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
+            "description": "Terminamos el día de sesión de la editorial Benidorm Vertical en La Creu. Las vistas desde aquí arriba son el mejor resumen de la ciudad. Es el lugar donde Benidorm se desnuda y nos muestra toda su magnitud cuando cae la noche.\"",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -469,7 +469,7 @@ window.translations = {
             "url": "./img/urban-6_photo_13.jpg",
             "orientation": "portrait",
             "title": "Obra 13",
-            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
+            "description": "Fíjate en las luces del fondo: es lo que llamamos bokeh. Ese desenfoque mágico crea una atmósfera de ensueño que cierra perfectamente la historia que empezamos a pie de calle..",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -479,7 +479,7 @@ window.translations = {
             "url": "./img/urban-6_photo_14.jpg",
             "orientation": "portrait",
             "title": "Obra 14",
-            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
+            "description": "Ti Ximo Cove, December 2019. The last moment of the 'Benidorm Vertical' editorial. The model sheds the city's architecture and concrete and delivers herself to the magic of nature. With bare feet on the beach and eyes closed, she becomes the soul of this sunset, a dream closure for the itinerary we have traveled.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1495,8 +1495,8 @@ window.translations = {
             "url": "./img/urban-6_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Plaça de l’Ajuntament, editorial ‘Benidorm Horitzontal’. En aquest pla celebrem la complicitat i el detall. Els materials que llueix la model són artesanals, dissenyats exclusivament pel nostre equip per a dialogar amb el cel de Benidorm. Tot el que veieu va ser preparat minuts abans en un hotel proper per a capturar la llum mediterrània exacta.",
-            "year": "2019",
+            "description": "Una imatge que transpira elegància i misteri. Fixa't en l'alçada de la terrassa. Endevines on es troba aquesta parella? Estan a la planta 20 de l'hotel Madeira. Des d'on estàs ara als Tolls, ja tens bones vistes, però t'imagines eixe vent de ponent de novembre de 2020? Un tancament de luxe per a l'editorial 'Benidorm Horitzontal'.",
+            "year": "2020",
             "isMasterpiece": true,
             "audioUrl": null
           },
@@ -1525,7 +1525,7 @@ window.translations = {
             "url": "./img/urban-6_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "description": "Seguim al Kronos. La verticalitat de l’edifici fa joc amb la destressa de la model per guardar l’equilibri amb uns talons tan alts damunt del banc. És la mimesi total entre moda i arquitectura.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1535,7 +1535,7 @@ window.translations = {
             "url": "./img/urban-6_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Endinsa't en el verd de l'Aigüera. Estàs davant de Patricia en la que va ser la meua primera sessió amb models a Benidorm en agost de 2018. Estes fotos intenten oferir un contrast vital amb el formigó. Ací, la figura humana es fon amb la natura.",
+            "description": "Fixa't en el barret que oculta la mirada. Ací els complements prenen el control. Res és casualitat: cada posat i cada accessori estan treballats i assajats molt abans de la sessió per aconseguir eixa imatge icònica que va viatjar fins a Nova York.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1545,7 +1545,7 @@ window.translations = {
             "url": "./img/urban-6_photo_6.jpg",
             "orientation": "portrait",
             "title": "Obra 06",
-            "description": "Benidorm no és només gratacels; també té pulmons verds. En aquest pla més proper, Patricia ens convida a fer una pausa. Fixa't en la textura de la fusta i la llum solar: ofereix-te un moment per a relajar-se i reflexionar.",
+            "description": "L’edifici Negurigane és únic per les seues formes cilíndriques. Amb 148m d’altura i amb 43 plantes, era el 4t edifici més alt en 2019. Ací vaig buscar el contrapicat on la model sembla quasi tan alta com ell.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1555,7 +1555,7 @@ window.translations = {
             "url": "./img/urban-6_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "En aquest pla més tancat, veieu el diàleg entre la pell, el teixit i l'escorça dels arbres. És curiós com en una quedada, cada fotògraf troba un lloc on fa les fotos a cada model i totes les fotos eixen diferents.",
+            "description": "En aquesta imatge, fixa't en la pose de la model. Com cada nova pose està treballada prèviament per oferir eixe diàleg entre model i gratacel que fa que siga tan íntim.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1565,7 +1565,7 @@ window.translations = {
             "url": "./img/urban-6_photo_8.jpg",
             "orientation": "portrait",
             "title": "Obra 08",
-            "description": "El Parc de l'Aigüera és un oasi de disseny. Ací, la model es fon amb la natura i les línies rectes que va traçar l'arquitecte Ricardo Bofill. És el 'bosc urbà' on Benidorm respira.",
+            "description": "Ens hem mogut fins al Racó de Loix per trobar l’edifici Don Jorge, un edifici amb 136m d’altura i 36 plantes. Els edificis de Benidorm no són només ciment; són reflectors gegants de la llum del Mediterrani.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1575,7 +1575,7 @@ window.translations = {
             "url": "./img/urban-6_photo_9.jpg",
             "orientation": "portrait",
             "title": "Obra 09",
-            "description": "Fixa't en la composició. La netedat del vestit blanc de Patricia destaca amb força contra les línies de les escales del parc. Aquesta imatge captura el diàleg sincer entre l'arquitectura i la figura humana en una de les meues primeres sessions amb models a Benidorm.",
+            "description": "Si vos fixeu, l’outfit de la model ha canviat i ho vam haver de fer amb el vestidor portàtil, per no perdre ni un minut de llum en esta sessió de Benidorm Vertical al desembre de 2019.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1585,7 +1585,7 @@ window.translations = {
             "url": "./img/urban-6_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "Fixa't en la força i la seguretat d'aquesta imatge. Els complements y els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
+            "description": "La Torre Lúgano és el sostre de Llevant, amb 158m d’altura i 43 plantes. Des d'ací dalt, la sensació de verticalitat és quasi vertiginosa. Volia que la model semblara estar conquerint el cim de la ciutat, fusionant-se amb un dels punts més alts de Benidorm.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1595,7 +1595,7 @@ window.translations = {
             "url": "./img/urban-6_photo_11.jpg",
             "orientation": "portrait",
             "title": "Obra 11",
-            "description": "Fixa't en la força i la seguretat d'aquesta imatge. Els complements y els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
+            "description": "Aquesta va ser una de les localitzacions més complexes. Vam haver de visitar cada lloc prèviament per a trobar l'angle exacte on l'edifici lluïra la seua millor estètica. Una planificació absoluta de tot l'equip perquè res fóra fruit de l'atzar.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1605,7 +1605,7 @@ window.translations = {
             "url": "./img/urban-6_photo_12.jpg",
             "orientation": "portrait",
             "title": "Obra 12",
-            "description": "Fixa't en la força i la seguretat d'aquesta imatge. Els complements y els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
+            "description": "Acabem el dia de sessió de l’editorial Benidorm Vertical a La Creu. Les vistes des d'ací dalt són el millor resum de la ciutat. És el lloc on Benidorm es despulla i ens mostra tota la seua magnitud quan cau la nit.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1615,7 +1615,7 @@ window.translations = {
             "url": "./img/urban-6_photo_13.jpg",
             "orientation": "portrait",
             "title": "Obra 13",
-            "description": "Fixa't en la força i la seguretat d'aquesta imatge. Els complements y els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
+            "description": "Fixa't en les llums del fons: és el que anomenem bokeh. Eixe desenfocament màgic crea una atmosfera de somni que tanca perfectament la història que vam començar a peu de carrer.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1625,7 +1625,7 @@ window.translations = {
             "url": "./img/urban-6_photo_14.jpg",
             "orientation": "portrait",
             "title": "Obra 14",
-            "description": "Fixa't en la força i la seguretat d'aquesta imatge. Els complements y els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
+            "description": "Cala del Ti Ximo, desembre de 2019. El darrer instant de l'editorial 'Benidorm Vertical'. La model es despulla de l'arquitectura i el ciment de la ciutat i es lliura a la màgia de la natura. Amb els peus descalços a la platja i l'esguard clos, es converteix en l'ànima d'aquesta posta de sol, un tancament de somni per a l'itinerari que hem recorregut.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2641,8 +2641,8 @@ window.translations = {
             "url": "./img/urban-6_photo_1.jpg",
             "orientation": "portrait",
             "title": "Artwork 01",
-            "description": "Town Hall Square, ‘Benidorm horitzontal’ editorial. In this frame, we celebrate complicity and detail. The model's handmade materials were designed by our team to dialogue with Benidorm’s sky. Everything was prepared minutes before in a nearby hotel to capture the exact Mediterranean light.",
-            "year": "2019",
+            "description": "An image exuding elegance and mystery. Notice the height of the terrace. Can you guess where this couple is? They are on the 20th floor of the Madeira Hotel. From where you are now in Los Tolls, you already have good views, but can you imagine that westerly wind from November 2020? A luxurious closing for the 'Benidorm Horizontal' editorial.",
+            "year": "2020",
             "isMasterpiece": true,
             "audioUrl": null
           },
@@ -2671,7 +2671,7 @@ window.translations = {
             "url": "./img/urban-6_photo_4.jpg",
             "orientation": "portrait",
             "title": "Artwork 04",
-            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "description": "We continue at the Kronos. The building's verticality matches the model's skill in keeping her balance on such high heels atop the bench. It is the perfect mimesis between fashion and architecture.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2681,7 +2681,7 @@ window.translations = {
             "url": "./img/urban-6_photo_5.jpg",
             "orientation": "portrait",
             "title": "Artwork 05",
-            "description": "Immerse yourself in the green of l’Aigüera. You are looking at Patricia in what was my first session with models in Benidorm, agost 2018. These photographs try to offer a vital contrast to the concrete. Here, the human figure merges with nature.",
+            "description": "Notice the hat hiding her gaze. Here, the accessories take control. Nothing is left to chance: every pose and accessory was planned and rehearsed long before the shoot to achieve that iconic image that traveled all the way to New York.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2691,7 +2691,7 @@ window.translations = {
             "url": "./img/urban-6_photo_6.jpg",
             "orientation": "portrait",
             "title": "Artwork 06",
-            "description": "Benidorm isn’t just about skyscrapers; it also has green lungs. In this closer shot, Patricia invites us to pause. Notice the texture of the wood and the sunlight: give yourself a moment to relax and reflect.",
+            "description": "The Negurigane building is unique for its cylindrical shapes. Standing at 148m with 43 floors, it was the fourth tallest building in 2019. Here, I used a low-angle shot to make the model look almost as tall as the skyscraper itself.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2701,7 +2701,7 @@ window.translations = {
             "url": "./img/urban-6_photo_7.jpg",
             "orientation": "portrait",
             "title": "Artwork 07",
-            "description": "In this tighter shot, you see the dialogue between skin, fabric, and tree bark. It’s fascinating how during a photo meet-up, each photographer finds their own spot for the model, and yet every single result is unique.",
+            "description": "On this image, notice the model's pose. Every new movement is pre-planned to create a dialogue between the model and the skyscraper, making the scene feel incredibly intimate.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2711,7 +2711,7 @@ window.translations = {
             "url": "./img/urban-6_photo_8.jpg",
             "orientation": "portrait",
             "title": "Artwork 08",
-            "description": "L’Aigüera Park is a design oasis. Here, the model merges with nature and the straight lines drawn by architect Ricardo Bofill. It is the 'urban forest' where Benidorm breathes.",
+            "description": "We’ve moved to Racó de Loix to find the Don Jorge building, standing 136 meters tall with 36 floors. Benidorm’s buildings aren't just concrete; they are giant reflectors of Mediterranean light.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2721,7 +2721,7 @@ window.translations = {
             "url": "./img/urban-6_photo_9.jpg",
             "orientation": "portrait",
             "title": "Artwork 09",
-            "description": "Look at the composition. The crispness of Patricia’s white dress stands out strongly against the concrete lines of the park. This image captures the sincere dialogue between architecture and the human figure in my early work with models.",
+            "description": "If you notice, the model’s outfit has changed. We had to use the portable dressing room so as not to lose a single minute of light during this Benidorm Vertical shoot in December 2019.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2731,7 +2731,7 @@ window.translations = {
             "url": "./img/urban-6_photo_10.jpg",
             "orientation": "portrait",
             "title": "Artwork 10",
-            "description": "Notice the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
+            "description": "Torre Lúgano is the roof of Levante, standing 158m tall with 43 floors. From up here, the sense of verticality is almost dizzying. I wanted the model to look as if she were conquering the city's summit, merging with one of Benidorm's highest points.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2741,7 +2741,7 @@ window.translations = {
             "url": "./img/urban-6_photo_11.jpg",
             "orientation": "portrait",
             "title": "Artwork 11",
-            "description": "Notice the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
+            "description": "This was one of the most complex locations. We had to visit every site beforehand to find the exact angle where the building would look its best. Absolute planning by the entire team so that nothing was left to chance..",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2751,7 +2751,7 @@ window.translations = {
             "url": "./img/urban-6_photo_12.jpg",
             "orientation": "portrait",
             "title": "Artwork 12",
-            "description": "Notice the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
+            "description": "We finish the Benidorm Vertical editorial shoot at La Creu. The views from up here are the best summary of the city. It is where Benidorm reveals its true self and shows its full magnitude as night falls.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2761,7 +2761,7 @@ window.translations = {
             "url": "./img/urban-6_photo_13.jpg",
             "orientation": "portrait",
             "title": "Artwork 13",
-            "description": "Notice the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
+            "description": "Look at the background lights: this is what we call bokeh. That magical blur creates a dreamlike atmosphere that perfectly closes the story we began at street level.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2771,7 +2771,7 @@ window.translations = {
             "url": "./img/urban-6_photo_14.jpg",
             "orientation": "portrait",
             "title": "Artwork 14",
-            "description": "Notice the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
+            "description": "Cala del Ti Ximo, diciembre de 2019. El último instante de la editorial 'Benidorm Vertical'. La modelo se desprende de la arquitectura y el cemento de la ciudad y se entrega a la magia de la naturaleza. Con los pies descalzos en la playa y la mirada cerrada, se convierte en el alma de esta puesta de sol, un cierre de sueño para el itinerario que hemos recorrido.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
