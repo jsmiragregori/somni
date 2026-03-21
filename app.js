@@ -169,11 +169,11 @@ function renderApp() {
                 
                 <div class="relative z-10 text-center px-6">
                     <h1 class="font-display text-7xl md:text-9xl lg:text-[12rem] uppercase tracking-tighter leading-none mb-6 fade-in text-white">${t.hero.title}</h1>
-                    <p class="font-mono text-sm md:text-base tracking-widest uppercase text-white/70 max-w-2xl mx-auto fade-in">${t.hero.subtitle}</p>
+                    <p class="font-mono ${getDynamicText('lead')} tracking-widest uppercase text-white/70 max-w-2xl mx-auto fade-in">${t.hero.subtitle}</p>
                 </div>
                 
                 <div class="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 fade-in">
-                    <span class="font-mono text-[10px] tracking-[0.3em] uppercase text-white/70">${t.hero.scroll}</span>
+                    <span class="font-mono ${getDynamicText('label')} tracking-[0.3em] uppercase text-white/70">${t.hero.scroll}</span>
                     <div class="w-[1px] h-16 bg-gradient-to-b from-white/50 to-transparent"></div>
                 </div>
             </section>
