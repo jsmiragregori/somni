@@ -40,8 +40,8 @@ function renderApp() {
     // Build Rooms HTML
     let roomsHtml = t.rooms.map((room, index) => {
         let pauseHtml = '';
-        if (index === 0) pauseHtml = `<div class="py-24 lg:py-48 px-6 text-center border-t border-white/5"><div class="max-w-3xl mx-auto"><span class="font-mono text-accent text-xs tracking-widest uppercase mb-8 block">Pausa Curatorial</span><p class="font-display text-3xl lg:text-5xl leading-tight">"${t.pauses.pause1}"</p></div></div>`;
-        if (index === 1) pauseHtml = `<div class="py-24 lg:py-48 px-6 text-center border-t border-white/5"><div class="max-w-3xl mx-auto"><span class="font-mono text-accent text-xs tracking-widest uppercase mb-8 block">Pausa Curatorial</span><p class="font-display text-3xl lg:text-5xl leading-tight">"${t.pauses.pause2}"</p></div></div>`;
+        // if (index === 0) pauseHtml = `<div class="py-24 lg:py-48 px-6 text-center border-t border-white/5"><div class="max-w-3xl mx-auto"><span class="font-mono text-accent text-xs tracking-widest uppercase mb-8 block">Pausa Curatorial</span><p class="font-display text-3xl lg:text-5xl leading-tight">"${t.pauses.pause1}"</p></div></div>`;
+        // if (index === 1) pauseHtml = `<div class="py-24 lg:py-48 px-6 text-center border-t border-white/5"><div class="max-w-3xl mx-auto"><span class="font-mono text-accent text-xs tracking-widest uppercase mb-8 block">Pausa Curatorial</span><p class="font-display text-3xl lg:text-5xl leading-tight">"${t.pauses.pause2}"</p></div></div>`;
 
         let photosHtml = room.photos.map((photo, pIndex) => {
             let layoutVars = { col: '', aspect: 'aspect-[4/5]' };
