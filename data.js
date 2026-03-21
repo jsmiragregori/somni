@@ -488,9 +488,9 @@ window.translations = {
       },
       {
         "id": "urban-7",
-        "title": "Passeig de Ponent",
+        "title": "Ponent",
         "subtitle": "Intervención en la ciudad",
-        "description": "Descripción del espacio de arte \"Passeig de Ponent\"",
+        "description": "Descripción del espacio de arte \"Ponent\"",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -1618,9 +1618,9 @@ window.translations = {
       },
       {
         "id": "urban-7",
-        "title": "Passeig de Ponent",
+        "title": "Ponent",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Descripció de l'espai d'art \"Passeig de Ponent\"",
+        "description": "Descripció de l'espai d'art \"Ponent\"",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -2748,9 +2748,9 @@ window.translations = {
       },
       {
         "id": "urban-7",
-        "title": "Passeig de Ponent",
+        "title": "Ponent",
         "subtitle": "City intervention",
-        "description": "Description of the art space \"Passeig de Ponent\"",
+        "description": "Description of the art space \"Ponent\"",
         "photos": [
           {
             "id": "urban-7-photo-1",
