@@ -14,7 +14,7 @@ window.translations = {
       "audioguia": "Audioguía"
     },
     "hero": {
-      "title": "Somni Vertical",
+      "title": "Benidorm,<br>Somni Vertical",
       "subtitle": "Una exploración fotográfica de la suspensión temporal",
       "scroll": "Desliza para Adentrarte"
     },
@@ -1112,7 +1112,7 @@ window.translations = {
       "audioguia": "Audioguia"
     },
     "hero": {
-      "title": "Somni Vertical",
+      "title": "Benidorm,<br>Somni Vertical",
       "subtitle": "Una exploració fotogràfica de la suspensió temporal",
       "scroll": "Desplaça per Endinsar-te"
     },
@@ -2210,7 +2210,7 @@ window.translations = {
       "audioguia": "Audio Guide"
     },
     "hero": {
-      "title": "Somni Vertical",
+      "title": "Benidorm,<br>Somni Vertical",
       "subtitle": "A photographic exploration of temporal suspension",
       "scroll": "Scroll to Immerse"
     },
