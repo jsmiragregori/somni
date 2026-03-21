@@ -58,7 +58,7 @@ function renderApp() {
             if (photo.isMasterpiece) {
                 if (photo.orientation === 'portrait') {
                     layoutVars.col = 'md:col-span-1 md:row-span-2';
-                    layoutVars.aspect = 'aspect-[3/4] h-full min-h-[60vh] md:min-h-0';
+                    layoutVars.aspect = 'aspect-[2/3] h-full min-h-[60vh] md:min-h-0';
                 } else {
                     layoutVars.col = 'md:col-span-2';
                     layoutVars.aspect = 'aspect-[3/2]';
@@ -69,7 +69,7 @@ function renderApp() {
                     layoutVars.aspect = 'aspect-[4/3] lg:aspect-[3/2]';
                 } else {
                     layoutVars.col = '';
-                    layoutVars.aspect = 'aspect-[4/5]';
+                    layoutVars.aspect = 'aspect-[2/3]';
                 }
             }
 
