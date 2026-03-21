@@ -490,14 +490,14 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervención en la ciudad",
-        "description": "Descripción del espacio de arte \"Ponent\"",
+        "description": "Te encuentras en el espacio de arte de Poniente. Este recorrido incluye dos de los edificios más icónicos que definen el skyline de esta playa: el Bali y el Intempo, que eran los dos más altos en 2019 cuando se realizó la exposición 'Benidorm Vertical'. Esta editorial llegó a Nueva York con su publicación en una revista. A través de estas imágenes, podrás ver cómo la moda dialoga con estos gigantes de hormigón. Si al terminar de visitarla te has quedado con ganas de más arte, puedes visitar la exposición interior en La Casilla, en la calle Emilio Ortuño, para completar tu experiencia cultural.",
         "photos": [
           {
             "id": "urban-7-photo-1",
             "url": "./img/urban-7_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Bienvenidos a la editorial 'Benidorm Horizontal'. Fijaos en el contraste: el azul eléctrico del outfit y los globos contrastan con la geometría del Ayuntamiento como fondo. Es la moda conquistando el espacio público.",
+            "description": "Bajo este coloso de 186 metros, la figura humana parece minúscula pero poderosa. El Gran Hotel Bali es el hotel más alto de Europa, y en este contrapicado buscamos ese diálogo entre la fragilidad de la modelo y la inmensidad del cemento. Alza la vista ahora mismo hacia los edificios... ¿lo sientes, al coloso real?",
             "year": "2019",
             "isMasterpiece": true,
             "audioUrl": null
@@ -507,7 +507,7 @@ window.translations = {
             "url": "./img/urban-7_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Mirad la textura del vestido, un reto de diseño para capturar la luz. Pero fijaos bien en los globos: en uno de los reflejos se esconde una sorpresa que no todos ven a primera vista. ¿Sois capaces de encontrar el secreto de esta sesión?",
+            "description": "La silueta que ves es el Gran Hotel Bali, diciembre de 2019. Tienes exactamente la misma vista frente a ti, pero desde un ángulo que te hace sentir que flotas sobre la ciudad. Esta fotografía de la editorial 'Benidorm Vertical' cruzó el océano para brillar en las revistas de Nueva York. ¿Sientes su grandeza?",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -517,7 +517,7 @@ window.translations = {
             "url": "./img/urban-7_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "description": "¿Sientes la fuerza del Gran Hotel Bali y el abrigo de piel? Es una localización estratégica de la editorial 'Benidorm Vertical'. Pero mira bien al cielo... no, no es un retoque. Aquella gaviota se cruzó justo ante mi cámara, en el ángulo perfecto, para añadir un matiz mágico e inesperado a la grandeza del edificio.\"",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -527,7 +527,7 @@ window.translations = {
             "url": "./img/urban-7_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "Adéntrate en el verde de l’Aigüera. Estás ante Patricia en la que fue mi primera sesión con modelos en Benidorm en agosto de 2018. Estas fotos intentan ofrecer un contraste vital con el hormigón. Aquí, la figura humana se funde con la naturaleza.",
+            "description": "Aquí tienes el Hotel Bali como quizás nunca lo habías visto. El ángulo es brutal. Pero imagínate la mística de aquel diciembre de 2019: el equipo, el frío del invierno, y la modelo cambiándose con un vestidor portátil en medio de la calle para capturar la esencia de esta silueta. Una locura que valió la pena para Nueva York.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -537,7 +537,7 @@ window.translations = {
             "url": "./img/urban-7_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Benidorm no son solo rascacielos; también tiene pulmones verdes. En este plano más cercano, Patricia nos invita a hacer una pausa. Fíjate en la textura de la madera y la luz solar: Ofrécete un momento para relajarte y reflexionar.",
+            "description": "Bienvenidos al interior del Intempo, octubre de 2021. Desde estos apartamentos de altura, la ciudad desaparece y solo queda el azul, que atraviesa el cristal y lo inunda todo. ¿Te imaginas flotar así? Es el mismo horizonte infinito que tienes ahora mismo frente a tí en Poniente.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -547,7 +547,7 @@ window.translations = {
             "url": "./img/urban-7_photo_6.jpg",
             "orientation": "portrait",
             "title": "Obra 06",
-            "description": "En este plano más cerrado, veis el diálogo entre la piel, el tejido y la corteza de los árboles. Es curioso como en una quedada, cada fotógrafo encuentra un lugar donde hacer las fotos a cada modelo y todas las fotos quedan diferentes.",
+            "description": "Fíjate en los marcos dorados que abrazan a Eva. Esta sesión fue pura improvisación de octubre. Teníamos un único día de acceso y ninguna posibilidad de visitar el edificio previamente. Todo lo que ves—vestuarios, poses, luz—se decidió al momento, un 'ahora o nunca' para capturar este gigante por dentro.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -557,8 +557,8 @@ window.translations = {
             "url": "./img/urban-7_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "El Parque de l’Aigüera es un oasis de diseño. Aquí, la modelo se funde con la naturaleza y las líneas rectas trazadas por el arquitecto Ricardo Bofill. Es el 'bosque urbano' donde Benidorm respira.",
-            "year": "2019",
+            "description": "¿Te imaginas estar en la planta 46, flotando sobre la ciudad? Aquí, en el SPA del Intempo, el tiempo se detiene. Mira cómo la isla vigila el horizonte al fondo de la imagen: es el mismo perfil que tienes ahora frente a ti, pero visto desde un cielo que tuvimos que descubrir y fotografiar en un solo día, sin saber qué nos encontraríamos.\"",
+            "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
           },
@@ -567,7 +567,7 @@ window.translations = {
             "url": "./img/urban-7_photo_8.jpg",
             "orientation": "portrait",
             "title": "Obra 08",
-            "description": "Fíjate en la composición. La limpieza del vestido blanco de Patricia destaca con fuerza contra las líneas de las escaleras del parque. Esta imagen captura el diálogo sincero entre arquitectura y figura humana en mis inicios con modelos.",
+            "description": "A pie de calle. Planta baja. Un solo tiro, un instante. Un solo dedo presionando la cámara fue suficiente para capturar todo el reflejo del Intempo en esta piscina infinita. Con pura improvisación y un 'black outfit', fusionamos al gigante con el agua en un segundo. Es la mística de nuestro horizonte.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -577,7 +577,7 @@ window.translations = {
             "url": "./img/urban-7_photo_9.jpg",
             "orientation": "portrait",
             "title": "Obra 09",
-            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
+            "description": "Fijaos en la figura de esta foto: es la misma que tienes a pocos metros en el paseo. 'El Amor del Cisne' se encontraba inicialmente en el Ayuntamiento, como se ve al fondo de la imagen. Hoy, la pareja de cisnes real custodia Poniente, uniendo el recuerdo de aquella sesión con tu presente.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -587,7 +587,7 @@ window.translations = {
             "url": "./img/urban-7_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
+            "description": "Esta imagen nos transporta a abril de 2021, durante la exposición Galaxia Hung. Aunque aquí vemos las figuras con el fondo del hotel Madeira, su explosión de color y fantasía ya formaba parte del paisaje urbano de nuestra ciudad.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -597,7 +597,7 @@ window.translations = {
             "url": "./img/urban-7_photo_11.jpg",
             "orientation": "portrait",
             "title": "Obra 11",
-            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
+            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda En esta composición, Eva se sitúa sobre un pilar y al fondo aparece la zona de La Cala y el Tossal. Si alzas la mirada ahora mismo por detrás de este mupi, verás exactamente ese mismo paisaje más abajo.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -607,7 +607,7 @@ window.translations = {
             "url": "./img/urban-7_photo_12.jpg",
             "orientation": "portrait",
             "title": "Obra 12",
-            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
+            "description": "Una nueva terraza del Intempo nos regala esta estampa de Eva con el mar de fondo. La luz de octubre baña la escena, creando una atmósfera de serenidad absoluta.\"",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -617,7 +617,7 @@ window.translations = {
             "url": "./img/urban-7_photo_13.jpg",
             "orientation": "portrait",
             "title": "Obra 13",
-            "description": "Plaza del Ayuntamiento, editorial ‘Benidorm Horizontal’. En este plano celebramos la complicidad y el detalle. Los materiales artesanales de la modelo fueron diseñados por nuestro equipo para dialogar con el cielo de Benidorm. Todo se preparó minutos antes en un hotel cercano para capturar la luz mediterránea exacta.",
+            "description": "Esta perspectiva nos lleva a la base del diamante central del edificio Intempo. Fíjate en el contraste entre la modernidad de la estructura y el olivo milenario que hay en la entrada. Un juego de ángulos que destaca la verticalidad extrema del proyecto.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -627,7 +627,7 @@ window.translations = {
             "url": "./img/urban-7_photo_14.jpg",
             "orientation": "portrait",
             "title": "Obra 14",
-            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
+            "description": "A pie de calle, la magnitud del Intempo impresiona. Aquí la modelo brilla con la misma fuerza que la fachada del edificio en una de las imágenes más dinámicas de la sesión.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -637,7 +637,7 @@ window.translations = {
             "url": "./img/urban-7_photo_15.jpg",
             "orientation": "portrait",
             "title": "Obra 15",
-            "description": "Mirad la textura del vestido, un reto de diseño para capturar la luz. Pero fijaos bien en los globos: en uno de los reflejos se esconde una sorpresa que no todos ven a primera vista. ¿Sois capaces de encontrar el secreto de esta sesión?",
+            "description": "Este plano más corto destaca por una pose cuidadosamente ejecutada. Es el fruto de un gran trabajo en equipo: la combinación de la luz, el vestuario y la expresión de la modelo para capturar el espíritu vertical que queríamos expresar en esta sesión.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -647,7 +647,7 @@ window.translations = {
             "url": "./img/urban-7_photo_16.jpg",
             "orientation": "portrait",
             "title": "Obra 16",
-            "description": "Bienvenidos a la editorial 'Benidorm Horizontal'. Fijaos en el contraste: el azul eléctrico del outfit y los globos contrastan con la geometría del Ayuntamiento como fondo. Es la moda conquistando el espacio público.",
+            "description": "En este punto de Poniente recuperamos una de las imágenes más potentes de la editorial de 2019. El edificio entero se convierte en un escenario de moda internacional que llegó a las publicaciones de Nueva York. Una imagen icónica para un entorno único.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1636,14 +1636,14 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Descripció de l'espai d'art \"Ponent\"",
+        "description": "\"Et trobes a l'espai d'art de Ponent. Aquest recorregut inclou dos dels edificis més icònics que defineixen el skyline d'aquesta platja: el Bali i l'Intempo, que eren els dos més alts en 2019 quan es va realitzar l'exposició 'Benidorm Vertical'. Aquesta editorial va arribar a Nova York amb la publicació en una revista. A través d'aquestes imatges, podràs veure com la moda dialoga amb aquests gegants de formigó. Si en acabar de visitar-la t'has quedat amb ganes de més art, podries visitar l'exposició interior a La Casilla, al carrer Emilio Ortuño, per a completar la teua experiència cultural.\"",
         "photos": [
           {
             "id": "urban-7-photo-1",
             "url": "./img/urban-7_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Benvinguts a l'editorial Benidorm Horitzontal. Fixeu-vos en el contrast: el blau elèctric de l'outfit i els globus contrasten amb la geometria de l'edifici de l'Ajuntament com a fons. És la moda conquistant l'espai públic.",
+            "description": "Davall d'aquest colós de 186 metres, la figura humana sembla minúscula però poderosa. El Gran Hotel Bali és l'hotel més alt d'Europa, i en aquest contrapicat busquem eixe diàleg entre la fragilitat de la model i la immensitat del ciment. Alça la vista ara mateix cap als edificis... el sents, el colós real?",
             "year": "2019",
             "isMasterpiece": true,
             "audioUrl": null
@@ -1653,7 +1653,7 @@ window.translations = {
             "url": "./img/urban-7_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Mireu la textura del vestit, un repte de disseny per a capturar la llum. Però fixeu-vos bé en els globus: en un dels reflexos s’amaga una sorpresa que no tots veuen a primera vista. Sou capaços de trobar el secret d’aquesta sessió?",
+            "description": "La silueta que veus és el Gran Hotel Bali, desembre de 2019. Tens exactament la mateixa vista davant teu, però des d'un angle que et fa sentir que flotes sobre la ciutat. Aquesta fotografia de l'editorial 'Benidorm Vertical' va creuar l'oceà per a brillar a les revistes de Nova York. Sents la seua grandesa?",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1663,7 +1663,7 @@ window.translations = {
             "url": "./img/urban-7_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "description": "Sents la força del Gran Hotel Bali i l'abric de pell? És una localització estratègica de l'editorial 'Benidorm Vertical'. Però mira bé al cel... no, no és un retoc. Aquella gavina es va creuar just davant la meua càmera, en l'angle perfecte, per afegir un matís màgic i inesperat a la grandesa de l'edifici.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1673,7 +1673,7 @@ window.translations = {
             "url": "./img/urban-7_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "Endinsa't en el verd de l'Aigüera. Estàs davant de Patricia en la que va ser la meua primera sessió amb models a Benidorm en agost de 2018. Estes fotos intenten oferir un contrast vital amb el formigó. Ací, la figura humana es fon amb la natura.",
+            "description": "Aquí tens l'Hotel Bali com potser no l'havies vist mai. L'angle és brutal. Però imagina't la mística d'aquell desembre de 2019: l'equip, el fred de l'hivern, i la model canviant-se amb un vestidor portàtil al mig del carrer per capturar l'essència d'aquesta silueta. Una bogeria que va valdre la pena per a Nova York.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1683,7 +1683,7 @@ window.translations = {
             "url": "./img/urban-7_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Benidorm no és només gratacels; també té pulmons verds. En aquest pla més proper, Patricia ens convida a fer una pausa. Fixa't en la textura de la fusta i la llum solar: ofereix-te un moment per a relajar-se i reflexionar.",
+            "description": "Benvinguts a l'interior de l'Intempo, octubre de 2021. Des d'aquests apartaments d'alçada, la ciutat desapareix i només queda el blau, que travessa el vidre i ho inunda tot. T'imagines flotar així? És el mateix horitzó infinit que tens ara mateix davant teu a Ponent.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1693,7 +1693,7 @@ window.translations = {
             "url": "./img/urban-7_photo_6.jpg",
             "orientation": "portrait",
             "title": "Obra 06",
-            "description": "En aquest pla més tancat, veieu el diàleg entre la pell, el teixit i l'escorça dels arbres. És curiós com en una quedada, cada fotògraf troba un lloc on fa les fotos a cada model i totes les fotos eixen diferents.",
+            "description": "Fixa't en els marcs daurats que abracen l'Eva. Aquesta sessió va ser pura improvisació d'octubre. Teníem un únic dia d'accés i cap possibilitat de visitar l'edifici prèviament. Tot el que veus—vestidors, poses, llum—es va decidir al moment, un 'ara o mai' per a capturar aquest gegant per dins.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1703,8 +1703,8 @@ window.translations = {
             "url": "./img/urban-7_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "El Parc de l'Aigüera és un oasi de disseny. Ací, la model es fon amb la natura i les línies rectes que va traçar l'arquitecte Ricardo Bofill. És el 'bosc urbà' on Benidorm respira.",
-            "year": "2019",
+            "description": "T'imagines estar a la planta 46, flotant sobre la ciutat? Ací, a l'SPA de l'Intempo, el temps s'atura. Mira com l'illa vigila l'horitzó al fons de la imatge: és el mateix perfil que tens ara davant teu, però vist des d'un cel que vam haver de descobrir i fotografiar en un sol dia, sense saber què ens trobaríem.",
+            "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
           },
@@ -1713,7 +1713,7 @@ window.translations = {
             "url": "./img/urban-7_photo_8.jpg",
             "orientation": "portrait",
             "title": "Obra 08",
-            "description": "Fixa't en la composició. La netedat del vestit blanc de Patricia destaca amb força contra les línies de les escales del parc. Aquesta imatge captura el diàleg sincer entre l'arquitectura i la figura humana en una de les meues primeres sessions amb models a Benidorm.",
+            "description": "A peu de carrer. Planta baixa. Un sol tret, un instant. Un sol dit pressionant la càmera va ser suficient per a capturar tot el reflex de l'Intempo en aquesta piscina infinita. Amb pura improvisació i un 'black outfit', vam fusionar el gegant amb l'aigua en un segon. És la mística del nostre horitzó.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1723,7 +1723,7 @@ window.translations = {
             "url": "./img/urban-7_photo_9.jpg",
             "orientation": "portrait",
             "title": "Obra 09",
-            "description": "Fixa't en la força i la seguretat d'aquesta imatge. Els complements y els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
+            "description": "Fixeu-vos en la figura d'aquesta foto: és la mateixa que tens a pocs metres al passeig. 'L'Amor del Cigne' es trobava inicialment a l'Ajuntament, com es veu al fons de la imatge. Avui, la parella de cignes real custodia Ponent, unint el record d'aquella sessió amb el teu present.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1733,7 +1733,7 @@ window.translations = {
             "url": "./img/urban-7_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "Fixa't en la força i la seguretat d'aquesta imatge. Els complements y els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
+            "description": "Aquesta imatge ens transporta a l'abril de 2021, durant l'exposició Galaxia Hung. Encara que aquí veiem les figures amb el fons de l'hotel Madeira, la seua explosió de color i fantasia ja formava part del paisatge urbà de la nostra ciutat.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1743,7 +1743,7 @@ window.translations = {
             "url": "./img/urban-7_photo_11.jpg",
             "orientation": "portrait",
             "title": "Obra 11",
-            "description": "Fixa't en la força i la seguretat d'aquesta imatge. Els complements y els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
+            "description": "En aquesta composició, l'Eva se situa sobre un pilar i al fons apareix la zona de la Cala i el Tossal. Si alces la mirada ara mateix per darrere d'aquest mupi, veuràs exactament eixe mateix paisatge més avall.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1753,7 +1753,7 @@ window.translations = {
             "url": "./img/urban-7_photo_12.jpg",
             "orientation": "portrait",
             "title": "Obra 12",
-            "description": "Fixa't en la força i la seguretat d'aquesta imatge. Els complements y els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
+            "description": "Una nova terrassa de l'Intempo ens regala aquesta estampa de l'Eva amb la mar de fons. La llum d'octubre banya l'escena, creant una atmosfera de serenitat absoluta.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1763,7 +1763,7 @@ window.translations = {
             "url": "./img/urban-7_photo_13.jpg",
             "orientation": "portrait",
             "title": "Obra 13",
-            "description": "Plaça de l’Ajuntament, editorial ‘Benidorm Horitzontal’. En aquest pla celebrem la complicitat i el detall. Els materials que llueix la model són artesanals, dissenyats exclusivament pel nostre equip per a dialogar amb el cel de Benidorm. Tot el que veieu va ser preparat minuts abans en un hotel proper per a capturar la llum mediterrània exacta.",
+            "description": "Aquesta perspectiva ens porta a la base del diamant central de l’edifici Intempo. Fixa't en el contrast entre la modernitat de l'estructura i l'olivera mil·lenària que hi ha a l'entrada. Un joc de picats que destaca la verticalitat extrema del projecte.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1773,7 +1773,7 @@ window.translations = {
             "url": "./img/urban-7_photo_14.jpg",
             "orientation": "portrait",
             "title": "Obra 14",
-            "description": "Fixa't en la força i la seguretat d'aquesta imatge. Els complements y els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
+            "description": "A peu de carrer, la magnitud de l'Intempo impressiona. Aquí la model brilla amb la mateixa força que la façana de l'edifici en una de les imatges més dinàmiques de la sessió.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1783,7 +1783,7 @@ window.translations = {
             "url": "./img/urban-7_photo_15.jpg",
             "orientation": "portrait",
             "title": "Obra 15",
-            "description": "Mireu la textura del vestit, un repte de disseny per a capturar la llum. Però fixeu-vos bé en els globus: en un dels reflexos s’amaga una sorpresa que no tots veuen a primera vista. Sou capaços de trobar el secret d’aquesta sessió?",
+            "description": "Aquest pla més curt destaca per una pose acuradament executada. És el fruit d'un gran treball en equip: la combinació de la llum, el vestuari i l'expressió de la model per a capturar l'esperit vertical que volíem expressar en esta sessió.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1793,7 +1793,7 @@ window.translations = {
             "url": "./img/urban-7_photo_16.jpg",
             "orientation": "portrait",
             "title": "Obra 16",
-            "description": "Benvinguts a l'editorial Benidorm Horitzontal. Fixeu-vos en el contrast: el blau elèctric de l'outfit i els globus contrasten amb la geometria de l'edifici de l'Ajuntament com a fons. És la moda conquistant l'espai públic.",
+            "description": "En aquest punt de Ponent recuperem una de les imatges més potents de l'editorial de 2019. L'edifici sencer es converteix en un escenari de moda internacional que va arribar a les publicacions de Nova York. Una imatge icònica per a un entorn únic.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2782,14 +2782,14 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "City intervention",
-        "description": "Description of the art space \"Ponent\"",
+        "description": "You are in the Ponent Art Space. This tour features two of the most iconic buildings that define this beach's skyline: the Bali and the Intempo, which were the two tallest in 2019 when the 'Benidorm Vertical' exhibition was created. This editorial reached New York through its publication in a magazine. Through these images, you will see how fashion dialogues with these concrete giants. If you find yourself wanting more art after your visit, you can see the indoor exhibition at La Casilla, on Emilio Ortuño Street, to complete your cultural experience.",
         "photos": [
           {
             "id": "urban-7-photo-1",
             "url": "./img/urban-7_photo_1.jpg",
             "orientation": "portrait",
             "title": "Artwork 01",
-            "description": "Welcome to the 'Benidorm Horizontal' editorial. Notice the contrast: the electric blue outfit and the balloons break with the geometry of the City Hall as the background. This is fashion conquering public space.",
+            "description": "Beneath this 186-meter giant, the human figure seems tiny yet powerful. The Gran Hotel Bali is Europe’s tallest hotel, and in this low-angle shot, we seek that dialogue between fragility and the immensity of concrete. Look up at the buildings right now... can you feel it, the real colossus?",
             "year": "2019",
             "isMasterpiece": true,
             "audioUrl": null
@@ -2799,7 +2799,7 @@ window.translations = {
             "url": "./img/urban-7_photo_2.jpg",
             "orientation": "portrait",
             "title": "Artwork 02",
-            "description": "Look at the texture of the dress, a design challenge to capture the light. But look closely at the balloons: a surprise is hidden in one of the reflections that not everyone sees at first glance. Can you find the secret of this shoot?",
+            "description": "The silhouette you see is the Gran Hotel Bali, December 2019. You have the exact same view before you, but from an angle that makes you feel like you're floating above the city. This photograph from the 'Benidorm Vertical' editorial crossed the ocean to shine in New York's magazines. Can you feel its magnitude?",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2809,7 +2809,7 @@ window.translations = {
             "url": "./img/urban-7_photo_3.jpg",
             "orientation": "portrait",
             "title": "Artwork 03",
-            "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
+            "description": "Can you feel the strength of the Gran Hotel Bali and the fur coat? It’s a strategic location from the 'Benidorm Vertical' editorial. But look closely at the sky... no, it’s not a retouch. That seagull crossed right in front of my camera, at the perfect angle, to add a magical and unexpected touch to the building’s magnitude.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2819,7 +2819,7 @@ window.translations = {
             "url": "./img/urban-7_photo_4.jpg",
             "orientation": "portrait",
             "title": "Artwork 04",
-            "description": "Immerse yourself in the green of l’Aigüera. You are looking at Patricia in what was my first session with models in Benidorm, agost 2018. These photographs try to offer a vital contrast to the concrete. Here, the human figure merges with nature.",
+            "description": "Here is the Hotel Bali as you have perhaps never seen it. The angle is brutal. But imagine the mística of that December 2019: the team, the winter chill, and the model changing with a portable changing room in the middle of the street to capture the essence of this silhouette. A madness that was worth it for New York.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2829,7 +2829,7 @@ window.translations = {
             "url": "./img/urban-7_photo_5.jpg",
             "orientation": "portrait",
             "title": "Artwork 05",
-            "description": "Benidorm isn’t just about skyscrapers; it also has green lungs. In this closer shot, Patricia invites us to pause. Notice the texture of the wood and the sunlight: give yourself a moment to relax and reflect.",
+            "description": "Welcome inside the Intempo, October 2021. From these high apartments, the city disappears, and only the blue remains, crossing the glass and flooding everything. Can you imagine floating like that? It is the same infinite horizon that you have right now in front of you at Ponent.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2839,7 +2839,7 @@ window.translations = {
             "url": "./img/urban-7_photo_6.jpg",
             "orientation": "portrait",
             "title": "Artwork 06",
-            "description": "In this tighter shot, you see the dialogue between skin, fabric, and tree bark. It’s fascinating how during a photo meet-up, each photographer finds their own spot for the model, and yet every single result is unique.",
+            "description": "Notice the golden frames embracing Eva. This session was pure October improvisation. We had only one day of access and no possibility of visiting the building beforehand. Everything you see—outfits, poses, light—was decided on the spot, a 'now or never' moment to capture this giant from within.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2849,8 +2849,8 @@ window.translations = {
             "url": "./img/urban-7_photo_7.jpg",
             "orientation": "portrait",
             "title": "Artwork 07",
-            "description": "L’Aigüera Park is a design oasis. Here, the model merges with nature and the straight lines drawn by architect Ricardo Bofill. It is the 'urban forest' where Benidorm breathes.",
-            "year": "2019",
+            "description": "Can you imagine being on the 46th floor, floating above the city? Here, at the Intempo SPA, time stands still. See how the island watches the horizon in the background: it’s the same profile you have in front of you now, but seen from a sky we had to discover and photograph in a single day, without knowing what we would find.",
+            "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
           },
@@ -2859,7 +2859,7 @@ window.translations = {
             "url": "./img/urban-7_photo_8.jpg",
             "orientation": "portrait",
             "title": "Artwork 08",
-            "description": "Look at the composition. The crispness of Patricia’s white dress stands out strongly against the concrete lines of the park. This image captures the sincere dialogue between architecture and the human figure in my early work with models.",
+            "description": "At street level. Ground floor. Just one shot, one instant. A single finger pressing the camera was enough to capture the entire Intempo reflection in this infinite pool. With pure improvisation and a 'black outfit', we merged the giant with the water in a second. It is the mística of our horizon.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2869,7 +2869,7 @@ window.translations = {
             "url": "./img/urban-7_photo_9.jpg",
             "orientation": "portrait",
             "title": "Artwork 09",
-            "description": "Notice the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
+            "description": "Notice the figure in this photo: it's the same one you'll find just a few meters away on the promenade. 'Swan’s Love' was initially located at the Town Hall, as seen in the background of the image. Today, the real pair of swans guards Ponent, bridging the memory of that shoot with your present moment.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2879,7 +2879,7 @@ window.translations = {
             "url": "./img/urban-7_photo_10.jpg",
             "orientation": "portrait",
             "title": "Artwork 10",
-            "description": "Notice the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
+            "description": "This image transports us back to April 2021, during the Galaxia Hung exhibition. Although here we see the figures against the backdrop of the Madeira Hotel, their explosion of color and fantasy was already part of our city's urban landscape.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2889,7 +2889,7 @@ window.translations = {
             "url": "./img/urban-7_photo_11.jpg",
             "orientation": "portrait",
             "title": "Artwork 11",
-            "description": "Notice the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
+            "description": "In this composition, Eva is positioned on a pillar with the La Cala area and the Tossal in the background. If you look up right now behind this mupi, you will see exactly that same landscape further down.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2899,7 +2899,7 @@ window.translations = {
             "url": "./img/urban-7_photo_12.jpg",
             "orientation": "portrait",
             "title": "Artwork 12",
-            "description": "Notice the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
+            "description": "A new terrace at Intempo presents this scene of Eva with the sea in the background. The October light bathes the setting, creating an atmosphere of absolute serenity.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2909,7 +2909,7 @@ window.translations = {
             "url": "./img/urban-7_photo_13.jpg",
             "orientation": "portrait",
             "title": "Artwork 13",
-            "description": "Town Hall Square, ‘Benidorm horitzontal’ editorial. In this frame, we celebrate complicity and detail. The model's handmade materials were designed by our team to dialogue with Benidorm’s sky. Everything was prepared minutes before in a nearby hotel to capture the exact Mediterranean light.",
+            "description": "This perspective takes us to the base of the Intempo building's central diamond. Notice the contrast between the structure's modernity and the ancient olive tree at the entrance. A play of camera angles that highlights the project's extreme verticality.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2919,7 +2919,7 @@ window.translations = {
             "url": "./img/urban-7_photo_14.jpg",
             "orientation": "portrait",
             "title": "Artwork 14",
-            "description": "Notice the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
+            "description": "At street level, the magnitude of the Intempo is breathtaking. Here, the model shines with the same strength as the building's facade in one of the session's most dynamic images.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2929,7 +2929,7 @@ window.translations = {
             "url": "./img/urban-7_photo_15.jpg",
             "orientation": "portrait",
             "title": "Artwork 15",
-            "description": "Look at the texture of the dress, a design challenge to capture the light. But look closely at the balloons: a surprise is hidden in one of the reflections that not everyone sees at first glance. Can you find the secret of this shoot?",
+            "description": "This tighter shot stands out for its carefully executed pose. It is the result of great teamwork: the combination of light, wardrobe, and the model's expression to capture the vertical spirit we wanted to convey in this session.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2939,7 +2939,7 @@ window.translations = {
             "url": "./img/urban-7_photo_16.jpg",
             "orientation": "portrait",
             "title": "Artwork 16",
-            "description": "Welcome to the 'Benidorm Horizontal' editorial. Notice the contrast: the electric blue outfit and the balloons break with the geometry of the City Hall as the background. This is fashion conquering public space.",
+            "description": "At this point in Ponent, we revisit one of the most powerful images from the 2019 editorial. The entire building becomes an international fashion stage that reached the publications of New York. An iconic image for a unique setting.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
