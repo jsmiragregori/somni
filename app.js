@@ -173,7 +173,7 @@ function renderApp() {
             <section id="manifesto" class="py-32 lg:py-48 px-6 border-t border-white/5">
                 <div class="max-w-4xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-24 items-start">
                     <div class="lg:w-1/3 fade-in">
-                        <span class="font-mono text-xs text-accent tracking-widest uppercase mb-4 block">${t.manifesto.label}</span>
+                        <span class="font-mono ${getDynamicText('label')} text-accent tracking-widest uppercase mb-4 block">${t.manifesto.label}</span>
                         <h2 class="font-display text-4xl lg:text-5xl uppercase tracking-tighter text-white">${t.manifesto.title}</h2>
                     </div>
                     <div class="lg:w-2/3 fade-in">
@@ -193,7 +193,7 @@ function renderApp() {
                         <img src="https://images.unsplash.com/photo-1554046920-90dc5f3ac8ed?q=80&w=1200" alt="${t.author.name}" class="w-full h-full object-cover filter grayscale">
                     </div>
                     <div class="w-full md:w-1/2 fade-in">
-                        <span class="font-mono text-xs text-accent uppercase tracking-widest mb-4 block">${t.author.title}</span>
+                        <span class="font-mono ${getDynamicText('label')} text-accent uppercase tracking-widest mb-4 block">${t.author.title}</span>
                         <h2 class="font-display text-5xl lg:text-7xl uppercase mb-8 text-bg">${t.author.name}</h2>
                         <p class="${getDynamicText('lead')} font-light leading-relaxed text-bg/70">${t.author.bio}</p>
                     </div>
@@ -203,7 +203,7 @@ function renderApp() {
             <!-- Contact -->
             <section id="contact" class="py-32 px-6 text-center border-t border-white/5 text-white">
                 <div class="max-w-2xl mx-auto fade-in">
-                    <span class="font-mono text-xs text-accent uppercase tracking-widest mb-4 block">${t.contact.label}</span>
+                    <span class="font-mono ${getDynamicText('label')} text-accent uppercase tracking-widest mb-4 block">${t.contact.label}</span>
                     <h2 class="font-display text-5xl lg:text-7xl uppercase mb-8 text-white">${t.contact.title}</h2>
                     <p class="text-white/70 mb-12 ${getDynamicText('lead')}">${t.contact.description}</p>
                     <a href="mailto:hello@maisse.art" aria-label="${t.contact.aria_button}" class="inline-block px-12 py-5 border border-white/20 font-display uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-500 rounded-full">${t.contact.button}</a>
