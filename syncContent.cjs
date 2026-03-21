@@ -145,6 +145,16 @@ galleryFolders.forEach(galleryFolder => {
         const roomDef = data[lang].rooms.find(r => r.id === roomId);
         if (roomDef) {
             roomDef.photos = newPhotos[lang];
+            
+            // --- ACTUALIZACIÓN DE DESCRIPCIÓN DE LA SALA ---
+            const roomDescFile1 = path.join(galleryPath, `desc_room_${lang}.txt`);
+            const roomDescFile2 = path.join(galleryPath, `desc_${lang}.txt`);
+            
+            if (fs.existsSync(roomDescFile1)) {
+                roomDef.description = fs.readFileSync(roomDescFile1, 'utf8').trim();
+            } else if (fs.existsSync(roomDescFile2)) {
+                roomDef.description = fs.readFileSync(roomDescFile2, 'utf8').trim();
+            }
         }
     }
     updatedCount++;
