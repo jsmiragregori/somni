@@ -17,11 +17,14 @@ Dentro de cada galería (`urban-1_El_Castell`), creas una subcarpeta para cada f
 
 ```text
 urban-1_El_Castell/
+├── desc_room_es.txt               (OPCIONAL: Descripción general de la SALA en Castellano)
+├── desc_room_ca.txt               (OPCIONAL: Descripción general de la SALA en Valenciano)
+├── desc_room_en.txt               (OPCIONAL: Descripción general de la SALA en Inglés)
 ├── 01_Fachada_Principal/          <-- Al ser "01_", se mostrará grande (Obra Destacada)
 │   ├── mi_foto.jpg                (La imagen, da igual el nombre)
-│   ├── desc_es.txt                (Descripción en Castellano)
-│   ├── desc_ca.txt                (Descripción en Valenciano)
-│   ├── desc_en.txt                (Descripción en Inglés)
+│   ├── desc_es.txt                (Descripción del CUADRO/FOTO en Castellano)
+│   ├── desc_ca.txt                (Descripción del CUADRO/FOTO en Valenciano)
+│   ├── desc_en.txt                (Descripción del CUADRO/FOTO en Inglés)
 │   ├── audio_es.mp3               (Audio en Castellano)
 │   ├── audio_ca.mp3               (Audio en Valenciano)
 │   ├── audio_en.mp3               (Audio en Inglés)
@@ -31,8 +34,9 @@ urban-1_El_Castell/
 ```
 
 ### Reglas simplificadas de archivos:
-1. **Imagen y Posición:** Pon los archivos en sus carpetas numeradas. La posición y si es "Destacada" lo define si está en la número 1.
-2. **Textos y títulos:** Ya **NO necesitas** proveer un título. El script general el título automáticamente como "Obra 01", "Obra 02" (o "Artwork 01" en inglés). Sólo tienes que generar los textos de descripción (`desc_*/txt`).
+1. **Introducción de la Sala Completa (NOVEDAD):** Para el texto que presenta toda la sala, guarda en la *raíz* de la galería los archivos `desc_room_es.txt`, `desc_room_ca.txt` y `desc_room_en.txt`. Su texto se convertirá en la introducción general de ese espacio de arte completo. **Nota:** Fíjate que a estos archivos se les añade "room_" al nombre para que no se confundan con los de las fotos.
+2. **Imagen y Posición:** Pon los archivos en sus carpetas numeradas. La posición y si es "Destacada" lo define si está en la número 1.
+3. **Textos y títulos de las Fotos:** Dentro de cada carpeta, pon su texto asociado (que deberá llamarse `desc_es.txt`, `desc_ca.txt` y `desc_en.txt`). Ya **NO necesitas** proveer un título. El script genera el título automáticamente como "Obra 01", "Obra 02" (o "Artwork 01" en inglés).
 3. **Faltan cosas:** Si a una carpeta le falta un audio o una imagen, no pasa nada, el script la insertará usando versiones en caída libre (fallback) para que no crashee la web.
 
 ## 4. Ejecutar la Sincronización
