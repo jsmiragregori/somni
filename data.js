@@ -16,7 +16,8 @@ window.translations = {
     "hero": {
       "title": "Benidorm,<br>Somni Vertical",
       "subtitle": "Una exploración fotográfica de la suspensión temporal",
-      "scroll": "Desliza para Adentrarte"
+      "scroll": "Desliza para Adentrarte",
+      "image": "/img/hero_image.jpg"
     },
     "manifesto": {
       "title": "La exposición",
@@ -1164,7 +1165,8 @@ window.translations = {
     "hero": {
       "title": "Benidorm,<br>Somni Vertical",
       "subtitle": "Una exploració fotogràfica de la suspensió temporal",
-      "scroll": "Desplaça per Endinsar-te"
+      "scroll": "Desplaça per Endinsar-te",
+      "image": "/img/hero_image.jpg"
     },
     "manifesto": {
       "title": "L'exposició",
@@ -2312,7 +2314,8 @@ window.translations = {
     "hero": {
       "title": "Benidorm,<br>Somni Vertical",
       "subtitle": "A photographic exploration of temporal suspension",
-      "scroll": "Scroll to Immerse"
+      "scroll": "Scroll to Immerse",
+      "image": "/img/hero_image.jpg"
     },
     "manifesto": {
       "title": "The exposition",
