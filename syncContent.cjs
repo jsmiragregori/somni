@@ -160,6 +160,35 @@ galleryFolders.forEach(galleryFolder => {
     updatedCount++;
 });
 
+// --- TEXTOS GENERALES ---
+const generalTextsDir = path.join(CONTENT_DIR, '00_Textos_Generales');
+if (fs.existsSync(generalTextsDir) && fs.statSync(generalTextsDir).isDirectory()) {
+    console.log(`\nProcesando textos generales...`);
+    let updatedTextsCount = 0;
+    
+    for (const lang of ['es', 'ca', 'en']) {
+        const checkAndSet = (filename, targetObj, targetProp) => {
+            const filePath = path.join(generalTextsDir, filename);
+            if (fs.existsSync(filePath)) {
+                targetObj[targetProp] = fs.readFileSync(filePath, 'utf8').trim();
+                updatedTextsCount++;
+            }
+        };
+
+        checkAndSet(`manifesto_title_${lang}.txt`, data[lang].manifesto, 'title');
+        checkAndSet(`manifesto_${lang}.txt`, data[lang].manifesto, 'text');
+        checkAndSet(`pausa1_${lang}.txt`, data[lang].pauses, 'pause1');
+        checkAndSet(`pausa2_${lang}.txt`, data[lang].pauses, 'pause2');
+        checkAndSet(`bio_${lang}.txt`, data[lang].contact, 'bio');
+    }
+    
+    if (updatedTextsCount > 0) {
+        console.log(`  └─ Actualizados ${updatedTextsCount} textos generales en data.js.`);
+    } else {
+        console.log(`  └─ No se encontraron nuevos archivos de texto general para actualizar.`);
+    }
+}
+
 const newContent = `window.translations = ${JSON.stringify(data, null, 2)};\n`;
 fs.writeFileSync(DATA_FILE, newContent, 'utf8');
 
