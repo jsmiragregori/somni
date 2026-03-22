@@ -19,8 +19,8 @@ window.translations = {
       "scroll": "Desliza para Adentrarte"
     },
     "manifesto": {
-      "title": "El Instante Suspendido",
-      "text": "Vivimos en la tiranía de la inmediatez. Esta exposición es un acto de rebeldía: una invitación a detenernos. A través de la lente, transformamos lo efímero en eterno, buscando el núcleo emocional puro en el caos de la vida moderna. Respira. Estás a punto de adentrarte en el instante suspendido.",
+      "title": "La exposición",
+      "text": "¡Hola! Soy Maria José Lozano. Para mí, Benidorm no es solo una ciudad de rascacielos; es mi casa y el lugar donde he aprendido a mirar el cielo con fascinación. Soy docente y una mente inquieta, y la fotografía es mi lenguaje para celebrar la vida. Lo que empezó como una pasión me ha llevado a ganar un Premio Sony World Photography y a ver mis imágenes en revistas de Nueva York, pero mi mayor ilusión es compartir hoy esta mirada contigo. Te invito a buscar los códigos QR que encontrarás en la esquina de cada mupi; si los escaneas con el móvil, te contaré personalmente el 'secreto' y la historia que se esconde detrás de cada instantánea. Déjate llevar por la curiosidad y atrévete a soñar en vertical. ¿Empezamos?",
       "label": "Manifiesto"
     },
     "pauses": {
@@ -33,7 +33,7 @@ window.translations = {
         "id": "urban-1",
         "title": "El Castell",
         "subtitle": "Intervención en la ciudad",
-        "description": "Descripción del espacio de arte \"El Castell\"",
+        "description": "Bienvenidas y bienvenidos al corazón de Benidorm. Aquí, en el Castell, la piedra blanca y el azul infinito se abrazan en un silencio lleno de tradición. Os esperamos con cuatro grandes horizontes donde el mar se fusiona con el estilo más puro e íntimo. Sentid la brisa y dejad que estas miradas os cuenten nuestra historia. Al terminar, podéis bajar hacia la frescura auténtica de El Campo o dejaros deslumbrar por la luz de la Hispanidad.",
         "photos": [
           {
             "id": "urban-1-photo-1",
@@ -81,7 +81,7 @@ window.translations = {
         "id": "urban-2",
         "title": "Hispanitat",
         "subtitle": "Intervención en la ciudad",
-        "description": "Descripción del espacio de arte \"Hispanitat\"",
+        "description": "En este punto descubriremos la magia nocturna: desde las luces circulares hasta la silueta del Madeira. Fijaos dónde está tomada cada foto, que os encontráis muy cerca. Y cuando acabéis, continúa el paseo hacia El Pont; la moda te espera justo encima de tu cabeza.",
         "photos": [
           {
             "id": "urban-2-photo-1",
@@ -1166,8 +1166,8 @@ window.translations = {
       "scroll": "Desplaça per Endinsar-te"
     },
     "manifesto": {
-      "title": "L'Instant Suspés",
-      "text": "Vivim en la tirania de la immediatesa. Aquesta exposició és un acte de rebel·lia: una invitació a detindre'ns. A través de la lent, transformem l'efímer en etern, buscant el nucli emocional pur en el caos de la vida moderna. Respira. Estàs a punt d'endinsar-te en l'instant suspés.",
+      "title": "L'exposició",
+      "text": "Hola! Sóc Maria José Lozano. Per a mi, Benidorm no és només una ciutat de gratacels; és casa meua i el lloc on he après a mirar el cel amb fascinació. Soc docent i una ment inquieta, i la fotografia és el meu llenguatge per a celebrar la vida. El que va començar com una passió m'ha portat a guanyar un Premi Sony World Photography i a veure les meues imatges en revistes de Nova York, però la meua major il·lusió és compartir avui aquesta mirada amb tu. T'invite a buscar els codis QR que trobaràs en el cantó de cada mupi; si els escanejes amb el mòbil, t'explicaré personalment el 'secret' i la història que s'amaga darrere de cada instantània. Deixa't portar per la curiositat i atreveix-te a somiar en vertical. Comencem?",
       "label": "Manifest"
     },
     "pauses": {
@@ -1180,7 +1180,7 @@ window.translations = {
         "id": "urban-1",
         "title": "El Castell",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Descripció de l'espai d'art \"El Castell\"",
+        "description": "Benvingudes i benvinguts al cor de Benidorm. Ací, al Castell, la pedra blanca i el blau infinit s’abracen en un silenci ple de tradició. Us esperem amb quatre grans horitzons on la mar es fusiona amb l'estil més pur i íntim. Sentiu la brisa i deixeu que aquestes mirades us conten la nostra història. En acabar, podeu baixar cap a la frescor autèntica d’El Campo o deixar-vos enlluernar per la llum de la Hispanitat.",
         "photos": [
           {
             "id": "urban-1-photo-1",
@@ -1228,7 +1228,7 @@ window.translations = {
         "id": "urban-2",
         "title": "Hispanitat",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Descripció de l'espai d'art \"Hispanitat\"",
+        "description": "Prepareu-vos per a sentir la vibració de la ciutat sota les estrelles. En aquest punt, la màgia nocturna pren el control: des del ball de llums circulars fins a l'elegant silueta de l'edifici Madeira retallant el cel. Observeu al vostre voltant; sou exactament on va nàixer cada imatge. I en acabar, seguiu el camí cap a El Pont... alceu la mirada, perquè la moda us espera suspesa just sobre els vostres caps. La nit tot just comença!",
         "photos": [
           {
             "id": "urban-2-photo-1",
@@ -1266,7 +1266,7 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Ací, a  l’espai d’art El Pont, veuràs com vam transformar el carrer Emilio Ortuño en el silenci de 2020. Va ser amb l’editorial ‘Benidorm Horitzontal’ amb la que vam  recórrer moltes localitzacions amb diferents outfits. Ací pots veure dos diferents. Quan acabes, segueix cap a Carrascos per a més geometria, o torna a la Hispanitat per a repetir el camí.\"",
+        "description": "Ací, a  l’espai d’art El Pont, veuràs com vam transformar el carrer Emilio Ortuño en el silenci de 2020. Va ser amb l’editorial ‘Benidorm Horitzontal’ amb la que vam  recórrer moltes localitzacions amb diferents outfits. Ací pots veure dos diferents. Quan acabes, segueix cap a Carrascos per a més geometria, o torna a la Hispanitat per a repetir el camí.",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -2313,8 +2313,8 @@ window.translations = {
       "scroll": "Scroll to Immerse"
     },
     "manifesto": {
-      "title": "The Suspended Instant",
-      "text": "We live in the tyranny of immediacy. This exhibition is an act of rebellion: an invitation to stop. Through the lens, we transform the ephemeral into the eternal, seeking the pure emotional core in the chaos of modern life. Breathe. You are about to enter the suspended instant.",
+      "title": "The exposition",
+      "text": "Hello! I am Maria José Lozano. To me, Benidorm is not just a city of skyscrapers; it is my home and the place where I learned to look at the sky with fascination. I am a teacher and a restless mind, and photography is my language to celebrate life. What began as a passion led me to win a Sony World Photography Award and to see my images in New York magazines, but my greatest joy is sharing this vision with you today. I invite you to look for the QR codes in the corner of each display; if you scan them with your phone, I will personally tell you the 'secret' and the story behind each snapshot. Let curiosity guide you and dare to dream vertically. Shall we begin?",
       "label": "Manifesto"
     },
     "pauses": {
@@ -2327,7 +2327,7 @@ window.translations = {
         "id": "urban-1",
         "title": "El Castell",
         "subtitle": "City intervention",
-        "description": "Description of the art space \"El Castell\"",
+        "description": "Welcome to the heart of Benidorm. Here, at the Castell, white stone and infinite blue embrace in a silence steeped in tradition. We await you all with four vast horizons where the sea merges with the purest and most intimate style. Feel the breeze and let these perspectives tell you our story. When you are finished, you can walk down to the authentic freshness of El Campo or let yourselves be dazzled by the light of Hispanitat.\"",
         "photos": [
           {
             "id": "urban-1-photo-1",
@@ -2375,7 +2375,7 @@ window.translations = {
         "id": "urban-2",
         "title": "Hispanitat",
         "subtitle": "City intervention",
-        "description": "Description of the art space \"Hispanitat\"",
+        "description": "At this point, we discover the magic of the night: from the circular lights to the silhouette of the Madeira. Notice where each photo was taken, as you are standing very close by. And when you finished, continue your walk towards El Pont; fashion awaits you right above your head.",
         "photos": [
           {
             "id": "urban-2-photo-1",
