@@ -180,6 +180,7 @@ if (fs.existsSync(generalTextsDir) && fs.statSync(generalTextsDir).isDirectory()
         checkAndSet(`pausa1_${lang}.txt`, data[lang].pauses, 'pause1');
         checkAndSet(`pausa2_${lang}.txt`, data[lang].pauses, 'pause2');
         checkAndSet(`bio_${lang}.txt`, data[lang].author, 'bio');
+        checkAndSet(`hero_subtitle_${lang}.txt`, data[lang].hero, 'subtitle');
     }
 
     // Ingest Author Bio Image if exists

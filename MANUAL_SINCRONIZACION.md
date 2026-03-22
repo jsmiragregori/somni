@@ -17,6 +17,7 @@ Para cambiar textos fijos como el Manifiesto, los momentos de reflexión o la bi
 Los archivos que acepta esta carpeta son (reemplazar `_es` por `_ca` o `_en` según idioma):
 - `manifesto_title_es.txt`: Título del manifiesto ("El instante suspendido")
 - `manifesto_es.txt`: Texto principal del manifiesto.
+- `hero_subtitle_es.txt`: Lema o subtítulo debajo del gran título inicial.
 - `pausa1_es.txt`: Primer momento de reflexión ("Observa el vacío...").
 - `pausa2_es.txt`: Segundo momento de reflexión ("La naturaleza no se apresura...").
 - `bio_es.txt`: Texto de perfil de la autora ("Soy Maria José Lozano...").
