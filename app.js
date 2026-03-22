@@ -179,13 +179,13 @@ function renderApp() {
             </section>
 
             <!-- Manifesto -->
-            <section id="manifesto" class="py-32 lg:py-48 px-6 border-t border-white/5">
-                <div class="max-w-4xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-24 items-start">
-                    <div class="lg:w-1/3 fade-in">
+            <section id="manifesto" class="py-24 lg:pt-48 lg:pb-12 px-6 border-t border-white/5">
+                <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
+                    <div class="lg:w-1/4 fade-in">
                         <span class="font-mono ${getDynamicText('label')} text-accent tracking-widest uppercase mb-4 block">${t.manifesto.label}</span>
                         <h2 class="font-display text-4xl lg:text-5xl uppercase tracking-tighter text-white">${t.manifesto.title}</h2>
                     </div>
-                    <div class="lg:w-2/3 fade-in">
+                    <div class="lg:w-3/4 fade-in">
                         <p class="${getDynamicText('manifesto')} font-light leading-relaxed text-white/80">${t.manifesto.text}</p>
                     </div>
                 </div>
