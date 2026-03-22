@@ -34,7 +34,7 @@ window.translations = {
         "id": "urban-1",
         "title": "El Castell",
         "subtitle": "Intervención en la ciudad",
-        "description": "Bienvenidas y bienvenidos al corazón de Benidorm. Aquí, en el Castell, la piedra blanca y el azul infinito se abrazan en un silencio lleno de tradición. Os esperamos con cuatro grandes horizontes donde el mar se fusiona con el estilo más puro e íntimo. Sentid la brisa y dejad que estas miradas os cuenten nuestra historia. Al terminar, podéis bajar hacia la frescura auténtica de El Campo o dejaros deslumbrar por la luz de la Hispanidad.",
+        "description": "Bienvenidas y bienvenidos al corazón de Benidorm. Aquí, en el Castell, la piedra blanca y el azul infinito se abrazan en un silencio lleno de tradición. Os esperamos con cuatro grandes horizontes donde el mar se fusiona con el estilo más puro e íntimo. Sentid la brisa y dejad que estas miradas os cuenten nuestra historia. Al terminar, podéis bajar hacia la frescura auténtica de El Campo o dejaros deslumbrar por la luz del Espacio de Arte de la Hispanidad.",
         "photos": [
           {
             "id": "urban-1-photo-1",
@@ -82,7 +82,7 @@ window.translations = {
         "id": "urban-2",
         "title": "Hispanitat",
         "subtitle": "Intervención en la ciudad",
-        "description": "En este punto descubriremos la magia nocturna: desde las luces circulares hasta la silueta del Madeira. Fijaos dónde está tomada cada foto, que os encontráis muy cerca. Y cuando acabéis, continúa el paseo hacia El Pont; la moda te espera justo encima de tu cabeza.",
+        "description": "En este punto descubriremos la magia nocturna: desde las luces circulares hasta la silueta del Hotel Madeira. Fijaos dónde está tomada cada foto, que os encontráis muy cerca. Y cuando acabéis, continúa el paseo hacia el Espacio de Arte El Pont; la moda te espera justo encima de tu cabeza. La noche comienza!",
         "photos": [
           {
             "id": "urban-2-photo-1",
@@ -120,7 +120,7 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "Intervención en la ciudad",
-        "description": "Aquí, en el Espacio de Arte El Pont, verás cómo transformamos la calle Emilio Ortuño en el silencio de 2020. Fue con la editorial ‘Benidorm Horizontal’ cuando recorrimos muchas localizaciones con diferentes outfits. Aquí puedes ver dos diferentes. Cuando acabes, sigue hacia Carrascos para más geometría, o vuelve a la Hispanidad para repetir el camino.",
+        "description": "Aquí, verás cómo transformamos la calle Emilio Ortuño en el silencio de 2020. Fue con la editorial ‘Benidorm Horizontal’ cuando recorrimos muchas localizaciones con diferentes outfits. Aquí puedes ver dos diferentes. Cuando acabes, sigue hacia Carrascos para más geometría, o vuelve a la Hispanidad para repetir el camino.",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -236,7 +236,7 @@ window.translations = {
         "id": "urban-5",
         "title": "Els Carrascos",
         "subtitle": "Intervención en la ciudad",
-        "description": "En Carrascos, la arquitectura y la moda se alían para sorprenderos. En este punto, donde el Parc de l’Aigüera y el Ayuntamiento se tocan, la ciudad se vuelve geometría pura. Fijaos bien: en cada mupi tenéis un doble regalo; la fuerza de una imagen de cuerpo entero y la magia de un detalle que nos habla de cerca. Disfrutad de este diálogo visual y, al terminar, elegid vuestra próxima aventura: la modernidad de Els Tolls o la frescura de El Campo. ¡Vamos allá!",
+        "description": "Aquí, la arquitectura y la moda se alían para sorprenderos. En este punto, donde el Parc de l’Aigüera y el Ayuntamiento se tocan, la ciudad se vuelve geometría pura. Fijaos bien: en cada mupi tenéis un doble regalo; la fuerza de una imagen de cuerpo entero y la magia de un detalle que nos habla de cerca. Disfrutad de este diálogo visual y, al terminar, elegid vuestra próxima aventura: la modernidad de Els Tolls o la frescura de El Campo. ¡Vamos allá!",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -671,16 +671,6 @@ window.translations = {
             "year": "2019",
             "isMasterpiece": true,
             "audioUrl": null
-          },
-          {
-            "id": "indoor-1-photo-2",
-            "url": "./img/indoor-1_photo_2.jpg",
-            "orientation": "landscape",
-            "title": "Obra 02",
-            "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
-            "year": "2019",
-            "isMasterpiece": false,
-            "audioUrl": null
           }
         ]
       },
@@ -693,7 +683,7 @@ window.translations = {
           {
             "id": "indoor-2-photo-1",
             "url": "./img/indoor-2_photo_1.jpg",
-            "orientation": "landscape",
+            "orientation": "portrait",
             "title": "Obra 01",
             "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
             "year": "2019",
@@ -709,6 +699,16 @@ window.translations = {
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
+          },
+          {
+            "id": "indoor-2-photo-3",
+            "url": "./img/indoor-2_photo_3.jpg",
+            "orientation": "portrait",
+            "title": "Obra 03",
+            "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
+            "year": "2019",
+            "isMasterpiece": false,
+            "audioUrl": null
           }
         ]
       },
@@ -716,97 +716,27 @@ window.translations = {
         "id": "indoor-3",
         "title": "La Casilla - Sala 3",
         "subtitle": "Exposición Interior",
-        "description": "Descripción del espacio de arte \"La Casilla - Sala 3\"",
+        "description": "Bienvenidas y bienvenidos al corazón de Benidorm. Aquí, en el Castell, la piedra blanca y el azul infinito se abrazan en un silencio lleno de tradición. Os esperamos con cuatro grandes horizontes donde el mar se fusiona con el estilo más puro e íntimo. Sentid la brisa y dejad que estas miradas os cuenten nuestra historia. Al terminar, podéis bajar hacia la frescura auténtica de El Campo o dejaros deslumbrar por la luz de la Hispanidad.",
         "photos": [
           {
             "id": "indoor-3-photo-1",
-            "url": "https://picsum.photos/seed/indoor-3-photo-1/800/600",
-            "title": "Obra indoor-3-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-1-es.mp3"
+            "url": "./img/indoor-3_photo_1.jpg",
+            "orientation": "landscape",
+            "title": "Obra 01",
+            "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
+            "year": "2019",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "indoor-3-photo-2",
-            "url": "https://picsum.photos/seed/indoor-3-photo-2/800/600",
-            "title": "Obra indoor-3-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/indoor-3_photo_2.jpg",
+            "orientation": "landscape",
+            "title": "Obra 02",
+            "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
+            "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-2-es.mp3"
-          },
-          {
-            "id": "indoor-3-photo-3",
-            "url": "https://picsum.photos/seed/indoor-3-photo-3/800/600",
-            "title": "Obra indoor-3-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-3-es.mp3"
-          },
-          {
-            "id": "indoor-3-photo-4",
-            "url": "https://picsum.photos/seed/indoor-3-photo-4/800/600",
-            "title": "Obra indoor-3-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-4-es.mp3"
-          },
-          {
-            "id": "indoor-3-photo-5",
-            "url": "https://picsum.photos/seed/indoor-3-photo-5/800/600",
-            "title": "Obra indoor-3-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-3-photo-5-es.mp3"
-          },
-          {
-            "id": "indoor-3-photo-6",
-            "url": "https://picsum.photos/seed/indoor-3-photo-6/800/600",
-            "title": "Obra indoor-3-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-6-es.mp3"
-          },
-          {
-            "id": "indoor-3-photo-7",
-            "url": "https://picsum.photos/seed/indoor-3-photo-7/800/600",
-            "title": "Obra indoor-3-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-7-es.mp3"
-          },
-          {
-            "id": "indoor-3-photo-8",
-            "url": "https://picsum.photos/seed/indoor-3-photo-8/800/600",
-            "title": "Obra indoor-3-photo-8",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-8-es.mp3"
-          },
-          {
-            "id": "indoor-3-photo-9",
-            "url": "https://picsum.photos/seed/indoor-3-photo-9/800/600",
-            "title": "Obra indoor-3-photo-9",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-9-es.mp3"
-          },
-          {
-            "id": "indoor-3-photo-10",
-            "url": "https://picsum.photos/seed/indoor-3-photo-10/800/600",
-            "title": "Obra indoor-3-photo-10",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-3-photo-10-es.mp3"
+            "audioUrl": null
           }
         ]
       },
@@ -814,142 +744,27 @@ window.translations = {
         "id": "indoor-4",
         "title": "La Casilla - Sala 4",
         "subtitle": "Exposición Interior",
-        "description": "Descripción del espacio de arte \"La Casilla - Sala 4\"",
+        "description": "Bienvenidas y bienvenidos al corazón de Benidorm. Aquí, en el Castell, la piedra blanca y el azul infinito se abrazan en un silencio lleno de tradición. Os esperamos con cuatro grandes horizontes donde el mar se fusiona con el estilo más puro e íntimo. Sentid la brisa y dejad que estas miradas os cuenten nuestra historia. Al terminar, podéis bajar hacia la frescura auténtica de El Campo o dejaros deslumbrar por la luz de la Hispanidad.",
         "photos": [
           {
             "id": "indoor-4-photo-1",
-            "url": "https://picsum.photos/seed/indoor-4-photo-1/800/600",
-            "title": "Obra indoor-4-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-1-es.mp3"
+            "url": "./img/indoor-4_photo_1.jpg",
+            "orientation": "portrait",
+            "title": "Obra 01",
+            "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
+            "year": "2019",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "indoor-4-photo-2",
-            "url": "https://picsum.photos/seed/indoor-4-photo-2/800/600",
-            "title": "Obra indoor-4-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
+            "url": "./img/indoor-4_photo_2.jpg",
+            "orientation": "portrait",
+            "title": "Obra 02",
+            "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
+            "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-2-es.mp3"
-          },
-          {
-            "id": "indoor-4-photo-3",
-            "url": "https://picsum.photos/seed/indoor-4-photo-3/800/600",
-            "title": "Obra indoor-4-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-3-es.mp3"
-          },
-          {
-            "id": "indoor-4-photo-4",
-            "url": "https://picsum.photos/seed/indoor-4-photo-4/800/600",
-            "title": "Obra indoor-4-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-4-es.mp3"
-          },
-          {
-            "id": "indoor-4-photo-5",
-            "url": "https://picsum.photos/seed/indoor-4-photo-5/800/600",
-            "title": "Obra indoor-4-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-4-photo-5-es.mp3"
-          },
-          {
-            "id": "indoor-4-photo-6",
-            "url": "https://picsum.photos/seed/indoor-4-photo-6/800/600",
-            "title": "Obra indoor-4-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-6-es.mp3"
-          },
-          {
-            "id": "indoor-4-photo-7",
-            "url": "https://picsum.photos/seed/indoor-4-photo-7/800/600",
-            "title": "Obra indoor-4-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-7-es.mp3"
-          },
-          {
-            "id": "indoor-4-photo-8",
-            "url": "https://picsum.photos/seed/indoor-4-photo-8/800/600",
-            "title": "Obra indoor-4-photo-8",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-8-es.mp3"
-          },
-          {
-            "id": "indoor-4-photo-9",
-            "url": "https://picsum.photos/seed/indoor-4-photo-9/800/600",
-            "title": "Obra indoor-4-photo-9",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-9-es.mp3"
-          },
-          {
-            "id": "indoor-4-photo-10",
-            "url": "https://picsum.photos/seed/indoor-4-photo-10/800/600",
-            "title": "Obra indoor-4-photo-10",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-4-photo-10-es.mp3"
-          },
-          {
-            "id": "indoor-4-photo-11",
-            "url": "https://picsum.photos/seed/indoor-4-photo-11/800/600",
-            "title": "Obra indoor-4-photo-11",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-11-es.mp3"
-          },
-          {
-            "id": "indoor-4-photo-12",
-            "url": "https://picsum.photos/seed/indoor-4-photo-12/800/600",
-            "title": "Obra indoor-4-photo-12",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-12-es.mp3"
-          },
-          {
-            "id": "indoor-4-photo-13",
-            "url": "https://picsum.photos/seed/indoor-4-photo-13/800/600",
-            "title": "Obra indoor-4-photo-13",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-13-es.mp3"
-          },
-          {
-            "id": "indoor-4-photo-14",
-            "url": "https://picsum.photos/seed/indoor-4-photo-14/800/600",
-            "title": "Obra indoor-4-photo-14",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-14-es.mp3"
-          },
-          {
-            "id": "indoor-4-photo-15",
-            "url": "https://picsum.photos/seed/indoor-4-photo-15/800/600",
-            "title": "Obra indoor-4-photo-15",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore y dolor.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-4-photo-15-es.mp3"
+            "audioUrl": null
           }
         ]
       }
@@ -994,7 +809,7 @@ window.translations = {
     },
     "manifesto": {
       "title": "L'exposició",
-      "text": "Sóc Maria José Lozano. Per a mi, Benidorm no és només una ciutat de gratacels; és casa meua i el lloc on he après a mirar el cel amb fascinació. Soc docent i una ment inquieta, i la fotografia és el meu llenguatge per a celebrar la vida. El que va començar com una passió m'ha portat a guanyar un Premi Sony World Photography i a veure les meues imatges en revistes de Nova York, però la meua major il·lusió és compartir avui aquesta mirada amb tu. El convide a buscar els codis QR que trobaràs en el cantó de cada mupi; si els escanejes amb el mòbil, t'explicaré personalment el 'secret' i la història que s'amaga darrere de cada instantània. Deixa't portar per la curiositat i atreveix-te a somiar en vertical. Comencem?",
+      "text": "Sóc Maria José Lozano. Per a mi, Benidorm no és només una ciutat de gratacels; és ma casa i el lloc on he après a mirar el cel amb fascinació. Soc docent i una ment inquieta, i la fotografia és el meu llenguatge per a celebrar la vida. El que va començar com una passió m'ha portat a guanyar un Premi Sony World Photography i a veure les meues imatges en revistes de Nova York, però la meua major il·lusió és compartir avui aquesta mirada amb tu. El convide a buscar els codis QR que trobaràs en el cantó de cada mupi; si els escaneges amb el mòbil, t'explicaré personalment el 'secret' i la història que s'amaga darrere de cada instantània. Deixa't portar per la curiositat i atreveix-te a somiar en vertical. Comencem?",
       "label": "Manifest"
     },
     "pauses": {
@@ -1007,7 +822,7 @@ window.translations = {
         "id": "urban-1",
         "title": "El Castell",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Benvingudes i benvinguts al cor de Benidorm. Ací, al Castell, la pedra blanca i el blau infinit s’abracen en un silenci ple de tradició. Us esperem amb quatre grans horitzons on la mar es fusiona amb l'estil més pur i íntim. Sentiu la brisa i deixeu que aquestes mirades us conten la nostra història. En acabar, podeu baixar cap a la frescor autèntica d’El Campo o deixar-vos enlluernar per la llum de la Hispanitat.",
+        "description": "Benvingudes i benvinguts al cor de Benidorm. Ací, al Castell, la pedra blanca i el blau infinit s’abracen en un silenci ple de tradició. Vos esperem amb quatre grans horitzons on la mar es fusiona amb l'estil més pur i íntim. Sentiu la brisa i deixeu que aquestes mirades us conten la nostra història. En acabar, podeu baixar cap a la frescor autèntica d’El Campo o deixar-vos enlluernar per la llum de l'Espai d'Art de la Hispanitat.",
         "photos": [
           {
             "id": "urban-1-photo-1",
@@ -1055,7 +870,7 @@ window.translations = {
         "id": "urban-2",
         "title": "Hispanitat",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Prepareu-vos per a sentir la vibració de la ciutat sota les estrelles. En aquest punt, la màgia nocturna pren el control: des del ball de llums circulars fins a l'elegant silueta de l'edifici Madeira retallant el cel. Observeu al vostre voltant; sou exactament on va nàixer cada imatge. I en acabar, seguiu el camí cap a El Pont... alceu la mirada, perquè la moda us espera suspesa just sobre els vostres caps. La nit tot just comença!",
+        "description": "Prepareu-vos per a sentir la vibració de la ciutat sota els estels. En aquest punt, la màgia nocturna pren el control: des del ball de llums circulars fins a l'elegant silueta de l'Hotel Madeira retallant el cel. Observeu al vostre voltant; sou exactament on va nàixer cada imatge. I en acabar, seguiu el camí cap a l'Espai d'Art El Pont... alceu la mirada, perquè la moda vos espera suspesa just sobre els vostres caps. La nit tot just comença!",
         "photos": [
           {
             "id": "urban-2-photo-1",
@@ -1093,7 +908,7 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Ací, a  l’espai d’art El Pont, veuràs com vam transformar el carrer Emilio Ortuño en el silenci de 2020. Va ser amb l’editorial ‘Benidorm Horitzontal’ amb la que vam  recórrer moltes localitzacions amb diferents outfits. Ací pots veure dos diferents. Quan acabes, segueix cap a Carrascos per a més geometria, o torna a la Hispanitat per a repetir el camí.",
+        "description": "Ací, veuràs com vam transformar el carrer Emilio Ortuño en el silenci de 2020. Va ser amb l’editorial ‘Benidorm Horitzontal’ amb la que vam  recórrer moltes localitzacions amb diferents outfits. Ací pots veure dos de diferents. Quan acabes, segueix cap a Carrascos per a més geometria, o torna a la Hispanitat per a repetir el camí.",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -1209,7 +1024,7 @@ window.translations = {
         "id": "urban-5",
         "title": "Els Carrascos",
         "subtitle": "Intervenció a la ciutat",
-        "description": "A Carrascos, l’arquitectura i la moda s’alien per a sorprendre-vos. En aquest punt, on el Parc de l’Aigüera i l'Ajuntament es toquen, la ciutat es torna geometria pura. Fixeu-vos bé: a cada mupi teniu un doble regal; la força d'una imatge de cos sencer i la màgia d'un detall que ens parla de prop. Gaudiu d'aquest diàleg visual i, en acabar, trieu la vostra pròxima aventura: la modernitat dels Tolls o la frescor del Campo. Comencem!",
+        "description": "Ací, l’arquitectura i la moda s’alien per a sorprendre-vos. En aquest punt, on el Parc de l’Aigüera i l'Ajuntament es toquen, la ciutat es torna geometria pura. Fixeu-vos bé: a cada mupi teniu un doble regal; la força d'una imatge de cos sencer i la màgia d'un detall que ens parla de prop. Gaudiu d'aquest diàleg visual i, en acabar, trieu la vostra pròxima aventura: la modernitat dels Tolls o la frescor del Campo. Comencem!",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -1644,16 +1459,6 @@ window.translations = {
             "year": "2019",
             "isMasterpiece": true,
             "audioUrl": null
-          },
-          {
-            "id": "indoor-1-photo-2",
-            "url": "./img/indoor-1_photo_2.jpg",
-            "orientation": "landscape",
-            "title": "Obra 02",
-            "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial Benidorm Vertical, ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
-            "year": "2019",
-            "isMasterpiece": false,
-            "audioUrl": null
           }
         ]
       },
@@ -1666,7 +1471,7 @@ window.translations = {
           {
             "id": "indoor-2-photo-1",
             "url": "./img/indoor-2_photo_1.jpg",
-            "orientation": "landscape",
+            "orientation": "portrait",
             "title": "Obra 01",
             "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial Benidorm Vertical, ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
             "year": "2019",
@@ -1682,6 +1487,16 @@ window.translations = {
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
+          },
+          {
+            "id": "indoor-2-photo-3",
+            "url": "./img/indoor-2_photo_3.jpg",
+            "orientation": "portrait",
+            "title": "Obra 03",
+            "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial Benidorm Vertical, ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
+            "year": "2019",
+            "isMasterpiece": false,
+            "audioUrl": null
           }
         ]
       },
@@ -1689,97 +1504,27 @@ window.translations = {
         "id": "indoor-3",
         "title": "La Casilla - Sala 3",
         "subtitle": "Exposició Interior",
-        "description": "Descripció de l'espai d'art \"La Casilla - Sala 3\"",
+        "description": "Benvingudes i benvinguts al cor de Benidorm. Ací, al Castell, la pedra blanca i el blau infinit s’abracen en un silenci ple de tradició. Us esperem amb quatre grans horitzons on la mar es fusiona amb l'estil més pur i íntim. Sentiu la brisa i deixeu que aquestes mirades us conten la nostra història. En acabar, podeu baixar cap a la frescor autèntica d’El Campo o deixar-vos enlluernar per la llum de la Hispanitat.",
         "photos": [
           {
             "id": "indoor-3-photo-1",
-            "url": "https://picsum.photos/seed/indoor-3-photo-1/800/600",
-            "title": "Obra indoor-3-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-1-ca.mp3"
+            "url": "./img/indoor-3_photo_1.jpg",
+            "orientation": "landscape",
+            "title": "Obra 01",
+            "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial Benidorm Vertical, ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
+            "year": "2019",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "indoor-3-photo-2",
-            "url": "https://picsum.photos/seed/indoor-3-photo-2/800/600",
-            "title": "Obra indoor-3-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/indoor-3_photo_2.jpg",
+            "orientation": "landscape",
+            "title": "Obra 02",
+            "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial Benidorm Vertical, ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
+            "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-2-ca.mp3"
-          },
-          {
-            "id": "indoor-3-photo-3",
-            "url": "https://picsum.photos/seed/indoor-3-photo-3/800/600",
-            "title": "Obra indoor-3-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-3-ca.mp3"
-          },
-          {
-            "id": "indoor-3-photo-4",
-            "url": "https://picsum.photos/seed/indoor-3-photo-4/800/600",
-            "title": "Obra indoor-3-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-4-ca.mp3"
-          },
-          {
-            "id": "indoor-3-photo-5",
-            "url": "https://picsum.photos/seed/indoor-3-photo-5/800/600",
-            "title": "Obra indoor-3-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-3-photo-5-ca.mp3"
-          },
-          {
-            "id": "indoor-3-photo-6",
-            "url": "https://picsum.photos/seed/indoor-3-photo-6/800/600",
-            "title": "Obra indoor-3-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-6-ca.mp3"
-          },
-          {
-            "id": "indoor-3-photo-7",
-            "url": "https://picsum.photos/seed/indoor-3-photo-7/800/600",
-            "title": "Obra indoor-3-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-7-ca.mp3"
-          },
-          {
-            "id": "indoor-3-photo-8",
-            "url": "https://picsum.photos/seed/indoor-3-photo-8/800/600",
-            "title": "Obra indoor-3-photo-8",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-8-ca.mp3"
-          },
-          {
-            "id": "indoor-3-photo-9",
-            "url": "https://picsum.photos/seed/indoor-3-photo-9/800/600",
-            "title": "Obra indoor-3-photo-9",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-9-ca.mp3"
-          },
-          {
-            "id": "indoor-3-photo-10",
-            "url": "https://picsum.photos/seed/indoor-3-photo-10/800/600",
-            "title": "Obra indoor-3-photo-10",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-3-photo-10-ca.mp3"
+            "audioUrl": null
           }
         ]
       },
@@ -1787,142 +1532,27 @@ window.translations = {
         "id": "indoor-4",
         "title": "La Casilla - Sala 4",
         "subtitle": "Exposició Interior",
-        "description": "Descripció de l'espai d'art \"La Casilla - Sala 4\"",
+        "description": "Benvingudes i benvinguts al cor de Benidorm. Ací, al Castell, la pedra blanca i el blau infinit s’abracen en un silenci ple de tradició. Us esperem amb quatre grans horitzons on la mar es fusiona amb l'estil més pur i íntim. Sentiu la brisa i deixeu que aquestes mirades us conten la nostra història. En acabar, podeu baixar cap a la frescor autèntica d’El Campo o deixar-vos enlluernar per la llum de la Hispanitat.",
         "photos": [
           {
             "id": "indoor-4-photo-1",
-            "url": "https://picsum.photos/seed/indoor-4-photo-1/800/600",
-            "title": "Obra indoor-4-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-1-ca.mp3"
+            "url": "./img/indoor-4_photo_1.jpg",
+            "orientation": "portrait",
+            "title": "Obra 01",
+            "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial Benidorm Vertical, ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
+            "year": "2019",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "indoor-4-photo-2",
-            "url": "https://picsum.photos/seed/indoor-4-photo-2/800/600",
-            "title": "Obra indoor-4-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
+            "url": "./img/indoor-4_photo_2.jpg",
+            "orientation": "portrait",
+            "title": "Obra 02",
+            "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial Benidorm Vertical, ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
+            "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-2-ca.mp3"
-          },
-          {
-            "id": "indoor-4-photo-3",
-            "url": "https://picsum.photos/seed/indoor-4-photo-3/800/600",
-            "title": "Obra indoor-4-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-3-ca.mp3"
-          },
-          {
-            "id": "indoor-4-photo-4",
-            "url": "https://picsum.photos/seed/indoor-4-photo-4/800/600",
-            "title": "Obra indoor-4-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-4-ca.mp3"
-          },
-          {
-            "id": "indoor-4-photo-5",
-            "url": "https://picsum.photos/seed/indoor-4-photo-5/800/600",
-            "title": "Obra indoor-4-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-4-photo-5-ca.mp3"
-          },
-          {
-            "id": "indoor-4-photo-6",
-            "url": "https://picsum.photos/seed/indoor-4-photo-6/800/600",
-            "title": "Obra indoor-4-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-6-ca.mp3"
-          },
-          {
-            "id": "indoor-4-photo-7",
-            "url": "https://picsum.photos/seed/indoor-4-photo-7/800/600",
-            "title": "Obra indoor-4-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-7-ca.mp3"
-          },
-          {
-            "id": "indoor-4-photo-8",
-            "url": "https://picsum.photos/seed/indoor-4-photo-8/800/600",
-            "title": "Obra indoor-4-photo-8",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-8-ca.mp3"
-          },
-          {
-            "id": "indoor-4-photo-9",
-            "url": "https://picsum.photos/seed/indoor-4-photo-9/800/600",
-            "title": "Obra indoor-4-photo-9",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-9-ca.mp3"
-          },
-          {
-            "id": "indoor-4-photo-10",
-            "url": "https://picsum.photos/seed/indoor-4-photo-10/800/600",
-            "title": "Obra indoor-4-photo-10",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-4-photo-10-ca.mp3"
-          },
-          {
-            "id": "indoor-4-photo-11",
-            "url": "https://picsum.photos/seed/indoor-4-photo-11/800/600",
-            "title": "Obra indoor-4-photo-11",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-11-ca.mp3"
-          },
-          {
-            "id": "indoor-4-photo-12",
-            "url": "https://picsum.photos/seed/indoor-4-photo-12/800/600",
-            "title": "Obra indoor-4-photo-12",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-12-ca.mp3"
-          },
-          {
-            "id": "indoor-4-photo-13",
-            "url": "https://picsum.photos/seed/indoor-4-photo-13/800/600",
-            "title": "Obra indoor-4-photo-13",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-13-ca.mp3"
-          },
-          {
-            "id": "indoor-4-photo-14",
-            "url": "https://picsum.photos/seed/indoor-4-photo-14/800/600",
-            "title": "Obra indoor-4-photo-14",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-14-ca.mp3"
-          },
-          {
-            "id": "indoor-4-photo-15",
-            "url": "https://picsum.photos/seed/indoor-4-photo-15/800/600",
-            "title": "Obra indoor-4-photo-15",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore ràpid.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-4-photo-15-ca.mp3"
+            "audioUrl": null
           }
         ]
       }
@@ -1980,7 +1610,7 @@ window.translations = {
         "id": "urban-1",
         "title": "El Castell",
         "subtitle": "City intervention",
-        "description": "Welcome to the heart of Benidorm. Here, at the Castell, white stone and infinite blue embrace in a silence steeped in tradition. We await you all with four vast horizons where the sea merges with the purest and most intimate style. Feel the breeze and let these perspectives tell you our story. When you are finished, you can walk down to the authentic freshness of El Campo or let yourselves be dazzled by the light of Hispanitat.\"",
+        "description": "Welcome to the heart of Benidorm. Here, at the Castell, white stone and infinite blue embrace in a silence steeped in tradition. We await you all with four vast horizons where the sea merges with the purest and most intimate style. Feel the breeze and let these perspectives tell you our story. When you are finished, you can walk down to the authentic freshness of El Campo or let yourselves be dazzled by the light of the Art Space of Hispanitat.\"",
         "photos": [
           {
             "id": "urban-1-photo-1",
@@ -2028,7 +1658,7 @@ window.translations = {
         "id": "urban-2",
         "title": "Hispanitat",
         "subtitle": "City intervention",
-        "description": "At this point, we discover the magic of the night: from the circular lights to the silhouette of the Madeira. Notice where each photo was taken, as you are standing very close by. And when you finished, continue your walk towards El Pont; fashion awaits you right above your head.",
+        "description": "At this point, we discover the magic of the night: from the circular lights to the silhouette of the Madeira Hotel. Notice where each photo was taken, as you are standing very close by. And when you finished, continue your walk towards the Art Space El Pont; fashion awaits you right above your head. The night begins!",
         "photos": [
           {
             "id": "urban-2-photo-1",
@@ -2066,7 +1696,7 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "City intervention",
-        "description": "Here, in the Art Urban Space El Pont, you will see how we transformed Emilio Ortuño Street amidst the silence of 2020. It was for the 'Benidorm Horizontal' editorial that we explored numerous locations with various outfits; you can see two of them here. When you’re finished, continue towards Carrascos for more geometry, or head back to Hispanitat to retrace the route.",
+        "description": "Here, you will see how we transformed Emilio Ortuño Street amidst the silence of 2020. It was for the 'Benidorm Horizontal' editorial that we explored numerous locations with various outfits; you can see two of them here. When you’re finished, continue towards Carrascos for more geometry, or head back to Hispanitat to retrace the route.",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -2182,7 +1812,7 @@ window.translations = {
         "id": "urban-5",
         "title": "Els Carrascos",
         "subtitle": "City intervention",
-        "description": "In Carrascos, architecture and fashion unite to surprise you. At this spot, where Parc de l’Aigüera meets the Town Hall, the city turns into pure geometry. Take a close look: each display offers a double treat; the power of a full-body shot and the magic of a detail that speaks to you. Enjoy this visual dialogue and, when you’re done, choose your next adventure: the modernity of Els Tolls or the freshness of El Campo. Let’s go!",
+        "description": "Here, architecture and fashion unite to surprise you. At this spot, where Parc de l’Aigüera meets the Town Hall, the city turns into pure geometry. Take a close look: each display offers a double treat; the power of a full-body shot and the magic of a detail that speaks to you. Enjoy this visual dialogue and, when you’re done, choose your next adventure: the modernity of Els Tolls or the freshness of El Campo. Let’s go!",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -2617,16 +2247,6 @@ window.translations = {
             "year": "2019",
             "isMasterpiece": true,
             "audioUrl": null
-          },
-          {
-            "id": "indoor-1-photo-2",
-            "url": "./img/indoor-1_photo_2.jpg",
-            "orientation": "landscape",
-            "title": "Artwork 02",
-            "description": "Ti Ximo Cove, December 2019. At the end of an intense day shooting the 'Benidorm Vertical' editorial, the sunset light turned everything magical. Our most intimate beach offered a moment of peace to bring this dream to a close.",
-            "year": "2019",
-            "isMasterpiece": false,
-            "audioUrl": null
           }
         ]
       },
@@ -2639,7 +2259,7 @@ window.translations = {
           {
             "id": "indoor-2-photo-1",
             "url": "./img/indoor-2_photo_1.jpg",
-            "orientation": "landscape",
+            "orientation": "portrait",
             "title": "Artwork 01",
             "description": "Ti Ximo Cove, December 2019. At the end of an intense day shooting the 'Benidorm Vertical' editorial, the sunset light turned everything magical. Our most intimate beach offered a moment of peace to bring this dream to a close.",
             "year": "2019",
@@ -2655,6 +2275,16 @@ window.translations = {
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
+          },
+          {
+            "id": "indoor-2-photo-3",
+            "url": "./img/indoor-2_photo_3.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 03",
+            "description": "Ti Ximo Cove, December 2019. At the end of an intense day shooting the 'Benidorm Vertical' editorial, the sunset light turned everything magical. Our most intimate beach offered a moment of peace to bring this dream to a close.",
+            "year": "2019",
+            "isMasterpiece": false,
+            "audioUrl": null
           }
         ]
       },
@@ -2662,97 +2292,27 @@ window.translations = {
         "id": "indoor-3",
         "title": "La Casilla - Room 3",
         "subtitle": "Indoor Exhibition",
-        "description": "Description of the art space \"La Casilla - Room 3\"",
+        "description": "Welcome to the heart of Benidorm. Here, at the Castell, white stone and infinite blue embrace in a silence steeped in tradition. We await you all with four vast horizons where the sea merges with the purest and most intimate style. Feel the breeze and let these perspectives tell you our story. When you are finished, you can walk down to the authentic freshness of El Campo or let yourselves be dazzled by the light of Hispanitat.\"",
         "photos": [
           {
             "id": "indoor-3-photo-1",
-            "url": "https://picsum.photos/seed/indoor-3-photo-1/800/600",
-            "title": "Artwork indoor-3-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-1-en.mp3"
+            "url": "./img/indoor-3_photo_1.jpg",
+            "orientation": "landscape",
+            "title": "Artwork 01",
+            "description": "Ti Ximo Cove, December 2019. At the end of an intense day shooting the 'Benidorm Vertical' editorial, the sunset light turned everything magical. Our most intimate beach offered a moment of peace to bring this dream to a close.",
+            "year": "2019",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "indoor-3-photo-2",
-            "url": "https://picsum.photos/seed/indoor-3-photo-2/800/600",
-            "title": "Artwork indoor-3-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/indoor-3_photo_2.jpg",
+            "orientation": "landscape",
+            "title": "Artwork 02",
+            "description": "Ti Ximo Cove, December 2019. At the end of an intense day shooting the 'Benidorm Vertical' editorial, the sunset light turned everything magical. Our most intimate beach offered a moment of peace to bring this dream to a close.",
+            "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-2-en.mp3"
-          },
-          {
-            "id": "indoor-3-photo-3",
-            "url": "https://picsum.photos/seed/indoor-3-photo-3/800/600",
-            "title": "Artwork indoor-3-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-3-en.mp3"
-          },
-          {
-            "id": "indoor-3-photo-4",
-            "url": "https://picsum.photos/seed/indoor-3-photo-4/800/600",
-            "title": "Artwork indoor-3-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-4-en.mp3"
-          },
-          {
-            "id": "indoor-3-photo-5",
-            "url": "https://picsum.photos/seed/indoor-3-photo-5/800/600",
-            "title": "Artwork indoor-3-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-3-photo-5-en.mp3"
-          },
-          {
-            "id": "indoor-3-photo-6",
-            "url": "https://picsum.photos/seed/indoor-3-photo-6/800/600",
-            "title": "Artwork indoor-3-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-6-en.mp3"
-          },
-          {
-            "id": "indoor-3-photo-7",
-            "url": "https://picsum.photos/seed/indoor-3-photo-7/800/600",
-            "title": "Artwork indoor-3-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-7-en.mp3"
-          },
-          {
-            "id": "indoor-3-photo-8",
-            "url": "https://picsum.photos/seed/indoor-3-photo-8/800/600",
-            "title": "Artwork indoor-3-photo-8",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-8-en.mp3"
-          },
-          {
-            "id": "indoor-3-photo-9",
-            "url": "https://picsum.photos/seed/indoor-3-photo-9/800/600",
-            "title": "Artwork indoor-3-photo-9",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-3-photo-9-en.mp3"
-          },
-          {
-            "id": "indoor-3-photo-10",
-            "url": "https://picsum.photos/seed/indoor-3-photo-10/800/600",
-            "title": "Artwork indoor-3-photo-10",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-3-photo-10-en.mp3"
+            "audioUrl": null
           }
         ]
       },
@@ -2760,142 +2320,27 @@ window.translations = {
         "id": "indoor-4",
         "title": "La Casilla - Room 4",
         "subtitle": "Indoor Exhibition",
-        "description": "Description of the art space \"La Casilla - Room 4\"",
+        "description": "Welcome to the heart of Benidorm. Here, at the Castell, white stone and infinite blue embrace in a silence steeped in tradition. We await you all with four vast horizons where the sea merges with the purest and most intimate style. Feel the breeze and let these perspectives tell you our story. When you are finished, you can walk down to the authentic freshness of El Campo or let yourselves be dazzled by the light of Hispanitat.\"",
         "photos": [
           {
             "id": "indoor-4-photo-1",
-            "url": "https://picsum.photos/seed/indoor-4-photo-1/800/600",
-            "title": "Artwork indoor-4-photo-1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-1-en.mp3"
+            "url": "./img/indoor-4_photo_1.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 01",
+            "description": "Ti Ximo Cove, December 2019. At the end of an intense day shooting the 'Benidorm Vertical' editorial, the sunset light turned everything magical. Our most intimate beach offered a moment of peace to bring this dream to a close.",
+            "year": "2019",
+            "isMasterpiece": true,
+            "audioUrl": null
           },
           {
             "id": "indoor-4-photo-2",
-            "url": "https://picsum.photos/seed/indoor-4-photo-2/800/600",
-            "title": "Artwork indoor-4-photo-2",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
+            "url": "./img/indoor-4_photo_2.jpg",
+            "orientation": "portrait",
+            "title": "Artwork 02",
+            "description": "Ti Ximo Cove, December 2019. At the end of an intense day shooting the 'Benidorm Vertical' editorial, the sunset light turned everything magical. Our most intimate beach offered a moment of peace to bring this dream to a close.",
+            "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-2-en.mp3"
-          },
-          {
-            "id": "indoor-4-photo-3",
-            "url": "https://picsum.photos/seed/indoor-4-photo-3/800/600",
-            "title": "Artwork indoor-4-photo-3",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-3-en.mp3"
-          },
-          {
-            "id": "indoor-4-photo-4",
-            "url": "https://picsum.photos/seed/indoor-4-photo-4/800/600",
-            "title": "Artwork indoor-4-photo-4",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-4-en.mp3"
-          },
-          {
-            "id": "indoor-4-photo-5",
-            "url": "https://picsum.photos/seed/indoor-4-photo-5/800/600",
-            "title": "Artwork indoor-4-photo-5",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-4-photo-5-en.mp3"
-          },
-          {
-            "id": "indoor-4-photo-6",
-            "url": "https://picsum.photos/seed/indoor-4-photo-6/800/600",
-            "title": "Artwork indoor-4-photo-6",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-6-en.mp3"
-          },
-          {
-            "id": "indoor-4-photo-7",
-            "url": "https://picsum.photos/seed/indoor-4-photo-7/800/600",
-            "title": "Artwork indoor-4-photo-7",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-7-en.mp3"
-          },
-          {
-            "id": "indoor-4-photo-8",
-            "url": "https://picsum.photos/seed/indoor-4-photo-8/800/600",
-            "title": "Artwork indoor-4-photo-8",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-8-en.mp3"
-          },
-          {
-            "id": "indoor-4-photo-9",
-            "url": "https://picsum.photos/seed/indoor-4-photo-9/800/600",
-            "title": "Artwork indoor-4-photo-9",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-9-en.mp3"
-          },
-          {
-            "id": "indoor-4-photo-10",
-            "url": "https://picsum.photos/seed/indoor-4-photo-10/800/600",
-            "title": "Artwork indoor-4-photo-10",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-4-photo-10-en.mp3"
-          },
-          {
-            "id": "indoor-4-photo-11",
-            "url": "https://picsum.photos/seed/indoor-4-photo-11/800/600",
-            "title": "Artwork indoor-4-photo-11",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-11-en.mp3"
-          },
-          {
-            "id": "indoor-4-photo-12",
-            "url": "https://picsum.photos/seed/indoor-4-photo-12/800/600",
-            "title": "Artwork indoor-4-photo-12",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-12-en.mp3"
-          },
-          {
-            "id": "indoor-4-photo-13",
-            "url": "https://picsum.photos/seed/indoor-4-photo-13/800/600",
-            "title": "Artwork indoor-4-photo-13",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-13-en.mp3"
-          },
-          {
-            "id": "indoor-4-photo-14",
-            "url": "https://picsum.photos/seed/indoor-4-photo-14/800/600",
-            "title": "Artwork indoor-4-photo-14",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": false,
-            "audioUrl": "/audio/foto-indoor-4-photo-14-en.mp3"
-          },
-          {
-            "id": "indoor-4-photo-15",
-            "url": "https://picsum.photos/seed/indoor-4-photo-15/800/600",
-            "title": "Artwork indoor-4-photo-15",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-            "year": "2024",
-            "isMasterpiece": true,
-            "audioUrl": "/audio/foto-indoor-4-photo-15-en.mp3"
+            "audioUrl": null
           }
         ]
       }
