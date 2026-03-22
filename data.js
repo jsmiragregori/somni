@@ -271,7 +271,7 @@ window.translations = {
             "url": "./img/urban-5_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "El ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
+            "description": "El Ayuntamiento no es solo un edificio, es un escenario. Aquí veis cómo el movimiento de los globos, la expresión de la modelo y la verticalidad del vestido se integran en la plaza. Un momento de ligereza en medio del asfalto.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -281,7 +281,7 @@ window.translations = {
             "url": "./img/urban-5_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Adéntrate en el verde de l’Aigüera. Estás ante Patricia en la que fue mi primera sesión con modelos en Benidorm en agosto de 2018. Estas fotos intentan ofrecer un contraste vital con el hormigón. Aquí, la figura humana se funde con la naturaleza.",
+            "description": "Adéntrate en el verde de l’Aigüera. Estás ante Patricia en la que fue mi primera sesión con modelos en Benidorm en agosto de 2018. Estas fotos intentan ofrecer un contraste vital con el hormigón y con la figura humana que se funde con la naturaleza.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -301,7 +301,7 @@ window.translations = {
             "url": "./img/urban-5_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "En este plano más cerrado, veis el diálogo entre la piel, el tejido y la corteza de los árboles. Es curioso como en una quedada, cada fotógrafo encuentra un lugar donde hacer las fotos a cada modelo y todas las fotos quedan diferentes.",
+            "description": "En este plano más cerrado, mirad el diálogo entre la piel, el tejido y la corteza de los árboles. Es curioso como en una quedada, cada fotógrafo encuentra un lugar donde hacer las fotos a cada modelo y todas las fotos quedan diferentes.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -321,7 +321,7 @@ window.translations = {
             "url": "./img/urban-5_photo_9.jpg",
             "orientation": "portrait",
             "title": "Obra 09",
-            "description": "Fíjate en la composición. La limpieza del vestido blanco de Patricia destaca con fuerza contra las líneas de las escaleras del parque. Esta imagen captura el diálogo sincero entre arquitectura y figura humana en mis inicios con modelos.",
+            "description": "Fijaos en la composición. La pureza del vestido blanco de Patricia destaca con fuerza contra las líneas de las escaleras del parque. Esta imagen captura el diálogo sincero entre arquitectura y figura humana en mis inicios con modelos.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -331,7 +331,7 @@ window.translations = {
             "url": "./img/urban-5_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
+            "description": "Fijaos aquí en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -359,7 +359,7 @@ window.translations = {
             "url": "./img/urban-6_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Este edificio de 145 metros de altura y 41 plantas es uno de los gigantes de Levante que protagoniza esta serie. En 2019, cuando se hizo esta fotografía, era el quinto más alto de la ciudad. Mira hacia atrás en línea recta desde donde estás y verás el Kronos.",
+            "description": "Este edificio de 145 metros de altura y 41 plantas es uno de los gigantes de Levante que protagoniza esta serie. En 2019, cuando se hizo esta fotografía, era el quinto más alto de la ciudad. Mira hacia atrás en línea recta desde donde estás y verás el Edificio Kronos.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -379,7 +379,7 @@ window.translations = {
             "url": "./img/urban-6_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "Seguimos en el Kronos. La verticalidad del edificio hace juego con la destreza de la modelo para mantener el equilibrio con unos tacones tan altos sobre el banco. Es la mimesis total entre moda y arquitectura.",
+            "description": "Seguimos en el Edificio Kronos. La verticalidad del rascacielos hace juego con la destreza de la modelo para mantener el equilibrio con unos tacones tan altos sobre el banco. Es la mimesis total entre moda y arquitectura.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -399,7 +399,7 @@ window.translations = {
             "url": "./img/urban-6_photo_6.jpg",
             "orientation": "portrait",
             "title": "Obra 06",
-            "description": "El edificio Negurigane es único por sus formas cilíndricas. Con 148m de altura y 43 plantas, era el cuarto edificio más alto en 2019. Aquí busqué el contrapicado donde la modelo parece casi tan alta como él.",
+            "description": "El Edificio Negurigane es único por sus formas cilíndricas. Con 148m de altura y 43 plantas, era el cuarto edificio más alto en 2019. Aquí busqué el contrapicado donde la modelo parece casi tan alta como él.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -419,7 +419,7 @@ window.translations = {
             "url": "./img/urban-6_photo_8.jpg",
             "orientation": "portrait",
             "title": "Obra 08",
-            "description": "Nos hemos movido hasta el Rincón de Loix para encontrar el edificio Don Jorge, de 136 metros de altura y 36 plantas. Los edificios de Benidorm no son solo cemento; son reflectores gigantes de la luz del Mediterráneo.",
+            "description": "Nos hemos movido hasta el Rincón de l'Oix para encontrar el Edificio Don Jorge, de 136 metros de altura y 36 plantas. Los edificios de Benidorm no son solo cemento; son reflectores gigantes de la luz del Mediterráneo.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -490,7 +490,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervención en la ciudad",
-        "description": "Te encuentras en el espacio de arte de Poniente. Este recorrido incluye dos de los edificios más icónicos que definen el skyline de esta playa: el Bali y el Intempo, que eran los dos más altos en 2019 cuando se realizó la exposición 'Benidorm Vertical'. Esta editorial llegó a Nueva York con su publicación en una revista. A través de estas imágenes, podrás ver cómo la moda dialoga con estos gigantes de hormigón. Si al terminar de visitarla te has quedado con ganas de más arte, puedes visitar la exposición interior en La Casilla, en la calle Emilio Ortuño, para completar tu experiencia cultural.",
+        "description": "Bienvenido al museo al aire libre más grande de nuestra ciudad. En este Paseo de Poniente, he querido que el mar y la arquitectura se encuentren. A través de ángulos que desafían la gravedad, te ofrezco una mirada diferente sobre nuestros gigantes: el Gran Hotel Bali y el Intempo. Son imágenes que capturan la mística vertical de Benidorm y que viajaron hasta Nueva York para demostrar que nuestra ciudad es puro arte urbano. Alza la mirada y disfruta del vértigo y la moda. ¿Quieres ver más y connocer más detalles de las sesiones? Visita la exposición interior de La Casilla para completar tu experiencia.\"",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -1417,7 +1417,7 @@ window.translations = {
             "url": "./img/urban-5_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "L'ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
+            "description": "L'Ajuntament no és només un edifici, és un escenari. Ací veieu com el moviment dels globus, l’expressió de la model i la verticalitat del vestit s'integren en la plaça. Un moment de lleugeresa enmig de l'asfalt.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1427,7 +1427,7 @@ window.translations = {
             "url": "./img/urban-5_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Endinsa't en el verd de l'Aigüera. Estàs davant de Patricia en la que va ser la meua primera sessió amb models a Benidorm en agost de 2018. Estes fotos intenten oferir un contrast vital amb el formigó. Ací, la figura humana es fon amb la natura.",
+            "description": "Endinsa't en el verd de l'Aigüera. Estàs davant de Patricia en la que va ser la meua primera sessió amb models a Benidorm en agost de 2018. Aquestes fotos intenten oferir un contrast vital amb el formigó i amb la figura humana que es fon amb la natura.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1437,7 +1437,7 @@ window.translations = {
             "url": "./img/urban-5_photo_6.jpg",
             "orientation": "portrait",
             "title": "Obra 06",
-            "description": "Benidorm no és només gratacels; també té pulmons verds. En aquest pla més proper, Patricia ens convida a fer una pausa. Fixa't en la textura de la fusta i la llum solar: ofereix-te un moment per a relajar-se i reflexionar.",
+            "description": "Benidorm no és només gratacels; també té pulmons verds. En aquest pla més proper, Patricia ens convida a fer una pausa. Fixa't en la textura de la fusta i la llum solar: ofereix-te un moment per a relajar-te i reflexionar.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1447,7 +1447,7 @@ window.translations = {
             "url": "./img/urban-5_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "En aquest pla més tancat, veieu el diàleg entre la pell, el teixit i l'escorça dels arbres. És curiós com en una quedada, cada fotògraf troba un lloc on fa les fotos a cada model i totes les fotos eixen diferents.",
+            "description": "En aquest pla més tancat, mireu el diàleg entre la pell, el teixit i l'escorça dels arbres. És curiós com en una quedada, cada fotògraf troba un lloc on fa les fotos a cada model i totes les fotos ixen diferents.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1467,7 +1467,7 @@ window.translations = {
             "url": "./img/urban-5_photo_9.jpg",
             "orientation": "portrait",
             "title": "Obra 09",
-            "description": "Fixa't en la composició. La netedat del vestit blanc de Patricia destaca amb força contra les línies de les escales del parc. Aquesta imatge captura el diàleg sincer entre l'arquitectura i la figura humana en una de les meues primeres sessions amb models a Benidorm.",
+            "description": "Fixeu-vos en la composició. La puresa del vestit blanc de Patricia destaca amb força contra les línies de les escales del parc. Aquesta imatge captura el diàleg sincer entre l'arquitectura i la figura humana en una de les meues primeres sessions amb models a Benidorm.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1477,7 +1477,7 @@ window.translations = {
             "url": "./img/urban-5_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "Fixa't en la força i la seguretat d'aquesta imatge. Els complements y els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
+            "description": "Fixeu-vos ací en la força i la seguretat d'aquesta imatge. Els complements i els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1505,7 +1505,7 @@ window.translations = {
             "url": "./img/urban-6_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Este edifici de 145 metres d’altura i 41 plantes és un dels gegants de Llevant que protagonitza aquesta sèrie. En 2019, quan es va fer esta fotografia, era el cinqué més alt de la ciutat. Mira cap arrere en línia recta des d'on estàs i veuràs el Kronos.",
+            "description": "Este edifici de 145 metres d’alçada i 41 plantes és un dels gegants de Llevant que protagonitza aquesta sèrie. En 2019, quan es va fer esta fotografia, era el cinqué més alt de la ciutat. Mira cap arrere en línia recta des d'on estàs i veuràs l'Edifici Kronos.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1525,7 +1525,7 @@ window.translations = {
             "url": "./img/urban-6_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "Seguim al Kronos. La verticalitat de l’edifici fa joc amb la destressa de la model per guardar l’equilibri amb uns talons tan alts damunt del banc. És la mimesi total entre moda i arquitectura.",
+            "description": "Seguim a l'Edifici Kronos. La verticalitat del gratacels fa joc amb la destressa de la model per guardar l’equilibri amb uns talons tan alts damunt del banc. És la mimesi total entre moda i arquitectura.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1545,7 +1545,7 @@ window.translations = {
             "url": "./img/urban-6_photo_6.jpg",
             "orientation": "portrait",
             "title": "Obra 06",
-            "description": "L’edifici Negurigane és únic per les seues formes cilíndriques. Amb 148m d’altura i amb 43 plantes, era el 4t edifici més alt en 2019. Ací vaig buscar el contrapicat on la model sembla quasi tan alta com ell.",
+            "description": "L’Edifici Negurigane és únic per les seues formes cilíndriques. Amb 148m d’alçada i amb 43 plantes, era el 4t edifici més alt en 2019. Ací vaig buscar el contrapicat on la model sembla quasi tan alta com ell.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1555,7 +1555,7 @@ window.translations = {
             "url": "./img/urban-6_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "En aquesta imatge, fixa't en la pose de la model. Com cada nova pose està treballada prèviament per oferir eixe diàleg entre model i gratacel que fa que siga tan íntim.",
+            "description": "En aquesta imatge, fixa't en la posat de la model. Com cada nova pose està treballada prèviament per oferir eixe diàleg entre model i gratacel que fa que siga tan íntim.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1565,7 +1565,7 @@ window.translations = {
             "url": "./img/urban-6_photo_8.jpg",
             "orientation": "portrait",
             "title": "Obra 08",
-            "description": "Ens hem mogut fins al Racó de Loix per trobar l’edifici Don Jorge, un edifici amb 136m d’altura i 36 plantes. Els edificis de Benidorm no són només ciment; són reflectors gegants de la llum del Mediterrani.",
+            "description": "Ens hem mogut fins al Racó de l'Oix per trobar l’Edifici Don Jorge, un edifici amb 136m d’alçada i 36 plantes. Els edificis de Benidorm no són només ciment; són reflectors gegants de la llum del Mediterrani.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1575,7 +1575,7 @@ window.translations = {
             "url": "./img/urban-6_photo_9.jpg",
             "orientation": "portrait",
             "title": "Obra 09",
-            "description": "Si vos fixeu, l’outfit de la model ha canviat i ho vam haver de fer amb el vestidor portàtil, per no perdre ni un minut de llum en esta sessió de Benidorm Vertical al desembre de 2019.",
+            "description": "Si vos fixeu, l’outfit de la model ha canviat i ho vam haver de fer amb el vestidor portàtil, per no perdre ni un minut de llum en esta sessió de Benidorm Vertical el desembre de 2019.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1636,7 +1636,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Et trobes a l'espai d'art de Ponent. Aquest recorregut inclou dos dels edificis més icònics que defineixen el skyline d'aquesta platja: el Bali i l'Intempo, que eren els dos més alts en 2019 quan es va realitzar l'exposició 'Benidorm Vertical'. Aquesta editorial va arribar a Nova York amb la publicació en una revista. A través d'aquestes imatges, podràs veure com la moda dialoga amb aquests gegants de formigó. Si en acabar de visitar-la t'has quedat amb ganes de més art, podries visitar l'exposició interior a La Casilla, al carrer Emilio Ortuño, per a completar la teua experiència cultural.",
+        "description": "Benvingut al museu a l'aire lliure més gran de la nostra ciutat. En aquest Passeig de Ponent, he volgut que la mar i l'arquitectura es troben. A través d'angles que desafien la gravetat, t’ofereixo una mirada diferent sobre els nostres gegants, el Gran Hotel Bali i l’Intempo. Són imatges que capturen la mística vertical de Benidorm i que van viatjar fins a Nova York per demostrar que la nostra ciutat és pur art urbà. Alça la mirada i gaudeix del vertigen i la moda. Vols veure més i conéixer més detalls de les sessions? En acabar podries visitar l’espai d’art interior La Casilla per completar la teua experiència.",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -2573,7 +2573,7 @@ window.translations = {
             "url": "./img/urban-5_photo_5.jpg",
             "orientation": "portrait",
             "title": "Artwork 05",
-            "description": "Immerse yourself in the green of l’Aigüera. You are looking at Patricia in what was my first session with models in Benidorm, agost 2018. These photographs try to offer a vital contrast to the concrete. Here, the human figure merges with nature.",
+            "description": "Immerse yourself in the green of l’Aigüera. You are looking at Patricia in what was my first session with models in Benidorm, agost 2018. These photographs try to offer a vital contrast to the concrete and to the human figure that merges with nature.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2593,7 +2593,7 @@ window.translations = {
             "url": "./img/urban-5_photo_7.jpg",
             "orientation": "portrait",
             "title": "Artwork 07",
-            "description": "In this tighter shot, you see the dialogue between skin, fabric, and tree bark. It’s fascinating how during a photo meet-up, each photographer finds their own spot for the model, and yet every single result is unique.",
+            "description": "In this tighter shot, look at the dialogue between skin, fabric, and tree bark. It’s fascinating how during a photo meet-up, each photographer finds their own spot for the model, and yet every single result is unique.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2613,7 +2613,7 @@ window.translations = {
             "url": "./img/urban-5_photo_9.jpg",
             "orientation": "portrait",
             "title": "Artwork 09",
-            "description": "Look at the composition. The crispness of Patricia’s white dress stands out strongly against the concrete lines of the park. This image captures the sincere dialogue between architecture and the human figure in my early work with models.",
+            "description": "Notice the composition. The purity of Patricia’s white dress stands out boldly against the lines of the park stairs. This image captures the sincere dialogue between architecture and the human form from one of my first sessions with models in Benidorm.\"",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2623,7 +2623,7 @@ window.translations = {
             "url": "./img/urban-5_photo_10.jpg",
             "orientation": "portrait",
             "title": "Artwork 10",
-            "description": "Notice the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
+            "description": "Notice here the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2651,7 +2651,7 @@ window.translations = {
             "url": "./img/urban-6_photo_2.jpg",
             "orientation": "portrait",
             "title": "Artwork 02",
-            "description": "Standing at 145 meters with 41 floors, this building is one of the giants of the Levante skyline in this series. In 2019, when this photo was taken, it was the city's fifth-tallest. Look straight back from where you are, and you’ll see the Kronos.",
+            "description": "Standing at 145 meters with 41 floors, this building is one of the giants of the Levante skyline in this series. In 2019, when this photo was taken, it was the city's fifth-tallest. Look straight back from where you are, and you’ll see the Kronos Building.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2671,7 +2671,7 @@ window.translations = {
             "url": "./img/urban-6_photo_4.jpg",
             "orientation": "portrait",
             "title": "Artwork 04",
-            "description": "We continue at the Kronos. The building's verticality matches the model's skill in keeping her balance on such high heels atop the bench. It is the perfect mimesis between fashion and architecture.",
+            "description": "We continue at the Kronos Building. The skyscrapper's verticality matches the model's skill in keeping her balance on such high heels atop the bench. It is the perfect mimesis between fashion and architecture.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2691,7 +2691,7 @@ window.translations = {
             "url": "./img/urban-6_photo_6.jpg",
             "orientation": "portrait",
             "title": "Artwork 06",
-            "description": "The Negurigane building is unique for its cylindrical shapes. Standing at 148m with 43 floors, it was the fourth tallest building in 2019. Here, I used a low-angle shot to make the model look almost as tall as the skyscraper itself.",
+            "description": "The Negurigane Building is unique for its cylindrical shapes. Standing at 148m with 43 floors, it was the fourth tallest building in 2019. Here, I used a low-angle shot to make the model look almost as tall as the skyscraper itself.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2711,7 +2711,7 @@ window.translations = {
             "url": "./img/urban-6_photo_8.jpg",
             "orientation": "portrait",
             "title": "Artwork 08",
-            "description": "We’ve moved to Racó de Loix to find the Don Jorge building, standing 136 meters tall with 36 floors. Benidorm’s buildings aren't just concrete; they are giant reflectors of Mediterranean light.",
+            "description": "We’ve moved to Racó de l'Oix to find the Don Jorge Building, standing 136 meters tall with 36 floors. Benidorm’s buildings aren't just concrete; they are giant reflectors of Mediterranean light.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2782,7 +2782,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "City intervention",
-        "description": "You are in the Ponent Art Space. This tour features two of the most iconic buildings that define this beach's skyline: the Bali and the Intempo, which were the two tallest in 2019 when the 'Benidorm Vertical' exhibition was created. This editorial reached New York through its publication in a magazine. Through these images, you will see how fashion dialogues with these concrete giants. If you find yourself wanting more art after your visit, you can see the indoor exhibition at La Casilla, on Emilio Ortuño Street, to complete your cultural experience.",
+        "description": "Welcome to the largest open-air museum in our city. On this Ponent Promenade, I wanted the sea and architecture to meet. Through angles that defy gravity, I offer you a different perspective on our giants: the Gran Hotel Bali and the Intempo. These images capture the vertical mystique of Benidorm and traveled all the way to New York to prove that our city is pure urban art. Look up and enjoy the vertigo and fashion. Want to see more and know more details about the sessions? Visit the La Casilla indoor art space to complete your experience.\"",
         "photos": [
           {
             "id": "urban-7-photo-1",
