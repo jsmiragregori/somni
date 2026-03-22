@@ -13,7 +13,7 @@ function getDynamicText(type) {
         'caption': ['text-base lg:text-sm', 'text-lg lg:text-base', 'text-xl lg:text-lg'],
         'body': ['text-lg lg:text-base', 'text-xl lg:text-lg', 'text-2xl lg:text-xl'],
         'lead': ['text-xl lg:text-lg', 'text-2xl lg:text-xl', 'text-3xl lg:text-2xl'],
-        'manifesto': ['text-xl lg:text-3xl', 'text-2xl lg:text-4xl', 'text-3xl lg:text-5xl'],
+        'manifesto': ['text-lg lg:text-xl', 'text-xl lg:text-2xl', 'text-2xl lg:text-3xl'],
         'label': ['text-base', 'text-lg', 'text-xl']
     };
     const idx = textSizeLevels.indexOf(currentTextSize);
@@ -169,11 +169,11 @@ function renderApp() {
                 
                 <div class="relative z-10 text-center px-6">
                     <h1 class="font-display text-7xl md:text-9xl lg:text-[12rem] uppercase tracking-tighter leading-none mb-6 fade-in text-white">${t.hero.title}</h1>
-                    <p class="font-mono ${getDynamicText('lead')} tracking-widest uppercase text-white/70 max-w-2xl mx-auto fade-in">${t.hero.subtitle}</p>
+                    <p class="font-mono text-sm md:text-lg lg:text-2xl tracking-widest uppercase text-white/70 mx-auto fade-in">${t.hero.subtitle}</p>
                 </div>
                 
                 <div class="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 fade-in">
-                    <span class="font-mono ${getDynamicText('label')} tracking-[0.3em] uppercase text-white/70">${t.hero.scroll}</span>
+                    <span class="font-mono text-xs md:text-sm lg:text-lg tracking-[0.3em] uppercase text-white/70">${t.hero.scroll}</span>
                     <div class="w-[1px] h-16 bg-gradient-to-b from-white/50 to-transparent"></div>
                 </div>
             </section>
