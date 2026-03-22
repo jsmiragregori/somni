@@ -119,7 +119,7 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "Intervención en la ciudad",
-        "description": "Descripción del espacio de arte \"El Pont\"",
+        "description": "Aquí, en el espacio de arte El Pont, verás cómo transformamos la calle Emilio Ortuño en el silencio de 2020. Fue con la editorial ‘Benidorm Horizontal’ cuando recorrimos muchas localizaciones con diferentes outfits. Aquí puedes ver dos diferentes. Cuando acabes, sigue hacia Carrascos para más geometría, o vuelve a la Hispanidad para repetir el camino.",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -177,7 +177,7 @@ window.translations = {
         "id": "urban-4",
         "title": "El Campo",
         "subtitle": "Intervención en la ciudad",
-        "description": "Descripción del espacio de arte \"El Campo\"",
+        "description": "En el espacio de arte El Campo, disfrutaréis de la fuerza del color donde el Benidorm de toda la vida se viste de gala. Aquí os propongo un juego: buscad las localizaciones desde cada punto donde os encontráis en cada momento. Y, al terminar, preparaos para el gran final: próxima estación, Poniente.",
         "photos": [
           {
             "id": "urban-4-photo-1",
@@ -235,7 +235,7 @@ window.translations = {
         "id": "urban-5",
         "title": "Els Carrascos",
         "subtitle": "Intervención en la ciudad",
-        "description": "Descripción del espacio de arte \"Els Carrascos\"",
+        "description": "En Carrascos, la arquitectura y la moda se alían para sorprenderos. En este punto, donde el Parc de l’Aigüera y el Ayuntamiento se tocan, la ciudad se vuelve geometría pura. Fijaos bien: en cada mupi tenéis un doble regalo; la fuerza de una imagen de cuerpo entero y la magia de un detalle que nos habla de cerca. Disfrutad de este diálogo visual y, al terminar, elegid vuestra próxima aventura: la modernidad de Els Tolls o la frescura de El Campo. ¡Vamos allá!",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -343,7 +343,7 @@ window.translations = {
         "id": "urban-6",
         "title": "Els Tolls",
         "subtitle": "Intervención en la ciudad",
-        "description": "Descripción del espacio de arte \"Els Tolls\"",
+        "description": "En el espacio de arte Els Tolls te espera un diálogo visual entre las líneas modernas de nuestras torres y la moda más vanguardista. Es un espacio donde la ciudad se convierte en geometría pura. La mayoría de las fotografías pertenecen a la editorial ‘Benidorm Vertical’, una sesión realizada en diciembre de 2019 que fue publicada por diversas revistas, entre ellas una de Nueva York. Aquí podrás observar los edificios de la zona de Levante. Si quieres seguir con la parte de Poniente, te esperan El Campo y Poniente para terminar de explorar.",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -491,7 +491,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervención en la ciudad",
-        "description": "Bienvenido al museo al aire libre más grande de nuestra ciudad. En este Paseo de Poniente, he querido que el mar y la arquitectura se encuentren. A través de ángulos que desafían la gravedad, te ofrezco una mirada diferente sobre nuestros gigantes: el Gran Hotel Bali y el Intempo. Son imágenes que capturan la mística vertical de Benidorm y que viajaron hasta Nueva York para demostrar que nuestra ciudad es puro arte urbano. Alza la mirada y disfruta del vértigo y la moda. ¿Quieres ver más y connocer más detalles de las sesiones? Visita la exposición interior de La Casilla para completar tu experiencia.\"",
+        "description": "Bienvenidas y bienvenidos al museo al aire libre más grande de nuestra ciudad. En este Paseo de Poniente, he querido que el mar y la arquitectura se encuentren. A través de ángulos que desafían la gravedad, te ofrezco una mirada diferente sobre nuestros gigantes: el Gran Hotel Bali y el Intempo. Son imágenes que capturan la mística vertical de Benidorm y que viajaron hasta Nueva York para demostrar que nuestra ciudad es puro arte urbano. Alza la mirada y disfruta del vértigo y la moda. ¿Quieres ver más y connocer más detalles de las sesiones? Visita la exposición interior de La Casilla para completar tu experiencia.\"",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -1266,7 +1266,7 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Descripció de l'espai d'art \"El Pont\"",
+        "description": "Ací, a  l’espai d’art El Pont, veuràs com vam transformar el carrer Emilio Ortuño en el silenci de 2020. Va ser amb l’editorial ‘Benidorm Horitzontal’ amb la que vam  recórrer moltes localitzacions amb diferents outfits. Ací pots veure dos diferents. Quan acabes, segueix cap a Carrascos per a més geometria, o torna a la Hispanitat per a repetir el camí.\"",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -1324,7 +1324,7 @@ window.translations = {
         "id": "urban-4",
         "title": "El Campo",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Descripció de l'espai d'art \"El Campo\"",
+        "description": "A l’espai d’art El Campo, gaudireu de la força del color on el Benidorm de tota la vida es vesteix de gala. Vos propose un joc: busqueu les localitzacions de les fotos des del mateix punt on vos trobeu en cada moment. I, en acabar, prepareu-vos per al gran final: pròxima estació, Ponent.",
         "photos": [
           {
             "id": "urban-4-photo-1",
@@ -1382,7 +1382,7 @@ window.translations = {
         "id": "urban-5",
         "title": "Els Carrascos",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Descripció de l'espai d'art \"Els Carrascos\"",
+        "description": "A Carrascos, l’arquitectura i la moda s’alien per a sorprendre-vos. En aquest punt, on el Parc de l’Aigüera i l'Ajuntament es toquen, la ciutat es torna geometria pura. Fixeu-vos bé: a cada mupi teniu un doble regal; la força d'una imatge de cos sencer i la màgia d'un detall que ens parla de prop. Gaudiu d'aquest diàleg visual i, en acabar, trieu la vostra pròxima aventura: la modernitat dels Tolls o la frescor del Campo. Comencem!",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -1490,7 +1490,7 @@ window.translations = {
         "id": "urban-6",
         "title": "Els Tolls",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Descripció de l'espai d'art \"Els Tolls\"",
+        "description": "En l’espai d’art Els Tolls t'espera un diàleg visual entre les línies modernes de les nostres torres i la moda més avantguardista. És un espai on la ciutat es torna geometria pura. La majoria de les fotografies són de l’editorial ‘Benidorm Vertical’, sessió realitzada el desembre de 2019 i que va ser publicada per revistes, entre elles una de Nova York. Ací podràs observar els edificis de la part de Llevant. Si vols seguir amb la part de Ponent, t’esperen El Campo i Ponent per acabar d’explorar.",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -1638,7 +1638,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Benvingut al museu a l'aire lliure més gran de la nostra ciutat. En aquest Passeig de Ponent, he volgut que la mar i l'arquitectura es troben. A través d'angles que desafien la gravetat, t’ofereixo una mirada diferent sobre els nostres gegants, el Gran Hotel Bali i l’Intempo. Són imatges que capturen la mística vertical de Benidorm i que van viatjar fins a Nova York per demostrar que la nostra ciutat és pur art urbà. Alça la mirada i gaudeix del vertigen i la moda. Vols veure més i conéixer més detalls de les sessions? En acabar podries visitar l’espai d’art interior La Casilla per completar la teua experiència.",
+        "description": "Benvingudes i benvinguts al museu a l'aire lliure més gran de la nostra ciutat. En aquest Passeig de Ponent, he volgut que la mar i l'arquitectura es troben. A través d'angles que desafien la gravetat, t’ofereixo una mirada diferent sobre els nostres gegants, el Gran Hotel Bali i l’Intempo. Són imatges que capturen la mística vertical de Benidorm i que van viatjar fins a Nova York per demostrar que la nostra ciutat és pur art urbà. Alça la mirada i gaudeix del vertigen i la moda. Vols veure més i conéixer més detalls de les sessions? En acabar podries visitar l’espai d’art interior La Casilla per completar la teua experiència.",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -2413,7 +2413,7 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "City intervention",
-        "description": "Description of the art space \"El Pont\"",
+        "description": "Here, in the art urban space El Pont, you will see how we transformed Emilio Ortuño Street amidst the silence of 2020. It was for the 'Benidorm Horizontal' editorial that we explored numerous locations with various outfits; you can see two of them here. When you’re finished, continue towards Carrascos for more geometry, or head back to Hispanitat to retrace the route.",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -2471,7 +2471,7 @@ window.translations = {
         "id": "urban-4",
         "title": "El Campo",
         "subtitle": "City intervention",
-        "description": "Description of the art space \"El Campo\"",
+        "description": "At El Campo art space, you will enjoy the power of color, where the soul of traditional Benidorm is dressed to the nines. I invite you all to a game: try to find the locations of the photos from right where you are standing. And when you’re done, get ready for the grand finale: next stop, Ponent.",
         "photos": [
           {
             "id": "urban-4-photo-1",
@@ -2529,7 +2529,7 @@ window.translations = {
         "id": "urban-5",
         "title": "Els Carrascos",
         "subtitle": "City intervention",
-        "description": "Description of the art space \"Els Carrascos\"",
+        "description": "In Carrascos, architecture and fashion unite to surprise you. At this spot, where Parc de l’Aigüera meets the Town Hall, the city turns into pure geometry. Take a close look: each display offers a double treat; the power of a full-body shot and the magic of a detail that speaks to you. Enjoy this visual dialogue and, when you’re done, choose your next adventure: the modernity of Els Tolls or the freshness of El Campo. Let’s go!",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -2637,7 +2637,7 @@ window.translations = {
         "id": "urban-6",
         "title": "Els Tolls",
         "subtitle": "City intervention",
-        "description": "Description of the art space \"Els Tolls\"",
+        "description": "At the urban art space Els Tolls, a visual dialogue awaits you between the modern lines of our towers and the most avant-garde fashion. It is a space where the city turns into pure geometry. Most of the photographs are from the ‘Benidorm Vertical’ editorial, a shoot captured in December 2019 that was featured in several magazines, including one in New York. Here, you can observe the buildings of the Llevant area. If you wish to continue with the Ponent section, El Campo and Ponent await you to complete your exploration.",
         "photos": [
           {
             "id": "urban-6-photo-1",
