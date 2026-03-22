@@ -152,7 +152,8 @@ const translations = {
     },
     pauses: {
       pause1: "Observa el buit, no com absència, sinó com el llenç on ocorre la vida.",
-      pause2: "La naturalesa no s'apressa, i no obstant això, tot s'aconseguix."
+      pause2: "La naturalesa no s'apressa, i no obstant això, tot s'aconseguix.",
+      title: "Un moment de reflexió"
     },
     rooms: data.ca,
     author: {
