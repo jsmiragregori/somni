@@ -109,7 +109,8 @@ const translations = {
     },
     pauses: {
       pause1: "Observa el vacío, no como ausencia, sino como el lienzo donde ocurre la vida.",
-      pause2: "La naturaleza no se apresura, y sin embargo, todo se logra."
+      pause2: "La naturaleza no se apresura, y sin embargo, todo se logra.",
+      title: "Un momento de reflexión"
     },
     rooms: data.es,
     author: {
@@ -193,7 +194,8 @@ const translations = {
     },
     pauses: {
       pause1: "Observe the void, not as absence, but as the canvas where life occurs.",
-      pause2: "Nature does not hurry, yet everything is accomplished."
+      pause2: "Nature does not hurry, yet everything is accomplished.",
+      title: "A moment of reflection"
     },
     rooms: data.en,
     author: {
