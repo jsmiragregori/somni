@@ -199,7 +199,7 @@ function renderApp() {
             <section class="py-32 px-6 bg-white text-bg border-t border-white/5">
                 <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-center">
                     <div class="w-full md:w-1/2 aspect-square bg-zinc-200 fade-in">
-                        <img src="https://images.unsplash.com/photo-1554046920-90dc5f3ac8ed?q=80&w=1200" alt="${t.author.name}" class="w-full h-full object-cover filter grayscale">
+                        <img src="${t.author.image || 'https://images.unsplash.com/photo-1554046920-90dc5f3ac8ed?q=80&w=1200'}" alt="${t.author.name}" class="w-full h-full object-cover filter grayscale">
                     </div>
                     <div class="w-full md:w-1/2 fade-in">
                         <span class="font-mono ${getDynamicText('label')} text-accent uppercase tracking-widest mb-4 block">${t.author.title}</span>

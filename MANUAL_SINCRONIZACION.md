@@ -20,6 +20,7 @@ Los archivos que acepta esta carpeta son (reemplazar `_es` por `_ca` o `_en` seg
 - `pausa1_es.txt`: Primer momento de reflexión ("Observa el vacío...").
 - `pausa2_es.txt`: Segundo momento de reflexión ("La naturaleza no se apresura...").
 - `bio_es.txt`: Texto de perfil de la autora ("Soy Maria José Lozano...").
+- `bio_image.jpg` (o `.png`, `.webp`): Imagen circular de la autora. Recomendado formato cuadrado (1:1).
 
 ## 4. Estructura de cada Obra
 Dentro de cada galería (`urban-1_El_Castell`), creas una subcarpeta para cada foto.

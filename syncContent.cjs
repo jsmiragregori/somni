@@ -179,7 +179,23 @@ if (fs.existsSync(generalTextsDir) && fs.statSync(generalTextsDir).isDirectory()
         checkAndSet(`manifesto_${lang}.txt`, data[lang].manifesto, 'text');
         checkAndSet(`pausa1_${lang}.txt`, data[lang].pauses, 'pause1');
         checkAndSet(`pausa2_${lang}.txt`, data[lang].pauses, 'pause2');
-        checkAndSet(`bio_${lang}.txt`, data[lang].contact, 'bio');
+        checkAndSet(`bio_${lang}.txt`, data[lang].author, 'bio');
+    }
+
+    // Ingest Author Bio Image if exists
+    const validExts = ['.jpg', '.jpeg', '.png', '.webp'];
+    for (const ext of validExts) {
+        const imgName = `bio_image${ext}`;
+        const sourceImgPath = path.join(generalTextsDir, imgName);
+        if (fs.existsSync(sourceImgPath)) {
+            const destImgPath = path.join(IMG_DEST, imgName);
+            fs.copyFileSync(sourceImgPath, destImgPath);
+            for (const lang of ['es', 'ca', 'en']) {
+                data[lang].author.image = `/img/${imgName}`;
+            }
+            console.log(`  └─ Copiada imagen de la bio: ${imgName}`);
+            break; // only copy the first found format
+        }
     }
     
     if (updatedTextsCount > 0) {
