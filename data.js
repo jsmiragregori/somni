@@ -120,7 +120,7 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "Intervención en la ciudad",
-        "description": "Aquí, en el espacio de arte El Pont, verás cómo transformamos la calle Emilio Ortuño en el silencio de 2020. Fue con la editorial ‘Benidorm Horizontal’ cuando recorrimos muchas localizaciones con diferentes outfits. Aquí puedes ver dos diferentes. Cuando acabes, sigue hacia Carrascos para más geometría, o vuelve a la Hispanidad para repetir el camino.",
+        "description": "Aquí, en el Espacio de Arte El Pont, verás cómo transformamos la calle Emilio Ortuño en el silencio de 2020. Fue con la editorial ‘Benidorm Horizontal’ cuando recorrimos muchas localizaciones con diferentes outfits. Aquí puedes ver dos diferentes. Cuando acabes, sigue hacia Carrascos para más geometría, o vuelve a la Hispanidad para repetir el camino.",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -178,14 +178,14 @@ window.translations = {
         "id": "urban-4",
         "title": "El Campo",
         "subtitle": "Intervención en la ciudad",
-        "description": "En el espacio de arte El Campo, disfrutaréis de la fuerza del color donde el Benidorm de toda la vida se viste de gala. Aquí os propongo un juego: buscad las localizaciones desde cada punto donde os encontráis en cada momento. Y, al terminar, preparaos para el gran final: próxima estación, Poniente.",
+        "description": "En el Espacio de Arte El Campo, disfrutaréis de la fuerza del color donde el Benidorm de toda la vida se viste de gala. Aquí os propongo un juego: buscad las localizaciones desde cada punto donde os encontráis en cada momento. Y, al terminar, preparaos para el gran final: próxima estación, Poniente.",
         "photos": [
           {
             "id": "urban-4-photo-1",
             "url": "./img/urban-4_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Bienvenidos a El Campo. Mira el Intempo: Eva posando entre acero y reflejos dorados en 2021. Una imagen que une el pasado marinero con el futuro vertical. Ahora, alza la vista al final de esta calle San Pedro: ahí tienes el edificio real, imponente, moderno.",
+            "description": "Bienvenidos a El Campo. Mira el Edificio Intempo: la modelo posando entre acero y reflejos dorados en 2021. Una imagen que une el pasado marinero con el futuro vertical. Ahora, alza la vista al final de esta calle San Pedro: ahí tienes el edificio real, imponente, moderno.",
             "year": "2021",
             "isMasterpiece": true,
             "audioUrl": null
@@ -205,7 +205,7 @@ window.translations = {
             "url": "./img/urban-4_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Terraza del hotel Milords Suites. Editorial ‘Benidorm Horizontal’. Esta era nuestra base de operaciones para los cambios de vestuario. Fijaos en los ojos de sorpresa de Eva, cómo expresa el encanto que acaba de descubrir: el Bali y las luces de Ponent se deshacen en un 'bokeh' que nos transporta a una ciudad nocturna y elegante.",
+            "description": "Terraza del hotel Milords Suites. Editorial ‘Benidorm Horizontal’. Esta era nuestra base de operaciones para los cambios de vestuario. Fijaos en los ojos de sorpresa de Eva, cómo expresa el encanto que acaba de descubrir: el Hotel Bali y las luces de Ponent se deshacen en un 'bokeh' que nos transporta a una ciudad nocturna y elegante.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -344,7 +344,7 @@ window.translations = {
         "id": "urban-6",
         "title": "Els Tolls",
         "subtitle": "Intervención en la ciudad",
-        "description": "En el espacio de arte Els Tolls te espera un diálogo visual entre las líneas modernas de nuestras torres y la moda más vanguardista. Es un espacio donde la ciudad se convierte en geometría pura. La mayoría de las fotografías pertenecen a la editorial ‘Benidorm Vertical’, una sesión realizada en diciembre de 2019 que fue publicada por diversas revistas, entre ellas una de Nueva York. Aquí podrás observar los edificios de la zona de Levante. Si quieres seguir con la parte de Poniente, te esperan El Campo y Poniente para terminar de explorar.",
+        "description": "En el Espacio de Arte Els Tolls te espera un diálogo visual entre las líneas modernas de nuestras torres y la moda más vanguardista. Es un espacio donde la ciudad se convierte en geometría pura. La mayoría de las fotografías pertenecen a la editorial ‘Benidorm Vertical’, una sesión realizada en diciembre de 2019 que fue publicada por diversas revistas, entre ellas una de Nueva York. Aquí podrás observar los edificios de la zona de Levante. Si quieres seguir con la parte de Poniente, te esperan El Campo y Poniente para terminar de explorar.",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -492,7 +492,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervención en la ciudad",
-        "description": "Bienvenidas y bienvenidos al museo al aire libre más grande de nuestra ciudad. En este Paseo de Poniente, he querido que el mar y la arquitectura se encuentren. A través de ángulos que desafían la gravedad, te ofrezco una mirada diferente sobre nuestros gigantes: el Gran Hotel Bali y el Intempo. Son imágenes que capturan la mística vertical de Benidorm y que viajaron hasta Nueva York para demostrar que nuestra ciudad es puro arte urbano. Alza la mirada y disfruta del vértigo y la moda. ¿Quieres ver más y connocer más detalles de las sesiones? Visita la exposición interior de La Casilla para completar tu experiencia.\"",
+        "description": "Bienvenidas y bienvenidos al museo al aire libre más grande de nuestra ciudad. En este Paseo de Poniente, he querido que el mar y la arquitectura se encuentren. A través de ángulos que desafían la gravedad, te ofrezco una mirada diferente sobre nuestros gigantes: el Gran Hotel Bali y el Edificio Intempo. Son imágenes que capturan la mística vertical de Benidorm y que viajaron hasta Nueva York para demostrar que nuestra ciudad es puro arte urbano. Alza la mirada y disfruta del vértigo y la moda. ¿Quieres ver más y conocer más detalles de las sesiones? Visita el Espacio de Arte Interior de La Casilla para completar tu experiencia.\"",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -539,7 +539,7 @@ window.translations = {
             "url": "./img/urban-7_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Bienvenidos al interior del Intempo, octubre de 2021. Desde estos apartamentos de altura, la ciudad desaparece y solo queda el azul, que atraviesa el cristal y lo inunda todo. ¿Te imaginas flotar así? Es el mismo horizonte infinito que tienes ahora mismo frente a tí en Poniente.",
+            "description": "Bienvenidos al interior de l'Edifici Intempo, octubre de 2021. Desde estos apartamentos tan altos, la ciudad desaparece y solo queda el azul, que atraviesa el cristal y lo inunda todo. ¿Te imaginas flotar así? Es el mismo horizonte infinito que tienes ahora mismo frente a tí en Poniente.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -549,7 +549,7 @@ window.translations = {
             "url": "./img/urban-7_photo_6.jpg",
             "orientation": "portrait",
             "title": "Obra 06",
-            "description": "Fíjate en los marcos dorados que abrazan a Eva. Esta sesión fue pura improvisación de octubre. Teníamos un único día de acceso y ninguna posibilidad de visitar el edificio previamente. Todo lo que ves—vestuarios, poses, luz—se decidió al momento, un 'ahora o nunca' para capturar este gigante por dentro.",
+            "description": "Fíjate en los marcos dorados que abrazan a la modelo. Esta sesión fue pura improvisación de octubre. Teníamos un único día de acceso y ninguna posibilidad de visitar el edificio previamente. Todo lo que ves—vestuarios, poses, luz—se decidió al momento, un 'ahora o nunca' para capturar este gigante por dentro.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -559,7 +559,7 @@ window.translations = {
             "url": "./img/urban-7_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "¿Te imaginas estar en la planta 46, flotando sobre la ciudad? Aquí, en el SPA del Intempo, el tiempo se detiene. Mira cómo la isla vigila el horizonte al fondo de la imagen: es el mismo perfil que tienes ahora frente a ti, pero visto desde un cielo que tuvimos que descubrir y fotografiar en un solo día, sin saber qué nos encontraríamos.\"",
+            "description": "¿Te imaginas estar en la planta 46, flotando sobre la ciudad? Aquí, en el SPA del Edificio Intempo, el tiempo se detiene. Mira cómo la isla vigila el horizonte al fondo de la imagen: es el mismo perfil que tienes ahora frente a ti, pero visto desde un cielo que tuvimos que descubrir y fotografiar en un solo día, sin saber qué nos encontraríamos.\"",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -569,7 +569,7 @@ window.translations = {
             "url": "./img/urban-7_photo_8.jpg",
             "orientation": "portrait",
             "title": "Obra 08",
-            "description": "A pie de calle. Planta baja. Un solo tiro, un instante. Un solo dedo presionando la cámara fue suficiente para capturar todo el reflejo del Intempo en esta piscina infinita. Con pura improvisación y un 'black outfit', fusionamos al gigante con el agua en un segundo. Es la mística de nuestro horizonte.",
+            "description": "A pie de calle. Planta baja. Un solo tiro, un instante. Un solo dedo presionando la cámara fue suficiente para capturar todo el reflejo del Edificio Intempo en esta piscina infinita. Con pura improvisación y un 'black outfit', fusionamos al gigante con el agua en un segundo. Es la mística de nuestro horizonte.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -599,7 +599,7 @@ window.translations = {
             "url": "./img/urban-7_photo_11.jpg",
             "orientation": "portrait",
             "title": "Obra 11",
-            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda En esta composición, Eva se sitúa sobre un pilar y al fondo aparece la zona de La Cala y el Tossal. Si alzas la mirada ahora mismo por detrás de este mupi, verás exactamente ese mismo paisaje más abajo.",
+            "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda En esta composición, la modelo se sitúa sobre un pilar y al fondo aparece la zona de La Cala y el Tossal. Si alzas la mirada ahora mismo por detrás de este mupi, verás exactamente ese mismo paisaje más abajo.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -609,7 +609,7 @@ window.translations = {
             "url": "./img/urban-7_photo_12.jpg",
             "orientation": "portrait",
             "title": "Obra 12",
-            "description": "Una nueva terraza del Intempo nos regala esta estampa de Eva con el mar de fondo. La luz de octubre baña la escena, creando una atmósfera de serenidad absoluta.\"",
+            "description": "Una nueva terraza del Edificio Intempo nos regala esta estampa de la modelo con el mar de fondo. La luz de octubre baña la escena, creando una atmósfera de serenidad absoluta.\"",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -619,7 +619,7 @@ window.translations = {
             "url": "./img/urban-7_photo_13.jpg",
             "orientation": "portrait",
             "title": "Obra 13",
-            "description": "Esta perspectiva nos lleva a la base del diamante central del edificio Intempo. Fíjate en el contraste entre la modernidad de la estructura y el olivo milenario que hay en la entrada. Un juego de ángulos que destaca la verticalidad extrema del proyecto.",
+            "description": "Esta perspectiva nos lleva a la base del diamante central del Edificio Intempo. Fíjate en el contraste entre la modernidad de la estructura y el olivo milenario que hay en la entrada. Un juego de ángulos que destaca la verticalidad extrema del proyecto.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -629,7 +629,7 @@ window.translations = {
             "url": "./img/urban-7_photo_14.jpg",
             "orientation": "portrait",
             "title": "Obra 14",
-            "description": "A pie de calle, la magnitud del Intempo impresiona. Aquí la modelo brilla con la misma fuerza que la fachada del edificio en una de las imágenes más dinámicas de la sesión.",
+            "description": "A pie de calle, la magnitud del Edificio Intempo impresiona. Aquí la modelo brilla con la misma fuerza que la fachada del edificio en una de las imágenes más dinámicas de la sesión.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1327,14 +1327,14 @@ window.translations = {
         "id": "urban-4",
         "title": "El Campo",
         "subtitle": "Intervenció a la ciutat",
-        "description": "A l’espai d’art El Campo, gaudireu de la força del color on el Benidorm de tota la vida es vesteix de gala. Vos propose un joc: busqueu les localitzacions de les fotos des del mateix punt on vos trobeu en cada moment. I, en acabar, prepareu-vos per al gran final: pròxima estació, Ponent.",
+        "description": "A l’Espai d’Art El Campo, gaudireu de la força del color on el Benidorm de tota la vida es vesteix de gala. Vos propose un joc: busqueu les localitzacions de les fotos des del mateix punt on vos trobeu en cada moment. I, en acabar, prepareu-vos per al gran final: pròxima estació, Ponent.",
         "photos": [
           {
             "id": "urban-4-photo-1",
             "url": "./img/urban-4_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Benvinguts a El Campo. Mira l'Intempo: l'Eva posant entre acer i reflexos daurats el 2021. Una imatge que uneix el passat mariner amb el futur vertical. Ara, alça la vista al final d'aquest carrer Sant Pere: ahí tens l'edifici real, imponent, modern.",
+            "description": "Benvinguts a El Campo. Mira l'Edifici Intempo: la model posant entre acer i reflexos daurats el 2021. Una imatge que uneix el passat mariner amb el futur vertical. Ara, alça la vista al final d'aquest carrer Sant Pere: ahí tens l'edifici real, imponent, modern.",
             "year": "2021",
             "isMasterpiece": true,
             "audioUrl": null
@@ -1344,7 +1344,7 @@ window.translations = {
             "url": "./img/urban-4_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Aproximem-nos al detall. Fixa't en les columnes daurades de l'Intempo i en els reflexos que multipliquen la verticalitat. Ara, gira la vista a la dreta: al fons del carrer veuràs la silueta daurada de l'edifici real, repetint el mateix patró de la fotografia.",
+            "description": "Aproximem-nos al detall. Fixa't en les columnes daurades de l'Edifici Intempo i en els reflexos que multipliquen la verticalitat. Ara, gira la vista a la dreta: al fons del carrer veuràs la silueta daurada de l'edifici real, repetint el mateix patró de la fotografia.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1354,7 +1354,7 @@ window.translations = {
             "url": "./img/urban-4_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Terrassa de l'hotel Milords Suites. Editorial ‘Benidorm Horitzontal’. Aquesta era la nostra base d'operacions per als canvis de vestuari. Fixeu-vos en els ulls de sorpresa d’Eva, com expressa l’encant que acaba de edscobrir: el Bali i les llums de Ponent es desfan en un 'bokeh' que ens transporta a una ciutat nocturna i elegant.",
+            "description": "Terrassa de l'hotel Milords Suites. Editorial ‘Benidorm Horitzontal’. Aquesta era la nostra base d'operacions per als canvis de vestuari. Fixeu-vos en els ulls de sorpresa d’Eva, com expressa l’encant que acaba de descobrir: l'hotel Bali i les llums de Ponent es desfan en un 'bokeh' que ens transporta a una ciutat nocturna i elegant.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1493,7 +1493,7 @@ window.translations = {
         "id": "urban-6",
         "title": "Els Tolls",
         "subtitle": "Intervenció a la ciutat",
-        "description": "En l’espai d’art Els Tolls t'espera un diàleg visual entre les línies modernes de les nostres torres i la moda més avantguardista. És un espai on la ciutat es torna geometria pura. La majoria de les fotografies són de l’editorial ‘Benidorm Vertical’, sessió realitzada el desembre de 2019 i que va ser publicada per revistes, entre elles una de Nova York. Ací podràs observar els edificis de la part de Llevant. Si vols seguir amb la part de Ponent, t’esperen El Campo i Ponent per acabar d’explorar.",
+        "description": "En l’Espai d’Art Els Tolls t'espera un diàleg visual entre les línies modernes de les nostres torres i la moda més avantguardista. És un espai on la ciutat es torna geometria pura. La majoria de les fotografies són de l’editorial ‘Benidorm Vertical’, sessió realitzada el desembre de 2019 i que va ser publicada per revistes, entre elles una de Nova York. Ací podràs observar els edificis de la part de Llevant. Si vols seguir amb la part de Ponent, t’esperen El Campo i Ponent per acabar d’explorar.",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -1641,7 +1641,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Benvingudes i benvinguts al museu a l'aire lliure més gran de la nostra ciutat. En aquest Passeig de Ponent, he volgut que la mar i l'arquitectura es troben. A través d'angles que desafien la gravetat, t’ofereixo una mirada diferent sobre els nostres gegants, el Gran Hotel Bali i l’Intempo. Són imatges que capturen la mística vertical de Benidorm i que van viatjar fins a Nova York per demostrar que la nostra ciutat és pur art urbà. Alça la mirada i gaudeix del vertigen i la moda. Vols veure més i conéixer més detalls de les sessions? En acabar podries visitar l’espai d’art interior La Casilla per completar la teua experiència.",
+        "description": "Benvingudes i benvinguts al museu a l'aire lliure més gran de la nostra ciutat. En aquest Passeig de Ponent, he volgut que la mar i l'arquitectura es troben. A través d'angles que desafien la gravetat, t’ofereixo una mirada diferent sobre els nostres gegants, el Gran Hotel Bali i l’Edifici Intempo. Són imatges que capturen la mística vertical de Benidorm i que van viatjar fins a Nova York per demostrar que la nostra ciutat és pur art urbà. Alça la mirada i gaudeix del vertigen i la moda. Vols veure més i conéixer més detalls de les sessions? En acabar podries visitar l’Espai d’Art Interior La Casilla per completar la teua experiència.",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -1688,7 +1688,7 @@ window.translations = {
             "url": "./img/urban-7_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Benvinguts a l'interior de l'Intempo, octubre de 2021. Des d'aquests apartaments d'alçada, la ciutat desapareix i només queda el blau, que travessa el vidre i ho inunda tot. T'imagines flotar així? És el mateix horitzó infinit que tens ara mateix davant teu a Ponent.",
+            "description": "Benvinguts a l'interior de l'Edifici Intempo, octubre de 2021. Des d'aquests apartaments tant alts, la ciutat desapareix i només queda el blau, que travessa el vidre i ho inunda tot. T'imagines flotar així? És el mateix horitzó infinit que tens ara davant teu a Ponent.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1698,7 +1698,7 @@ window.translations = {
             "url": "./img/urban-7_photo_6.jpg",
             "orientation": "portrait",
             "title": "Obra 06",
-            "description": "Fixa't en els marcs daurats que abracen l'Eva. Aquesta sessió va ser pura improvisació d'octubre. Teníem un únic dia d'accés i cap possibilitat de visitar l'edifici prèviament. Tot el que veus—vestidors, poses, llum—es va decidir al moment, un 'ara o mai' per a capturar aquest gegant per dins.",
+            "description": "Fixa't en els marcs daurats que abracen la model. Aquesta sessió va ser pura improvisació d'octubre. Teníem un únic dia d'accés i cap possibilitat de visitar l'edifici prèviament. Tot el que veus—vestidors, posats, llum—es va decidir al moment, un 'ara o mai' per a capturar aquest gegant per dins.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1708,7 +1708,7 @@ window.translations = {
             "url": "./img/urban-7_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "T'imagines estar a la planta 46, flotant sobre la ciutat? Ací, a l'SPA de l'Intempo, el temps s'atura. Mira com l'illa vigila l'horitzó al fons de la imatge: és el mateix perfil que tens ara davant teu, però vist des d'un cel que vam haver de descobrir i fotografiar en un sol dia, sense saber què ens trobaríem.",
+            "description": "T'imagines estar a la planta 46, flotant sobre la ciutat? Ací, a l'SPA de l'Edifici Intempo, el temps s'atura. Mira com l'illa vigila l'horitzó al fons de la imatge: és el mateix perfil que tens ara davant teu, però vist des d'un cel que vam haver de descobrir i fotografiar en un sol dia, sense saber què ens trobaríem.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1718,7 +1718,7 @@ window.translations = {
             "url": "./img/urban-7_photo_8.jpg",
             "orientation": "portrait",
             "title": "Obra 08",
-            "description": "A peu de carrer. Planta baixa. Un sol tret, un instant. Un sol dit pressionant la càmera va ser suficient per a capturar tot el reflex de l'Intempo en aquesta piscina infinita. Amb pura improvisació i un 'black outfit', vam fusionar el gegant amb l'aigua en un segon. És la mística del nostre horitzó.",
+            "description": "A peu de carrer. Planta baixa. Un sol tret, un instant. Un sol dit pressionant la càmera va ser suficient per a capturar tot el reflex de l'Edifici Intempo en aquesta piscina infinita. Amb pura improvisació i un 'black outfit', vam fusionar el gegant amb l'aigua en un segon. És la mística del nostre horitzó.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1748,7 +1748,7 @@ window.translations = {
             "url": "./img/urban-7_photo_11.jpg",
             "orientation": "portrait",
             "title": "Obra 11",
-            "description": "En aquesta composició, l'Eva se situa sobre un pilar i al fons apareix la zona de la Cala i el Tossal. Si alces la mirada ara mateix per darrere d'aquest mupi, veuràs exactament eixe mateix paisatge més avall.",
+            "description": "En aquesta composició, la model se situa sobre un pilar i al fons apareix la zona de la Cala i el Tossal. Si alces la mirada ara mateix per darrere d'aquest mupi, veuràs exactament eixe mateix paisatge més avall.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1758,7 +1758,7 @@ window.translations = {
             "url": "./img/urban-7_photo_12.jpg",
             "orientation": "portrait",
             "title": "Obra 12",
-            "description": "Una nova terrassa de l'Intempo ens regala aquesta estampa de l'Eva amb la mar de fons. La llum d'octubre banya l'escena, creant una atmosfera de serenitat absoluta.",
+            "description": "Una nova terrassa de l'Edifici Intempo ens regala aquesta estampa de la model amb la mar de fons. La llum d'octubre banya l'escena, creant una atmosfera de serenitat absoluta.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1768,7 +1768,7 @@ window.translations = {
             "url": "./img/urban-7_photo_13.jpg",
             "orientation": "portrait",
             "title": "Obra 13",
-            "description": "Aquesta perspectiva ens porta a la base del diamant central de l’edifici Intempo. Fixa't en el contrast entre la modernitat de l'estructura i l'olivera mil·lenària que hi ha a l'entrada. Un joc de picats que destaca la verticalitat extrema del projecte.",
+            "description": "Aquesta perspectiva ens porta a la base del diamant central de l’Edifici Intempo. Fixa't en el contrast entre la modernitat de l'estructura i l'olivera mil·lenària que hi ha a l'entrada. Un joc de picats que destaca la verticalitat extrema del projecte.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1778,7 +1778,7 @@ window.translations = {
             "url": "./img/urban-7_photo_14.jpg",
             "orientation": "portrait",
             "title": "Obra 14",
-            "description": "A peu de carrer, la magnitud de l'Intempo impressiona. Aquí la model brilla amb la mateixa força que la façana de l'edifici en una de les imatges més dinàmiques de la sessió.",
+            "description": "A peu de carrer, la magnitud de l'Edifici Intempo impressiona. Aquí la model brilla amb la mateixa força que la façana de l'edifici en una de les imatges més dinàmiques de la sessió.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1788,7 +1788,7 @@ window.translations = {
             "url": "./img/urban-7_photo_15.jpg",
             "orientation": "portrait",
             "title": "Obra 15",
-            "description": "Aquest pla més curt destaca per una pose acuradament executada. És el fruit d'un gran treball en equip: la combinació de la llum, el vestuari i l'expressió de la model per a capturar l'esperit vertical que volíem expressar en esta sessió.",
+            "description": "Aquest pla més curt destaca per una posada acuradament executada. És el fruit d'un gran treball en equip: la combinació de la llum, el vestuari i l'expressió de la model per a capturar l'esperit vertical que volíem expressar en esta sessió.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2418,7 +2418,7 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "City intervention",
-        "description": "Here, in the art urban space El Pont, you will see how we transformed Emilio Ortuño Street amidst the silence of 2020. It was for the 'Benidorm Horizontal' editorial that we explored numerous locations with various outfits; you can see two of them here. When you’re finished, continue towards Carrascos for more geometry, or head back to Hispanitat to retrace the route.",
+        "description": "Here, in the Art Urban Space El Pont, you will see how we transformed Emilio Ortuño Street amidst the silence of 2020. It was for the 'Benidorm Horizontal' editorial that we explored numerous locations with various outfits; you can see two of them here. When you’re finished, continue towards Carrascos for more geometry, or head back to Hispanitat to retrace the route.",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -2476,14 +2476,14 @@ window.translations = {
         "id": "urban-4",
         "title": "El Campo",
         "subtitle": "City intervention",
-        "description": "At El Campo art space, you will enjoy the power of color, where the soul of traditional Benidorm is dressed to the nines. I invite you all to a game: try to find the locations of the photos from right where you are standing. And when you’re done, get ready for the grand finale: next stop, Ponent.",
+        "description": "At El Campo Art Space, you will enjoy the power of color, where the soul of traditional Benidorm is dressed to the nines. I invite you all to a game: try to find the locations of the photos from right where you are standing. And when you’re done, get ready for the grand finale: next stop, Ponent.",
         "photos": [
           {
             "id": "urban-4-photo-1",
             "url": "./img/urban-4_photo_1.jpg",
             "orientation": "portrait",
             "title": "Artwork 01",
-            "description": "Welcome to El Campo. Look at the Intempo: Eva posing amid steel and golden reflections in 2021. An image joining the maritime past with the vertical future. Now, look up towards the end of San Pedro street: there is the real building, imposing, modern.",
+            "description": "Welcome to El Campo. Look at the Intempo Building: the model posing amid steel and golden reflections in 2021. An image joining the maritime past with the vertical future. Now, look up towards the end of San Pedro street: there is the real building, imposing, modern.",
             "year": "2021",
             "isMasterpiece": true,
             "audioUrl": null
@@ -2503,7 +2503,7 @@ window.translations = {
             "url": "./img/urban-4_photo_3.jpg",
             "orientation": "portrait",
             "title": "Artwork 03",
-            "description": "Milords Suites Hotel terrace. ‘Benidorm Horizontal’ editorial. This was our base of operations for outfit changes. Look at the wonder in Eva’s eyes, expressing the charm she has just discovered: the Bali hotel and the Ponent lights melt into a 'bokeh' that transports us to an elegant, nighttime city.",
+            "description": "Milords Suites Hotel terrace. ‘Benidorm Horizontal’ editorial. This was our base of operations for outfit changes. Look at the wonder in Eva’s eyes, expressing the charm she has just discovered: the Bali Hotel and the Ponent lights melt into a 'bokeh' that transports us to an elegant, nighttime city.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2642,7 +2642,7 @@ window.translations = {
         "id": "urban-6",
         "title": "Els Tolls",
         "subtitle": "City intervention",
-        "description": "At the urban art space Els Tolls, a visual dialogue awaits you between the modern lines of our towers and the most avant-garde fashion. It is a space where the city turns into pure geometry. Most of the photographs are from the ‘Benidorm Vertical’ editorial, a shoot captured in December 2019 that was featured in several magazines, including one in New York. Here, you can observe the buildings of the Llevant area. If you wish to continue with the Ponent section, El Campo and Ponent await you to complete your exploration.",
+        "description": "At the Urban Art Space Els Tolls, a visual dialogue awaits you between the modern lines of our towers and the most avant-garde fashion. It is a space where the city turns into pure geometry. Most of the photographs are from the ‘Benidorm Vertical’ editorial, a shoot captured in December 2019 that was featured in several magazines, including one in New York. Here, you can observe the buildings of the Llevant area. If you wish to continue with the Ponent section, El Campo and Ponent await you to complete your exploration.",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -2790,7 +2790,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "City intervention",
-        "description": "Welcome to the largest open-air museum in our city. On this Ponent Promenade, I wanted the sea and architecture to meet. Through angles that defy gravity, I offer you a different perspective on our giants: the Gran Hotel Bali and the Intempo. These images capture the vertical mystique of Benidorm and traveled all the way to New York to prove that our city is pure urban art. Look up and enjoy the vertigo and fashion. Want to see more and know more details about the sessions? Visit the La Casilla indoor art space to complete your experience.\"",
+        "description": "Welcome to the largest open-air museum in our city. On this Ponent Promenade, I wanted the sea and architecture to meet. Through angles that defy gravity, I offer you a different perspective on our giants: the Gran Hotel Bali and the Intempo Building. These images capture the vertical mystique of Benidorm and traveled all the way to New York to prove that our city is pure urban art. Look up and enjoy the vertigo and fashion. Want to see more and know more details about the sessions? Visit the La Casilla Indoor Art Space to complete your experience.\"",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -2837,7 +2837,7 @@ window.translations = {
             "url": "./img/urban-7_photo_5.jpg",
             "orientation": "portrait",
             "title": "Artwork 05",
-            "description": "Welcome inside the Intempo, October 2021. From these high apartments, the city disappears, and only the blue remains, crossing the glass and flooding everything. Can you imagine floating like that? It is the same infinite horizon that you have right now in front of you at Ponent.",
+            "description": "Welcome inside the Intempo Building, October 2021. From these high apartments, the city disappears, and only the blue remains, crossing the glass and flooding everything. Can you imagine floating like that? It is the same infinite horizon that you have right now in front of you at Ponent.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2847,7 +2847,7 @@ window.translations = {
             "url": "./img/urban-7_photo_6.jpg",
             "orientation": "portrait",
             "title": "Artwork 06",
-            "description": "Notice the golden frames embracing Eva. This session was pure October improvisation. We had only one day of access and no possibility of visiting the building beforehand. Everything you see—outfits, poses, light—was decided on the spot, a 'now or never' moment to capture this giant from within.",
+            "description": "Notice the golden frames embracing the model. This session was pure October improvisation. We had only one day of access and no possibility of visiting the building beforehand. Everything you see—outfits, poses, light—was decided on the spot, a 'now or never' moment to capture this giant from within.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2857,7 +2857,7 @@ window.translations = {
             "url": "./img/urban-7_photo_7.jpg",
             "orientation": "portrait",
             "title": "Artwork 07",
-            "description": "Can you imagine being on the 46th floor, floating above the city? Here, at the Intempo SPA, time stands still. See how the island watches the horizon in the background: it’s the same profile you have in front of you now, but seen from a sky we had to discover and photograph in a single day, without knowing what we would find.",
+            "description": "Can you imagine being on the 46th floor, floating above the city? Here, at the Intempo Building SPA, time stands still. See how the island watches the horizon in the background: it’s the same profile you have in front of you now, but seen from a sky we had to discover and photograph in a single day, without knowing what we would find.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2867,7 +2867,7 @@ window.translations = {
             "url": "./img/urban-7_photo_8.jpg",
             "orientation": "portrait",
             "title": "Artwork 08",
-            "description": "At street level. Ground floor. Just one shot, one instant. A single finger pressing the camera was enough to capture the entire Intempo reflection in this infinite pool. With pure improvisation and a 'black outfit', we merged the giant with the water in a second. It is the mística of our horizon.",
+            "description": "At street level. Ground floor. Just one shot, one instant. A single finger pressing the camera was enough to capture the entire Intempo Building reflection in this infinite pool. With pure improvisation and a 'black outfit', we merged the giant with the water in a second. It is the mística of our horizon.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2897,7 +2897,7 @@ window.translations = {
             "url": "./img/urban-7_photo_11.jpg",
             "orientation": "portrait",
             "title": "Artwork 11",
-            "description": "In this composition, Eva is positioned on a pillar with the La Cala area and the Tossal in the background. If you look up right now behind this mupi, you will see exactly that same landscape further down.",
+            "description": "In this composition, the model is positioned on a pillar with the La Cala area and the Tossal in the background. If you look up right now behind this mupi, you will see exactly that same landscape further down.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2907,7 +2907,7 @@ window.translations = {
             "url": "./img/urban-7_photo_12.jpg",
             "orientation": "portrait",
             "title": "Artwork 12",
-            "description": "A new terrace at Intempo presents this scene of Eva with the sea in the background. The October light bathes the setting, creating an atmosphere of absolute serenity.",
+            "description": "A new terrace at Intempo Building presents this scene of the model with the sea in the background. The October light bathes the setting, creating an atmosphere of absolute serenity.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2917,7 +2917,7 @@ window.translations = {
             "url": "./img/urban-7_photo_13.jpg",
             "orientation": "portrait",
             "title": "Artwork 13",
-            "description": "This perspective takes us to the base of the Intempo building's central diamond. Notice the contrast between the structure's modernity and the ancient olive tree at the entrance. A play of camera angles that highlights the project's extreme verticality.",
+            "description": "This perspective takes us to the base of the Intempo Building's central diamond. Notice the contrast between the structure's modernity and the ancient olive tree at the entrance. A play of camera angles that highlights the project's extreme verticality.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
@@ -2927,7 +2927,7 @@ window.translations = {
             "url": "./img/urban-7_photo_14.jpg",
             "orientation": "portrait",
             "title": "Artwork 14",
-            "description": "At street level, the magnitude of the Intempo is breathtaking. Here, the model shines with the same strength as the building's facade in one of the session's most dynamic images.",
+            "description": "At street level, the magnitude of the Intempo Building is breathtaking. Here, the model shines with the same strength as the building's facade in one of the session's most dynamic images.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
