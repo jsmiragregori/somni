@@ -164,7 +164,7 @@ function renderApp() {
         <main>
             <!-- Hero -->
             <section class="relative h-screen flex items-center justify-center overflow-hidden">
-                <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2600')] bg-cover bg-center opacity-40"></div>
+                <div class="absolute inset-0 bg-[url('${t.hero.image || 'https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2600'}')] bg-cover bg-center opacity-40"></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-bg via-bg/20 to-transparent"></div>
                 
                 <div class="relative z-10 text-center px-6">

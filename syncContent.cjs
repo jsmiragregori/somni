@@ -197,6 +197,21 @@ if (fs.existsSync(generalTextsDir) && fs.statSync(generalTextsDir).isDirectory()
             break; // only copy the first found format
         }
     }
+
+    // Ingest Hero Image if exists
+    for (const ext of validExts) {
+        const imgName = `hero_image${ext}`;
+        const sourceImgPath = path.join(generalTextsDir, imgName);
+        if (fs.existsSync(sourceImgPath)) {
+            const destImgPath = path.join(IMG_DEST, imgName);
+            fs.copyFileSync(sourceImgPath, destImgPath);
+            for (const lang of ['es', 'ca', 'en']) {
+                data[lang].hero.image = `/img/${imgName}`;
+            }
+            console.log(`  └─ Copiada imagen de fondo hero: ${imgName}`);
+            break;
+        }
+    }
     
     if (updatedTextsCount > 0) {
         console.log(`  └─ Actualizados ${updatedTextsCount} textos generales en data.js.`);
