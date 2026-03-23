@@ -92,7 +92,7 @@ window.translations = {
             "description": "Avenida Mediterráneo, marzo de 2021, editorial Benidorm de noche. Lo que más me gusta de esta imagen es cómo las luces circulares parecen ovnis suspendidos a juego con los círculos del paso de cebra. Un juego de futurismo y originalidad en el corazón de nuestra ciudad.",
             "year": "2021",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-2_photo_1_es.mp3"
           },
           {
             "id": "urban-2-photo-2",
@@ -102,17 +102,17 @@ window.translations = {
             "description": "Calle Gambo, editorial Benidorm de noche. Si miras al fondo de la imagen, detrás de la modelo, verás el hotel Madeira. Es el mismo edificio que, si apartas la vista de la foto y miras a tu izquierda, domina la calle donde te encuentras ahora. Me encanta cómo su silueta vigila el ritmo de nuestros pasos.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-2_photo_2_es.mp3"
           },
           {
             "id": "urban-2-photo-3",
             "url": "./img/urban-2_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Planta 20 del hotel Madeira, editorial Benidorm Horizontal. Estamos casi en el mismo punto donde te encuentras ahora, pero veinte plantas más arriba para divisar esta vista panorámica de la ciudad. Un regalo visual para contemplar cómo el Sol se funde con nuestra ciudad.",
+            "description": "Planta 20 del hotel Madeira, editorial Benidorm Horizontal. Estamos casi en el mismo punto donde te encuentras ahora, pero veinte plantas más arriba para divisar esta vista panorámica de Benidorm. Un regalo visual para contemplar cómo el Sol se funde con nuestra ciudad.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-2_photo_3_es.mp3"
           }
         ]
       },
@@ -130,7 +130,7 @@ window.translations = {
             "description": "Calle Emilio Ortuño, noviembre de 2020, editorial ‘Benidorm Horizontal’. Esta imagen se tomó justo encima de tu cabeza, arriba del Puente. Era época post-pandemia y el silencio nos permitió capturar un Benidorm casi vacío, con el hotel Madeira vigilando una ciudad que, poco a poco, volvía a la vida.",
             "year": "2020",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_1_es.mp3"
           },
           {
             "id": "urban-3-photo-2",
@@ -140,17 +140,17 @@ window.translations = {
             "description": "Calle Emilio Ortuño. Seguimos aquí arriba, en un momento donde la carretera aún no bullía de tráfico. Ese contexto post-pandemia convirtió el Puente en nuestra pasarela privada, donde el diseño escocés y el casco antiguo se miran cara a cara.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_2_es.mp3"
           },
           {
             "id": "urban-3-photo-3",
             "url": "./img/urban-3_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Calle Emilio Ortuño, frente al hotel Bristol. La última foto hecha arriba del Puente. Sin el ruido habitual de los coches de 2020, pudimos centrar toda la atención en el detalle y la elegancia, transformando una calle tan transitada en un auténtico escenario de moda.",
+            "description": "Calle Emilio Ortuño, frente al hotel Bristol. La última foto hecha arriba del Puente. Sin el ruido habitual de los coches en esa calle, pudimos centrar toda la atención en el detalle y la elegancia, transformando una calle tan transitada en un auténtico escenario de moda.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_3_es.mp3"
           },
           {
             "id": "urban-3-photo-4",
@@ -160,7 +160,7 @@ window.translations = {
             "description": "Calle del Pont, editorial ‘Benidorm Horizontal’. En esta imagen, si miramos al fondo detrás de la pareja, divisamos el Puente y el hotel Bristol. Para conseguir este 'look', tuvimos que correr al hotel a cambiarnos y volver en un momento; una coreografía de moda sobre un asfalto que aún estaba medio dormido.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_4_es.mp3"
           },
           {
             "id": "urban-3-photo-5",
@@ -170,7 +170,7 @@ window.translations = {
             "description": "Calle del Pont, noviembre de 2020. Aquí la perspectiva del fondo se abre hacia la plaza de la Hispanitat. Elegimos los globos para conectar con los patrones del paso de cebra que tienes delante. Es el fruto de muchas carreras al hotel para transformar, cambio tras cambio, la calle en una pasarela de sueño.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_5_es.mp3"
           }
         ]
       },
@@ -188,17 +188,17 @@ window.translations = {
             "description": "Bienvenidos a El Campo. Mira el Edificio Intempo: la modelo posando entre acero y reflejos dorados en 2021. Una imagen que une el pasado marinero con el futuro vertical. Ahora, alza la vista al final de esta calle San Pedro: ahí tienes el edificio real, imponente, moderno.",
             "year": "2021",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_1_es.mp3"
           },
           {
             "id": "urban-4-photo-2",
             "url": "./img/urban-4_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Aproximémonos al detalle. Fíjate en las columnas doradas del Intempo y en los reflejos que multiplican la verticalidad. Ahora, gira la vista a la derecha: al fondo de la calle verás la silueta dorada del edificio real, repitiendo el mismo patrón de la fotografía.",
+            "description": "Aproximémonos al detalle. Fíjate en las columnas doradas del Intempo y en los reflejos que multiplican la verticalidad. Ahora, gira la vista a tu izquierda: al fondo de la calle verás la silueta dorada del edificio real, repitiendo el mismo patrón de la fotografía.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_2_es.mp3"
           },
           {
             "id": "urban-4-photo-3",
@@ -208,7 +208,7 @@ window.translations = {
             "description": "Terraza del hotel Milords Suites. Editorial ‘Benidorm Horizontal’. Esta era nuestra base de operaciones para los cambios de vestuario. Fijaos en los ojos de sorpresa de Eva, cómo expresa el encanto que acaba de descubrir: el Hotel Bali y las luces de Ponent se deshacen en un 'bokeh' que nos transporta a una ciudad nocturna y elegante.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_3_es.mp3"
           },
           {
             "id": "urban-4-photo-4",
@@ -218,7 +218,7 @@ window.translations = {
             "description": "Escalinata del Castillo, editorial Benidorm Horizontal. Para lograr esta imagen tuvimos que correr: cambio de vestuario en el hotel y vuelta rápida para no perder la luz. El esfuerzo merece la pena al ver cómo el blanco de la piedra resalta la elegancia del momento.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_4_es.mp3"
           },
           {
             "id": "urban-4-photo-5",
@@ -228,7 +228,7 @@ window.translations = {
             "description": "Castell de Benidorm, editorial Benidorm Horizontal. En cada sesión trabajamos hasta seis 'looks' diferentes. Quería que Benidorm luciera como un escenario de gran producción, como en las revistas de Nueva York que han publicado mi trabajo. Una mirada sofisticada a nuestra propia casa.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_5_es.mp3"
           }
         ]
       },
@@ -893,7 +893,7 @@ window.translations = {
             "description": "Avinguda Mediterrani, març de 2021, editorial Benidorm de nit. El que més m'agrada d'esta imatge és com les llums circulars semblen ovnis suspesos fent joc amb els cercles del pas de zebra. Un joc de futurisme i originalitat en el cor de la nostra ciutat.",
             "year": "2021",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-2_photo_1_ca.mp3"
           },
           {
             "id": "urban-2-photo-2",
@@ -903,17 +903,17 @@ window.translations = {
             "description": "Carrer Gambo, editorial Benidorm de nit. Si mires al fons de la imatge, darrere de la model, veuràs l'hotel Madeira. És el mateix edifici que, si apartes la vista de la foto i mires a la teua esquerra, domina el carrer on et trobes ara. M'encanta com la seua silueta vigila el ritme dels nostres passos.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-2_photo_2_ca.mp3"
           },
           {
             "id": "urban-2-photo-3",
             "url": "./img/urban-2_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Planta 20 de l'hotel Madeira, editorial Benidorm Horitzontal. Estem quasi al mateix punt on et trobes ara, però vint plantes més amunt per a divisar esta vista panoràmica de la ciutat. Un regal visual per a contemplar com el Sol es fon amb la nostra ciutat.",
+            "description": "Planta 20 de l'hotel Madeira, editorial Benidorm Horitzontal. Estem quasi al mateix punt on et trobes ara, però vint plantes més amunt per a divisar esta vista panoràmica de Benidorm. Un regal visual per a contemplar com el Sol es fon amb la nostra ciutat.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-2_photo_3_ca.mp3"
           }
         ]
       },
@@ -931,7 +931,7 @@ window.translations = {
             "description": "Carrer Emilio Ortuño, novembre de 2020, editorial ‘Benidorm Horitzontal’. Esta imatge es va prendre just dalt del teu cap, dalt del Pont. Era època post-pandèmia i el silenci ens va permetre capturar un Benidorm gairebé buit, amb l’hotel Madeira vigilant una ciutat que, a poc a poc, tornava a la vida.",
             "year": "2020",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_1_ca.mp3"
           },
           {
             "id": "urban-3-photo-2",
@@ -941,17 +941,17 @@ window.translations = {
             "description": "Carrer Emilio Ortuño. Seguim ací dalt, en un moment on la carretera encara no bullia de trànsit. Eixe context post-pandèmia va convertir el Pont en la nostra passarel·la privada, on el disseny escocès i el casc antic es miren cara a cara.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_2_ca.mp3"
           },
           {
             "id": "urban-3-photo-3",
             "url": "./img/urban-3_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Carrer Emilio Ortuño, davant l'hotel Bristol. L’última foto feta dalt del Pont. Sense el soroll habitual dels cotxes de 2020, vam poder centrar tota l'atenció en el detall i l'elegància, transformant un carrer tan transitat en un autèntic escenari de moda.",
+            "description": "Carrer Emilio Ortuño, davant l'hotel Bristol. L’última foto feta dalt del Pont. Sense el soroll habitual dels cotxes a eixe carrer, vam poder centrar tota l'atenció en el detall i l'elegància, transformant un carrer tan transitat en un autèntic escenari de moda.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_3_ca.mp3"
           },
           {
             "id": "urban-3-photo-4",
@@ -961,7 +961,7 @@ window.translations = {
             "description": "Carrer del Pont, editorial ‘Benidorm Horitzontal’. En esta imatge, si mirem al fons darrere de la parella, divisem el Pont i l'hotel Bristol. Per a aconseguir este 'look', vam haver de córrer a l'hotel a canviar-nos i tornar en un moment; una coreografia de moda sobre un asfalt que encara estava mig adormit.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_4_ca.mp3"
           },
           {
             "id": "urban-3-photo-5",
@@ -971,7 +971,7 @@ window.translations = {
             "description": "Carrer del Pont, novembre de 2020. Ací la perspectiva del fons s'obri cap a la plaça de la Hispanitat. Triem els globus per a connectar amb els patrons del pas de zebra que tens davant. És el fruit de moltes corregudes a l'hotel per a transformar, canvi rere canvi, el carrer en una passarel·la de somni.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_5_ca.mp3"
           }
         ]
       },
@@ -989,17 +989,17 @@ window.translations = {
             "description": "Benvinguts a El Campo. Mira l'Edifici Intempo: la model posant entre acer i reflexos daurats el 2021. Una imatge que uneix el passat mariner amb el futur vertical. Ara, alça la vista al final d'aquest carrer Sant Pere: ahí tens l'edifici real, imponent, modern.",
             "year": "2021",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_1_ca.mp3"
           },
           {
             "id": "urban-4-photo-2",
             "url": "./img/urban-4_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Aproximem-nos al detall. Fixa't en les columnes daurades de l'Edifici Intempo i en els reflexos que multipliquen la verticalitat. Ara, gira la vista a la dreta: al fons del carrer veuràs la silueta daurada de l'edifici real, repetint el mateix patró de la fotografia.",
+            "description": "Aproximem-nos al detall. Fixa't en les columnes daurades de l'Edifici Intempo i en els reflexos que multipliquen la verticalitat. Ara, gira la vista a la teua esquerra: al fons del carrer veuràs la silueta daurada de l'edifici real, repetint el mateix patró de la fotografia.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_2_ca.mp3"
           },
           {
             "id": "urban-4-photo-3",
@@ -1009,7 +1009,7 @@ window.translations = {
             "description": "Terrassa de l'hotel Milords Suites. Editorial ‘Benidorm Horitzontal’. Aquesta era la nostra base d'operacions per als canvis de vestuari. Fixeu-vos en els ulls de sorpresa d’Eva, com expressa l’encant que acaba de descobrir: l'hotel Bali i les llums de Ponent es desfan en un 'bokeh' que ens transporta a una ciutat nocturna i elegant.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_3_ca.mp3"
           },
           {
             "id": "urban-4-photo-4",
@@ -1019,7 +1019,7 @@ window.translations = {
             "description": "Escalinata del Castell, editorial Benidorm Horitzontal. Per a aconseguir aquesta imatge vam haver de córrer: canvi de vestuari a l’hotel i tornada ràpida per a no perdre la llum. L’esforç paga la pena quan veus com el blanc de la pedra ressalta l’elegància del moment.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_4_ca.mp3"
           },
           {
             "id": "urban-4-photo-5",
@@ -1029,7 +1029,7 @@ window.translations = {
             "description": "Castell de Benidorm, editorial Benidorm Horitzontal. En cada sessió treballem fins a sis 'looks' diferents. Volia que Benidorm lluïra com un escenari de gran producció, com en les revistes de Nova York que han publicat el meu treball. Una mirada sofisticada a la nostra pròpia casa.\"",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_5_ca.mp3"
           }
         ]
       },
@@ -1711,7 +1711,7 @@ window.translations = {
             "url": "./img/urban-2_photo_3.jpg",
             "orientation": "portrait",
             "title": "Artwork 03",
-            "description": "20th floor of Hotel Madeira, 'Benidorm Horizontal' editorial. We are almost at the same spot where you are standing, but twenty floors higher to take in this panoramic view of the city. A visual gift to watch the Sun melt into our city.",
+            "description": "20th floor of Hotel Madeira, 'Benidorm Horizontal' editorial. We are almost at the same spot where you are standing, but twenty floors higher to take in this panoramic view of Benidorm. A visual gift to watch the Sun melt into our city.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1749,7 +1749,7 @@ window.translations = {
             "url": "./img/urban-3_photo_3.jpg",
             "orientation": "portrait",
             "title": "Artwork 03",
-            "description": "Emilio Ortuño Street, in front of Hotel Bristol. The last photo taken on top of the Bridge. Without the usual 2020 traffic noise, we could focus entirely on detail and elegance, turning such a busy street into a true fashion set.",
+            "description": "Emilio Ortuño Street, in front of Hotel Bristol. The last photo taken on top of the Bridge. Without the usual traffic noise in that street, we could focus entirely on detail and elegance, turning such a busy street into a true fashion set.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
@@ -1797,7 +1797,7 @@ window.translations = {
             "url": "./img/urban-4_photo_2.jpg",
             "orientation": "portrait",
             "title": "Artwork 02",
-            "description": "Let’s focus on the details. Notice Intempo's golden columns and the reflections multiplying the verticality. Now, look to your right: at the end of the street, you'll see the real building's golden silhouette, repeating the same pattern as the photograph.",
+            "description": "Let’s get closer to the detail. Notice the golden columns of the Intempo Building and the reflections that multiply its verticality. Now, turn your gaze to the left: at the end of the street, you will see the golden silhouette of the actual building, mirroring the very same pattern you see in the photograph.”",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": null
