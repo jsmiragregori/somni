@@ -192,7 +192,7 @@ if (fs.existsSync(generalTextsDir) && fs.statSync(generalTextsDir).isDirectory()
             const destImgPath = path.join(IMG_DEST, imgName);
             fs.copyFileSync(sourceImgPath, destImgPath);
             for (const lang of ['es', 'ca', 'en']) {
-                data[lang].author.image = `/img/${imgName}`;
+                data[lang].author.image = `./img/${imgName}`;
             }
             console.log(`  └─ Copiada imagen de la bio: ${imgName}`);
             break; // only copy the first found format
@@ -207,7 +207,7 @@ if (fs.existsSync(generalTextsDir) && fs.statSync(generalTextsDir).isDirectory()
             const destImgPath = path.join(IMG_DEST, imgName);
             fs.copyFileSync(sourceImgPath, destImgPath);
             for (const lang of ['es', 'ca', 'en']) {
-                data[lang].hero.image = `/img/${imgName}`;
+                data[lang].hero.image = `./img/${imgName}`;
             }
             console.log(`  └─ Copiada imagen de fondo hero: ${imgName}`);
             break;
