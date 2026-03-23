@@ -36,8 +36,22 @@ let privacyRead = false;
 
 // Main render function
 function renderApp() {
+    // Preserve form state before DOM replacement
+    const formNameEl = document.getElementById('cf-nombre');
+    let savedForm = null;
+    if (formNameEl) {
+        savedForm = {
+            nombre: formNameEl.value,
+            email: document.getElementById('cf-email').value,
+            telefono: document.getElementById('cf-telefono').value,
+            motivo: document.getElementById('cf-motivo').value,
+            mensaje: document.getElementById('cf-mensaje').value,
+            consent: document.getElementById('cf-consent') ? document.getElementById('cf-consent').checked : false
+        };
+    }
+
     const t = window.translations[currentLang];
-    const app = document.getElementById('app');
+    const appRoot = document.getElementById('app');
 
     // Build Rooms HTML
     let roomsHtml = t.rooms.map((room, index) => {
@@ -119,7 +133,7 @@ function renderApp() {
         `;
     }).join('');
 
-    app.innerHTML = `
+    appRoot.innerHTML = `
         <!-- Navigation -->
         <nav class="fixed top-0 left-0 w-full z-50 px-6 lg:px-12 py-4 md:py-6 flex justify-between items-center bg-black/70 backdrop-blur-md border-b border-white/5">
             <a href="#" class="font-display text-2xl uppercase tracking-tighter text-white">Maisse</a>
@@ -220,7 +234,7 @@ function renderApp() {
                         <p class="text-white/70 ${getDynamicText('lead')}">${t.contact.description}</p>
                     </div>
 
-                    <form id="contact-form" class="flex flex-col gap-4" novalidate>
+                    <form id="contact-form" class="flex flex-col gap-4">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <input
                                 type="text" id="cf-nombre"
@@ -231,6 +245,7 @@ function renderApp() {
                             <input
                                 type="email" id="cf-email"
                                 placeholder="${t.contact.form_email}"
+                                pattern="[a-zA-Z0-9._%+\\-]+@[a-zA-Z0-9.\\-]+\\.[a-zA-Z]{2,}$"
                                 required
                                 class="bg-zinc-900 border border-white/10 text-white placeholder-white/30 px-5 py-4 font-sans ${getDynamicText('body')} focus:outline-none focus:border-accent transition-colors rounded-sm"
                             >
@@ -239,6 +254,7 @@ function renderApp() {
                             <input
                                 type="tel" id="cf-telefono"
                                 placeholder="${t.contact.form_phone}"
+                                pattern="^(\\+|00)?[0-9\\s\\-]{9,15}$"
                                 class="bg-zinc-900 border border-white/10 text-white placeholder-white/30 px-5 py-4 font-sans ${getDynamicText('body')} focus:outline-none focus:border-accent transition-colors rounded-sm"
                             >
                             <select
@@ -365,6 +381,17 @@ function renderApp() {
             </div>`;
         })() : ''}
     `;
+
+    // Restore form state
+    if (savedForm) {
+        document.getElementById('cf-nombre').value = savedForm.nombre;
+        document.getElementById('cf-email').value = savedForm.email;
+        document.getElementById('cf-telefono').value = savedForm.telefono;
+        document.getElementById('cf-motivo').value = savedForm.motivo;
+        document.getElementById('cf-mensaje').value = savedForm.mensaje;
+        const consentEl = document.getElementById('cf-consent');
+        if (consentEl) consentEl.checked = savedForm.consent;
+    }
 
     feather.replace();
 }
