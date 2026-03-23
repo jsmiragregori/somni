@@ -43,3 +43,40 @@ html {
 [x-cloak] {
   display: none !important;
 }
+
+/* Privacy Policy Modal - Prose Typography */
+.privacy-content h1,
+.privacy-content h2 {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+.privacy-content h1 { font-size: 1.4rem; }
+.privacy-content h2 { font-size: 1.15rem; }
+.privacy-content h3,
+.privacy-content h4 {
+  font-family: 'JetBrains Mono', monospace;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  color: #f51c20;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.privacy-content p {
+  margin-bottom: 0.85rem;
+  line-height: 1.7;
+}
+.privacy-content ul,
+.privacy-content ol {
+  padding-left: 1.5rem;
+  margin-bottom: 0.85rem;
+}
+.privacy-content li { margin-bottom: 0.35rem; }
+.privacy-content strong { color: rgba(255,255,255,0.95); font-weight: 600; }
+.privacy-content em { color: rgba(255,255,255,0.7); font-style: italic; }
+.privacy-content a { color: #f51c20; text-decoration: underline; }
+.privacy-content a:hover { color: #fff; }

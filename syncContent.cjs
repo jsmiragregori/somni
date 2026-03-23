@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const sizeOf = require('image-size');
+const { marked } = require('marked');
 
 const PROJECT_DIR = __dirname;
 // Buscamos la carpeta Contenidos_Somni un nivel por encima del proyecto web
@@ -181,6 +182,16 @@ if (fs.existsSync(generalTextsDir) && fs.statSync(generalTextsDir).isDirectory()
         checkAndSet(`pausa2_${lang}.txt`, data[lang].pauses, 'pause2');
         checkAndSet(`bio_${lang}.txt`, data[lang].author, 'bio');
         checkAndSet(`hero_subtitle_${lang}.txt`, data[lang].hero, 'subtitle');
+
+        // --- POLÍTICA DE PRIVACIDAD (Markdown → HTML) ---
+        const privacyMdPath = path.join(generalTextsDir, `privacy_${lang}.md`);
+        if (fs.existsSync(privacyMdPath)) {
+            const mdContent = fs.readFileSync(privacyMdPath, 'utf8').trim();
+            if (!data[lang].privacy) data[lang].privacy = {};
+            data[lang].privacy.html = marked.parse(mdContent);
+            updatedTextsCount++;
+            console.log(`  └─ Convertida política de privacidad (${lang}.md) → HTML en data.js`);
+        }
     }
 
     // Ingest Author Bio Image if exists

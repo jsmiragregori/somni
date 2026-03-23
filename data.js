@@ -793,11 +793,19 @@ window.translations = {
       "form_submit": "Enviar mensaje",
       "form_sending": "Enviando...",
       "form_success": "¡Mensaje enviado! Pronto nos pondremos en contacto contigo.",
-      "form_error": "Algo ha fallado. Por favor, inténtalo de nuevo."
+      "form_error": "Algo ha fallado. Por favor, inténtalo de nuevo.",
+      "form_privacy_pending": "Debes leer la Política de Privacidad para poder aceptar",
+      "form_privacy_accept": "He leído y acepto la Política de Privacidad",
+      "form_privacy_link": "Política de Privacidad",
+      "privacy_modal_close": "Cerrar",
+      "privacy_modal_title": "Política de Privacidad y Cookies"
     },
     "footer": {
       "copy": "© 2026 Maisse - Somni Vertical",
       "designed": "Diseñado para el Alma"
+    },
+    "privacy": {
+      "html": "<h1>POLÍTICA DE PRIVACIDAD Y COOKIES</h1>\n<p><strong>Última actualización: 23 de marzo de 2026</strong></p>\n<p>La presente Política de Privacidad regula el tratamiento de los datos personales recabados a través del formulario de contacto de esta página web, de conformidad con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD).</p>\n<h3>1. Responsable del Tratamiento</h3>\n<ul>\n<li><strong>Identidad:</strong> María José Lozano Pérez</li>\n<li><strong>NIF:</strong> 29020666-W</li>\n<li><strong>Dirección:</strong> C. Roldan 9, 3º B, 03501 Benidorm (Alicante)</li>\n<li><strong>Email:</strong> <a href=\"mailto:maisse+somni@gmail.com\">maisse+somni@gmail.com</a></li>\n</ul>\n<h3>2. Finalidad y Legitimación</h3>\n<p>Sus datos serán tratados exclusivamente para:</p>\n<ol>\n<li>Gestionar y responder consultas relacionadas con la exposición artística.</li>\n<li>Atender solicitudes de información sobre el funcionamiento y contenidos de la web.</li>\n</ol>\n<ul>\n<li><strong>Base legal:</strong> El consentimiento del interesado, manifestado al marcar la casilla de aceptación y enviar el formulario.</li>\n</ul>\n<h3>3. Datos Recogidos</h3>\n<p>Se solicitan únicamente datos identificativos y de contacto: <strong>Nombre y apellidos, correo electrónico</strong> y, con carácter opcional, <strong>teléfono</strong>. No se tratan datos de categorías especiales.</p>\n<h3>4. Flujo de Datos y Transferencias Internacionales</h3>\n<p>Para la prestación del servicio técnico, los datos son procesados por:</p>\n<ul>\n<li><strong>Alojamiento:</strong> GitHub Pages (GitHub Inc.), en EE. UU.</li>\n<li><strong>Seguridad:</strong> Cloudflare Inc., en EE. UU.</li>\n<li><strong>Transporte:</strong> Los mensajes se notifican al Responsable mediante un <strong>Bot de Telegram</strong>. El usuario acepta que Telegram actúa como canal de transporte sin que el Responsable tenga control sobre sus sistemas internos.</li>\n<li><strong>Almacenamiento:</strong> Los mensajes se archivan en un sistema local (<em>on-premise</em>) seguro dentro del Espacio Económico Europeo.</li>\n</ul>\n<h3>5. Conservación</h3>\n<p>Los datos se conservarán mientras la web esté activa o hasta que se solicite su supresión, salvo obligación legal de bloqueo.</p>\n<h3>6. Derechos</h3>\n<p>Puede ejercer sus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad enviando un email a <strong><a href=\"mailto:maisse+somni@gmail.com\">maisse+somni@gmail.com</a></strong> con copia de su DNI. Se advierte que el Responsable no puede gestionar derechos directamente sobre la infraestructura de Telegram. Tiene derecho a reclamar ante la AEPD (<a href=\"http://www.aepd.es\">www.aepd.es</a>).</p>\n<h3>7. Política de Cookies</h3>\n<p>Esta web utiliza solo <strong>cookies técnicas y de seguridad</strong> esenciales para su funcionamiento. Al no existir rastreo analítico ni publicitario, no requieren consentimiento previo según la LSSI.</p>\n"
     }
   },
   "ca": {
@@ -1594,11 +1602,19 @@ window.translations = {
       "form_submit": "Enviar missatge",
       "form_sending": "Enviant...",
       "form_success": "Missatge enviat! Aviat ens posarem en contacte.",
-      "form_error": "Alguna cosa ha fallat. Si us plau, intenta-ho de nou."
+      "form_error": "Alguna cosa ha fallat. Si us plau, intenta-ho de nou.",
+      "form_privacy_pending": "Has de llegir la Política de Privadesa per poder acceptar",
+      "form_privacy_accept": "He llegit i accepte la Política de Privadesa",
+      "form_privacy_link": "Política de Privadesa",
+      "privacy_modal_close": "Tancar",
+      "privacy_modal_title": "Política de Privadesa i Galetes"
     },
     "footer": {
       "copy": "© 2026 Maisse - Somni Vertical",
       "designed": "Dissenyat per a l'Ànima"
+    },
+    "privacy": {
+      "html": "<h1>POLÍTICA DE PRIVADESA I GALETES</h1>\n<p><strong>Última actualització: 23 de març de 2026</strong></p>\n<p>Aquesta Política de Privadesa regula el tractament de les dades personals recollides mitjançant el formulari de contacte d&#39;aquesta pàgina web, de conformitat amb el Reglament (UE) 2016/679 (RGPD) i la Llei Orgànica 3/2018 (LOPDGDD).</p>\n<h3>1. Responsable del Tractament</h3>\n<ul>\n<li><strong>Identitat:</strong> María José Lozano Pérez</li>\n<li><strong>NIF:</strong> 29020666-W</li>\n<li><strong>Adreça:</strong> C. Roldan 9, 3r B, 03501 Benidorm (Alacant)</li>\n<li><strong>Email:</strong> <a href=\"mailto:maisse+somni@gmail.com\">maisse+somni@gmail.com</a></li>\n</ul>\n<h3>2. Finalitat i Legitimació</h3>\n<p>Les seues dades seran tractades exclusivament per a:</p>\n<ol>\n<li>Gestionar i respondre consultes relacionades amb l&#39;exposició artística.</li>\n<li>Atendre sol·licituds d&#39;informació sobre el funcionament i continguts de la web.</li>\n</ol>\n<ul>\n<li><strong>Base legal:</strong> El consentiment de l&#39;interessat, manifestat en marcar la casella d&#39;acceptació i enviar el formulari.</li>\n</ul>\n<h3>3. Dades Recollides</h3>\n<p>Se sol·liciten únicament dades identificatives i de contacte: <strong>Nom i cognoms, correu electrònic</strong> i, amb caràcter opcional, <strong>telèfon</strong>. No es tracten dades de categories especials.</p>\n<h3>4. Flux de Dades i Transferències Internacionals</h3>\n<p>Per a la prestació del servei tècnic, les dades són processades per:</p>\n<ul>\n<li><strong>Allotjament:</strong> GitHub Pages (GitHub Inc.), als EUA.</li>\n<li><strong>Seguretat:</strong> Cloudflare Inc., als EUA.</li>\n<li><strong>Transport:</strong> Els missatges es notifiquen a la Responsable mitjançant un <strong>Bot de Telegram</strong>. L&#39;usuari accepta que Telegram actua com a canal de transport sense que la Responsable tinga control sobre els seus sistemes interns.</li>\n<li><strong>Emmagatzematge:</strong> Els missatges s&#39;arxiven en un sistema local (<em>on-premise</em>) segur dins de l&#39;Espai Econòmic Europeu.</li>\n</ul>\n<h3>5. Conservació</h3>\n<p>Les dades es conservaran mentre la web estiga activa o fins que se sol·licite la seua supressió, llevat d&#39;obligació legal de bloqueig.</p>\n<h3>6. Drets</h3>\n<p>Pot exercir els seus drets d&#39;accés, rectificació, supressió, oposició, limitació i portabilitat enviant un email a <strong><a href=\"mailto:maisse+somni@gmail.com\">maisse+somni@gmail.com</a></strong> amb còpia del seu DNI. S&#39;adverteix que la Responsable no pot gestionar drets directament sobre la infraestructura de Telegram. Té dret a reclamar davant l&#39;AEPD (<a href=\"http://www.aepd.es\">www.aepd.es</a>).</p>\n<h3>7. Política de Galetes</h3>\n<p>Aquesta web utilitza només <strong>galetes tècniques i de seguretat</strong> essencials per al seu funcionament. Com que no existeix rastreig analític ni publicitari, no requereixen consentiment previ segons la LSSI.</p>\n"
     }
   },
   "en": {
@@ -2395,11 +2411,19 @@ window.translations = {
       "form_submit": "Send message",
       "form_sending": "Sending...",
       "form_success": "Message sent! We'll be in touch soon.",
-      "form_error": "Something went wrong. Please try again."
+      "form_error": "Something went wrong. Please try again.",
+      "form_privacy_pending": "You must read the Privacy Policy before you can accept",
+      "form_privacy_accept": "I have read and accept the Privacy Policy",
+      "form_privacy_link": "Privacy Policy",
+      "privacy_modal_close": "Close",
+      "privacy_modal_title": "Privacy and Cookies Policy"
     },
     "footer": {
       "copy": "© 2026 Maisse - Somni Vertical",
       "designed": "Designed for the Soul"
+    },
+    "privacy": {
+      "html": "<h1>PRIVACY AND COOKIES POLICY</h1>\n<p><strong>Last updated: March 23, 2026</strong></p>\n<p>This Privacy Policy regulates the processing of personal data collected through the contact form of this website, in accordance with Regulation (EU) 2016/679 (GDPR).</p>\n<h3>1. Data Controller</h3>\n<ul>\n<li><strong>Identity:</strong> María José Lozano Pérez</li>\n<li><strong>Tax ID (NIF):</strong> 29020666-W</li>\n<li><strong>Address:</strong> C. Roldan 9, 3º B, 03501 Benidorm (Alicante), Spain</li>\n<li><strong>Email:</strong> <a href=\"mailto:maisse+somni@gmail.com\">maisse+somni@gmail.com</a></li>\n</ul>\n<h3>2. Purpose and Lawfulness of Processing</h3>\n<p>Your data will be processed exclusively to:</p>\n<ol>\n<li>Manage and respond to inquiries related to the art exhibition.</li>\n<li>Address requests for information regarding the website&#39;s operation and content.</li>\n</ol>\n<ul>\n<li><strong>Legal basis:</strong> The data subject&#39;s consent, provided by ticking the acceptance box and submitting the form.</li>\n</ul>\n<h3>3. Data Collected</h3>\n<p>Only identifying and contact data are requested: <strong>Full name, email address</strong>, and, optionally, <strong>phone number</strong>. No special categories of data (sensitive data) are processed.</p>\n<h3>4. Data Flow and International Transfers</h3>\n<p>For technical service provision, data are processed by:</p>\n<ul>\n<li><strong>Hosting:</strong> GitHub Pages (GitHub Inc.), located in the USA.</li>\n<li><strong>Security:</strong> Cloudflare Inc., located in the USA.</li>\n<li><strong>Transport:</strong> Messages are notified to the Controller via a <strong>Telegram Bot</strong>. The user acknowledges that Telegram acts as a transport channel and that the Controller has no control over its internal systems.</li>\n<li><strong>Storage:</strong> Once received, messages are archived in a secure local (<em>on-premise</em>) system within the European Economic Area.</li>\n</ul>\n<h3>5. Data Retention</h3>\n<p>Data will be kept as long as the website remains active or until erasure is requested, except for legal blocking obligations.</p>\n<h3>6. Your Rights</h3>\n<p>You may exercise your rights of access, rectification, erasure, objection, restriction of processing, and data portability by emailing <strong><a href=\"mailto:maisse+somni@gmail.com\">maisse+somni@gmail.com</a></strong> with a copy of your ID. Please note that the Controller cannot manage data rights directly within Telegram&#39;s infrastructure. You have the right to lodge a complaint with the Spanish Data Protection Agency (AEPD).</p>\n<h3>7. Cookies Policy</h3>\n<p>This website uses only <strong>technical and security cookies</strong> essential for its operation. Since there is no analytical or advertising tracking, these cookies do not require prior consent under Spanish law (LSSI).</p>\n"
     }
   }
 };

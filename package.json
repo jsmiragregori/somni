@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "image-size": "^1.1.1",
+    "marked": "^17.0.5",
     "serve": "^14.2.4"
   }
 }

@@ -31,6 +31,8 @@ let lightboxState = {
 
 let playingExternalId = null;
 let externalAudio = null;
+let privacyModalOpen = false;
+let privacyRead = false;
 
 // Main render function
 function renderApp() {
@@ -259,12 +261,29 @@ function renderApp() {
                             class="bg-zinc-900 border border-white/10 text-white placeholder-white/30 px-5 py-4 font-sans ${getDynamicText('body')} focus:outline-none focus:border-accent transition-colors rounded-sm resize-none"
                         ></textarea>
 
+                        <!-- GDPR Consent Checkbox -->
+                        <div class="flex items-start gap-4 py-2">
+                            <input
+                                type="checkbox"
+                                id="cf-consent"
+                                ${privacyRead ? '' : 'disabled'}
+                                class="mt-1 w-5 h-5 shrink-0 appearance-none border border-white/30 rounded-sm bg-zinc-900 checked:bg-accent checked:border-accent cursor-pointer disabled:cursor-not-allowed disabled:opacity-40 transition-colors"
+                            >
+                            <label for="cf-consent" class="font-mono text-xs lg:text-sm tracking-wide leading-relaxed ${privacyRead ? 'text-white/80' : 'text-white/40'} transition-colors">
+                                ${privacyRead
+                                    ? `${t.contact.form_privacy_accept.replace(t.contact.form_privacy_link, `<button type="button" data-action="open-privacy" class="underline text-accent hover:text-white transition-colors">${t.contact.form_privacy_link}</button>`)}`
+                                    : `${t.contact.form_privacy_pending.replace(t.contact.form_privacy_link, `<button type="button" data-action="open-privacy" class="underline text-white/80 hover:text-accent transition-colors">${t.contact.form_privacy_link}</button>`)}`
+                                }
+                            </label>
+                        </div>
+
                         <div id="cf-status" class="hidden text-center font-mono text-sm tracking-wider py-3 px-5 rounded-sm"></div>
 
                         <button
                             type="submit"
                             id="cf-submit"
-                            class="mt-2 self-center px-12 py-5 border border-white/20 font-display uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-500 rounded-full ${getDynamicText('label')}"
+                            ${privacyRead ? '' : 'disabled'}
+                            class="mt-2 self-center px-12 py-5 border font-display uppercase tracking-widest transition-all duration-500 rounded-full ${getDynamicText('label')} ${privacyRead ? 'border-white/20 hover:bg-white hover:text-black cursor-pointer' : 'border-white/10 text-white/30 cursor-not-allowed'}"
                         >${t.contact.form_submit}</button>
                     </form>
                 </div>
@@ -280,6 +299,25 @@ function renderApp() {
             </div>
             <div>${t.footer.designed}</div>
         </footer>
+
+        <!-- Privacy Policy Modal -->
+        ${privacyModalOpen ? `
+        <div class="fixed inset-0 z-[998] bg-black/90 backdrop-blur-sm flex items-center justify-center p-4 lg:p-12 text-white" data-action="close-privacy">
+            <div class="relative bg-zinc-950 border border-white/10 rounded-sm max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl" onclick="event.stopPropagation()">
+                <div class="flex items-center justify-between px-8 py-6 border-b border-white/10">
+                    <h2 class="font-display text-2xl uppercase tracking-tighter text-white">${t.contact.privacy_modal_title}</h2>
+                    <button data-action="close-privacy" class="p-2 hover:text-accent transition-colors">
+                        <i data-feather="x" class="w-6 h-6 pointer-events-none"></i>
+                    </button>
+                </div>
+                <div class="overflow-y-auto px-8 py-6 privacy-content text-white/80 font-sans text-sm leading-relaxed">
+                    ${t.privacy.html}
+                </div>
+                <div class="px-8 py-5 border-t border-white/10 flex justify-end">
+                    <button data-action="close-privacy" class="px-8 py-3 border border-white/20 hover:bg-white hover:text-black transition-all duration-300 font-display uppercase tracking-widest text-sm rounded-full">${t.contact.privacy_modal_close}</button>
+                </div>
+            </div>
+        </div>` : ''}
 
         <!-- Lightbox -->
         ${lightboxState.isOpen ? (() => {
@@ -368,6 +406,22 @@ document.getElementById('app').addEventListener('click', (e) => {
     
     if (action === 'toggle-menu') {
         isMenuOpen = !isMenuOpen;
+        renderApp();
+        return;
+    }
+
+    if (action === 'open-privacy') {
+        e.stopPropagation();
+        privacyModalOpen = true;
+        document.body.style.overflow = 'hidden';
+        renderApp();
+        return;
+    }
+
+    if (action === 'close-privacy') {
+        privacyModalOpen = false;
+        privacyRead = true; // user has seen the policy
+        document.body.style.overflow = 'auto';
         renderApp();
         return;
     }
@@ -506,9 +560,21 @@ document.getElementById('app').addEventListener('submit', async (e) => {
     const telefono = document.getElementById('cf-telefono').value.trim();
     const motivo = document.getElementById('cf-motivo').value;
     const mensaje = document.getElementById('cf-mensaje').value.trim();
+    const consentCheck = document.getElementById('cf-consent');
 
-    // Basic validation
+    // Basic validation — also double-check consent (defence in depth)
     if (!nombre || !email || !motivo || !mensaje) return;
+    if (!consentCheck || !consentCheck.checked) {
+        statusEl.textContent = t.contact.form_privacy_pending;
+        statusEl.className = 'text-center font-mono text-sm tracking-wider py-3 px-5 rounded-sm bg-yellow-900/30 border border-yellow-500/30 text-yellow-300';
+        return;
+    }
+
+    const consentTimestamp = new Date().toISOString();
+    const consentFormatted = new Date().toLocaleString(currentLang === 'en' ? 'en-GB' : 'es-ES', {
+        day: '2-digit', month: '2-digit', year: 'numeric',
+        hour: '2-digit', minute: '2-digit', timeZoneName: 'short'
+    });
 
     // Loading state
     submitBtn.textContent = t.contact.form_sending;
@@ -519,7 +585,7 @@ document.getElementById('app').addEventListener('submit', async (e) => {
         const response = await fetch(WORKER_URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ nombre, email, telefono, motivo, mensaje })
+            body: JSON.stringify({ nombre, email, telefono, motivo, mensaje, consentimiento: true, fecha: consentFormatted })
         });
 
         const result = await response.json();
