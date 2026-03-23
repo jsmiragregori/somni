@@ -302,8 +302,9 @@ function renderApp() {
 
         <!-- Privacy Policy Modal -->
         ${privacyModalOpen ? `
-        <div class="fixed inset-0 z-[998] bg-black/90 backdrop-blur-sm flex items-center justify-center p-4 lg:p-12 text-white" data-action="close-privacy">
-            <div class="relative bg-zinc-950 border border-white/10 rounded-sm max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl" onclick="event.stopPropagation()">
+        <div class="fixed inset-0 z-[998] flex items-center justify-center p-4 lg:p-12 text-white">
+            <div class="absolute inset-0 bg-black/90 backdrop-blur-sm" data-action="close-privacy"></div>
+            <div class="relative bg-zinc-950 border border-white/10 rounded-sm max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl">
                 <div class="flex items-center justify-between px-8 py-6 border-b border-white/10">
                     <h2 class="font-display text-2xl uppercase tracking-tighter text-white">${t.contact.privacy_modal_title}</h2>
                     <button data-action="close-privacy" class="p-2 hover:text-accent transition-colors">
