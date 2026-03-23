@@ -210,12 +210,63 @@ function renderApp() {
             </section>
 
             <!-- Contact -->
-            <section id="contact" class="py-32 px-6 text-center border-t border-white/5 text-white">
-                <div class="max-w-2xl mx-auto fade-in">
-                    <span class="font-mono ${getDynamicText('label')} text-accent uppercase tracking-widest mb-4 block">${t.contact.label}</span>
-                    <h2 class="font-display text-5xl lg:text-7xl uppercase mb-8 text-white">${t.contact.title}</h2>
-                    <p class="text-white/70 mb-12 ${getDynamicText('lead')}">${t.contact.description}</p>
-                    <a href="mailto:hello@maisse.art" aria-label="${t.contact.aria_button}" class="inline-block px-12 py-5 border border-white/20 font-display uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-500 rounded-full">${t.contact.button}</a>
+            <section id="contact" class="py-32 px-6 border-t border-white/5 text-white">
+                <div class="max-w-3xl mx-auto fade-in">
+                    <div class="text-center mb-16">
+                        <span class="font-mono ${getDynamicText('label')} text-accent uppercase tracking-widest mb-4 block">${t.contact.label}</span>
+                        <h2 class="font-display text-5xl lg:text-7xl uppercase mb-6 text-white">${t.contact.title}</h2>
+                        <p class="text-white/70 ${getDynamicText('lead')}">${t.contact.description}</p>
+                    </div>
+
+                    <form id="contact-form" class="flex flex-col gap-4" novalidate>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <input
+                                type="text" id="cf-nombre"
+                                placeholder="${t.contact.form_name}"
+                                required
+                                class="bg-zinc-900 border border-white/10 text-white placeholder-white/30 px-5 py-4 font-sans ${getDynamicText('body')} focus:outline-none focus:border-accent transition-colors rounded-sm"
+                            >
+                            <input
+                                type="email" id="cf-email"
+                                placeholder="${t.contact.form_email}"
+                                required
+                                class="bg-zinc-900 border border-white/10 text-white placeholder-white/30 px-5 py-4 font-sans ${getDynamicText('body')} focus:outline-none focus:border-accent transition-colors rounded-sm"
+                            >
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <input
+                                type="tel" id="cf-telefono"
+                                placeholder="${t.contact.form_phone}"
+                                class="bg-zinc-900 border border-white/10 text-white placeholder-white/30 px-5 py-4 font-sans ${getDynamicText('body')} focus:outline-none focus:border-accent transition-colors rounded-sm"
+                            >
+                            <select
+                                id="cf-motivo"
+                                required
+                                class="bg-zinc-900 border border-white/10 text-white px-5 py-4 font-sans ${getDynamicText('body')} focus:outline-none focus:border-accent transition-colors rounded-sm appearance-none cursor-pointer"
+                            >
+                                <option value="" disabled selected class="text-white/30">${t.contact.form_subject}</option>
+                                <option value="${t.contact.form_subject_photo}">${t.contact.form_subject_photo}</option>
+                                <option value="${t.contact.form_subject_collab}">${t.contact.form_subject_collab}</option>
+                                <option value="${t.contact.form_subject_web}">${t.contact.form_subject_web}</option>
+                                <option value="${t.contact.form_subject_other}">${t.contact.form_subject_other}</option>
+                            </select>
+                        </div>
+                        <textarea
+                            id="cf-mensaje"
+                            placeholder="${t.contact.form_message}"
+                            rows="6"
+                            required
+                            class="bg-zinc-900 border border-white/10 text-white placeholder-white/30 px-5 py-4 font-sans ${getDynamicText('body')} focus:outline-none focus:border-accent transition-colors rounded-sm resize-none"
+                        ></textarea>
+
+                        <div id="cf-status" class="hidden text-center font-mono text-sm tracking-wider py-3 px-5 rounded-sm"></div>
+
+                        <button
+                            type="submit"
+                            id="cf-submit"
+                            class="mt-2 self-center px-12 py-5 border border-white/20 font-display uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-500 rounded-full ${getDynamicText('label')}"
+                        >${t.contact.form_submit}</button>
+                    </form>
                 </div>
             </section>
         </main>
@@ -435,6 +486,57 @@ document.getElementById('app').addEventListener('click', (e) => {
             renderApp();
         }
         return;
+    }
+});
+
+// Contact Form Submission
+const WORKER_URL = 'https://enviar-telegram-somni.salva-mira.workers.dev';
+
+document.getElementById('app').addEventListener('submit', async (e) => {
+    if (e.target.id !== 'contact-form') return;
+    e.preventDefault();
+
+    const t = window.translations[currentLang];
+    const statusEl = document.getElementById('cf-status');
+    const submitBtn = document.getElementById('cf-submit');
+    const originalText = submitBtn.textContent;
+
+    const nombre = document.getElementById('cf-nombre').value.trim();
+    const email = document.getElementById('cf-email').value.trim();
+    const telefono = document.getElementById('cf-telefono').value.trim();
+    const motivo = document.getElementById('cf-motivo').value;
+    const mensaje = document.getElementById('cf-mensaje').value.trim();
+
+    // Basic validation
+    if (!nombre || !email || !motivo || !mensaje) return;
+
+    // Loading state
+    submitBtn.textContent = t.contact.form_sending;
+    submitBtn.disabled = true;
+    statusEl.className = 'hidden';
+
+    try {
+        const response = await fetch(WORKER_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ nombre, email, telefono, motivo, mensaje })
+        });
+
+        const result = await response.json();
+
+        if (response.ok && result.success) {
+            statusEl.textContent = t.contact.form_success;
+            statusEl.className = 'text-center font-mono text-sm tracking-wider py-3 px-5 rounded-sm bg-green-900/40 border border-green-500/30 text-green-300';
+            e.target.reset();
+        } else {
+            throw new Error('Server error');
+        }
+    } catch (err) {
+        statusEl.textContent = t.contact.form_error;
+        statusEl.className = 'text-center font-mono text-sm tracking-wider py-3 px-5 rounded-sm bg-red-900/40 border border-red-500/30 text-red-300';
+    } finally {
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
     }
 });
 

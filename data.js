@@ -776,11 +776,24 @@ window.translations = {
       "image": "./img/bio_image.jpg"
     },
     "contact": {
-      "label": "Consultas",
-      "title": "Conectemos",
-      "description": "Para colaboraciones, visitas privadas o diálogo artístico.",
+      "label": "Contacto",
+      "title": "Hablemos",
+      "description": "Para colaboraciones, exhibiciones privadas o cualquier consulta artística.",
       "button": "Enviar un Mensaje",
-      "aria_button": "Enviar un Mensaje a la Galería"
+      "aria_button": "Enviar un Mensaje a la Galería",
+      "form_name": "Nombre y apellidos",
+      "form_email": "Correo electrónico",
+      "form_phone": "Teléfono (opcional)",
+      "form_subject": "Motivo de contacto",
+      "form_subject_photo": "Fotografía",
+      "form_subject_collab": "Colaboración",
+      "form_subject_web": "Diseño web",
+      "form_subject_other": "Otros motivos",
+      "form_message": "Tu mensaje",
+      "form_submit": "Enviar mensaje",
+      "form_sending": "Enviando...",
+      "form_success": "¡Mensaje enviado! Pronto nos pondremos en contacto contigo.",
+      "form_error": "Algo ha fallado. Por favor, inténtalo de nuevo."
     },
     "footer": {
       "copy": "© 2026 Maisse - Somni Vertical",
@@ -1564,11 +1577,24 @@ window.translations = {
       "image": "./img/bio_image.jpg"
     },
     "contact": {
-      "label": "Consultes",
-      "title": "Connectem",
-      "description": "Per a col·laboracions, visites privades o diàleg artístic.",
+      "label": "Contacte",
+      "title": "Parlem",
+      "description": "Per a col·laboracions, visites privades o qualsevol consulta artística.",
       "button": "Enviar un Missatge",
-      "aria_button": "Enviar un Missatge a la Galeria"
+      "aria_button": "Enviar un Missatge a la Galeria",
+      "form_name": "Nom i cognoms",
+      "form_email": "Correu electrònic",
+      "form_phone": "Telèfon (opcional)",
+      "form_subject": "Motiu de contacte",
+      "form_subject_photo": "Fotografia",
+      "form_subject_collab": "Col·laboració",
+      "form_subject_web": "Disseny web",
+      "form_subject_other": "Altres motius",
+      "form_message": "El teu missatge",
+      "form_submit": "Enviar missatge",
+      "form_sending": "Enviant...",
+      "form_success": "Missatge enviat! Aviat ens posarem en contacte.",
+      "form_error": "Alguna cosa ha fallat. Si us plau, intenta-ho de nou."
     },
     "footer": {
       "copy": "© 2026 Maisse - Somni Vertical",
@@ -2352,11 +2378,24 @@ window.translations = {
       "image": "./img/bio_image.jpg"
     },
     "contact": {
-      "label": "Inquiries",
+      "label": "Contact",
       "title": "Let's Connect",
-      "description": "For collaborations, private viewings, or artistic dialogue.",
+      "description": "For collaborations, private viewings, or any artistic inquiry.",
       "button": "Send a Message",
-      "aria_button": "Send a Message to the Gallery"
+      "aria_button": "Send a Message to the Gallery",
+      "form_name": "Full name",
+      "form_email": "Email address",
+      "form_phone": "Phone (optional)",
+      "form_subject": "Reason for contact",
+      "form_subject_photo": "Photography",
+      "form_subject_collab": "Collaboration",
+      "form_subject_web": "Web design",
+      "form_subject_other": "Other",
+      "form_message": "Your message",
+      "form_submit": "Send message",
+      "form_sending": "Sending...",
+      "form_success": "Message sent! We'll be in touch soon.",
+      "form_error": "Something went wrong. Please try again."
     },
     "footer": {
       "copy": "© 2026 Maisse - Somni Vertical",
