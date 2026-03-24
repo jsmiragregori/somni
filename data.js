@@ -243,30 +243,30 @@ window.translations = {
             "url": "./img/urban-5_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Plaza del Ayuntamiento, editorial ‘Benidorm Horizontal’. En este plano celebramos la complicidad y el detalle. Los materiales artesanales de la modelo fueron diseñados por nuestro equipo para dialogar con el cielo de Benidorm. Todo se preparó minutos antes en un hotel cercano para capturar la luz mediterránea exacta.",
+            "description": "Plaza del Ayuntamiento, editorial ‘Benidorm Horizontal’. En este plano celebramos la complicidad y el detalle. Los materiales artesanales de los modelos fueron diseñados por la diseñadora de nuestro equipo para dialogar con el cielo de Benidorm. Todo se preparó minutos antes en un hotel cercano para capturar la luz mediterránea exacta.",
             "year": "2020",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_1_es.mp3"
           },
           {
             "id": "urban-5-photo-2",
             "url": "./img/urban-5_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Bienvenidos a la editorial 'Benidorm Horizontal'. Fijaos en el contraste: el azul eléctrico del outfit y los globos contrastan con la geometría del Ayuntamiento como fondo. Es la moda conquistando el espacio público.",
+            "description": "Bienvenidos a la editorial 'Benidorm Horizontal'. Fijaos en el contraste: el azul eléctrico del outfit y los globos contrastan con la geometría de los edificios del findo fondo. Es la moda conquistando el espacio público.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_2_es.mp3"
           },
           {
             "id": "urban-5-photo-3",
             "url": "./img/urban-5_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Mirad la textura del vestido, un reto de diseño para capturar la luz. Pero fijaos bien en los globos: en uno de los reflejos se esconde una sorpresa que no todos ven a primera vista. ¿Sois capaces de encontrar el secreto de esta sesión?",
+            "description": "Mirad la textura del vestido, un reto de diseño para capturar la luz. Pero fijaos bien en los globos: en uno de los reflejos se esconde una sorpresa que no es fácil ver a primera vista. ¿Sois capaces de encontrar el secreto de esta sesión?",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_3_es.mp3"
           },
           {
             "id": "urban-5-photo-4",
@@ -1052,30 +1052,30 @@ window.translations = {
             "url": "./img/urban-5_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Plaça de l’Ajuntament, editorial ‘Benidorm Horitzontal’. En aquest pla celebrem la complicitat i el detall. Els materials que llueix la model són artesanals, dissenyats exclusivament pel nostre equip per a dialogar amb el cel de Benidorm. Tot el que veieu va ser preparat minuts abans en un hotel proper per a capturar la llum mediterrània exacta.",
+            "description": "Plaça de l’Ajuntament, editorial ‘Benidorm Horitzontal’. En aquest pla celebrem la complicitat i el detall. Els materials que llueixen els models són artesanals, dissenyats exclusivament per la dissenyadora del nostre equip per a dialogar amb el cel de Benidorm. Tot el que veieu va ser preparat minuts abans en un hotel proper per a capturar la llum mediterrània exacta.",
             "year": "2020",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_1_ca.mp3"
           },
           {
             "id": "urban-5-photo-2",
             "url": "./img/urban-5_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Benvinguts a l'editorial Benidorm Horitzontal. Fixeu-vos en el contrast: el blau elèctric de l'outfit i els globus contrasten amb la geometria de l'edifici de l'Ajuntament com a fons. És la moda conquistant l'espai públic.",
+            "description": "Benvinguts a l'editorial Benidorm Horitzontal. Fixeu-vos en el contrast: el blau elèctric de l'outfit i els globus contrasten amb la geometria dels edificis del fons. És la moda conquistant l'espai públic.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_2_ca.mp3"
           },
           {
             "id": "urban-5-photo-3",
             "url": "./img/urban-5_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Mireu la textura del vestit, un repte de disseny per a capturar la llum. Però fixeu-vos bé en els globus: en un dels reflexos s’amaga una sorpresa que no tots veuen a primera vista. Sou capaços de trobar el secret d’aquesta sessió?",
+            "description": "Mireu la textura del vestit, un repte de disseny per a capturar la llum. Però fixeu-vos bé en els globus: en un dels reflexos s’amaga una sorpresa que no és fácil veure a primera vista. Sou capaços de trobar el secret d’aquesta sessió?",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_3_ca.mp3"
           },
           {
             "id": "urban-5-photo-4",
@@ -1861,7 +1861,7 @@ window.translations = {
             "url": "./img/urban-5_photo_1.jpg",
             "orientation": "portrait",
             "title": "Artwork 01",
-            "description": "Town Hall Square, ‘Benidorm horitzontal’ editorial. In this frame, we celebrate complicity and detail. The model's handmade materials were designed by our team to dialogue with Benidorm’s sky. Everything was prepared minutes before in a nearby hotel to capture the exact Mediterranean light.",
+            "description": "Town Hall Square, 'Benidorm Horitzontal' editorial. In this shot, we celebrate connection and detail. The materials worn by the models are handcrafted, designed exclusively by our team's designer to dialogue with the Benidorm sky. Everything you see was prepared just minutes before in a nearby hotel to capture the exact Mediterranean light.",
             "year": "2020",
             "isMasterpiece": true,
             "audioUrl": null
@@ -1871,7 +1871,7 @@ window.translations = {
             "url": "./img/urban-5_photo_2.jpg",
             "orientation": "portrait",
             "title": "Artwork 02",
-            "description": "Welcome to the 'Benidorm Horizontal' editorial. Notice the contrast: the electric blue outfit and the balloons break with the geometry of the City Hall as the background. This is fashion conquering public space.",
+            "description": "Welcome to the 'Benidorm Horizontal' editorial. Notice the contrast: the electric blue outfit and the balloons break with the geometry of the background buildings. This is fashion conquering public space.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": null
