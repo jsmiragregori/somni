@@ -987,7 +987,7 @@ window.translations = {
         "id": "urban-4",
         "title": "El Campo",
         "subtitle": "Intervenció a la ciutat",
-        "description": "En aquest espai, gaudireu de la força del color on el Benidorm de tota la vida es vist de gala. Vos propose un joc: busqueu les localitzacions de les fotos des del mateix punt on vos trobeu en cada moment. I, en acabar, prepareu-vos per a la gran final: pròxima estació, Ponent.",
+        "description": "En aquest espai gaudireu de la força del color on el Benidorm de tota la vida es vist de gala. Vos propose un joc: busqueu les localitzacions de les fotos des del mateix punt on vos trobeu en cada moment. I, en acabar, prepareu-vos per a la gran final: pròxima estació, l'Espai d'Art Urbà de Ponent.",
         "photos": [
           {
             "id": "urban-4-photo-1",
