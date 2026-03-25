@@ -1710,7 +1710,7 @@ window.translations = {
             "description": "Mediterrani Avenue, March 2021, 'Benidorm by Night' editorial. What I love most about this image is how the circular lights look like suspended UFOs, matching the patterns of the crosswalk. A play of futurism and originality in the heart of our city.",
             "year": "2021",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-2_photo_1_en.mp3"
           },
           {
             "id": "urban-2-photo-2",
@@ -1720,7 +1720,7 @@ window.translations = {
             "description": "Gambo Street, 'Benidorm at Night' editorial. In the background of this photo, behind the model, you can see Hotel Madeira. It’s the same building that, if you look away from the photo and to your left, dominates the street where you are standing now. I love how its silhouette watches over the city's rhythm.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-2_photo_2_en.mp3"
           },
           {
             "id": "urban-2-photo-3",
@@ -1730,7 +1730,7 @@ window.translations = {
             "description": "20th floor of Hotel Madeira, 'Benidorm Horizontal' editorial. We are almost at the same spot where you are standing, but twenty floors higher to take in this panoramic view of Benidorm. A visual gift to watch the Sun melt into our city.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-2_photo_3_en.mp3"
           }
         ]
       },
