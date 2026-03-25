@@ -574,6 +574,23 @@ document.getElementById('app').addEventListener('click', (e) => {
     }
 });
 
+// Dynamically enable/disable submit based on consent checkbox state
+document.getElementById('app').addEventListener('change', (e) => {
+    if (e.target.id === 'cf-consent') {
+        const submitBtn = document.getElementById('cf-submit');
+        if (!submitBtn) return;
+        if (e.target.checked) {
+            submitBtn.disabled = false;
+            submitBtn.classList.remove('border-white/10', 'text-white/30', 'cursor-not-allowed');
+            submitBtn.classList.add('border-white/20', 'hover:bg-white', 'hover:text-black', 'cursor-pointer');
+        } else {
+            submitBtn.disabled = true;
+            submitBtn.classList.add('border-white/10', 'text-white/30', 'cursor-not-allowed');
+            submitBtn.classList.remove('border-white/20', 'hover:bg-white', 'hover:text-black', 'cursor-pointer');
+        }
+    }
+});
+
 // Contact Form Submission
 const WORKER_URL = 'https://enviar-telegram-somni.salva-mira.workers.dev';
 
