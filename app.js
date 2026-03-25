@@ -282,10 +282,10 @@ function renderApp() {
                             <input
                                 type="checkbox"
                                 id="cf-consent"
-                                ${privacyRead ? '' : 'disabled'}
-                                class="mt-1 w-5 h-5 shrink-0 appearance-none border border-white/30 rounded-sm bg-zinc-900 checked:bg-accent checked:border-accent cursor-pointer disabled:cursor-not-allowed disabled:opacity-40 transition-colors"
+                                ${privacyRead ? 'checked' : 'data-action="open-privacy"'}
+                                class="mt-1 w-5 h-5 shrink-0 appearance-none border border-white/30 rounded-sm bg-zinc-900 checked:bg-accent checked:border-accent cursor-pointer transition-colors"
                             >
-                            <label for="cf-consent" class="font-mono text-xs lg:text-sm tracking-wide leading-relaxed ${privacyRead ? 'text-white/80' : 'text-white/40'} transition-colors">
+                            <label for="cf-consent" class="font-mono text-xs lg:text-sm tracking-wide leading-relaxed ${privacyRead ? 'text-white/80' : 'text-white/60'} transition-colors cursor-pointer">
                                 ${privacyRead
                                     ? `${t.contact.form_privacy_accept.replace(t.contact.form_privacy_link, `<button type="button" data-action="open-privacy" class="underline text-accent hover:text-white transition-colors">${t.contact.form_privacy_link}</button>`)}`
                                     : `${t.contact.form_privacy_pending.replace(t.contact.form_privacy_link, `<button type="button" data-action="open-privacy" class="underline text-white/80 hover:text-accent transition-colors">${t.contact.form_privacy_link}</button>`)}`
@@ -448,9 +448,12 @@ document.getElementById('app').addEventListener('click', (e) => {
 
     if (action === 'close-privacy') {
         privacyModalOpen = false;
-        privacyRead = true; // user has seen the policy
+        privacyRead = true;
         document.body.style.overflow = 'auto';
         renderApp();
+        // Auto-check the consent checkbox once the policy has been read
+        const consentEl = document.getElementById('cf-consent');
+        if (consentEl) consentEl.checked = true;
         return;
     }
 
