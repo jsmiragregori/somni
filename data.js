@@ -502,7 +502,7 @@ window.translations = {
             "description": "Bajo este coloso de 186 metros, la figura humana parece minúscula pero poderosa. El Gran Hotel Bali es el hotel más alto de Europa, y en este contrapicado buscamos ese diálogo entre la fragilidad de la modelo y la inmensidad del cemento. Alza la vista ahora mismo hacia los edificios... ¿lo sientes, al coloso real?",
             "year": "2019",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_1_es.mp3"
           },
           {
             "id": "urban-7-photo-2",
@@ -512,17 +512,17 @@ window.translations = {
             "description": "La silueta que ves es el Gran Hotel Bali, diciembre de 2019. Tienes exactamente la misma vista frente a ti, pero desde un ángulo que te hace sentir que flotas sobre la ciudad. Esta fotografía de la editorial 'Benidorm Vertical' cruzó el océano para brillar en las revistas de Nueva York. ¿Sientes su grandeza?",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_2_es.mp3"
           },
           {
             "id": "urban-7-photo-3",
             "url": "./img/urban-7_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "¿Sientes la fuerza del Gran Hotel Bali y el abrigo de piel? Es una localización estratégica de la editorial 'Benidorm Vertical'. Pero mira bien al cielo... no, no es un retoque. Aquella gaviota se cruzó justo ante mi cámara, en el ángulo perfecto, para añadir un matiz mágico e inesperado a la grandeza del edificio.\"",
+            "description": "¿Sientes la fuerza del Gran Hotel Bali y de la modelo? Es una localización estratégica de la editorial 'Benidorm Vertical'. Pero mira bien al cielo... no, no es un retoque. Aquella gaviota se cruzó justo ante mi cámara, en el ángulo perfecto, para añadir un matiz mágico e inesperado a la grandeza del edificio.\"",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_3_es.mp3"
           },
           {
             "id": "urban-7-photo-4",
@@ -532,7 +532,7 @@ window.translations = {
             "description": "Aquí tienes el Hotel Bali como quizás nunca lo habías visto. El ángulo es brutal. Pero imagínate la mística de aquel diciembre de 2019: el equipo, el frío del invierno, y la modelo cambiándose con un vestidor portátil en medio de la calle para capturar la esencia de esta silueta. Una locura que valió la pena para Nueva York.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_4_es.mp3"
           },
           {
             "id": "urban-7-photo-5",
@@ -1311,7 +1311,7 @@ window.translations = {
             "description": "Davall d'aquest colós de 186 metres, la figura humana sembla minúscula però poderosa. El Gran Hotel Bali és l'hotel més alt d'Europa, i en aquest contrapicat busquem eixe diàleg entre la fragilitat de la model i la immensitat del ciment. Alça la vista ara mateix cap als edificis... el sents, el colós real?",
             "year": "2019",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_1_ca.mp3"
           },
           {
             "id": "urban-7-photo-2",
@@ -1321,17 +1321,17 @@ window.translations = {
             "description": "La silueta que veus és el Gran Hotel Bali, desembre de 2019. Tens exactament la mateixa vista davant teu, però des d'un angle que et fa sentir que flotes sobre la ciutat. Aquesta fotografia de l'editorial 'Benidorm Vertical' va creuar l'oceà per a brillar a les revistes de Nova York. Sents la seua grandesa?",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_2_ca.mp3"
           },
           {
             "id": "urban-7-photo-3",
             "url": "./img/urban-7_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Sents la força del Gran Hotel Bali i l'abric de pell? És una localització estratègica de l'editorial 'Benidorm Vertical'. Però mira bé al cel... no, no és un retoc. Aquella gavina es va creuar just davant la meua càmera, en l'angle perfecte, per afegir un matís màgic i inesperat a la grandesa de l'edifici.",
+            "description": "Sents la força del Gran Hotel Bali i de la model? És una localització estratègica de l'editorial 'Benidorm Vertical'. Però mira bé al cel... no, no és un retoc. Aquella gavina es va creuar just davant la meua càmera, en l'angle perfecte, per afegir un matís màgic i inesperat a la grandesa de l'edifici.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_3_ca.mp3"
           },
           {
             "id": "urban-7-photo-4",
@@ -1341,7 +1341,7 @@ window.translations = {
             "description": "Aquí tens l'Hotel Bali com potser no l'havies vist mai. L'angle és brutal. Però imagina't la mística d'aquell desembre de 2019: l'equip, el fred de l'hivern, i la model canviant-se amb un vestidor portàtil al mig del carrer per capturar l'essència d'aquesta silueta. Una bogeria que va valdre la pena per a Nova York.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_4_ca.mp3"
           },
           {
             "id": "urban-7-photo-5",
@@ -1748,7 +1748,7 @@ window.translations = {
             "description": "Emilio Ortuño Street, November 2020, ‘Benidorm Horizontal’ editorial. This shot was taken right above your head, on top of the Bridge. It was the post-pandemic era, and the silence let us capture a nearly empty Benidorm, with Hotel Madeira watching over a city slowly coming back to life.",
             "year": "2020",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_1_en.mp3"
           },
           {
             "id": "urban-3-photo-2",
@@ -1758,7 +1758,7 @@ window.translations = {
             "description": "Emilio Ortuño Street. Still up here, at a time when the road wasn't yet buzzing with traffic. That post-pandemic setting turned the Bridge into our private runway, where Scottish design and the old town meet face to face.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_2_en.mp3"
           },
           {
             "id": "urban-3-photo-3",
@@ -1768,7 +1768,7 @@ window.translations = {
             "description": "Emilio Ortuño Street, in front of Hotel Bristol. The last photo taken on top of the Bridge. Without the usual traffic noise in that street, we could focus entirely on detail and elegance, turning such a busy street into a true fashion set.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_3_en.mp3"
           },
           {
             "id": "urban-3-photo-4",
@@ -1778,7 +1778,7 @@ window.translations = {
             "description": "Carrer del Pont, to the left of the biography. In this image, looking past the couple into the background, we can see the Bridge and Hotel Bristol. To achieve this look, we had to rush to the hotel for a change and hurry back; a fashion choreography on an asphalt that was still half-asleep.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_4_en.mp3"
           },
           {
             "id": "urban-3-photo-5",
@@ -1788,7 +1788,7 @@ window.translations = {
             "description": "Carrer del Pont, November 2020. Here, the background perspective opens up towards Hispanitat Square. We chose the balloons to match the patterns of the crosswalk right in front of you. This is the result of many trips back to the hotel to turn the street, outfit after outfit, into a dream runway.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-3_photo_5_en.mp3"
           }
         ]
       },
@@ -2137,7 +2137,7 @@ window.translations = {
             "url": "./img/urban-7_photo_3.jpg",
             "orientation": "portrait",
             "title": "Artwork 03",
-            "description": "Can you feel the strength of the Gran Hotel Bali and the fur coat? It’s a strategic location from the 'Benidorm Vertical' editorial. But look closely at the sky... no, it’s not a retouch. That seagull crossed right in front of my camera, at the perfect angle, to add a magical and unexpected touch to the building’s magnitude.",
+            "description": "Can you feel the strength of the Gran Hotel Bali and the model? It’s a strategic location from the 'Benidorm Vertical' editorial. But look closely at the sky... no, it’s not a retouch. That seagull crossed right in front of my camera, at the perfect angle, to add a magical and unexpected touch to the building’s magnitude.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
