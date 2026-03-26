@@ -181,11 +181,11 @@ function renderApp() {
                         <button data-action="set-lang" data-lang="ca" class="${currentLang==='ca' ? 'text-white' : 'text-white/60'}">${t.nav.lang_ca}</button>
                         <button data-action="set-lang" data-lang="en" class="${currentLang==='en' ? 'text-white' : 'text-white/60'}">${t.nav.lang_en}</button>
                     </div>
-                    <ul class="flex flex-col items-center gap-6">
-                        <li><a href="#rooms" data-action="toggle-menu" class="font-display uppercase tracking-tighter hover:text-accent transition-colors text-center block text-5xl lg:text-7xl mt-4">${t.nav.galeria}</a></li>
-                        ${t.rooms.map(room => `<li><a href="#${room.id}" data-action="toggle-menu" class="font-display uppercase tracking-tighter hover:text-accent transition-colors text-center block text-2xl lg:text-3xl text-white/70">${room.title}</a></li>`).join('')}
-                        <li><a href="#manifesto" data-action="toggle-menu" class="font-display uppercase tracking-tighter hover:text-accent transition-colors text-center block text-5xl lg:text-7xl mt-4">${t.nav.manifiesto}</a></li>
-                        <li><a href="#contact" data-action="toggle-menu" class="font-display uppercase tracking-tighter hover:text-accent transition-colors text-center block text-5xl lg:text-7xl mt-4">${t.nav.contacto}</a></li>
+                    <ul class="flex flex-col items-center gap-3">
+                        <li><a href="#rooms" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.galeria}</a></li>
+                        ${t.rooms.map(room => `<li><a href="#${room.id}" data-action="toggle-menu" class="font-display uppercase tracking-widest hover:text-accent transition-colors text-center block text-xl lg:text-2xl text-white/70">${room.title}</a></li>`).join('')}
+                        <li><a href="#manifesto" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.manifiesto}</a></li>
+                        <li><a href="#contact" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.contacto}</a></li>
                     </ul>
                 </div>
             </div>
