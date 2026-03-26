@@ -355,9 +355,25 @@ function renderApp() {
         ${lightboxState.isOpen ? (() => {
             const photo = lightboxState.photos[lightboxState.currentIndex];
             return `
-            <div class="fixed inset-0 z-[999] bg-black flex flex-col items-center justify-center p-4 lg:p-12 text-white" data-action="close-lightbox">
+            <div class="fixed inset-0 z-[999] bg-black text-white" data-action="close-lightbox">
                 
-                <div class="absolute top-6 left-6 lg:top-12 lg:left-12 flex gap-4 font-mono text-xs tracking-widest uppercase z-[1000] p-4 pointer-events-auto items-center">
+                <!-- Image: fills entire screen -->
+                <img
+                    src="${photo.url}"
+                    alt="${photo.title}"
+                    class="absolute inset-0 w-full h-full object-contain pointer-events-none select-none"
+                >
+
+                <!-- Bottom gradient overlay with description -->
+                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent px-6 pb-8 pt-32 pointer-events-none z-[201]">
+                    <div class="max-w-3xl mx-auto">
+                        <p class="text-white/90 font-light leading-relaxed ${getDynamicText('body')} mb-3">${photo.description}</p>
+                        <p class="text-white/30 text-xs font-mono tracking-widest">${lightboxState.currentIndex + 1} / ${lightboxState.photos.length}</p>
+                    </div>
+                </div>
+
+                <!-- Top-left: language/text-size controls -->
+                <div class="absolute top-0 left-0 flex gap-4 font-mono text-xs tracking-widest uppercase z-[1000] p-5 items-center bg-gradient-to-b from-black/60 to-transparent pointer-events-auto">
                     <button data-action="toggle-text-size" class="p-2 -m-2 text-white/80 hover:text-white transition-colors" title="Tamaño de texto"><i data-feather="type" class="w-4 h-4"></i></button>
                     <span class="text-white/20">|</span>
                     <button data-action="set-lang" data-lang="es" class="p-2 -m-2 ${currentLang === 'es' ? 'text-accent' : 'text-white/80 hover:text-white transition-colors'}">${t.nav.lang_es}</button>
@@ -365,34 +381,29 @@ function renderApp() {
                     <button data-action="set-lang" data-lang="en" class="p-2 -m-2 ${currentLang === 'en' ? 'text-accent' : 'text-white/80 hover:text-white transition-colors'}">${t.nav.lang_en}</button>
                 </div>
 
-                <button data-action="close-lightbox" class="absolute top-6 right-6 lg:top-12 lg:right-12 p-4 text-white hover:text-accent transition-colors z-[201]">
-                    <i data-feather="x" class="w-8 h-8 pointer-events-none"></i>
+                <!-- Top-right: close button -->
+                <button data-action="close-lightbox" class="absolute top-4 right-4 lg:top-6 lg:right-6 p-3 text-white hover:text-accent transition-colors z-[1000] bg-black/40 rounded-full backdrop-blur-sm">
+                    <i data-feather="x" class="w-6 h-6 pointer-events-none"></i>
                 </button>
 
+                <!-- Prev button -->
                 ${lightboxState.currentIndex > 0 ? `
-                <button data-action="lightbox-prev" class="absolute left-6 top-1/2 -translate-y-1/2 p-4 text-white hover:text-accent transition-colors z-[201]">
-                    <i data-feather="chevron-left" class="w-12 h-12 pointer-events-none"></i>
+                <button data-action="lightbox-prev" class="absolute left-3 top-1/2 -translate-y-1/2 p-3 text-white hover:text-accent transition-colors z-[1000] bg-black/40 rounded-full backdrop-blur-sm">
+                    <i data-feather="chevron-left" class="w-7 h-7 pointer-events-none"></i>
                 </button>` : ''}
 
+                <!-- Next button -->
                 ${lightboxState.currentIndex < lightboxState.photos.length - 1 ? `
-                <button data-action="lightbox-next" class="absolute right-6 top-1/2 -translate-y-1/2 p-4 text-white hover:text-accent transition-colors z-[201]">
-                    <i data-feather="chevron-right" class="w-12 h-12 pointer-events-none"></i>
+                <button data-action="lightbox-next" class="absolute right-3 top-1/2 -translate-y-1/2 p-3 text-white hover:text-accent transition-colors z-[1000] bg-black/40 rounded-full backdrop-blur-sm">
+                    <i data-feather="chevron-right" class="w-7 h-7 pointer-events-none"></i>
                 </button>` : ''}
 
-                <div class="relative max-w-[90vw] h-[60vh] flex items-center justify-center pointer-events-none">
-                    <img src="${photo.url}" alt="${photo.title}" class="max-w-full max-h-full object-contain shadow-2xl">
-                    
-                    ${photo.audioUrl ? `
-                    <button data-action="lightbox-audio" class="absolute bottom-6 right-6 z-[202] bg-black/60 rounded-full p-4 backdrop-blur-md border border-white/20 flex items-center justify-center gap-3 hover:bg-black/80 transition-all shadow-xl pointer-events-auto">
-                        <i data-feather="headphones" class="w-5 h-5 text-white pointer-events-none stroke-white"></i>
-                        <i data-feather="${lightboxState.playing ? 'pause' : 'play'}" class="w-4 h-4 text-white pointer-events-none fill-white stroke-white"></i>
-                    </button>` : ''}
-                </div>
-
-                <div class="mt-8 max-w-2xl text-center z-[201] px-6">
-                    <p class="text-white/70 font-light leading-relaxed ${getDynamicText('body')}">${photo.description}</p>
-                    <p class="text-white/30 text-xs font-mono mt-4 tracking-widest">${lightboxState.currentIndex + 1} / ${lightboxState.photos.length}</p>
-                </div>
+                <!-- Audio button (if available) -->
+                ${photo.audioUrl ? `
+                <button data-action="lightbox-audio" class="absolute bottom-6 right-6 z-[1000] bg-black/60 rounded-full p-4 backdrop-blur-md border border-white/20 flex items-center justify-center gap-3 hover:bg-black/80 transition-all shadow-xl pointer-events-auto">
+                    <i data-feather="headphones" class="w-5 h-5 text-white pointer-events-none stroke-white"></i>
+                    <i data-feather="${lightboxState.playing ? 'pause' : 'play'}" class="w-4 h-4 text-white pointer-events-none fill-white stroke-white"></i>
+                </button>` : ''}
             </div>`;
         })() : ''}
     `;
