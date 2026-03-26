@@ -33,6 +33,7 @@ let playingExternalId = null;
 let externalAudio = null;
 let privacyModalOpen = false;
 let privacyOpenedFromCheckbox = false;
+let lightboxTextVisible = true;
 
 // Cookie helpers
 function setCookie(name, value, hours) {
@@ -365,12 +366,16 @@ function renderApp() {
                 >
 
                 <!-- Bottom gradient overlay with description -->
+                ${lightboxTextVisible ? `
                 <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent px-6 pb-8 pt-32 pointer-events-none z-[201]">
                     <div class="max-w-3xl mx-auto">
                         <p class="text-white/90 font-light leading-relaxed ${getDynamicText('body')} mb-3">${photo.description}</p>
                         <p class="text-white/30 text-xs font-mono tracking-widest">${lightboxState.currentIndex + 1} / ${lightboxState.photos.length}</p>
                     </div>
-                </div>
+                </div>` : `
+                <div class="absolute bottom-4 left-1/2 -translate-x-1/2 z-[201] pointer-events-none">
+                    <p class="text-white/20 text-xs font-mono tracking-widest">${lightboxState.currentIndex + 1} / ${lightboxState.photos.length}</p>
+                </div>`}
 
                 <!-- Top-left: language/text-size controls -->
                 <div class="absolute top-0 left-0 flex gap-4 font-mono text-xs tracking-widest uppercase z-[1000] p-5 items-center bg-gradient-to-b from-black/60 to-transparent pointer-events-auto">
@@ -381,10 +386,15 @@ function renderApp() {
                     <button data-action="set-lang" data-lang="en" class="p-2 -m-2 ${currentLang === 'en' ? 'text-accent' : 'text-white/80 hover:text-white transition-colors'}">${t.nav.lang_en}</button>
                 </div>
 
-                <!-- Top-right: close button -->
-                <button data-action="close-lightbox" class="absolute top-4 right-4 lg:top-6 lg:right-6 p-3 text-white hover:text-accent transition-colors z-[1000] bg-black/40 rounded-full backdrop-blur-sm">
-                    <i data-feather="x" class="w-6 h-6 pointer-events-none"></i>
-                </button>
+                <!-- Top-right: close + text-toggle buttons -->
+                <div class="absolute top-4 right-4 lg:top-6 lg:right-6 flex flex-col gap-2 z-[1000]">
+                    <button data-action="close-lightbox" class="p-3 text-white hover:text-accent transition-colors bg-black/40 rounded-full backdrop-blur-sm">
+                        <i data-feather="x" class="w-6 h-6 pointer-events-none"></i>
+                    </button>
+                    <button data-action="toggle-lightbox-text" class="p-3 transition-colors bg-black/40 rounded-full backdrop-blur-sm ${lightboxTextVisible ? 'text-white hover:text-accent' : 'text-accent hover:text-white'}" title="${lightboxTextVisible ? 'Ocultar texto' : 'Mostrar texto'}">
+                        <i data-feather="${lightboxTextVisible ? 'eye' : 'eye-off'}" class="w-6 h-6 pointer-events-none"></i>
+                    </button>
+                </div>
 
                 <!-- Prev button -->
                 ${lightboxState.currentIndex > 0 ? `
@@ -554,6 +564,13 @@ document.getElementById('app').addEventListener('click', (e) => {
         return;
     }
     
+    if (action === 'toggle-lightbox-text') {
+        e.stopPropagation();
+        lightboxTextVisible = !lightboxTextVisible;
+        renderApp();
+        return;
+    }
+
     if (action === 'close-lightbox') {
         if (lightboxState.audio) {
             lightboxState.audio.pause();
