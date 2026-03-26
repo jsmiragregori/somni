@@ -1864,7 +1864,7 @@ window.translations = {
             "description": "Town Hall Square, 'Benidorm Horitzontal' editorial. In this shot, we celebrate connection and detail. The materials worn by the models are handcrafted, designed exclusively by our team's designer to dialogue with the Benidorm sky. Everything you see was prepared just minutes before in a nearby hotel to capture the exact Mediterranean light.",
             "year": "2020",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_1_en.mp3"
           },
           {
             "id": "urban-5-photo-2",
@@ -1874,7 +1874,7 @@ window.translations = {
             "description": "Welcome to the 'Benidorm Horizontal' editorial. Notice the contrast: the electric blue outfit and the balloons break with the geometry of the background buildings. This is fashion conquering public space.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_2_en.mp3"
           },
           {
             "id": "urban-5-photo-3",
@@ -1884,7 +1884,7 @@ window.translations = {
             "description": "Look at the texture of the dress, a design challenge to capture the light. But look closely at the balloons: a surprise is hidden in one of the reflections that not everyone sees at first glance. Can you find the secret of this shoot?",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_3_en.mp3"
           },
           {
             "id": "urban-5-photo-4",
