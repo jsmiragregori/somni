@@ -1806,7 +1806,7 @@ window.translations = {
             "description": "Welcome to El Campo. Look at the Intempo Building: the model posing amid steel and golden reflections in 2021. An image joining the maritime past with the vertical future. Now, look up towards the end of San Pedro street: there is the real building, imposing, modern.",
             "year": "2021",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_1_en.mp3"
           },
           {
             "id": "urban-4-photo-2",
