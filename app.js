@@ -32,7 +32,22 @@ let lightboxState = {
 let playingExternalId = null;
 let externalAudio = null;
 let privacyModalOpen = false;
-let privacyRead = false;
+let privacyOpenedFromCheckbox = false;
+
+// Cookie helpers
+function setCookie(name, value, hours) {
+    const expires = new Date(Date.now() + hours * 36e5).toUTCString();
+    document.cookie = `${name}=${value}; expires=${expires}; path=/; SameSite=Lax`;
+}
+function getCookie(name) {
+    return document.cookie.split('; ').reduce((acc, part) => {
+        const [k, v] = part.split('=');
+        return k === name ? v : acc;
+    }, null);
+}
+
+// If the user has read the privacy policy in the last 4 hours, remember it
+let privacyRead = getCookie('maisse_privacy_read') === '1';
 
 // Main render function
 function renderApp() {
@@ -440,6 +455,8 @@ document.getElementById('app').addEventListener('click', (e) => {
 
     if (action === 'open-privacy') {
         e.stopPropagation();
+        // Track whether the modal was triggered by clicking the checkbox itself
+        privacyOpenedFromCheckbox = (e.target.id === 'cf-consent' || e.target.closest('#cf-consent') !== null);
         privacyModalOpen = true;
         document.body.style.overflow = 'hidden';
         renderApp();
@@ -449,11 +466,24 @@ document.getElementById('app').addEventListener('click', (e) => {
     if (action === 'close-privacy') {
         privacyModalOpen = false;
         privacyRead = true;
+        setCookie('maisse_privacy_read', '1', 4); // remember for 4 hours
         document.body.style.overflow = 'auto';
         renderApp();
-        // Auto-check the consent checkbox once the policy has been read
-        const consentEl = document.getElementById('cf-consent');
-        if (consentEl) consentEl.checked = true;
+        // Auto-check only when the modal was opened by clicking the checkbox
+        if (privacyOpenedFromCheckbox) {
+            const consentEl = document.getElementById('cf-consent');
+            if (consentEl) {
+                consentEl.checked = true;
+                // Also enable the submit button
+                const submitBtn = document.getElementById('cf-submit');
+                if (submitBtn) {
+                    submitBtn.disabled = false;
+                    submitBtn.classList.remove('border-white/10', 'text-white/30', 'cursor-not-allowed');
+                    submitBtn.classList.add('border-white/20', 'hover:bg-white', 'hover:text-black', 'cursor-pointer');
+                }
+            }
+        }
+        privacyOpenedFromCheckbox = false;
         return;
     }
 
