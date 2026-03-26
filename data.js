@@ -1816,7 +1816,7 @@ window.translations = {
             "description": "Let’s get closer to the detail. Notice the golden columns of the Intempo Building and the reflections that multiply its verticality. Now, turn your gaze to the left: at the end of the street, you will see the golden silhouette of the actual building, mirroring the very same pattern you see in the photograph.”",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_2_en.mp3"
           },
           {
             "id": "urban-4-photo-3",
@@ -1826,7 +1826,7 @@ window.translations = {
             "description": "Milords Suites Hotel terrace. ‘Benidorm Horizontal’ editorial. This was our base of operations for outfit changes. Look at the wonder in Eva’s eyes, expressing the charm she has just discovered: the Bali Hotel and the Ponent lights melt into a 'bokeh' that transports us to an elegant, nighttime city.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_3_en.mp3"
           },
           {
             "id": "urban-4-photo-4",
@@ -1836,7 +1836,7 @@ window.translations = {
             "description": "The Castle Staircase, 'Benidorm Horizontal' editorial. To get this shot, we had to rush: an outfit change at the hotel and a quick return to catch the light. The effort is worth it when you see how the white stone highlights the elegance of the moment.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_4_en.mp3"
           },
           {
             "id": "urban-4-photo-5",
@@ -1846,7 +1846,7 @@ window.translations = {
             "description": "Benidorm Castle, 'Benidorm Horizontal' editorial. In each session, we work with up to six different looks. I wanted Benidorm to look like a high-end production set, like the New York magazines that have featured my work. A sophisticated look at our own home.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-4_photo_5_en.mp3"
           }
         ]
       },
