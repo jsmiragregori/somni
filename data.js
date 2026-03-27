@@ -1969,10 +1969,10 @@ window.translations = {
             "url": "./img/urban-6_photo_1.jpg",
             "orientation": "portrait",
             "title": "Artwork 01",
-            "description": "An image exuding elegance and mystery. Notice the height of the terrace. Can you guess where this couple is? They are on the 20th floor of the Madeira Hotel. From where you are now in Los Tolls, you already have good views, but can you imagine that westerly wind from November 2020? A luxurious closing for the 'Benidorm Horizontal' editorial.",
+            "description": "An image exuding elegance and mystery. Notice the height of the terrace. Can you guess where this couple is? They are on the 20th floor of the Madeira Hotel. From where you are now in Els Tolls, you already have good views, but can you imagine that westerly wind from November 2020? A luxurious closing for the 'Benidorm Horizontal' editorial.",
             "year": "2020",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_1_en.mp3"
           },
           {
             "id": "urban-6-photo-2",
@@ -1982,7 +1982,7 @@ window.translations = {
             "description": "Standing at 145 meters with 41 floors, this building is one of the giants of the Levante skyline in this series. In 2019, when this photo was taken, it was the city's fifth-tallest. Look straight back from where you are, and you’ll see the Kronos Building.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_2_en.mp3"
           },
           {
             "id": "urban-6-photo-3",
