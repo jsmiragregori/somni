@@ -539,10 +539,10 @@ window.translations = {
             "url": "./img/urban-7_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Bienvenidos al interior de l'Edifici Intempo, octubre de 2021. Desde estos apartamentos tan altos, la ciudad desaparece y solo queda el azul, que atraviesa el cristal y lo inunda todo. ¿Te imaginas flotar así? Es el mismo horizonte infinito que tienes ahora mismo frente a tí en Poniente.",
+            "description": "Bienvenidos al interior de l'Edifici Intempo, octubre de 2021. Desde estos apartamentos tan altos, la ciudad desaparece y solo queda el azul, que atraviesa el cristal y lo inunda todo. ¿Te imaginas flotar así? Es el mismo horizonte infinito que tienes ahora frente a tí en Poniente.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_5_es.mp3"
           },
           {
             "id": "urban-7-photo-6",
@@ -552,7 +552,7 @@ window.translations = {
             "description": "Fíjate en los marcos dorados que abrazan a la modelo. Esta sesión fue pura improvisación de octubre. Teníamos un único día de acceso y ninguna posibilidad de visitar el edificio previamente. Todo lo que ves—vestuarios, poses, luz—se decidió al momento, un 'ahora o nunca' para capturar este gigante por dentro.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_6_es.mp3"
           },
           {
             "id": "urban-7-photo-7",
@@ -562,7 +562,7 @@ window.translations = {
             "description": "¿Te imaginas estar en la planta 46, flotando sobre la ciudad? Aquí, en el SPA del Edificio Intempo, el tiempo se detiene. Mira cómo la isla vigila el horizonte al fondo de la imagen: es el mismo perfil que tienes ahora frente a ti, pero visto desde un cielo que tuvimos que descubrir y fotografiar en un solo día, sin saber qué nos encontraríamos.\"",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_7_es.mp3"
           },
           {
             "id": "urban-7-photo-8",
@@ -572,7 +572,7 @@ window.translations = {
             "description": "A pie de calle. Planta baja. Un solo tiro, un instante. Un solo dedo presionando la cámara fue suficiente para capturar todo el reflejo del Edificio Intempo en esta piscina infinita. Con pura improvisación y un 'black outfit', fusionamos al gigante con el agua en un segundo. Es la mística de nuestro horizonte.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_8_es.mp3"
           },
           {
             "id": "urban-7-photo-9",
@@ -582,7 +582,7 @@ window.translations = {
             "description": "Fijaos en la figura de esta foto: es la misma que tienes a pocos metros en el paseo. 'El Amor del Cisne' se encontraba inicialmente en el Ayuntamiento, como se ve al fondo de la imagen. Hoy, la pareja de cisnes real custodia Poniente, uniendo el recuerdo de aquella sesión con tu presente.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_9_es.mp3"
           },
           {
             "id": "urban-7-photo-10",
@@ -592,7 +592,7 @@ window.translations = {
             "description": "Esta imagen nos transporta a abril de 2021, durante la exposición Galaxia Hung. Aunque aquí vemos las figuras con el fondo del hotel Madeira, su explosión de color y fantasía ya formaba parte del paisaje urbano de nuestra ciudad.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_10_es.mp3"
           },
           {
             "id": "urban-7-photo-11",
@@ -602,7 +602,7 @@ window.translations = {
             "description": "Fíjate en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda En esta composición, la modelo se sitúa sobre un pilar y al fondo aparece la zona de La Cala y el Tossal. Si alzas la mirada ahora mismo por detrás de este mupi, verás exactamente ese mismo paisaje más abajo.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_11_es.mp3"
           },
           {
             "id": "urban-7-photo-12",
@@ -612,7 +612,7 @@ window.translations = {
             "description": "Una nueva terraza del Edificio Intempo nos regala esta estampa de la modelo con el mar de fondo. La luz de octubre baña la escena, creando una atmósfera de serenidad absoluta.\"",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_12_es.mp3"
           },
           {
             "id": "urban-7-photo-13",
@@ -622,7 +622,7 @@ window.translations = {
             "description": "Esta perspectiva nos lleva a la base del diamante central del Edificio Intempo. Fíjate en el contraste entre la modernidad de la estructura y el olivo milenario que hay en la entrada. Un juego de ángulos que destaca la verticalidad extrema del proyecto.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_13_es.mp3"
           },
           {
             "id": "urban-7-photo-14",
@@ -632,7 +632,7 @@ window.translations = {
             "description": "A pie de calle, la magnitud del Edificio Intempo impresiona. Aquí la modelo brilla con la misma fuerza que la fachada del edificio en una de las imágenes más dinámicas de la sesión.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_14_es.mp3"
           },
           {
             "id": "urban-7-photo-15",
@@ -642,7 +642,7 @@ window.translations = {
             "description": "Este plano más corto destaca por una pose cuidadosamente ejecutada. Es el fruto de un gran trabajo en equipo: la combinación de la luz, el vestuario y la expresión de la modelo para capturar el espíritu vertical que queríamos expresar en esta sesión.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_15_es.mp3"
           },
           {
             "id": "urban-7-photo-16",
@@ -652,7 +652,7 @@ window.translations = {
             "description": "En este punto de Poniente recuperamos una de las imágenes más potentes de la editorial de 2019. El edificio entero se convierte en un escenario de moda internacional que llegó a las publicaciones de Nueva York. Una imagen icónica para un entorno único.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_16_es.mp3"
           }
         ]
       },
@@ -1351,7 +1351,7 @@ window.translations = {
             "description": "Benvinguts a l'interior de l'Edifici Intempo, octubre de 2021. Des d'aquests apartaments tant alts, la ciutat desapareix i només queda el blau, que travessa el vidre i ho inunda tot. T'imagines flotar així? És el mateix horitzó infinit que tens ara davant teu a Ponent.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_5_ca.mp3"
           },
           {
             "id": "urban-7-photo-6",
@@ -1361,17 +1361,17 @@ window.translations = {
             "description": "Fixa't en els marcs daurats que abracen la model. Aquesta sessió va ser pura improvisació d'octubre. Teníem un únic dia d'accés i cap possibilitat de visitar l'edifici prèviament. Tot el que veus—vestidors, posats, llum—es va decidir al moment, un 'ara o mai' per a capturar aquest gegant per dins.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_6_ca.mp3"
           },
           {
             "id": "urban-7-photo-7",
             "url": "./img/urban-7_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "T'imagines estar a la planta 46, flotant sobre la ciutat? Ací, a l'SPA de l'Edifici Intempo, el temps s'atura. Mira com l'illa vigila l'horitzó al fons de la imatge: és el mateix perfil que tens ara davant teu, però vist des d'un cel que vam haver de descobrir i fotografiar en un sol dia, sense saber què ens trobaríem.",
+            "description": "T'imagines estar a la planta 46, flotant sobre la ciutat? Ací, a l'SPA de l'Edifici Intempo, el temps s'atura. Mira com l'Illa vigila l'horitzó al fons de la imatge: és el mateix perfil que tens ara davant teu, però vist des d'un cel que vam haver de descobrir i fotografiar en un sol dia, sense saber què ens trobaríem.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_7_ca.mp3"
           },
           {
             "id": "urban-7-photo-8",
@@ -1381,7 +1381,7 @@ window.translations = {
             "description": "A peu de carrer. Planta baixa. Un sol tret, un instant. Un sol dit pressionant la càmera va ser suficient per a capturar tot el reflex de l'Edifici Intempo en aquesta piscina infinita. Amb pura improvisació i un 'black outfit', vam fusionar el gegant amb l'aigua en un segon. És la mística del nostre horitzó.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_8_ca.mp3"
           },
           {
             "id": "urban-7-photo-9",
@@ -1391,7 +1391,7 @@ window.translations = {
             "description": "Fixeu-vos en la figura d'aquesta foto: és la mateixa que tens a pocs metres al passeig. 'L'Amor del Cigne' es trobava inicialment a l'Ajuntament, com es veu al fons de la imatge. Avui, la parella de cignes real custodia Ponent, unint el record d'aquella sessió amb el teu present.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_9_ca.mp3"
           },
           {
             "id": "urban-7-photo-10",
@@ -1401,7 +1401,7 @@ window.translations = {
             "description": "Aquesta imatge ens transporta a l'abril de 2021, durant l'exposició Galaxia Hung. Encara que aquí veiem les figures amb el fons de l'hotel Madeira, la seua explosió de color i fantasia ja formava part del paisatge urbà de la nostra ciutat.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_10_ca.mp3"
           },
           {
             "id": "urban-7-photo-11",
@@ -1411,7 +1411,7 @@ window.translations = {
             "description": "En aquesta composició, la model se situa sobre un pilar i al fons apareix la zona de la Cala i el Tossal. Si alces la mirada ara mateix per darrere d'aquest mupi, veuràs exactament eixe mateix paisatge més avall.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_11_ca.mp3"
           },
           {
             "id": "urban-7-photo-12",
@@ -1421,7 +1421,7 @@ window.translations = {
             "description": "Una nova terrassa de l'Edifici Intempo ens regala aquesta estampa de la model amb la mar de fons. La llum d'octubre banya l'escena, creant una atmosfera de serenitat absoluta.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_12_ca.mp3"
           },
           {
             "id": "urban-7-photo-13",
@@ -1431,7 +1431,7 @@ window.translations = {
             "description": "Aquesta perspectiva ens porta a la base del diamant central de l’Edifici Intempo. Fixa't en el contrast entre la modernitat de l'estructura i l'olivera mil·lenària que hi ha a l'entrada. Un joc de picats que destaca la verticalitat extrema del projecte.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_13_ca.mp3"
           },
           {
             "id": "urban-7-photo-14",
@@ -1441,7 +1441,7 @@ window.translations = {
             "description": "A peu de carrer, la magnitud de l'Edifici Intempo impressiona. Aquí la model brilla amb la mateixa força que la façana de l'edifici en una de les imatges més dinàmiques de la sessió.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_14_ca.mp3"
           },
           {
             "id": "urban-7-photo-15",
@@ -1451,7 +1451,7 @@ window.translations = {
             "description": "Aquest pla més curt destaca per una posada acuradament executada. És el fruit d'un gran treball en equip: la combinació de la llum, el vestuari i l'expressió de la model per a capturar l'esperit vertical que volíem expressar en esta sessió.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_15_ca.mp3"
           },
           {
             "id": "urban-7-photo-16",
@@ -1461,7 +1461,7 @@ window.translations = {
             "description": "En aquest punt de Ponent recuperem una de les imatges més potents de l'editorial de 2019. L'edifici sencer es converteix en un escenari de moda internacional que va arribar a les publicacions de Nova York. Una imatge icònica per a un entorn únic.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_16_ca.mp3"
           }
         ]
       },
