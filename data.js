@@ -1894,7 +1894,7 @@ window.translations = {
             "description": "City Hall is more than a building; it’s a stage. Here you see how the balloons' movement, the model expression and the dress's verticality integrate into the square. A moment of lightness amidst the asphalt.",
             "year": "2020",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_4_en.mp3"
           },
           {
             "id": "urban-5-photo-5",
@@ -1904,7 +1904,7 @@ window.translations = {
             "description": "Immerse yourself in the green of l’Aigüera. You are looking at Patricia in what was my first session with models in Benidorm, agost 2018. These photographs try to offer a vital contrast to the concrete and to the human figure that merges with nature.",
             "year": "2018",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_5_en.mp3"
           },
           {
             "id": "urban-5-photo-6",
