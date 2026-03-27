@@ -1914,7 +1914,7 @@ window.translations = {
             "description": "Benidorm isn’t just about skyscrapers; it also has green lungs. In this closer shot, Patricia invites us to pause. Notice the texture of the wood and the sunlight: give yourself a moment to relax and reflect.",
             "year": "2018",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_6_en.mp3"
           },
           {
             "id": "urban-5-photo-7",
@@ -1924,7 +1924,7 @@ window.translations = {
             "description": "In this tighter shot, look at the dialogue between skin, fabric, and tree bark. It’s fascinating how during a photo meet-up, each photographer finds their own spot for the model, and yet every single result is unique.",
             "year": "2018",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_7_en.mp3"
           },
           {
             "id": "urban-5-photo-8",
@@ -1934,7 +1934,7 @@ window.translations = {
             "description": "L’Aigüera Park is a design oasis. Here, the model merges with nature and the straight lines drawn by architect Ricardo Bofill. It is the 'urban forest' where Benidorm breathes.",
             "year": "2018",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_8_en.mp3"
           },
           {
             "id": "urban-5-photo-9",
@@ -1944,7 +1944,7 @@ window.translations = {
             "description": "Notice the composition. The purity of Patricia’s white dress stands out boldly against the lines of the park stairs. This image captures the sincere dialogue between architecture and the human form from one of my first sessions with models in Benidorm.\"",
             "year": "2018",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_9_en.mp3"
           },
           {
             "id": "urban-5-photo-10",
@@ -1954,7 +1954,7 @@ window.translations = {
             "description": "Notice here the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
             "year": "2018",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-5_photo_10_en.mp3"
           }
         ]
       },
