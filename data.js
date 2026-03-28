@@ -2120,7 +2120,7 @@ window.translations = {
             "description": "Beneath this 186-meter giant, the human figure seems tiny yet powerful. The Gran Hotel Bali is Europe’s tallest hotel, and in this low-angle shot, we seek that dialogue between fragility and the immensity of concrete. Look up at the buildings right now... can you feel it, the real colossus?",
             "year": "2019",
             "isMasterpiece": true,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_1_en.mp3"
           },
           {
             "id": "urban-7-photo-2",
@@ -2130,7 +2130,7 @@ window.translations = {
             "description": "The silhouette you see is the Gran Hotel Bali, December 2019. You have the exact same view before you, but from an angle that makes you feel like you're floating above the city. This photograph from the 'Benidorm Vertical' editorial crossed the ocean to shine in New York's magazines. Can you feel its magnitude?",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_2_en.mp3"
           },
           {
             "id": "urban-7-photo-3",
@@ -2140,7 +2140,7 @@ window.translations = {
             "description": "Can you feel the strength of the Gran Hotel Bali and the model? It’s a strategic location from the 'Benidorm Vertical' editorial. But look closely at the sky... no, it’s not a retouch. That seagull crossed right in front of my camera, at the perfect angle, to add a magical and unexpected touch to the building’s magnitude.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_3_en.mp3"
           },
           {
             "id": "urban-7-photo-4",
@@ -2150,7 +2150,7 @@ window.translations = {
             "description": "Here is the Hotel Bali as you have perhaps never seen it. The angle is brutal. But imagine the mística of that December 2019: the team, the winter chill, and the model changing with a portable changing room in the middle of the street to capture the essence of this silhouette. A madness that was worth it for New York.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_4_en.mp3"
           },
           {
             "id": "urban-7-photo-5",
@@ -2160,7 +2160,7 @@ window.translations = {
             "description": "Welcome inside the Intempo Building, October 2021. From these high apartments, the city disappears, and only the blue remains, crossing the glass and flooding everything. Can you imagine floating like that? It is the same infinite horizon that you have right now in front of you at Ponent.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_5_en.mp3"
           },
           {
             "id": "urban-7-photo-6",
@@ -2170,7 +2170,7 @@ window.translations = {
             "description": "Notice the golden frames embracing the model. This session was pure October improvisation. We had only one day of access and no possibility of visiting the building beforehand. Everything you see—outfits, poses, light—was decided on the spot, a 'now or never' moment to capture this giant from within.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_6_en.mp3"
           },
           {
             "id": "urban-7-photo-7",
