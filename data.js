@@ -2110,7 +2110,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "City intervention",
-        "description": "Welcome to the largest open-air museum in our city. On this Ponent promenade, I wanted the sea and architecture to meet. Through angles that defy gravity, I offer you a different perspective on our giants: the Gran Hotel Bali and the Intempo Building. These images capture the vertical mystique of Benidorm and traveled all the way to New York to prove that our city is pure urban art. Look up and enjoy the vertigo and fashion. Want to see more and know more details about the sessions? Visit the La Casilla Indoor Art Space to complete your experience.\"",
+        "description": "Welcome to the largest open-air museum in our city. On this Ponent promenade, I wanted the sea and architecture to meet. Through angles that defy gravity, I offer you a different perspective on our giants: the Gran Hotel Bali and the Intempo Building. These images capture the vertical mystique of Benidorm and traveled all the way to New York to prove that our city is pure urban art. Look up and enjoy the vertigo and fashion. Want to see more and know more details about the sessions? Visit the La Casilla Indoor Art Space to complete your experience.",
         "photos": [
           {
             "id": "urban-7-photo-1",
