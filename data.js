@@ -559,7 +559,7 @@ window.translations = {
             "url": "./img/urban-7_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "¿Te imaginas estar en la planta 46, flotando sobre la ciudad? Aquí, en el SPA del Edificio Intempo, el tiempo se detiene. Mira cómo la isla vigila el horizonte al fondo de la imagen: es el mismo perfil que tienes ahora frente a ti, pero visto desde un cielo que tuvimos que descubrir y fotografiar en un solo día, sin saber qué nos encontraríamos.\"",
+            "description": "¿Te imaginas estar en la planta 46, flotando sobre la ciudad? Aquí, en el Spa del Edificio Intempo, el tiempo se detiene. Mira cómo la isla vigila el horizonte al fondo de la imagen: es el mismo perfil que tienes ahora frente a ti, pero visto desde un cielo que tuvimos que descubrir y fotografiar en un solo día, sin saber qué nos encontraríamos.\"",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_7_es.mp3"
@@ -1368,7 +1368,7 @@ window.translations = {
             "url": "./img/urban-7_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "T'imagines estar a la planta 46, flotant sobre la ciutat? Ací, a l'SPA de l'Edifici Intempo, el temps s'atura. Mira com l'Illa vigila l'horitzó al fons de la imatge: és el mateix perfil que tens ara davant teu, però vist des d'un cel que vam haver de descobrir i fotografiar en un sol dia, sense saber què ens trobaríem.",
+            "description": "T'imagines estar a la planta 46, flotant sobre la ciutat? Ací, a l'Spa de l'Edifici Intempo, el temps s'atura. Mira com l'Illa vigila l'horitzó al fons de la imatge: és el mateix perfil que tens ara davant teu, però vist des d'un cel que vam haver de descobrir i fotografiar en un sol dia, sense saber què ens trobaríem.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_7_ca.mp3"
@@ -2177,10 +2177,10 @@ window.translations = {
             "url": "./img/urban-7_photo_7.jpg",
             "orientation": "portrait",
             "title": "Artwork 07",
-            "description": "Can you imagine being on the 46th floor, floating above the city? Here, at the Intempo Building SPA, time stands still. See how the island watches the horizon in the background: it’s the same profile you have in front of you now, but seen from a sky we had to discover and photograph in a single day, without knowing what we would find.",
+            "description": "Can you imagine being on the 46th floor, floating above the city? Here, at the Intempo Building Spa, time stands still. See how the island watches the horizon in the background: it’s the same profile you have in front of you now, but seen from a sky we had to discover and photograph in a single day, without knowing what we would find.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_7_en.mp3"
           },
           {
             "id": "urban-7-photo-8",
@@ -2190,7 +2190,7 @@ window.translations = {
             "description": "At street level. Ground floor. Just one shot, one instant. A single finger pressing the camera was enough to capture the entire Intempo Building reflection in this infinite pool. With pure improvisation and a 'black outfit', we merged the giant with the water in a second. It is the mística of our horizon.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_8_en.mp3"
           },
           {
             "id": "urban-7-photo-9",
@@ -2200,7 +2200,7 @@ window.translations = {
             "description": "Notice the figure in this photo: it's the same one you'll find just a few meters away on the promenade. 'Swan’s Love' was initially located at the Town Hall, as seen in the background of the image. Today, the real pair of swans guards Ponent, bridging the memory of that shoot with your present moment.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_9_en.mp3"
           },
           {
             "id": "urban-7-photo-10",
@@ -2210,7 +2210,7 @@ window.translations = {
             "description": "This image transports us back to April 2021, during the Galaxia Hung exhibition. Although here we see the figures against the backdrop of the Madeira Hotel, their explosion of color and fantasy was already part of our city's urban landscape.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_10_en.mp3"
           },
           {
             "id": "urban-7-photo-11",
@@ -2220,7 +2220,7 @@ window.translations = {
             "description": "In this composition, the model is positioned on a pillar with the La Cala area and the Tossal in the background. If you look up right now behind this mupi, you will see exactly that same landscape further down.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_11_en.mp3"
           },
           {
             "id": "urban-7-photo-12",
@@ -2230,7 +2230,7 @@ window.translations = {
             "description": "A new terrace at Intempo Building presents this scene of the model with the sea in the background. The October light bathes the setting, creating an atmosphere of absolute serenity.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_12_en.mp3"
           },
           {
             "id": "urban-7-photo-13",
@@ -2240,7 +2240,7 @@ window.translations = {
             "description": "This perspective takes us to the base of the Intempo Building's central diamond. Notice the contrast between the structure's modernity and the ancient olive tree at the entrance. A play of camera angles that highlights the project's extreme verticality.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_13_en.mp3"
           },
           {
             "id": "urban-7-photo-14",
@@ -2250,7 +2250,7 @@ window.translations = {
             "description": "At street level, the magnitude of the Intempo Building is breathtaking. Here, the model shines with the same strength as the building's facade in one of the session's most dynamic images.",
             "year": "2021",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_14_en.mp3"
           },
           {
             "id": "urban-7-photo-15",
@@ -2260,7 +2260,7 @@ window.translations = {
             "description": "This tighter shot stands out for its carefully executed pose. It is the result of great teamwork: the combination of light, wardrobe, and the model's expression to capture the vertical spirit we wanted to convey in this session.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_15_en.mp3"
           },
           {
             "id": "urban-7-photo-16",
@@ -2270,7 +2270,7 @@ window.translations = {
             "description": "At this point in Ponent, we revisit one of the most powerful images from the 2019 editorial. The entire building becomes an international fashion stage that reached the publications of New York. An iconic image for a unique setting.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-7_photo_16_en.mp3"
           }
         ]
       },
