@@ -2102,7 +2102,7 @@ window.translations = {
             "description": "Ti Ximo Cove, December 2019. The last moments of the 'Benidorm Vertical' editorial. The model sheds the city's architecture and concrete and delivers herself to the magic of nature. With bare feet on the beach and eyes closed, she becomes the soul of this sunset, a dream closure for the itinerary we have traveled.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_14_en.mp3"
           }
         ]
       },
