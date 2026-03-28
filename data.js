@@ -351,7 +351,7 @@ window.translations = {
             "url": "./img/urban-6_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Una imagen que transpira elegancia y misterio. Fíjate en la altura de la terraza. ¿Adivinas dónde se encuentra esta pareja? Están en la planta 20 del Hotel Madeira. Desde donde estás ahora en Los Tolls, ya tienes buenas vistas, ¿pero te imaginas ese viento de poniente de noviembre de 2020? Un cierre de lujo para la editorial 'Benidorm Horizontal'.",
+            "description": "Una imagen que transpira elegancia y misterio. Fíjate en la altura de la terraza. ¿Adivinas dónde se encuentra esta pareja? Están en la planta 20 del Hotel Madeira. Desde donde estás ahora en Els Tolls, ya tienes buenas vistas, ¿pero te imaginas ese viento de poniente de noviembre de 2020? Un cierre de lujo para la editorial 'Benidorm Horizontal'.",
             "year": "2020",
             "isMasterpiece": true,
             "audioUrl": "./audio/urban-6_photo_1_es.mp3"
@@ -1941,7 +1941,7 @@ window.translations = {
             "url": "./img/urban-5_photo_9.jpg",
             "orientation": "portrait",
             "title": "Artwork 09",
-            "description": "Notice the composition. The purity of Patricia’s white dress stands out boldly against the lines of the park stairs. This image captures the sincere dialogue between architecture and the human form from one of my first sessions with models in Benidorm.\"",
+            "description": "Notice the composition. The purity of Patricia’s white dress stands out boldly against the lines of the park stairs. This image captures the sincere dialogue between architecture and the human form from one of my first sessions with models in Benidorm.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_9_en.mp3"
@@ -1992,7 +1992,7 @@ window.translations = {
             "description": "Did you know that for these photos in December 2019, we carried a portable changing room through the streets? The model would change anywhere to catch the perfect light for each building. It was a day of logistical madness for the team, but it was absolutely worth it!",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_3_en.mp3"
           },
           {
             "id": "urban-6-photo-4",
@@ -2002,7 +2002,7 @@ window.translations = {
             "description": "We continue at the Kronos Building. The skyscrapper's verticality matches the model's skill in keeping her balance on such high heels atop the bench. It is the perfect mimesis between fashion and architecture.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_4_en.mp3"
           },
           {
             "id": "urban-6-photo-5",
@@ -2012,7 +2012,7 @@ window.translations = {
             "description": "Notice the hat hiding her gaze. Here, the accessories take control. Nothing is left to chance: every pose and accessory was planned and rehearsed long before the shoot to achieve that iconic image that traveled all the way to New York.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_5_en.mp3"
           },
           {
             "id": "urban-6-photo-6",
@@ -2022,7 +2022,7 @@ window.translations = {
             "description": "The Negurigane Building is unique for its cylindrical shapes. Standing at 148m with 43 floors, it was the fourth tallest building in 2019. Here, I used a low-angle shot to make the model look almost as tall as the skyscraper itself.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_6_en.mp3"
           },
           {
             "id": "urban-6-photo-7",
@@ -2032,7 +2032,7 @@ window.translations = {
             "description": "On this image, notice the model's pose. Every new movement is pre-planned to create a dialogue between the model and the skyscraper, making the scene feel incredibly intimate.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_7_en.mp3"
           },
           {
             "id": "urban-6-photo-8",
@@ -2042,7 +2042,7 @@ window.translations = {
             "description": "We’ve moved to Racó de l'Oix to find the Don Jorge Building, standing 136 meters tall with 36 floors. Benidorm’s buildings aren't just concrete; they are giant reflectors of Mediterranean light.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_8_en.mp3"
           },
           {
             "id": "urban-6-photo-9",
@@ -2052,7 +2052,7 @@ window.translations = {
             "description": "If you notice, the model’s outfit has changed. We had to use the portable dressing room so as not to lose a single minute of light during this Benidorm Vertical shoot in December 2019.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_9_en.mp3"
           },
           {
             "id": "urban-6-photo-10",
@@ -2062,17 +2062,17 @@ window.translations = {
             "description": "Torre Lúgano is the roof of Levante, standing 158m tall with 43 floors. From up here, the sense of verticality is almost dizzying. I wanted the model to look as if she were conquering the city's summit, merging with one of Benidorm's highest points.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_10_en.mp3"
           },
           {
             "id": "urban-6-photo-11",
             "url": "./img/urban-6_photo_11.jpg",
             "orientation": "portrait",
             "title": "Artwork 11",
-            "description": "This was one of the most complex locations. We had to visit every site beforehand to find the exact angle where the building would look its best. Absolute planning by the entire team so that nothing was left to chance..",
+            "description": "This was one of the most complex locations. We had to visit every site beforehand to find the exact angle where the building would look its best. Absolute planning by the entire team so that nothing was left to chance.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_11_en.mp3"
           },
           {
             "id": "urban-6-photo-12",
@@ -2082,7 +2082,7 @@ window.translations = {
             "description": "We finish the Benidorm Vertical editorial shoot at La Creu. The views from up here are the best summary of the city. It is where Benidorm reveals its true self and shows its full magnitude as night falls.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_12_en.mp3"
           },
           {
             "id": "urban-6-photo-13",
@@ -2092,7 +2092,7 @@ window.translations = {
             "description": "Look at the background lights: this is what we call bokeh. That magical blur creates a dreamlike atmosphere that perfectly closes the story we began at street level.",
             "year": "2019",
             "isMasterpiece": false,
-            "audioUrl": null
+            "audioUrl": "./audio/urban-6_photo_13_en.mp3"
           },
           {
             "id": "urban-6-photo-14",
