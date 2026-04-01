@@ -76,7 +76,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-1_photo_4_es.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 10
       },
       {
         "id": "urban-2",
@@ -114,7 +117,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-2_photo_3_es.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 20
       },
       {
         "id": "urban-3",
@@ -172,7 +178,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-3_photo_5_es.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 30
       },
       {
         "id": "urban-4",
@@ -230,7 +239,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-4_photo_5_es.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 40
       },
       {
         "id": "urban-5",
@@ -338,7 +350,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_10_es.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 50
       },
       {
         "id": "urban-6",
@@ -486,7 +501,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_14_es.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 60
       },
       {
         "id": "urban-7",
@@ -654,7 +672,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_16_es.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 70
       },
       {
         "id": "indoor-1",
@@ -672,7 +693,10 @@ window.translations = {
             "isMasterpiece": true,
             "audioUrl": null
           }
-        ]
+        ],
+        "sectionId": "indoor",
+        "visible": true,
+        "order": 10
       },
       {
         "id": "indoor-2",
@@ -710,7 +734,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": null
           }
-        ]
+        ],
+        "sectionId": "indoor",
+        "visible": true,
+        "order": 20
       },
       {
         "id": "indoor-3",
@@ -738,7 +765,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": null
           }
-        ]
+        ],
+        "sectionId": "indoor",
+        "visible": true,
+        "order": 30
       },
       {
         "id": "indoor-4",
@@ -766,7 +796,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": null
           }
-        ]
+        ],
+        "sectionId": "indoor",
+        "visible": true,
+        "order": 40
       }
     ],
     "author": {
@@ -806,7 +839,48 @@ window.translations = {
     },
     "privacy": {
       "html": "<h1>POLÍTICA DE PRIVACIDAD Y COOKIES</h1>\n<p><strong>Última actualización: 23 de marzo de 2026</strong></p>\n<p>Esta Política de Privacidad regula el tratamiento de los datos personales facilitados a través del formulario de contacto de esta web, de acuerdo con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD).</p>\n<h3>1. Responsable del Tratamiento</h3>\n<ul>\n<li><strong>Identidad:</strong> María José Lozano Pérez</li>\n<li><strong>Dirección:</strong> C. Roldan 9, 3º B, 03501 Benidorm (Alicante)</li>\n<li><strong>Email:</strong> <a href=\"mailto:maisse+somni@gmail.com\">maisse+somni@gmail.com</a></li>\n</ul>\n<h3>2. Finalidad y Legitimación</h3>\n<p>Sus datos serán tratados con el único fin de:</p>\n<ol>\n<li>Responder a consultas sobre el contenido de la exposición artística.</li>\n<li>Atender dudas técnicas o sugerencias sobre el funcionamiento de la web.</li>\n</ol>\n<ul>\n<li><strong>Base legal:</strong> Consentimiento del interesado al enviar el formulario.</li>\n</ul>\n<h3>3. Datos Recogidos</h3>\n<p>Solo se solicitan datos de contacto básicos: <strong>Nombre, apellidos y correo electrónico</strong> (el teléfono es opcional). No se tratan datos sensibles.</p>\n<h3>4. Flujo de Datos y Seguridad</h3>\n<p>Para el funcionamiento de la web, se utilizan los siguientes servicios:</p>\n<ul>\n<li><strong>Infraestructura:</strong> GitHub Pages y Cloudflare (procesamiento técnico seguro).</li>\n<li><strong>Transporte:</strong> Los mensajes se notifican al Responsable mediante un <strong>Bot de Telegram</strong>. El usuario acepta que este es un canal de transporte externo sobre cuyos sistemas el Responsable no tiene control.</li>\n<li><strong>Almacenamiento:</strong> Una vez recibidos, los mensajes se guardan en un sistema local seguro del Responsable en el Espacio Económico Europeo.</li>\n</ul>\n<h3>5. Derechos</h3>\n<p>Puede ejercer sus derechos de acceso, rectificación, supresión, oposición y limitación enviando un email a <strong><a href=\"mailto:maisse+somni@gmail.com\">maisse+somni@gmail.com</a></strong>. Se advierte que el Responsable no puede gestionar derechos directamente sobre la infraestructura de Telegram. Tiene derecho a reclamar ante la AEPD.</p>\n<h3>6. Cookies</h3>\n<p>Esta web utiliza solo <strong>cookies técnicas y de seguridad</strong> esenciales para la navegación. No se realiza rastreo analítico ni publicitario, por lo que no requieren consentimiento previo.</p>\n"
-    }
+    },
+    "sections": [
+      {
+        "id": "urban",
+        "title": "Espacio de arte urbano",
+        "visible": true,
+        "order": 1
+      },
+      {
+        "id": "indoor",
+        "title": "Espacio de arte interior",
+        "visible": true,
+        "order": 2
+      }
+    ],
+    "pageSections": [
+      {
+        "id": "hero",
+        "visible": true,
+        "order": 1
+      },
+      {
+        "id": "manifesto",
+        "visible": true,
+        "order": 2
+      },
+      {
+        "id": "gallery",
+        "visible": true,
+        "order": 3
+      },
+      {
+        "id": "author",
+        "visible": true,
+        "order": 4
+      },
+      {
+        "id": "contact",
+        "visible": true,
+        "order": 5
+      }
+    ]
   },
   "ca": {
     "labels": {
@@ -885,7 +959,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-1_photo_4_ca.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 10
       },
       {
         "id": "urban-2",
@@ -923,7 +1000,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-2_photo_3_ca.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 20
       },
       {
         "id": "urban-3",
@@ -981,7 +1061,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-3_photo_5_ca.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 30
       },
       {
         "id": "urban-4",
@@ -1039,7 +1122,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-4_photo_5_ca.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 40
       },
       {
         "id": "urban-5",
@@ -1147,7 +1233,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_10_ca.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 50
       },
       {
         "id": "urban-6",
@@ -1295,7 +1384,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_14_ca.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 60
       },
       {
         "id": "urban-7",
@@ -1463,7 +1555,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_16_ca.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 70
       },
       {
         "id": "indoor-1",
@@ -1481,7 +1576,10 @@ window.translations = {
             "isMasterpiece": true,
             "audioUrl": null
           }
-        ]
+        ],
+        "sectionId": "indoor",
+        "visible": true,
+        "order": 10
       },
       {
         "id": "indoor-2",
@@ -1519,7 +1617,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": null
           }
-        ]
+        ],
+        "sectionId": "indoor",
+        "visible": true,
+        "order": 20
       },
       {
         "id": "indoor-3",
@@ -1547,7 +1648,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": null
           }
-        ]
+        ],
+        "sectionId": "indoor",
+        "visible": true,
+        "order": 30
       },
       {
         "id": "indoor-4",
@@ -1575,7 +1679,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": null
           }
-        ]
+        ],
+        "sectionId": "indoor",
+        "visible": true,
+        "order": 40
       }
     ],
     "author": {
@@ -1615,7 +1722,48 @@ window.translations = {
     },
     "privacy": {
       "html": "<h1>POLÍTICA DE PRIVADESA I GALETES</h1>\n<p><strong>Última actualització: 23 de març de 2026</strong></p>\n<p>Aquesta Política de Privadesa regula el tractament de les dades personals facilitades mitjançant el formulari de contacte d&#39;aquesta web, d&#39;acord amb el Reglament (UE) 2016/679 (RGPD) i la Llei Orgànica 3/2018 (LOPDGDD).</p>\n<h3>1. Responsable del Tractament</h3>\n<ul>\n<li><strong>Identitat:</strong> María José Lozano Pérez</li>\n<li><strong>Adreça:</strong> C. Roldan 9, 3r B, 03501 Benidorm (Alacant)</li>\n<li><strong>Email:</strong> <a href=\"mailto:maisse+somni@gmail.com\">maisse+somni@gmail.com</a></li>\n</ul>\n<h3>2. Finalitat i Legitimació</h3>\n<p>Les seues dades seran tractades amb l&#39;única finalitat de:</p>\n<ol>\n<li>Respondre a consultes sobre el contingut de l&#39;exposició artística.</li>\n<li>Atendre dubtes tècnics o suggeriments sobre el funcionament de la web.</li>\n</ol>\n<ul>\n<li><strong>Base legal:</strong> Consentiment de l&#39;interessat en enviar el formulari.</li>\n</ul>\n<h3>3. Dades Recollides</h3>\n<p>Només se sol·liciten dades de contacte bàsiques: <strong>Nom, cognoms i correu electrònic</strong> (el telèfon és opcional). No es tracten dades sensibles.</p>\n<h3>4. Flux de Dades i Seguretat</h3>\n<p>Per al funcionament de la web, s&#39;utilitzen els següents serveis:</p>\n<ul>\n<li><strong>Infraestructura:</strong> GitHub Pages i Cloudflare (processament tècnic segur).</li>\n<li><strong>Transport:</strong> Els missatges es notifiquen a la Responsable mitjançant un <strong>Bot de Telegram</strong>. L&#39;usuari accepta que aquest és un canal de transport extern sobre els sistemes del qual la Responsable no té control.</li>\n<li><strong>Emmagatzematge:</strong> Una vegada rebuts, els missatges es guarden en un sistema local segur de la Responsable en l&#39;Espai Econòmic Europeu.</li>\n</ul>\n<h3>5. Drets</h3>\n<p>Pot exercir els seus drets d&#39;accés, rectificació, supressió, oposició i limitació enviant un email a <strong><a href=\"mailto:maisse+somni@gmail.com\">maisse+somni@gmail.com</a></strong>. S&#39;adverteix que la Responsable no pot gestionar drets directament sobre la infraestructura de Telegram. Té dret a reclamar davant l&#39;AEPD.</p>\n<h3>6. Galetes</h3>\n<p>Aquesta web utilitza només <strong>galetes tècniques i de seguretat</strong> essencials per a la navegació. No es realitza rastreig analític ni publicitari, per la qual cosa no requereixen consentiment previ.</p>\n"
-    }
+    },
+    "sections": [
+      {
+        "id": "urban",
+        "title": "Espai d'art urbà",
+        "visible": true,
+        "order": 1
+      },
+      {
+        "id": "indoor",
+        "title": "Espai d'art interior",
+        "visible": true,
+        "order": 2
+      }
+    ],
+    "pageSections": [
+      {
+        "id": "hero",
+        "visible": true,
+        "order": 1
+      },
+      {
+        "id": "manifesto",
+        "visible": true,
+        "order": 2
+      },
+      {
+        "id": "gallery",
+        "visible": true,
+        "order": 3
+      },
+      {
+        "id": "author",
+        "visible": true,
+        "order": 4
+      },
+      {
+        "id": "contact",
+        "visible": true,
+        "order": 5
+      }
+    ]
   },
   "en": {
     "labels": {
@@ -1694,7 +1842,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-1_photo_4_en.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 10
       },
       {
         "id": "urban-2",
@@ -1732,7 +1883,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-2_photo_3_en.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 20
       },
       {
         "id": "urban-3",
@@ -1790,7 +1944,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-3_photo_5_en.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 30
       },
       {
         "id": "urban-4",
@@ -1848,7 +2005,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-4_photo_5_en.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 40
       },
       {
         "id": "urban-5",
@@ -1956,7 +2116,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_10_en.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 50
       },
       {
         "id": "urban-6",
@@ -2104,7 +2267,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_14_en.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 60
       },
       {
         "id": "urban-7",
@@ -2272,7 +2438,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_16_en.mp3"
           }
-        ]
+        ],
+        "sectionId": "urban",
+        "visible": true,
+        "order": 70
       },
       {
         "id": "indoor-1",
@@ -2290,7 +2459,10 @@ window.translations = {
             "isMasterpiece": true,
             "audioUrl": null
           }
-        ]
+        ],
+        "sectionId": "indoor",
+        "visible": true,
+        "order": 10
       },
       {
         "id": "indoor-2",
@@ -2328,7 +2500,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": null
           }
-        ]
+        ],
+        "sectionId": "indoor",
+        "visible": true,
+        "order": 20
       },
       {
         "id": "indoor-3",
@@ -2356,7 +2531,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": null
           }
-        ]
+        ],
+        "sectionId": "indoor",
+        "visible": true,
+        "order": 30
       },
       {
         "id": "indoor-4",
@@ -2384,7 +2562,10 @@ window.translations = {
             "isMasterpiece": false,
             "audioUrl": null
           }
-        ]
+        ],
+        "sectionId": "indoor",
+        "visible": true,
+        "order": 40
       }
     ],
     "author": {
@@ -2424,6 +2605,47 @@ window.translations = {
     },
     "privacy": {
       "html": "<h1>PRIVACY AND COOKIES POLICY</h1>\n<p><strong>Last updated: March 23, 2026</strong></p>\n<p>This Privacy Policy regulates the processing of personal data provided through the contact form of this website, in accordance with Regulation (EU) 2016/679 (GDPR).</p>\n<h3>1. Data Controller</h3>\n<ul>\n<li><strong>Identity:</strong> María José Lozano Pérez</li>\n<li><strong>Address:</strong> C. Roldan 9, 3º B, 03501 Benidorm (Alicante), Spain</li>\n<li><strong>Email:</strong> <a href=\"mailto:maisse+somni@gmail.com\">maisse+somni@gmail.com</a></li>\n</ul>\n<h3>2. Purpose and Lawfulness</h3>\n<p>Your data will be processed for the sole purpose of:</p>\n<ol>\n<li>Responding to inquiries regarding the content of the art exhibition.</li>\n<li>Addressing technical questions or suggestions about the website&#39;s operation.</li>\n</ol>\n<ul>\n<li><strong>Legal basis:</strong> The data subject&#39;s consent when submitting the form.</li>\n</ul>\n<h3>3. Data Collected</h3>\n<p>Only basic contact details are requested: <strong>Name, surname, and email address</strong> (phone number is optional). No sensitive data are processed.</p>\n<h3>4. Data Flow and Security</h3>\n<p>For the website&#39;s technical operation, the following services are used:</p>\n<ul>\n<li><strong>Infrastructure:</strong> GitHub Pages and Cloudflare (secure technical processing).</li>\n<li><strong>Transport:</strong> Messages are notified to the Controller via a <strong>Telegram Bot</strong>. The user acknowledges that this is an external transport channel over whose systems the Controller has no control.</li>\n<li><strong>Storage:</strong> Once received, messages are stored in a secure local system of the Controller within the European Economic Area.</li>\n</ul>\n<h3>5. Your Rights</h3>\n<p>You may exercise your rights of access, rectification, erasure, objection, and restriction of processing by emailing <strong><a href=\"mailto:maisse+somni@gmail.com\">maisse+somni@gmail.com</a></strong>. Please note that the Controller cannot manage data rights directly within Telegram&#39;s infrastructure. You have the right to lodge a complaint with the AEPD.</p>\n<h3>6. Cookies</h3>\n<p>This website uses only <strong>technical and security cookies</strong> essential for navigation. There is no analytical or advertising tracking; therefore, prior consent is not required.</p>\n"
-    }
+    },
+    "sections": [
+      {
+        "id": "urban",
+        "title": "Urban Art Space",
+        "visible": true,
+        "order": 1
+      },
+      {
+        "id": "indoor",
+        "title": "Indoor Art Space",
+        "visible": true,
+        "order": 2
+      }
+    ],
+    "pageSections": [
+      {
+        "id": "hero",
+        "visible": true,
+        "order": 1
+      },
+      {
+        "id": "manifesto",
+        "visible": true,
+        "order": 2
+      },
+      {
+        "id": "gallery",
+        "visible": true,
+        "order": 3
+      },
+      {
+        "id": "author",
+        "visible": true,
+        "order": 4
+      },
+      {
+        "id": "contact",
+        "visible": true,
+        "order": 5
+      }
+    ]
   }
 };

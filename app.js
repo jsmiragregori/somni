@@ -69,24 +69,36 @@ function renderApp() {
     const t = window.translations[currentLang];
     const appRoot = document.getElementById('app');
 
-    // Build Rooms HTML
-    let roomsHtml = t.rooms.map((room, index) => {
-        let pauseHtml = '';
-        const isUrban = room.id.startsWith('urban');
-        const isIndoor = room.id.startsWith('indoor');
-        const nextRoom = t.rooms[index + 1];
+    // ── Helpers de visibilidad (compatibles con data.js antiguo sin pageSections/sections) ──
+    const pageSections = t.pageSections || [
+        { id: 'hero', visible: true, order: 1 },
+        { id: 'manifesto', visible: true, order: 2 },
+        { id: 'gallery', visible: true, order: 3 },
+        { id: 'author', visible: true, order: 4 },
+        { id: 'contact', visible: true, order: 5 },
+    ];
+    const gallerySections = t.sections || [
+        { id: 'urban', title: t.labels ? t.labels.urban_space : 'Urbano', visible: true, order: 1 },
+        { id: 'indoor', title: t.labels ? t.labels.indoor_space : 'Interior', visible: true, order: 2 },
+    ];
 
-        if (isUrban && nextRoom && nextRoom.id.startsWith('indoor')) {
-            pauseHtml = `<div class="py-24 lg:py-48 px-6 text-center border-t border-white/5"><div class="max-w-3xl mx-auto"><span class="font-mono text-accent ${getDynamicText('label')} tracking-widest uppercase mb-8 block">${t.pauses.title}</span><p class="font-display text-3xl lg:text-5xl leading-tight">"${t.pauses.pause1}"</p></div></div>`;
-        }
-        
-        if (isIndoor && !nextRoom) {
-            pauseHtml = `<div class="py-24 lg:py-48 px-6 text-center border-t border-white/5"><div class="max-w-3xl mx-auto"><span class="font-mono text-accent ${getDynamicText('label')} tracking-widest uppercase mb-8 block">${t.pauses.title}</span><p class="font-display text-3xl lg:text-5xl leading-tight">"${t.pauses.pause2}"</p></div></div>`;
-        }
+    const isPageSectionVisible = (id) => {
+        const sec = pageSections.find(s => s.id === id);
+        return !sec || sec.visible !== false;
+    };
+    const isGallerySectionVisible = (secId) => {
+        const sec = gallerySections.find(s => s.id === secId);
+        return !sec || sec.visible !== false;
+    };
 
+    // ── Build Rooms HTML (respetando visibilidad en cascada) ──
+    // Una room es visible si: su propia visible !== false, su gallerySec es visible, y la page 'gallery' es visible
+    const galleryPageVisible = isPageSectionVisible('gallery');
+
+    // Función para renderizar una room individual
+    function buildRoomHtml(room) {
         let photosHtml = room.photos.map((photo, pIndex) => {
             let layoutVars = { col: '', aspect: 'aspect-[4/5]' };
-            
             if (photo.isMasterpiece) {
                 if (photo.orientation === 'portrait') {
                     layoutVars.col = 'md:col-span-1 md:row-span-2';
@@ -104,9 +116,8 @@ function renderApp() {
                     layoutVars.aspect = 'aspect-[2/3]';
                 }
             }
-
             return `
-            <div 
+            <div
                 class="group flex flex-col cursor-crosshair focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent ${layoutVars.col}"
                 data-action="open-lightbox"
                 data-room-id="${room.id}"
@@ -115,28 +126,32 @@ function renderApp() {
             >
                 <div class="overflow-hidden bg-zinc-900 mb-4 flex-grow relative rounded-sm ${layoutVars.aspect} pointer-events-none">
                     <img src="${photo.url}" alt="${photo.title}" loading="lazy" class="w-full h-full absolute inset-0 object-cover transition-transform duration-700 group-hover:scale-105 pointer-events-auto">
-                    
                     ${photo.audioUrl ? `
                     <button data-action="play-external-audio" data-photo-id="${photo.id}" class="absolute top-4 right-4 z-10 bg-black/60 rounded-full p-2 backdrop-blur-sm border border-white/20 flex items-center gap-2 pointer-events-auto hover:bg-black/80 transition-colors">
                         <i data-feather="${playingExternalId === photo.id ? 'pause' : 'play'}" class="w-3 h-3 text-white fill-white stroke-white"></i>
                         <span class="text-white text-[10px] font-mono pr-1 tracking-widest uppercase md:inline hidden">${t.nav.audioguia}</span>
                     </button>
                     ` : ''}
-                    
                     <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6 pointer-events-none">
                         <p class="text-sm font-mono tracking-wider text-white">${photo.year}</p>
                     </div>
                 </div>
                 <p class="text-white/60 ${getDynamicText('caption')} italic pointer-events-none">${photo.description}</p>
-            </div>
-        `;
+            </div>`;
         }).join('');
+
+        const sectionId = room.sectionId || (room.id.startsWith('urban') ? 'urban' : 'indoor');
+        const sectionLabel = (() => {
+            const sec = gallerySections.find(s => s.id === sectionId);
+            if (sec) return sec.title;
+            return sectionId === 'urban' ? (t.labels ? t.labels.urban_space : 'Espacio Urbano') : (t.labels ? t.labels.indoor_space : 'Espacio Interior');
+        })();
 
         return `
         <section id="${room.id}" class="min-h-screen py-24 px-6 lg:px-24 flex flex-col justify-center border-t border-white/5">
             <div class="max-w-7xl mx-auto w-full">
                 <div class="mb-16 fade-in">
-                    <span class="font-mono ${getDynamicText('label')} uppercase text-accent mb-4 block">${room.id.startsWith('urban') ? t.labels.urban_space : t.labels.indoor_space}</span>
+                    <span class="font-mono ${getDynamicText('label')} uppercase text-accent mb-4 block">${sectionLabel}</span>
                     <h2 class="font-display text-5xl lg:text-8xl py-1 uppercase mb-6 tracking-tighter">${room.title}</h2>
                     <p class="w-full ${getDynamicText('lead')} text-white/80 font-light leading-relaxed">${room.description}</p>
                 </div>
@@ -144,10 +159,34 @@ function renderApp() {
                     ${photosHtml}
                 </div>
             </div>
-        </section>
-        ${pauseHtml}
-        `;
-    }).join('');
+        </section>`;
+    }
+
+    // Construir roomsHtml agrupado por sección (con pausa intermedia y respeto de visibilidad)
+    let roomsHtml = '';
+    if (galleryPageVisible) {
+        const visibleSections = gallerySections.filter(s => isGallerySectionVisible(s.id));
+        visibleSections.forEach((sec, secIdx) => {
+            const secRooms = t.rooms.filter(r => {
+                const rSec = r.sectionId || (r.id.startsWith(sec.id) ? sec.id : null);
+                return rSec === sec.id && r.visible !== false;
+            });
+            secRooms.forEach((room, roomIdx) => {
+                roomsHtml += buildRoomHtml(room);
+                // Pausa entre el último room de la sección N y la sección N+1
+                const isLastInSection = roomIdx === secRooms.length - 1;
+                const hasNextSection = secIdx < visibleSections.length - 1;
+                if (isLastInSection && hasNextSection) {
+                    roomsHtml += `<div class="py-24 lg:py-48 px-6 text-center border-t border-white/5"><div class="max-w-3xl mx-auto"><span class="font-mono text-accent ${getDynamicText('label')} tracking-widest uppercase mb-8 block">${t.pauses.title}</span><p class="font-display text-3xl lg:text-5xl leading-tight">"${t.pauses.pause1}"</p></div></div>`;
+                }
+            });
+        });
+        // Pausa final (después de todos los rooms)
+        const totalVisibleRooms = visibleSections.reduce((n, s) => n + t.rooms.filter(r => (r.sectionId || (r.id.startsWith(s.id) ? s.id : null)) === s.id && r.visible !== false).length, 0);
+        if (totalVisibleRooms > 0) {
+            roomsHtml += `<div class="py-24 lg:py-48 px-6 text-center border-t border-white/5"><div class="max-w-3xl mx-auto"><span class="font-mono text-accent ${getDynamicText('label')} tracking-widest uppercase mb-8 block">${t.pauses.title}</span><p class="font-display text-3xl lg:text-5xl leading-tight">"${t.pauses.pause2}"</p></div></div>`;
+        }
+    }
 
     appRoot.innerHTML = `
         <!-- Navigation -->
@@ -183,10 +222,17 @@ function renderApp() {
                         <button data-action="set-lang" data-lang="en" class="${currentLang==='en' ? 'text-white' : 'text-white/60'}">${t.nav.lang_en}</button>
                     </div>
                     <ul class="flex flex-col items-center gap-3">
-                        <li><a href="#rooms" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.galeria}</a></li>
-                        ${t.rooms.map(room => `<li><a href="#${room.id}" data-action="toggle-menu" class="font-display uppercase tracking-widest hover:text-accent transition-colors text-center block text-xl lg:text-2xl text-white/70">${room.title}</a></li>`).join('')}
-                        <li><a href="#manifesto" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.manifiesto}</a></li>
-                        <li><a href="#contact" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.contacto}</a></li>
+                        ${pageSections.filter(s => s.visible !== false).map(ps => {
+                            if (ps.id === 'gallery' && galleryPageVisible) {
+                                const visibleRooms = t.rooms.filter(r => r.visible !== false && isGallerySectionVisible(r.sectionId || (r.id.startsWith('urban') ? 'urban' : 'indoor')));
+                                return `<li><a href="#rooms" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.galeria}</a></li>` +
+                                    visibleRooms.map(room => `<li><a href="#${room.id}" data-action="toggle-menu" class="font-display uppercase tracking-widest hover:text-accent transition-colors text-center block text-xl lg:text-2xl text-white/70">${room.title}</a></li>`).join('');
+                            }
+                            if (ps.id === 'manifesto') return `<li><a href="#manifesto" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.manifiesto}</a></li>`;
+                            if (ps.id === 'author') return `<li><a href="#author" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.autor || t.author.title}</a></li>`;
+                            if (ps.id === 'contact') return `<li><a href="#contact" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.contacto}</a></li>`;
+                            return '';
+                        }).join('')}
                     </ul>
                 </div>
             </div>
@@ -210,7 +256,9 @@ function renderApp() {
                 </div>
             </section>
 
-            <!-- Manifesto -->
+            <!-- Secciones de Página (orden y visibilidad controlados por pageSections) -->
+            ${pageSections.filter(s => s.visible !== false).map(ps => {
+                if (ps.id === 'manifesto') return `
             <section id="manifesto" class="py-24 lg:pt-48 lg:pb-12 px-6 border-t border-white/5">
                 <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
                     <div class="lg:w-1/4 fade-in">
@@ -221,14 +269,11 @@ function renderApp() {
                         <p class="${getDynamicText('manifesto')} font-light leading-relaxed text-white/80">${t.manifesto.text}</p>
                     </div>
                 </div>
-            </section>
-
-            <div id="rooms" class="relative z-10">
-                ${roomsHtml}
-            </div>
-
-            <!-- Author -->
-            <section class="py-32 px-6 bg-white text-bg border-t border-white/5">
+            </section>`;
+                if (ps.id === 'gallery') return `
+            <div id="rooms" class="relative z-10">${roomsHtml}</div>`;
+                if (ps.id === 'author') return `
+            <section id="author" class="py-32 px-6 bg-white text-bg border-t border-white/5">
                 <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-center">
                     <div class="w-full md:w-1/2 aspect-square bg-zinc-200 fade-in">
                         <img src="${t.author.image || 'https://images.unsplash.com/photo-1554046920-90dc5f3ac8ed?q=80&w=1200'}" alt="${t.author.name}" class="w-full h-full object-cover">
@@ -239,7 +284,9 @@ function renderApp() {
                         <p class="${getDynamicText('lead')} font-light leading-relaxed text-bg/70">${t.author.bio}</p>
                     </div>
                 </div>
-            </section>
+            </section>`;
+                return '';
+            }).join('')}
 
             <!-- Contact -->
             <section id="contact" class="py-32 px-6 border-t border-white/5 text-white">
