@@ -245,6 +245,7 @@ if (fs.existsSync(generalTextsDir) && fs.statSync(generalTextsDir).isDirectory()
         checkAndSet(`manifesto_${lang}.txt`, data[lang].manifesto, 'text');
         checkAndSet(`pausa1_${lang}.txt`, data[lang].pauses, 'pause1');
         checkAndSet(`pausa2_${lang}.txt`, data[lang].pauses, 'pause2');
+        checkAndSet(`pausa_title_${lang}.txt`, data[lang].pauses, 'title');
         checkAndSet(`bio_${lang}.txt`, data[lang].author, 'bio');
         checkAndSet(`hero_subtitle_${lang}.txt`, data[lang].hero, 'subtitle');
 
@@ -320,6 +321,19 @@ if (fs.existsSync(generalTextsDir) && fs.statSync(generalTextsDir).isDirectory()
         // Ordenar secciones por order
         data[lang].sections.sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
         console.log(`  └─ Secciones (${lang}): ${data[lang].sections.map(s => `${s.id}(order=${s.order},visible=${s.visible})`).join(', ')}`);
+    }
+
+    // ── NUEVO: Configuración de Pausas (Momentos de reflexión) ──
+    console.log(`\nProcesando configuración de pausas...`);
+    const pausesConfig = parseKeyValue(path.join(generalTextsDir, 'pauses_config.txt'));
+    for (const lang of ['es', 'ca', 'en']) {
+        if (!data[lang].pauses) data[lang].pauses = {};
+        for (const key in pausesConfig) {
+            const val = pausesConfig[key];
+            if (val === 'true') data[lang].pauses[key] = true;
+            else if (val === 'false') data[lang].pauses[key] = false;
+            else data[lang].pauses[key] = val;
+        }
     }
 
     // ── NUEVO: Secciones de Página (Nivel 0) ──

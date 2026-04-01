@@ -27,12 +27,14 @@ window.translations = {
     "pauses": {
       "pause1": "Observa el vacío, no como ausencia, sino como el lienzo donde ocurre la vida.",
       "pause2": "La naturaleza no se apresura, y sin embargo, todo se logra.",
-      "title": "Un momento de reflexión"
+      "title": "Un momento de reflexión",
+      "pause1_visible": true,
+      "pause2_visible": true
     },
     "rooms": [
       {
         "id": "urban-1",
-        "title": "El Castell",
+        "title": "El Pontet",
         "subtitle": "Intervención en la ciudad",
         "description": "Bienvenidas y bienvenidos al corazón de Benidorm. Aquí, en el Castell, la piedra blanca y el azul infinito se abrazan en un silencio lleno de tradición. Os esperamos con cuatro grandes horizontes donde el mar se fusiona con el estilo más puro e íntimo. Sentid la brisa y dejad que estas miradas os cuenten nuestra historia. Al terminar, podéis bajar hacia la frescura auténtica de El Campo o dejaros deslumbrar por la luz del Espacio de Arte de la Hispanidad.",
         "photos": [
@@ -246,7 +248,7 @@ window.translations = {
       },
       {
         "id": "urban-5",
-        "title": "Els Carrascos",
+        "title": "El Carrasco",
         "subtitle": "Intervención en la ciudad",
         "description": "Aquí, la arquitectura y la moda se alían para sorprenderos. En este punto, donde el parc de l’Aigüera y el Ayuntamiento se tocan, la ciudad se vuelve geometría pura. Fijaos bien: en cada mupi tenéis un doble regalo; la fuerza de una imagen de cuerpo entero y la magia de un detalle que nos habla de cerca. Disfrutad de este diálogo visual y, al terminar, elegid vuestra próxima aventura: la modernidad de Els Tolls o la frescura de El Campo. ¡Vamos allá!",
         "photos": [
@@ -908,14 +910,16 @@ window.translations = {
       "label": "Manifest"
     },
     "pauses": {
-      "pause1": "Observa el buit, no com absència, sinó com el llenç on ocorre la vida.",
-      "pause2": "La naturalesa no s'apressa, i no obstant això, tot s'aconseguix.",
-      "title": "Un moment de reflexió"
+      "pause1": "Observa el buit, no com a absència, sinó com el llenç on passa la vida.",
+      "pause2": "La natura no s'apressa, i tanmateix, tot s'aconsegueix.",
+      "title": "Un moment de reflexió",
+      "pause1_visible": true,
+      "pause2_visible": true
     },
     "rooms": [
       {
         "id": "urban-1",
-        "title": "El Castell",
+        "title": "El Pontet",
         "subtitle": "Intervenció a la ciutat",
         "description": "Benvingudes i benvinguts al cor de Benidorm. Ací, al Castell, la pedra blanca i el blau infinit s’abracen en un silenci ple de tradició. Vos esperem amb quatre grans horitzons on la mar es fusiona amb l'estil més pur i íntim. Sentiu la brisa i deixeu que aquestes mirades us conten la nostra història. En acabar, podeu baixar cap a la frescor autèntica d’El Campo o deixar-vos enlluernar per la llum de l'Espai d'Art de la Hispanitat.",
         "photos": [
@@ -1129,7 +1133,7 @@ window.translations = {
       },
       {
         "id": "urban-5",
-        "title": "Els Carrascos",
+        "title": "El Carrasco",
         "subtitle": "Intervenció a la ciutat",
         "description": "Ací, l’arquitectura i la moda s’alien per a sorprendre-vos. En aquest punt, on el parc de l’Aigüera i l'Ajuntament es toquen, la ciutat es torna geometria pura. Fixeu-vos bé: a cada mupi teniu un doble regal; la força d'una imatge de cos sencer i la màgia d'un detall que ens parla de prop. Gaudiu d'aquest diàleg visual i, en acabar, trieu la vostra pròxima aventura: la modernitat dels Tolls o la frescor del Campo. Comencem!",
         "photos": [
@@ -1791,14 +1795,16 @@ window.translations = {
       "label": "Manifesto"
     },
     "pauses": {
-      "pause1": "Observe the void, not as absence, but as the canvas where life occurs.",
+      "pause1": "Observe the void, not as absence, but as the canvas where life happens.",
       "pause2": "Nature does not hurry, yet everything is accomplished.",
-      "title": "A moment of reflection"
+      "title": "A moment for reflection",
+      "pause1_visible": true,
+      "pause2_visible": true
     },
     "rooms": [
       {
         "id": "urban-1",
-        "title": "El Castell",
+        "title": "El Pontet",
         "subtitle": "City intervention",
         "description": "Welcome to the heart of Benidorm. Here, at the Castell, white stone and infinite blue embrace in a silence steeped in tradition. We await you all with four vast horizons where the sea merges with the purest and most intimate style. Feel the breeze and let these perspectives tell you our story. When you are finished, you can walk down to the authentic freshness of El Campo or let yourselves be dazzled by the light of the Art Space of Hispanitat.\"",
         "photos": [
@@ -2012,7 +2018,7 @@ window.translations = {
       },
       {
         "id": "urban-5",
-        "title": "Els Carrascos",
+        "title": "El Carrasco",
         "subtitle": "City intervention",
         "description": "Here, architecture and fashion unite to surprise you. At this spot, where parc de l’Aigüera meets the Town Hall, the city turns into pure geometry. Take a close look: each display offers a double treat; the power of a full-body shot and the magic of a detail that speaks to you. Enjoy this visual dialogue and, when you’re done, choose your next adventure: the modernity of Els Tolls or the freshness of El Campo. Let’s go!",
         "photos": [

@@ -176,14 +176,14 @@ function renderApp() {
                 // Pausa entre el último room de la sección N y la sección N+1
                 const isLastInSection = roomIdx === secRooms.length - 1;
                 const hasNextSection = secIdx < visibleSections.length - 1;
-                if (isLastInSection && hasNextSection) {
+                if (isLastInSection && hasNextSection && t.pauses.pause1_visible !== false) {
                     roomsHtml += `<div class="py-24 lg:py-48 px-6 text-center border-t border-white/5"><div class="max-w-3xl mx-auto"><span class="font-mono text-accent ${getDynamicText('label')} tracking-widest uppercase mb-8 block">${t.pauses.title}</span><p class="font-display text-3xl lg:text-5xl leading-tight">"${t.pauses.pause1}"</p></div></div>`;
                 }
             });
         });
         // Pausa final (después de todos los rooms)
         const totalVisibleRooms = visibleSections.reduce((n, s) => n + t.rooms.filter(r => (r.sectionId || (r.id.startsWith(s.id) ? s.id : null)) === s.id && r.visible !== false).length, 0);
-        if (totalVisibleRooms > 0) {
+        if (totalVisibleRooms > 0 && t.pauses.pause2_visible !== false) {
             roomsHtml += `<div class="py-24 lg:py-48 px-6 text-center border-t border-white/5"><div class="max-w-3xl mx-auto"><span class="font-mono text-accent ${getDynamicText('label')} tracking-widest uppercase mb-8 block">${t.pauses.title}</span><p class="font-display text-3xl lg:text-5xl leading-tight">"${t.pauses.pause2}"</p></div></div>`;
         }
     }
