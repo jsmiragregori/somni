@@ -4,14 +4,13 @@ const sizeOf = require('image-size');
 const { marked } = require('marked');
 
 const PROJECT_DIR = __dirname;
-// Buscamos la carpeta Contenidos_Somni un nivel por encima del proyecto web
 const CONTENT_DIR = path.join(PROJECT_DIR, '..', 'Contenidos_Somni');
 const DATA_FILE = path.join(PROJECT_DIR, 'data.js');
 const IMG_DEST = path.join(PROJECT_DIR, 'img');
 const AUDIO_DEST = path.join(PROJECT_DIR, 'audio');
 
 // ─────────────────────────────────────────────
-// Utilidad: parsear archivos clave=valor
+// Utilidades
 // ─────────────────────────────────────────────
 function parseKeyValue(filePath) {
     const result = {};
@@ -29,10 +28,6 @@ function parseKeyValue(filePath) {
     return result;
 }
 
-// ─────────────────────────────────────────────
-// Utilidad: parsear page_layout.txt
-// Formato: hero,visible=true,order=1
-// ─────────────────────────────────────────────
 function parsePageLayout(filePath) {
     const result = {};
     if (!fs.existsSync(filePath)) return result;
@@ -56,17 +51,24 @@ function parsePageLayout(filePath) {
     return result;
 }
 
-// 1. Asegurar que las carpetas de destino existen
+// Helper para fusionar objetos de configuración con soporte para booleanos
+function mergeConfig(target, config) {
+    for (const key in config) {
+        const val = config[key];
+        if (val === 'true') target[key] = true;
+        else if (val === 'false') target[key] = false;
+        else target[key] = val;
+    }
+}
+
 if (!fs.existsSync(IMG_DEST)) fs.mkdirSync(IMG_DEST);
 if (!fs.existsSync(AUDIO_DEST)) fs.mkdirSync(AUDIO_DEST);
 
-// 2. Comprobar que existe la fuente de verdad
 if (!fs.existsSync(CONTENT_DIR)) {
     console.error(`ERROR: No se encuentra la carpeta maestra de contenidos: ${CONTENT_DIR}`);
     process.exit(1);
 }
 
-// 3. Leer y parsear data.js (Fusión Inteligente)
 console.log("Leyendo estructura de data.js...");
 let rawData = fs.readFileSync(DATA_FILE, 'utf8');
 let jsonString = rawData.replace(/^window\.translations\s*=\s*/, '').trim();
@@ -90,11 +92,9 @@ const galleryFolders = fs.readdirSync(CONTENT_DIR).filter(f => {
 let updatedCount = 0;
 
 galleryFolders.forEach(galleryFolder => {
-    // Convención: ID_NombreGaleria (ej. urban-1_El_Castell)
     const roomId = galleryFolder.split('_')[0];
     const galleryPath = path.join(CONTENT_DIR, galleryFolder);
 
-    // Verificamos si esta sala existe en data.js
     let roomExists = false;
     for (const lang of ['es', 'ca', 'en']) {
         if (data[lang] && data[lang].rooms.find(r => r.id === roomId)) {
@@ -109,8 +109,6 @@ galleryFolders.forEach(galleryFolder => {
     }
 
     console.log(`\nProcesando galería: ${roomId} ...`);
-
-    // --- ROOM CONFIG (visibilidad, orden) ---
     const roomConfig = parseKeyValue(path.join(galleryPath, 'room_config.txt'));
 
     const photoFolders = fs.readdirSync(galleryPath).filter(f => fs.statSync(path.join(galleryPath, f)).isDirectory());
@@ -121,10 +119,8 @@ galleryFolders.forEach(galleryFolder => {
     photoFolders.forEach((photoFolder, pIndex) => {
         const photoPath = path.join(galleryPath, photoFolder);
         const files = fs.readdirSync(photoPath);
-
         const photoId = `${roomId}-photo-${pIndex + 1}`;
 
-        // --- IMAGEN ---
         const imgFile = files.find(f => f.match(/\.(jpg|jpeg|png|webp|gif)$/i));
         let imgUrl = `https://picsum.photos/seed/${photoId}/800/600`;
         let orientation = 'landscape';
@@ -137,12 +133,9 @@ galleryFolders.forEach(galleryFolder => {
             try {
                 const dimensions = sizeOf(sourceImgPath);
                 orientation = (dimensions.width >= dimensions.height) ? 'landscape' : 'portrait';
-            } catch (err) {
-                console.warn(`    ⚠️ No se pudo leer dimensiones de ${imgFile}, asumiendo landscape.`);
-            }
+            } catch (err) {}
         }
 
-        // --- AUDIO ---
         const getAudioUrl = (lang) => {
             const audioFile = files.find(f => f.match(new RegExp(`audio_${lang}\\.(mp3|wav|ogg|m4a)$`, 'i')));
             if (audioFile) {
@@ -154,69 +147,52 @@ galleryFolders.forEach(galleryFolder => {
             return null;
         };
 
-        // --- DESCRIPCIONES ---
         const getDesc = (lang) => {
             const txtFile = path.join(photoPath, `desc_${lang}.txt`);
             if (fs.existsSync(txtFile)) return fs.readFileSync(txtFile, 'utf8').trim();
-            return `Descripción de la obra pendiente... (${lang})`;
+            return `Descripción pendiente... (${lang})`;
         };
 
-        // --- AÑO ---
         const getYear = () => {
             const txtFile = path.join(photoPath, 'year.txt');
             if (fs.existsSync(txtFile)) return fs.readFileSync(txtFile, 'utf8').trim();
-            return new Date().getFullYear().toString();
-        };
-
-        const formattedNumber = (pIndex + 1).toString().padStart(2, '0');
-        const getTitle = (lang) => {
-            if (lang === 'en') return `Artwork ${formattedNumber}`;
-            return `Obra ${formattedNumber}`;
+            return "2024";
         };
 
         const isMaster = (pIndex === 0);
-
         for (const lang of ['es', 'ca', 'en']) {
             newPhotos[lang].push({
                 id: photoId,
                 url: imgUrl,
                 orientation: orientation,
-                title: getTitle(lang),
+                title: `Obra ${(pIndex+1).toString().padStart(2,'0')}`,
                 description: getDesc(lang),
                 year: getYear(),
                 isMasterpiece: isMaster,
                 audioUrl: getAudioUrl(lang)
             });
         }
-        console.log(`  └─ Agregada foto: ${photoFolder} (Destacada: ${isMaster ? 'Sí' : 'No'})`);
     });
 
-    // --- SMART MERGE (fotos + descripción + título + config) ---
     for (const lang of ['es', 'ca', 'en']) {
         const roomDef = data[lang].rooms.find(r => r.id === roomId);
         if (roomDef) {
             roomDef.photos = newPhotos[lang];
-
-            // Descripción de sala
             const roomDescFile1 = path.join(galleryPath, `desc_room_${lang}.txt`);
             const roomDescFile2 = path.join(galleryPath, `desc_${lang}.txt`);
-            if (fs.existsSync(roomDescFile1)) {
-                roomDef.description = fs.readFileSync(roomDescFile1, 'utf8').trim();
-            } else if (fs.existsSync(roomDescFile2)) {
-                roomDef.description = fs.readFileSync(roomDescFile2, 'utf8').trim();
-            }
+            if (fs.existsSync(roomDescFile1)) roomDef.description = fs.readFileSync(roomDescFile1, 'utf8').trim();
+            else if (fs.existsSync(roomDescFile2)) roomDef.description = fs.readFileSync(roomDescFile2, 'utf8').trim();
 
-            // ── NUEVO: Título de sala por idioma ──
             const titleFile = path.join(galleryPath, `title_${lang}.txt`);
-            if (fs.existsSync(titleFile)) {
-                roomDef.title = fs.readFileSync(titleFile, 'utf8').trim();
-            }
+            if (fs.existsSync(titleFile)) roomDef.title = fs.readFileSync(titleFile, 'utf8').trim();
 
-            // ── NUEVO: Derivar sectionId del prefijo del roomId ──
-            const sectionId = roomId.split('-').slice(0, -1).join('-'); // "urban-1" → "urban", "indoor-2" → "indoor"
+            // ── NUEVO: Título de menú (opcional) ──
+            const menuTitleFile = path.join(galleryPath, `menu_title_${lang}.txt`);
+            if (fs.existsSync(menuTitleFile)) roomDef.menuTitle = fs.readFileSync(menuTitleFile, 'utf8').trim();
+            else delete roomDef.menuTitle; // Limpiar si no existe
+
+            const sectionId = roomId.split('-').slice(0, -1).join('-');
             roomDef.sectionId = sectionId;
-
-            // ── NUEVO: Visibilidad y orden desde room_config.txt ──
             roomDef.visible = roomConfig.visible !== 'false';
             roomDef.order = roomConfig.order !== undefined ? parseInt(roomConfig.order, 10) : 999;
         }
@@ -225,131 +201,97 @@ galleryFolders.forEach(galleryFolder => {
 });
 
 // ─────────────────────────────────────────────
-// 5. TEXTOS GENERALES (Nivel 0 y Nivel 1)
+// 5. TEXTOS GENERALES
 // ─────────────────────────────────────────────
 const generalTextsDir = path.join(CONTENT_DIR, '00_Textos_Generales');
-if (fs.existsSync(generalTextsDir) && fs.statSync(generalTextsDir).isDirectory()) {
+if (fs.existsSync(generalTextsDir)) {
     console.log(`\nProcesando textos generales...`);
-    let updatedTextsCount = 0;
 
     for (const lang of ['es', 'ca', 'en']) {
+        // --- Labels y Textos Agrupados ---
+        mergeConfig(data[lang].nav, parseKeyValue(path.join(generalTextsDir, `nav_labels_${lang}.txt`)));
+        mergeConfig(data[lang].hero, parseKeyValue(path.join(generalTextsDir, `hero_texts_${lang}.txt`)));
+        mergeConfig(data[lang].author, parseKeyValue(path.join(generalTextsDir, `author_texts_${lang}.txt`)));
+        mergeConfig(data[lang].contact, parseKeyValue(path.join(generalTextsDir, `contact_form_${lang}.txt`)));
+        mergeConfig(data[lang].footer, parseKeyValue(path.join(generalTextsDir, `footer_labels_${lang}.txt`)));
+
+        // --- Casos especiales (archivos individuales antiguos) ---
         const checkAndSet = (filename, targetObj, targetProp) => {
             const filePath = path.join(generalTextsDir, filename);
-            if (fs.existsSync(filePath)) {
-                targetObj[targetProp] = fs.readFileSync(filePath, 'utf8').trim();
-                updatedTextsCount++;
-            }
+            if (fs.existsSync(filePath)) targetObj[targetProp] = fs.readFileSync(filePath, 'utf8').trim();
         };
-
         checkAndSet(`manifesto_title_${lang}.txt`, data[lang].manifesto, 'title');
         checkAndSet(`manifesto_${lang}.txt`, data[lang].manifesto, 'text');
         checkAndSet(`pausa1_${lang}.txt`, data[lang].pauses, 'pause1');
         checkAndSet(`pausa2_${lang}.txt`, data[lang].pauses, 'pause2');
         checkAndSet(`pausa_title_${lang}.txt`, data[lang].pauses, 'title');
         checkAndSet(`bio_${lang}.txt`, data[lang].author, 'bio');
-        checkAndSet(`hero_subtitle_${lang}.txt`, data[lang].hero, 'subtitle');
 
-        // Política de privacidad (Markdown → HTML)
         const privacyMdPath = path.join(generalTextsDir, `privacy_${lang}.md`);
         if (fs.existsSync(privacyMdPath)) {
-            const mdContent = fs.readFileSync(privacyMdPath, 'utf8').trim();
-            if (!data[lang].privacy) data[lang].privacy = {};
-            data[lang].privacy.html = marked.parse(mdContent);
-            updatedTextsCount++;
-            console.log(`  └─ Convertida política de privacidad (${lang}.md) → HTML en data.js`);
+            data[lang].privacy = data[lang].privacy || {};
+            data[lang].privacy.html = marked.parse(fs.readFileSync(privacyMdPath, 'utf8').trim());
         }
     }
 
-    // Imagen bio
+    // Imágenes
     const validExts = ['.jpg', '.jpeg', '.png', '.webp'];
     for (const ext of validExts) {
-        const imgName = `bio_image${ext}`;
-        const sourceImgPath = path.join(generalTextsDir, imgName);
-        if (fs.existsSync(sourceImgPath)) {
-            fs.copyFileSync(sourceImgPath, path.join(IMG_DEST, imgName));
-            for (const lang of ['es', 'ca', 'en']) {
-                data[lang].author.image = `./img/${imgName}`;
-            }
-            console.log(`  └─ Copiada imagen de la bio: ${imgName}`);
+        if (fs.existsSync(path.join(generalTextsDir, `bio_image${ext}`))) {
+            fs.copyFileSync(path.join(generalTextsDir, `bio_image${ext}`), path.join(IMG_DEST, `bio_image${ext}`));
+            ['es','ca','en'].forEach(l => data[l].author.image = `./img/bio_image${ext}`);
             break;
         }
     }
-
-    // Imagen hero
     for (const ext of validExts) {
-        const imgName = `hero_image${ext}`;
-        const sourceImgPath = path.join(generalTextsDir, imgName);
-        if (fs.existsSync(sourceImgPath)) {
-            fs.copyFileSync(sourceImgPath, path.join(IMG_DEST, imgName));
-            for (const lang of ['es', 'ca', 'en']) {
-                data[lang].hero.image = `./img/${imgName}`;
-            }
-            console.log(`  └─ Copiada imagen de fondo hero: ${imgName}`);
+        if (fs.existsSync(path.join(generalTextsDir, `hero_image${ext}`))) {
+            fs.copyFileSync(path.join(generalTextsDir, `hero_image${ext}`), path.join(IMG_DEST, `hero_image${ext}`));
+            ['es','ca','en'].forEach(l => data[l].hero.image = `./img/hero_image${ext}`);
             break;
         }
     }
 
-    // ── NUEVO: Secciones de Galería (Nivel 1: urban / indoor) ──
-    console.log(`\nProcesando secciones de galería (Nivel 1)...`);
+    // Secciones de Galería (Nivel 1)
     const sectionIds = ['urban', 'indoor'];
     for (const lang of ['es', 'ca', 'en']) {
-        if (!data[lang].sections) data[lang].sections = [];
-
+        data[lang].sections = data[lang].sections || [];
         for (const secId of sectionIds) {
             const secConfig = parseKeyValue(path.join(generalTextsDir, `section_${secId}_config.txt`));
-            const titleFile = path.join(generalTextsDir, `section_${secId}_title_${lang}.txt`);
-
-            // Buscar si ya existe la sección en el array
             let secDef = data[lang].sections.find(s => s.id === secId);
             if (!secDef) {
-                // Fallback: título desde labels existentes si no hay archivo de título
-                const fallbackTitle = data[lang].labels ? data[lang].labels[`${secId}_space`] || secId : secId;
-                secDef = { id: secId, title: fallbackTitle, visible: true, order: sectionIds.indexOf(secId) + 1 };
+                secDef = { id: secId, title: secId, visible: true, order: 999 };
                 data[lang].sections.push(secDef);
             }
+            const titleFile = path.join(generalTextsDir, `section_${secId}_title_${lang}.txt`);
+            if (fs.existsSync(titleFile)) secDef.title = fs.readFileSync(titleFile, 'utf8').trim();
+            
+            // ── NUEVO: Título de menú para secciones ──
+            const menuTitleFile = path.join(generalTextsDir, `section_${secId}_menu_title_${lang}.txt`);
+            if (fs.existsSync(menuTitleFile)) secDef.menuTitle = fs.readFileSync(menuTitleFile, 'utf8').trim();
+            else delete secDef.menuTitle;
 
-            // Aplicar título desde archivo si existe
-            if (fs.existsSync(titleFile)) {
-                secDef.title = fs.readFileSync(titleFile, 'utf8').trim();
-            }
-
-            // Aplicar config
-            if (secConfig.visible !== undefined) secDef.visible = (secConfig.visible !== 'false');
-            if (secConfig.order !== undefined) secDef.order = parseInt(secConfig.order, 10);
+            mergeConfig(secDef, secConfig);
         }
-
-        // Ordenar secciones por order
         data[lang].sections.sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
-        console.log(`  └─ Secciones (${lang}): ${data[lang].sections.map(s => `${s.id}(order=${s.order},visible=${s.visible})`).join(', ')}`);
     }
 
-    // ── NUEVO: Configuración de Pausas (Momentos de reflexión) ──
-    console.log(`\nProcesando configuración de pausas...`);
+    // Config de Pausas
     const pausesConfig = parseKeyValue(path.join(generalTextsDir, 'pauses_config.txt'));
     for (const lang of ['es', 'ca', 'en']) {
-        if (!data[lang].pauses) data[lang].pauses = {};
-        for (const key in pausesConfig) {
-            const val = pausesConfig[key];
-            if (val === 'true') data[lang].pauses[key] = true;
-            else if (val === 'false') data[lang].pauses[key] = false;
-            else data[lang].pauses[key] = val;
-        }
+        mergeConfig(data[lang].pauses, pausesConfig);
     }
 
-    // ── NUEVO: Secciones de Página (Nivel 0) ──
-    console.log(`\nProcesando layout de página (Nivel 0)...`);
+    // Page Layout (Nivel 0)
     const pageLayoutFile = path.join(generalTextsDir, 'page_layout.txt');
     const pageLayout = parsePageLayout(pageLayoutFile);
     const defaultPageSections = [
-        { id: 'hero',      visible: true, order: 1 },
+        { id: 'hero', visible: true, order: 1 },
         { id: 'manifesto', visible: true, order: 2 },
-        { id: 'gallery',   visible: true, order: 3 },
-        { id: 'author',    visible: true, order: 4 },
-        { id: 'contact',   visible: true, order: 5 },
+        { id: 'gallery', visible: true, order: 3 },
+        { id: 'author', visible: true, order: 4 },
+        { id: 'contact', visible: true, order: 5 },
     ];
-
     for (const lang of ['es', 'ca', 'en']) {
-        // Construir pageSections fusionando defaults con lo que haya en page_layout.txt
         data[lang].pageSections = defaultPageSections.map(def => {
             const override = pageLayout[def.id] || {};
             return {
@@ -358,13 +300,10 @@ if (fs.existsSync(generalTextsDir) && fs.statSync(generalTextsDir).isDirectory()
                 order: override.order !== undefined ? override.order : def.order,
             };
         });
-        // Ordenar por order
         data[lang].pageSections.sort((a, b) => a.order - b.order);
-        console.log(`  └─ pageSections (${lang}): ${data[lang].pageSections.map(s => `${s.id}(order=${s.order},visible=${s.visible})`).join(', ')}`);
     }
 
-    // ── NUEVO: Ordenar rooms por sección y por order interno ──
-    console.log(`\nOrdenando rooms según sección y order...`);
+    // Ordenar rooms
     for (const lang of ['es', 'ca', 'en']) {
         const sections = data[lang].sections;
         data[lang].rooms.sort((a, b) => {
@@ -374,10 +313,6 @@ if (fs.existsSync(generalTextsDir) && fs.statSync(generalTextsDir).isDirectory()
             return (a.order ?? 999) - (b.order ?? 999);
         });
     }
-
-    if (updatedTextsCount > 0) {
-        console.log(`\n  └─ Actualizados ${updatedTextsCount} textos generales en data.js.`);
-    }
 }
 
 const newContent = `window.translations = ${JSON.stringify(data, null, 2)};\n`;
@@ -385,5 +320,5 @@ fs.writeFileSync(DATA_FILE, newContent, 'utf8');
 
 console.log(`\n==============================================`);
 console.log(`¡Sincronización Completada!`);
-console.log(`Se han actualizado las obras de ${updatedCount} espacio(s).`);
+console.log(`Se han actualizado las etiquetas y obras.`);
 console.log(`==============================================\n`);

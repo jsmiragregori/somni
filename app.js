@@ -191,7 +191,7 @@ function renderApp() {
     appRoot.innerHTML = `
         <!-- Navigation -->
         <nav class="fixed top-0 left-0 w-full z-50 px-6 lg:px-12 py-4 md:py-6 flex justify-between items-center bg-black/70 backdrop-blur-md border-b border-white/5">
-            <a href="#" class="font-display text-2xl uppercase tracking-tighter text-white">Maisse</a>
+            <a href="#" class="font-display text-2xl uppercase tracking-tighter text-white">${t.author.name || 'Maisse'}</a>
             <div class="flex items-center gap-6 lg:gap-8 text-white">
                 <button data-action="toggle-text-size" class="text-white/80 hover:text-white transition-colors" title="Tamaño de texto">
                     <i data-feather="type" class="w-5 h-5 lg:w-4 lg:h-4"></i>
@@ -221,16 +221,26 @@ function renderApp() {
                         <button data-action="set-lang" data-lang="ca" class="${currentLang==='ca' ? 'text-white' : 'text-white/60'}">${t.nav.lang_ca}</button>
                         <button data-action="set-lang" data-lang="en" class="${currentLang==='en' ? 'text-white' : 'text-white/60'}">${t.nav.lang_en}</button>
                     </div>
-                    <ul class="flex flex-col items-center gap-3">
+                    <ul class="flex flex-col items-center gap-3 w-full">
                         ${pageSections.filter(s => s.visible !== false).map(ps => {
                             if (ps.id === 'gallery' && galleryPageVisible) {
-                                const visibleRooms = t.rooms.filter(r => r.visible !== false && isGallerySectionVisible(r.sectionId || (r.id.startsWith('urban') ? 'urban' : 'indoor')));
-                                return `<li><a href="#rooms" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.galeria}</a></li>` +
-                                    visibleRooms.map(room => `<li><a href="#${room.id}" data-action="toggle-menu" class="font-display uppercase tracking-widest hover:text-accent transition-colors text-center block text-xl lg:text-2xl text-white/70">${room.title}</a></li>`).join('');
+                                // Agrupar rooms por sección para el menú jerárquico
+                                const visibleSections = gallerySections.filter(s => isGallerySectionVisible(s.id));
+                                return visibleSections.map(sec => {
+                                    const secRooms = t.rooms.filter(r => {
+                                        const rSec = r.sectionId || (r.id.startsWith(sec.id) ? sec.id : null);
+                                        return rSec === sec.id && r.visible !== false;
+                                    });
+                                    if (secRooms.length === 0) return '';
+                                    
+                                    const sectionLink = `<li><a href="#rooms" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-4xl mt-6 mb-2 text-accent/50">${sec.menuTitle || sec.title}</a></li>`;
+                                    const roomsLinks = secRooms.map(room => `<li><a href="#${room.id}" data-action="toggle-menu" class="font-display uppercase tracking-widest hover:text-accent transition-colors text-center block text-lg lg:text-xl text-white/70 py-1">${room.menuTitle || room.title}</a></li>`).join('');
+                                    return sectionLink + roomsLinks;
+                                }).join('');
                             }
-                            if (ps.id === 'manifesto') return `<li><a href="#manifesto" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.manifiesto}</a></li>`;
-                            if (ps.id === 'author') return `<li><a href="#author" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.autor || t.author.title}</a></li>`;
-                            if (ps.id === 'contact') return `<li><a href="#contact" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-3">${t.nav.contacto}</a></li>`;
+                            if (ps.id === 'manifesto') return `<li><a href="#manifesto" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-6">${t.nav.manifiesto}</a></li>`;
+                            if (ps.id === 'author') return `<li><a href="#author" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-6">${t.author.menuTitle || t.author.title || t.nav.autor}</a></li>`;
+                            if (ps.id === 'contact') return `<li><a href="#contact" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-6">${t.nav.contacto}</a></li>`;
                             return '';
                         }).join('')}
                     </ul>
