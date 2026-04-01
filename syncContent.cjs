@@ -54,10 +54,15 @@ function parsePageLayout(filePath) {
 // Helper para fusionar objetos de configuración con soporte para booleanos
 function mergeConfig(target, config) {
     for (const key in config) {
-        const val = config[key];
-        if (val === 'true') target[key] = true;
-        else if (val === 'false') target[key] = false;
-        else target[key] = val;
+        let val = config[key];
+        let targetKey = key;
+
+        // Soporte para ambos estilos de escritura (camelCase y snake_case)
+        if (key === 'menu_title') targetKey = 'menuTitle';
+
+        if (val === 'true') target[targetKey] = true;
+        else if (val === 'false') target[targetKey] = false;
+        else target[targetKey] = val;
     }
 }
 

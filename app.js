@@ -233,8 +233,8 @@ function renderApp() {
                                     });
                                     if (secRooms.length === 0) return '';
                                     
-                                    const sectionLink = `<li><a href="#rooms" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-4xl mt-6 mb-2 text-accent/50">${sec.menuTitle || sec.title}</a></li>`;
-                                    const roomsLinks = secRooms.map(room => `<li><a href="#${room.id}" data-action="toggle-menu" class="font-display uppercase tracking-widest hover:text-accent transition-colors text-center block text-lg lg:text-xl text-white/70 py-1">${room.menuTitle || room.title}</a></li>`).join('');
+                                    const sectionLink = `<li><a href="#rooms" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-4xl mt-6 mb-2 text-white/90">${sec.menuTitle || sec.title}</a></li>`;
+                                    const roomsLinks = secRooms.map(room => `<li><a href="#${room.id}" data-action="toggle-menu" class="font-display uppercase tracking-widest hover:text-accent transition-colors text-center block text-lg lg:text-xl text-white/75 py-1">${room.menuTitle || room.title}</a></li>`).join('');
                                     return sectionLink + roomsLinks;
                                 }).join('');
                             }
