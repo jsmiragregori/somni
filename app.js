@@ -152,7 +152,7 @@ function renderApp() {
             <div class="max-w-7xl mx-auto w-full">
                 <div class="mb-16 fade-in">
                     <span class="font-mono ${getDynamicText('label')} uppercase text-accent mb-4 block">${sectionLabel}</span>
-                    <h2 class="font-display text-5xl lg:text-8xl py-1 uppercase mb-6 tracking-tighter">${room.title}</h2>
+                    <h2 class="font-display text-5xl lg:text-8xl py-1 uppercase mb-6 tracking-tight">${room.title}</h2>
                     <p class="w-full ${getDynamicText('lead')} text-white/80 font-light leading-relaxed">${room.description}</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 grid-flow-row-dense fade-in">
@@ -191,7 +191,7 @@ function renderApp() {
     appRoot.innerHTML = `
         <!-- Navigation -->
         <nav class="fixed top-0 left-0 w-full z-50 px-6 lg:px-12 py-4 md:py-6 flex justify-between items-center bg-black/70 backdrop-blur-md border-b border-white/5">
-            <a href="#" class="font-display text-2xl uppercase tracking-tighter text-white">${t.author.name || 'Maisse'}</a>
+            <a href="#" class="font-display text-2xl uppercase tracking-tight text-white">${t.author.name || 'Maisse'}</a>
             <div class="flex items-center gap-6 lg:gap-8 text-white">
                 <button data-action="toggle-text-size" class="text-white/80 hover:text-white transition-colors" title="Tamaño de texto">
                     <i data-feather="type" class="w-5 h-5 lg:w-4 lg:h-4"></i>
@@ -256,7 +256,7 @@ function renderApp() {
                 <div class="absolute inset-0 bg-gradient-to-t from-bg via-bg/20 to-transparent"></div>
                 
                 <div class="relative z-10 text-center px-6">
-                    <h1 class="font-display text-7xl md:text-9xl lg:text-[12rem] uppercase tracking-tighter leading-none mb-6 fade-in text-white">${t.hero.title}</h1>
+                    <h1 class="font-display text-7xl md:text-9xl lg:text-[12rem] uppercase tracking-tight leading-none mb-6 fade-in text-white">${t.hero.title}</h1>
                     <p class="font-mono text-sm md:text-lg lg:text-2xl tracking-widest uppercase text-white/70 mx-auto fade-in">${t.hero.subtitle}</p>
                 </div>
                 
@@ -273,7 +273,7 @@ function renderApp() {
                 <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
                     <div class="lg:w-1/4 fade-in">
                         <span class="font-mono ${getDynamicText('label')} text-accent tracking-widest uppercase mb-4 block">${t.manifesto.label}</span>
-                        <h2 class="font-display text-4xl lg:text-5xl uppercase tracking-tighter text-white">${t.manifesto.title}</h2>
+                        <h2 class="font-display text-4xl lg:text-5xl uppercase tracking-tight text-white">${t.manifesto.title}</h2>
                     </div>
                     <div class="lg:w-3/4 fade-in">
                         <p class="${getDynamicText('manifesto')} font-light leading-relaxed text-white/80">${t.manifesto.text}</p>
@@ -395,7 +395,7 @@ function renderApp() {
             <div class="absolute inset-0 bg-black/90 backdrop-blur-sm" data-action="close-privacy"></div>
             <div class="relative bg-zinc-950 border border-white/10 rounded-sm max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl">
                 <div class="flex items-center justify-between px-8 py-6 border-b border-white/10">
-                    <h2 class="font-display text-2xl uppercase tracking-tighter text-white">${t.contact.privacy_modal_title}</h2>
+                    <h2 class="font-display text-2xl uppercase tracking-tight text-white">${t.contact.privacy_modal_title}</h2>
                     <button data-action="close-privacy" class="p-2 hover:text-accent transition-colors">
                         <i data-feather="x" class="w-6 h-6 pointer-events-none"></i>
                     </button>

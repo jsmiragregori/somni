@@ -29,7 +29,7 @@ window.translations = {
       "pause2": "La naturaleza no se apresura, y sin embargo, todo se logra.",
       "title": "Un momento de reflexión",
       "pause1_visible": true,
-      "pause2_visible": true
+      "pause2_visible": false
     },
     "rooms": [
       {
@@ -697,7 +697,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": true,
+        "visible": false,
         "order": 10
       },
       {
@@ -738,7 +738,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": true,
+        "visible": false,
         "order": 20
       },
       {
@@ -769,7 +769,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": true,
+        "visible": false,
         "order": 30
       },
       {
@@ -800,7 +800,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": true,
+        "visible": false,
         "order": 40
       }
     ],
@@ -915,7 +915,7 @@ window.translations = {
       "pause2": "La natura no s'apressa, i tanmateix, tot s'aconsegueix.",
       "title": "Un moment de reflexió",
       "pause1_visible": true,
-      "pause2_visible": true
+      "pause2_visible": false
     },
     "rooms": [
       {
@@ -1583,7 +1583,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": true,
+        "visible": false,
         "order": 10
       },
       {
@@ -1624,7 +1624,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": true,
+        "visible": false,
         "order": 20
       },
       {
@@ -1655,7 +1655,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": true,
+        "visible": false,
         "order": 30
       },
       {
@@ -1686,7 +1686,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": true,
+        "visible": false,
         "order": 40
       }
     ],
@@ -1802,7 +1802,7 @@ window.translations = {
       "pause2": "Nature does not hurry, yet everything is accomplished.",
       "title": "A moment for reflection",
       "pause1_visible": true,
-      "pause2_visible": true
+      "pause2_visible": false
     },
     "rooms": [
       {
@@ -2470,7 +2470,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": true,
+        "visible": false,
         "order": 10
       },
       {
@@ -2511,7 +2511,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": true,
+        "visible": false,
         "order": 20
       },
       {
@@ -2542,7 +2542,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": true,
+        "visible": false,
         "order": 30
       },
       {
@@ -2573,7 +2573,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": true,
+        "visible": false,
         "order": 40
       }
     ],
