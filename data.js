@@ -725,16 +725,6 @@ window.translations = {
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
-          },
-          {
-            "id": "indoor-2-photo-3",
-            "url": "./img/indoor-2_photo_3.jpg",
-            "orientation": "portrait",
-            "title": "Obra 03",
-            "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
-            "year": "2019",
-            "isMasterpiece": false,
-            "audioUrl": null
           }
         ],
         "sectionId": "indoor",
@@ -756,16 +746,6 @@ window.translations = {
             "year": "2019",
             "isMasterpiece": true,
             "audioUrl": null
-          },
-          {
-            "id": "indoor-3-photo-2",
-            "url": "./img/indoor-3_photo_2.jpg",
-            "orientation": "landscape",
-            "title": "Obra 02",
-            "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
-            "year": "2019",
-            "isMasterpiece": false,
-            "audioUrl": null
           }
         ],
         "sectionId": "indoor",
@@ -786,16 +766,6 @@ window.translations = {
             "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
             "year": "2019",
             "isMasterpiece": true,
-            "audioUrl": null
-          },
-          {
-            "id": "indoor-4-photo-2",
-            "url": "./img/indoor-4_photo_2.jpg",
-            "orientation": "portrait",
-            "title": "Obra 02",
-            "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
-            "year": "2019",
-            "isMasterpiece": false,
             "audioUrl": null
           }
         ],
@@ -1611,16 +1581,6 @@ window.translations = {
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
-          },
-          {
-            "id": "indoor-2-photo-3",
-            "url": "./img/indoor-2_photo_3.jpg",
-            "orientation": "portrait",
-            "title": "Obra 03",
-            "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial Benidorm Vertical, ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
-            "year": "2019",
-            "isMasterpiece": false,
-            "audioUrl": null
           }
         ],
         "sectionId": "indoor",
@@ -1642,16 +1602,6 @@ window.translations = {
             "year": "2019",
             "isMasterpiece": true,
             "audioUrl": null
-          },
-          {
-            "id": "indoor-3-photo-2",
-            "url": "./img/indoor-3_photo_2.jpg",
-            "orientation": "landscape",
-            "title": "Obra 02",
-            "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial Benidorm Vertical, ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
-            "year": "2019",
-            "isMasterpiece": false,
-            "audioUrl": null
           }
         ],
         "sectionId": "indoor",
@@ -1672,16 +1622,6 @@ window.translations = {
             "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial Benidorm Vertical, ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
             "year": "2019",
             "isMasterpiece": true,
-            "audioUrl": null
-          },
-          {
-            "id": "indoor-4-photo-2",
-            "url": "./img/indoor-4_photo_2.jpg",
-            "orientation": "portrait",
-            "title": "Obra 02",
-            "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial Benidorm Vertical, ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
-            "year": "2019",
-            "isMasterpiece": false,
             "audioUrl": null
           }
         ],
@@ -2498,16 +2438,6 @@ window.translations = {
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": null
-          },
-          {
-            "id": "indoor-2-photo-3",
-            "url": "./img/indoor-2_photo_3.jpg",
-            "orientation": "portrait",
-            "title": "Obra 03",
-            "description": "Ti Ximo Cove, December 2019. At the end of an intense day shooting the 'Benidorm Vertical' editorial, the sunset light turned everything magical. Our most intimate beach offered a moment of peace to bring this dream to a close.",
-            "year": "2019",
-            "isMasterpiece": false,
-            "audioUrl": null
           }
         ],
         "sectionId": "indoor",
@@ -2529,16 +2459,6 @@ window.translations = {
             "year": "2019",
             "isMasterpiece": true,
             "audioUrl": null
-          },
-          {
-            "id": "indoor-3-photo-2",
-            "url": "./img/indoor-3_photo_2.jpg",
-            "orientation": "landscape",
-            "title": "Obra 02",
-            "description": "Ti Ximo Cove, December 2019. At the end of an intense day shooting the 'Benidorm Vertical' editorial, the sunset light turned everything magical. Our most intimate beach offered a moment of peace to bring this dream to a close.",
-            "year": "2019",
-            "isMasterpiece": false,
-            "audioUrl": null
           }
         ],
         "sectionId": "indoor",
@@ -2559,16 +2479,6 @@ window.translations = {
             "description": "Ti Ximo Cove, December 2019. At the end of an intense day shooting the 'Benidorm Vertical' editorial, the sunset light turned everything magical. Our most intimate beach offered a moment of peace to bring this dream to a close.",
             "year": "2019",
             "isMasterpiece": true,
-            "audioUrl": null
-          },
-          {
-            "id": "indoor-4-photo-2",
-            "url": "./img/indoor-4_photo_2.jpg",
-            "orientation": "portrait",
-            "title": "Obra 02",
-            "description": "Ti Ximo Cove, December 2019. At the end of an intense day shooting the 'Benidorm Vertical' editorial, the sunset light turned everything magical. Our most intimate beach offered a moment of peace to bring this dream to a close.",
-            "year": "2019",
-            "isMasterpiece": false,
             "audioUrl": null
           }
         ],
