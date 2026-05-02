@@ -6,7 +6,7 @@ window.translations = {
     },
     "nav": {
       "galeria": "La Galería",
-      "manifiesto": "Manifiesto",
+      "manifiesto": "Introducción",
       "contacto": "Contacto",
       "lang_es": "ES",
       "lang_ca": "VAL",
@@ -728,7 +728,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": false,
+        "visible": true,
         "order": 20
       },
       {
@@ -777,7 +777,7 @@ window.translations = {
     "author": {
       "name": "Maisse",
       "title": "La Mirada de Maisse",
-      "bio": "Soy Maria José Lozano. Para mí, Benidorm no es solo una ciudad de rascacielos; es mi casa y el lugar donde he aprendido a mirar el cielo con fascinación. Soy docente y una mente inquieta, y la fotografía es mi lenguaje para celebrar la vida. Lo que empezó como una pasión me ha llevado a ganar un Premio Sony World Photography y a ver mis imágenes en revistas de Nueva York, pero mi mayor ilusión es compartir hoy esta mirada contigo.",
+      "bio": "Maria José Lozano Pérez (Benidorm, 1972), ingeniera Informática y catedrática de Enseñanza Secundaria, capta como fotógrafa la belleza en la geometría y la verticalidad de su ciudad. Movida por su pasión por la fotografía y por los rascacielos de Benidorm, lo que comenzó en 2019 se ha convertido en un proyecto artístico de proyección internacional que fusiona arquitectura, moda y esencia mediterránea.\r\nSu mirada convierte la ciudad en un escenario de vanguardia. Un trabajo marcado por la simetría, la luz y la búsqueda de la figura humana que ha viajado desde Benidorm hasta revistas de moda de Nueva York y París.\r\nGanadora del «Sony World Photography Awards» (2018) y «Distinguida al Mérito Cultural Ciudad de Benidorm», vuelve ahora a las calles para que el vecindario y los turistas redescubran la ciudad a través de sus ojos: un encuentro que celebra la evolución urbana, la constancia y su Somni Vertical.\r\n\"Mi agradecimiento a mi pueblo, que me hace mirar siempre hacia arriba.\"",
       "image": "./img/bio_image.jpg",
       "menuTitle": "La Artista"
     },
@@ -853,7 +853,16 @@ window.translations = {
         "visible": true,
         "order": 5
       }
-    ]
+    ],
+    "socials": {
+      "instagram_url": "https://instagram.com/maisse",
+      "instagram_label": "Instagram",
+      "vimeo_url": "https://vimeo.com/maisse",
+      "vimeo_label": "Vimeo",
+      "behance_url": "https://behance.net/maisse",
+      "behance_label": "Behance",
+      "visible": false
+    }
   },
   "ca": {
     "labels": {
@@ -861,8 +870,8 @@ window.translations = {
       "indoor_space": "Espai d'art interior"
     },
     "nav": {
-      "galeria": "La Galería",
-      "manifiesto": "Manifest",
+      "galeria": "La Galeria",
+      "manifiesto": "Introducció",
       "contacto": "Contacte",
       "lang_es": "ES",
       "lang_ca": "VAL",
@@ -1584,7 +1593,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": false,
+        "visible": true,
         "order": 20
       },
       {
@@ -1633,7 +1642,7 @@ window.translations = {
     "author": {
       "name": "Maisse",
       "title": "La Mirada de Maisse",
-      "bio": "Sóc Maria José Lozano. Per a mi, Benidorm no és només una ciutat de gratacels; és casa meua i el lloc on he après a mirar el cel amb fascinació. Soc docent i una ment inquieta, i la fotografia és el meu llenguatge per a celebrar la vida. El que va començar com una passió m'ha portat a guanyar un Premi Sony World Photography i a veure les meues imatges en revistes de Nova York, però la meua major il·lusió és compartir avui aquesta mirada amb tu.",
+      "bio": "Maria José Lozano Pérez (Benidorm, 1972), enginyera Informàtica i catedràtica d'Ensenyament Secundari, capta com a fotògrafa la bellesa en la geometria i la verticalitat de la seua ciutat. Moguda per la seua passió per la fotografia i pels gratacels de Benidorm, el que va començar l’any 2019 s’ha convertit en un projecte artístic de projecció internacional que fusiona arquitectura, moda i essència mediterrània.\r\nLa seua mirada converteix la ciutat en un escenari d’avantguarda. Un treball marcat per la simetria, la llum i la recerca de la figura humana que ha viatjat des de Benidorm fins a revistes de moda de Nova York i París.\r\nGuanyadora del «Sony World Photography Awards» (2018) i «Distingida al Mèrit Cultural Ciutat de Benidorm», torna ara als carrers perquè veïnat i turistes redescobrisquen la ciutat a través dels seus ulls: una trobada que celebra l'evolució urbana, la constància i el seu Somni Vertical.\r\n\"El meu agraïment al meu poble, que em fa mirar sempre cap amunt.\"",
       "image": "./img/bio_image.jpg",
       "menu_title": "L'Artista",
       "menuTitle": "L'Artista"
@@ -1710,7 +1719,16 @@ window.translations = {
         "visible": true,
         "order": 5
       }
-    ]
+    ],
+    "socials": {
+      "instagram_url": "https://instagram.com/maisse",
+      "instagram_label": "Instagram",
+      "vimeo_url": "https://vimeo.com/maisse",
+      "vimeo_label": "Vimeo",
+      "behance_url": "https://behance.net/maisse",
+      "behance_label": "Behance",
+      "visible": false
+    }
   },
   "en": {
     "labels": {
@@ -1719,7 +1737,7 @@ window.translations = {
     },
     "nav": {
       "galeria": "The Gallery",
-      "manifiesto": "Manifesto",
+      "manifiesto": "Introduction",
       "contacto": "Contact",
       "lang_es": "ES",
       "lang_ca": "VAL",
@@ -2441,7 +2459,7 @@ window.translations = {
           }
         ],
         "sectionId": "indoor",
-        "visible": false,
+        "visible": true,
         "order": 20
       },
       {
@@ -2490,7 +2508,7 @@ window.translations = {
     "author": {
       "name": "Maisse",
       "title": "Maisse's Gaze",
-      "bio": "I am Maria José Lozano. To me, Benidorm is not just a city of skyscrapers; it is my home and the place where I learned to look at the sky with fascination. I am a teacher and a restless mind, and photography is my language to celebrate life. What began as a passion led me to win a Sony World Photography Award and to see my images in New York magazines, but my greatest joy is sharing this vision with you today.",
+      "bio": "Maria José Lozano Pérez (Benidorm, 1972), Computer Engineer and Senior Professor of Secondary Education, captures as a photographer the beauty in the geometry and verticality of her city. Driven by her passion for photography and Benidorm’s skyscrapers, what began in 2019 has evolved into an artistic project with international reach, blending architecture, fashion, and Mediterranean essence.\r\nHer vision transforms the city into a cutting-edge stage. Her work, defined by symmetry, light, and the search for the human figure, has travelled from Benidorm to the pages of fashion magazines in New York and Paris.\r\nWinner of the «Sony World Photography Awards» (2018) and honored with the «City of Benidorm Cultural Merit Distinction», she now returns to the streets so that residents and tourists can rediscover the city through her eyes: an encounter that celebrates urban evolution, perseverance, and her \"Vertical Dream\".\r\n\"My gratitude to my home town, which always makes me look up.\"",
       "image": "./img/bio_image.jpg",
       "menu_title": "The Artist",
       "menuTitle": "The Artist"
@@ -2567,6 +2585,15 @@ window.translations = {
         "visible": true,
         "order": 5
       }
-    ]
+    ],
+    "socials": {
+      "instagram_url": "https://instagram.com/maisse",
+      "instagram_label": "Instagram",
+      "vimeo_url": "https://vimeo.com/maisse",
+      "vimeo_label": "Vimeo",
+      "behance_url": "https://behance.net/maisse",
+      "behance_label": "Behance",
+      "visible": false
+    }
   }
 };

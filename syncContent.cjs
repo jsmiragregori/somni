@@ -219,6 +219,8 @@ if (fs.existsSync(generalTextsDir)) {
         mergeConfig(data[lang].author, parseKeyValue(path.join(generalTextsDir, `author_texts_${lang}.txt`)));
         mergeConfig(data[lang].contact, parseKeyValue(path.join(generalTextsDir, `contact_form_${lang}.txt`)));
         mergeConfig(data[lang].footer, parseKeyValue(path.join(generalTextsDir, `footer_labels_${lang}.txt`)));
+        data[lang].socials = data[lang].socials || {};
+        mergeConfig(data[lang].socials, parseKeyValue(path.join(generalTextsDir, `socials_config.txt`)));
 
         // --- Casos especiales (archivos individuales antiguos) ---
         const checkAndSet = (filename, targetObj, targetProp) => {

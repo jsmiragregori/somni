@@ -381,11 +381,12 @@ function renderApp() {
 
         <footer class="py-12 px-6 lg:px-24 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-white/30 font-mono text-[10px] uppercase tracking-widest">
             <div>${t.footer.copy}</div>
+            ${(t.socials && t.socials.visible !== false) ? `
             <div class="flex gap-8">
-                <a href="#" class="hover:text-white transition-colors">Instagram</a>
-                <a href="#" class="hover:text-white transition-colors">Vimeo</a>
-                <a href="#" class="hover:text-white transition-colors">Behance</a>
-            </div>
+                ${t.socials.instagram_url ? `<a href="${t.socials.instagram_url}" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">${t.socials.instagram_label || 'Instagram'}</a>` : ''}
+                ${t.socials.vimeo_url ? `<a href="${t.socials.vimeo_url}" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">${t.socials.vimeo_label || 'Vimeo'}</a>` : ''}
+                ${t.socials.behance_url ? `<a href="${t.socials.behance_url}" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">${t.socials.behance_label || 'Behance'}</a>` : ''}
+            </div>` : ''}
             <div>${t.footer.designed}</div>
         </footer>
 
