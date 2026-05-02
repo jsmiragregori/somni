@@ -22,7 +22,7 @@ window.translations = {
     "manifesto": {
       "title": "La exposición",
       "text": "Soy Maria José Lozano. Para mí, Benidorm no es solo una ciudad de rascacielos; es mi casa y el lugar donde he aprendido a mirar el cielo con fascinación. Soy docente y una mente inquieta, y la fotografía es mi lenguaje para celebrar la vida. Lo que empezó como una pasión me ha llevado a ganar un Premio Sony World Photography y a ver mis imágenes en revistas de Nueva York, pero mi mayor ilusión es compartir hoy esta mirada contigo. Te invito a buscar los códigos QR que encontrarás en la esquina de cada mupi; si los escaneas con el móvil, te contaré personalmente el 'secreto' y la historia que se esconde detrás de cada instantánea. Déjate llevar por la curiosidad y atrévete a soñar en vertical. ¿Empezamos?",
-      "label": "Manifiesto"
+      "label": "Introducción"
     },
     "pauses": {
       "pause1": "Observa el vacío, no como ausencia, sino como el lienzo donde ocurre la vida.",
@@ -886,8 +886,8 @@ window.translations = {
     },
     "manifesto": {
       "title": "L'exposició",
-      "text": "Sóc Maria José Lozano. Per a mi, Benidorm no és només una ciutat de gratacels; és ma casa i el lloc on he après a mirar el cel amb fascinació. Soc docent i una ment inquieta, i la fotografia és el meu llenguatge per a celebrar la vida. El que va començar com una passió m'ha portat a guanyar un Premi Sony World Photography i a veure les meues imatges en revistes de Nova York, però la meua major il·lusió és compartir avui aquesta mirada amb tu. El convide a buscar els codis QR que trobaràs en el cantó de cada mupi; si els escaneges amb el mòbil, t'explicaré personalment el 'secret' i la història que s'amaga darrere de cada instantània. Deixa't portar per la curiositat i atreveix-te a somiar en vertical. Comencem?",
-      "label": "Manifest"
+      "text": "Sóc Maria José Lozano. Per a mi, Benidorm no és només una ciutat de gratacels; és ma casa i el lloc on he après a mirar el cel amb fascinació. Soc docent i una ment inquieta, i la fotografia és el meu llenguatge per a celebrar la vida. El que va començar com una passió m'ha portat a guanyar un Premi Sony World Photography i a veure les meues imatges en revistes de Nova York, però la meua major il·lusió és compartir avui aquesta mirada amb tu. Et convide a buscar els codis QR que trobaràs en el cantó de cada mupi; si els escaneges amb el mòbil, t'explicaré personalment el 'secret' i la història que s'amaga darrere de cada instantània. Deixa't portar per la curiositat i atreveix-te a somiar en vertical. Comencem?",
+      "label": "Introducció"
     },
     "pauses": {
       "pause1": "Observa el buit, no com a absència, sinó com el llenç on passa la vida.",
@@ -1753,7 +1753,7 @@ window.translations = {
     "manifesto": {
       "title": "The exposition",
       "text": "I am Maria José Lozano. To me, Benidorm is not just a city of skyscrapers; it is my home and the place where I learned to look at the sky with fascination. I am a teacher and a restless mind, and photography is my language to celebrate life. What began as a passion led me to win a Sony World Photography Award and to see my images in New York magazines, but my greatest joy is sharing this vision with you today. I invite you to look for the QR codes in the corner of each display; if you scan them with your phone, I will personally tell you the 'secret' and the story behind each snapshot. Let curiosity guide you and dare to dream vertically. Shall we begin?",
-      "label": "Manifesto"
+      "label": "Introduction"
     },
     "pauses": {
       "pause1": "Observe the void, not as absence, but as the canvas where life happens.",

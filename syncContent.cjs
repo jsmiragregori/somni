@@ -228,6 +228,7 @@ if (fs.existsSync(generalTextsDir)) {
             if (fs.existsSync(filePath)) targetObj[targetProp] = fs.readFileSync(filePath, 'utf8').trim();
         };
         checkAndSet(`manifesto_title_${lang}.txt`, data[lang].manifesto, 'title');
+        checkAndSet(`manifesto_label_${lang}.txt`, data[lang].manifesto, 'label');
         checkAndSet(`manifesto_${lang}.txt`, data[lang].manifesto, 'text');
         checkAndSet(`pausa1_${lang}.txt`, data[lang].pauses, 'pause1');
         checkAndSet(`pausa2_${lang}.txt`, data[lang].pauses, 'pause2');
