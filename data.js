@@ -823,7 +823,7 @@ window.translations = {
       {
         "id": "indoor",
         "title": "Espacio de arte interior",
-        "visible": true,
+        "visible": false,
         "order": "2"
       }
     ],
@@ -1689,7 +1689,7 @@ window.translations = {
       {
         "id": "indoor",
         "title": "Espai d'art interior",
-        "visible": true,
+        "visible": false,
         "order": "2"
       }
     ],
@@ -2555,7 +2555,7 @@ window.translations = {
       {
         "id": "indoor",
         "title": "Indoor Art Space",
-        "visible": true,
+        "visible": false,
         "order": "2"
       }
     ],
