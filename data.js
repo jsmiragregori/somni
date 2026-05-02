@@ -512,7 +512,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervención en la ciudad",
-        "description": "Bienvenidas y bienvenidos al museo al aire libre más grande de nuestra ciudad. En este paseo de Poniente, he querido que el mar y la arquitectura se encuentren. A través de ángulos que desafían la gravedad, te ofrezco una mirada diferente sobre nuestros gigantes: el Gran Hotel Bali y el Edificio Intempo. Son imágenes que capturan la mística vertical de Benidorm y que viajaron hasta Nueva York para demostrar que nuestra ciudad es puro arte urbano. Alza la mirada y disfruta del vértigo y la moda. ¿Quieres ver más y conocer más detalles de las sesiones? Visita el Espacio de Arte Interior de La Casilla para completar tu experiencia.\"",
+        "description": "Bienvenidas y bienvenidos al museo al aire libre más grande de nuestra ciudad. En este paseo de Poniente, he querido que el mar y la arquitectura se encuentren. A través de ángulos que desafían la gravedad, te ofrezco una mirada diferente sobre nuestros gigantes: el Gran Hotel Bali y el Edificio Intempo. Son imágenes que capturan la mística vertical de Benidorm y que viajaron hasta Nueva York para demostrar que nuestra ciudad es puro arte urbano. Alza la mirada y disfruta del vértigo y la moda. Cuando acabes, podrías visitar el Espacio de Arte Urbano Els Tolls para completar tu experiencia descubriendo los edificios más altos de la ciudad.",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -886,7 +886,7 @@ window.translations = {
     },
     "manifesto": {
       "title": "L'exposició",
-      "text": "Sóc Maria José Lozano. Per a mi, Benidorm no és només una ciutat de gratacels; és ma casa i el lloc on he après a mirar el cel amb fascinació. Soc docent i una ment inquieta, i la fotografia és el meu llenguatge per a celebrar la vida. El que va començar com una passió m'ha portat a guanyar un Premi Sony World Photography i a veure les meues imatges en revistes de Nova York, però la meua major il·lusió és compartir avui aquesta mirada amb tu. Et convide a buscar els codis QR que trobaràs en el cantó de cada mupi; si els escaneges amb el mòbil, t'explicaré personalment el 'secret' i la història que s'amaga darrere de cada instantània. Deixa't portar per la curiositat i atreveix-te a somiar en vertical. Comencem?",
+      "text": "Soc Maria José Lozano. Per a mi, Benidorm no és només una ciutat de gratacels; és ma casa i el lloc on he après a mirar el cel amb fascinació. Soc docent i una ment inquieta, i la fotografia és el meu llenguatge per a celebrar la vida. El que va començar com una passió m'ha portat a guanyar un Premi Sony World Photography i a veure les meues imatges en revistes de Nova York, però la meua major il·lusió és compartir avui aquesta mirada amb tu. Et convide a buscar els codis QR que trobaràs en el cantó de cada mupi; si els escaneges amb el mòbil, t'explicaré personalment el 'secret' i la història que s'amaga darrere de cada instantània. Deixa't portar per la curiositat i atreveix-te a somiar en vertical. Comencem?",
       "label": "Introducció"
     },
     "pauses": {
@@ -1377,7 +1377,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Benvingudes i benvinguts al museu a l'aire lliure més gran de la nostra ciutat. En aquest passeig de Ponent, he volgut que la mar i l'arquitectura es troben. A través d'angles que desafien la gravetat, t’ofereixo una mirada diferent sobre els nostres gegants, el Gran Hotel Bali i l’Edifici Intempo. Són imatges que capturen la mística vertical de Benidorm i que van viatjar fins a Nova York per demostrar que la nostra ciutat és pur art urbà. Alça la mirada i gaudeix del vertigen i la moda. Vols veure més i conéixer més detalls de les sessions? En acabar podries visitar l’Espai d’Art Interior La Casilla per completar la teua experiència.",
+        "description": "Benvingudes i benvinguts al museu a l'aire lliure més gran de la nostra ciutat. En aquest passeig de Ponent, he volgut que la mar i l'arquitectura es troben. A través d'angles que desafien la gravetat, t’ofereixo una mirada diferent sobre els nostres gegants, el Gran Hotel Bali i l’Edifici Intempo. Són imatges que capturen la mística vertical de Benidorm i que van viatjar fins a Nova York per demostrar que la nostra ciutat és pur art urbà. Alça la mirada i gaudeix del vertigen i la moda. En acabar, podries visitar l’Espai d’Art Urbà Els Tolls per completar la teua experiencia descobrint els edificis més alts de la ciutat.",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -2243,7 +2243,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "City intervention",
-        "description": "Welcome to the largest open-air museum in our city. On this Ponent promenade, I wanted the sea and architecture to meet. Through angles that defy gravity, I offer you a different perspective on our giants: the Gran Hotel Bali and the Intempo Building. These images capture the vertical mystique of Benidorm and traveled all the way to New York to prove that our city is pure urban art. Look up and enjoy the vertigo and fashion. Want to see more and know more details about the sessions? Visit the La Casilla Indoor Art Space to complete your experience.",
+        "description": "Welcome to the largest open-air museum in our city. On this Ponent promenade, I wanted the sea and architecture to meet. Through angles that defy gravity, I offer you a different perspective on our giants: the Gran Hotel Bali and the Intempo Building. These images capture the vertical mystique of Benidorm and traveled all the way to New York to prove that our city is pure urban art. Look up and enjoy the vertigo and fashion. When you finish, you can go to the Els Tolls Urban Art Space and discover the highest buildings of the city.",
         "photos": [
           {
             "id": "urban-7-photo-1",
