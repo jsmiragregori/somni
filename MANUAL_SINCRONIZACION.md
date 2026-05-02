@@ -34,6 +34,21 @@ Para que el menú hamburguesa use un nombre corto, debes poner el archivo en la 
 2. Crea un archivo: `section_urban_menu_title_es.txt`.
 3. Escribe dentro el nombre corto: `Arte Urbano`.
 
+### Caso D: Usar HTML en los textos para dar formato
+En todos los archivos de texto que se inyectan en la web (como `bio_es.txt`, `manifesto_es.txt`, descripciones de salas `desc_es.txt`, o de fotos `desc_es.txt`) se pueden usar etiquetas HTML nativas:
+- **Negritas**: `<b>texto destacado</b>` o `<strong>texto destacado</strong>`
+- **Cursivas**: `<i>texto en cursiva</i>` o `<em>texto en cursiva</em>`
+- **Saltos de línea**: `<br>` o `<br><br>` para separar párrafos.
+
+### Caso E: Activar o desactivar los enlaces de Redes Sociales
+1. Ve al archivo `Contenidos_Somni / 00_Textos_Generales / socials_config.txt`.
+2. Para desactivar: pon `visible=false`.
+3. Para activar: pon `visible=true`.
+
+### Caso F: Editar la biografía de la autora
+1. Ve al archivo `Contenidos_Somni / 00_Textos_Generales / bio_es.txt`.
+2. Edita directamente el texto de la biografía. Puedes usar las etiquetas HTML explicadas arriba.
+
 ---
 
 ## 3. Jerarquía de Visibilidad (Cascada)
