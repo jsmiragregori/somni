@@ -36,7 +36,7 @@ window.translations = {
         "id": "urban-1",
         "title": "El Pontet",
         "subtitle": "Intervención en la ciudad",
-        "description": "Bienvenidas y bienvenidos al corazón de Benidorm. Aquí, en el Castell, la piedra blanca y el azul infinito se abrazan en un silencio lleno de tradición. Os esperamos con cuatro grandes horizontes donde el mar se fusiona con el estilo más puro e íntimo. Sentid la brisa y dejad que estas miradas os cuenten nuestra historia. Al terminar, podéis bajar hacia la frescura auténtica de El Campo o dejaros deslumbrar por la luz del Espacio de Arte de la Hispanidad.",
+        "description": "Bienvenidas y bienvenidos al corazón de Benidorm. Aquí, en el Castell, la piedra blanca y el azul infinito se abrazan en un silencio lleno de tradición. Os esperamos con cuatro grandes horizontes donde el mar se fusiona con el estilo más puro e íntimo. Sentid la brisa y dejad que estas miradas os cuenten nuestra historia. Al terminar, podéis bajar hacia la frescura auténtica de El Campo o dejaros deslumbrar por la luz del Espacio de Arte Urbano la Hispanidad.",
         "photos": [
           {
             "id": "urban-1-photo-1",
@@ -81,13 +81,14 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 10
+        "order": 10,
+        "audioUrl": "./audio/urban-1_desc_es.mp3"
       },
       {
         "id": "urban-2",
         "title": "Hispanitat",
         "subtitle": "Intervención en la ciudad",
-        "description": "En este punto descubriremos la magia nocturna: desde las luces circulares hasta la silueta del Hotel Madeira. Fijaos dónde está tomada cada foto, que os encontráis muy cerca. Y cuando acabéis, continúa el paseo hacia el Espacio de Arte El Pont; la moda te espera justo encima de tu cabeza. La noche comienza!",
+        "description": "Preparaos para sentir la vibración de la ciudad bajo las estrellas. En este punto descubriremos la magia nocturna: desde las luces circulares hasta la silueta del Hotel Madeira. Fijaos dónde está tomada cada foto, estás exactamente donde nació cada imagen. Y cuando acabes, continúa el paseo hacia el Espacio de Arte Urbano El Pont; la moda te espera justo encima de tu cabeza. La noche comienza!",
         "photos": [
           {
             "id": "urban-2-photo-1",
@@ -122,7 +123,8 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 20
+        "order": 20,
+        "audioUrl": "./audio/urban-2_desc_es.mp3"
       },
       {
         "id": "urban-3",
@@ -357,13 +359,14 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 50
+        "order": 50,
+        "audioUrl": "./audio/urban-5_desc_es.mp3"
       },
       {
         "id": "urban-6",
         "title": "Els Tolls",
         "subtitle": "Intervención en la ciudad",
-        "description": "En el Espacio de Arte Urbano Els Tolls te espera un diálogo visual entre las líneas modernas de nuestras torres y la moda más vanguardista. La mayoría de las fotografías pertenecen a la editorial ‘Benidorm Vertical’, una sesión realizada en diciembre de 2019 que fue publicada por diversas revistas, entre ellas una de Nueva York. Aquí podrás observar los edificios de la zona de Levante. Si quieres seguir con la parte de Poniente, te esperan El Campo y Poniente para terminar de explorar.",
+        "description": "En el Espacio de Arte Urbano Els Tolls te espera un diálogo visual entre las líneas modernas de nuestras torres y la moda más vanguardista. La mayoría de las fotografías pertenecen a la editorial ‘Benidorm Vertical’, una sesión realizada en diciembre de 2019 que fue publicada por diversas revistas, entre ellas una de Nueva York. Aquí podrás observar los edificios de la zona de Levante. Si quieres seguir con la parte de Poniente, te esperan los Espacios de Arte Urbanos de El Campo y de Ponent para terminar de explorar.",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -508,7 +511,8 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 60
+        "order": 60,
+        "audioUrl": "./audio/urban-6_desc_es.mp3"
       },
       {
         "id": "urban-7",
@@ -679,7 +683,8 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 70
+        "order": 70,
+        "audioUrl": "./audio/urban-7_desc_es.mp3"
       },
       {
         "id": "indoor-1",
@@ -894,7 +899,7 @@ window.translations = {
         "id": "urban-1",
         "title": "El Pontet",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Benvingudes i benvinguts al cor de Benidorm. Ací, al Castell, la pedra blanca i el blau infinit s’abracen en un silenci ple de tradició. Vos esperem amb quatre grans horitzons on la mar es fusiona amb l'estil més pur i íntim. Sentiu la brisa i deixeu que aquestes mirades us conten la nostra història. En acabar, podeu baixar cap a la frescor autèntica d’El Campo o deixar-vos enlluernar per la llum de l'Espai d'Art de la Hispanitat.",
+        "description": "Benvingudes i benvinguts al cor de Benidorm. Ací, al Castell, la pedra blanca i el blau infinit s’abracen en un silenci ple de tradició. Vos esperem amb quatre grans horitzons on la mar es fusiona amb l'estil més pur i íntim. Sentiu la brisa i deixeu que aquestes mirades us conten la nostra història. En acabar, podeu baixar cap a la frescor autèntica d’El Campo o deixar-vos enlluernar per la llum de l'Espai d'Art Urbà la Hispanitat.",
         "photos": [
           {
             "id": "urban-1-photo-1",
@@ -939,13 +944,14 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 10
+        "order": 10,
+        "audioUrl": "./audio/urban-1_desc_ca.mp3"
       },
       {
         "id": "urban-2",
         "title": "Hispanitat",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Prepareu-vos per a sentir la vibració de la ciutat sota els estels. En aquest punt, la màgia nocturna pren el control: des del ball de llums circulars fins a l'elegant silueta de l'Hotel Madeira retallant el cel. Observeu al vostre voltant; sou exactament on va nàixer cada imatge. I en acabar, seguiu el camí cap a l'Espai d'Art El Pont... alceu la mirada, perquè la moda vos espera suspesa just sobre els vostres caps. La nit tot just comença!",
+        "description": "Prepareu-vos per a sentir la vibració de la ciutat sota els estels. En aquest punt, la màgia nocturna pren el control: des del ball de llums circulars fins a l'elegant silueta de l'Hotel Madeira retallant el cel. Observeu al vostre voltant; sou exactament on va nàixer cada imatge. I en acabar, seguiu el camí cap a l'Espai d'Art Urbà El Pont; alceu la mirada, perquè la moda vos espera suspesa just sobre els vostres caps. La nit tot just comença!",
         "photos": [
           {
             "id": "urban-2-photo-1",
@@ -1216,13 +1222,14 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 50
+        "order": 50,
+        "audioUrl": "./audio/urban-5_desc_ca.mp3"
       },
       {
         "id": "urban-6",
         "title": "Els Tolls",
         "subtitle": "Intervenció a la ciutat",
-        "description": "En l’Espai d’Art Urbà Els Tolls t'espera un diàleg visual entre les línies modernes de les nostres torres i la moda més avantguardista. La majoria de les fotografies són de l’editorial ‘Benidorm Vertical’, sessió realitzada el desembre de 2019 i que va ser publicada per revistes, entre elles una de Nova York. Ací podràs observar els edificis de la part de Llevant. Si vols seguir amb la part de Ponent, t’esperen El Campo i Ponent per acabar d’explorar.",
+        "description": "En l’Espai d’Art Urbà Els Tolls t'espera un diàleg visual entre les línies modernes de les nostres torres i la moda més avantguardista. La majoria de les fotografies són de l’editorial ‘Benidorm Vertical’, sessió realitzada el desembre de 2019 i que va ser publicada per revistes, entre elles una de Nova York. Ací podràs observar els edificis de la part de Llevant. Si vols seguir amb la part de Ponent, t’esperen els Espais d'Art Urbans del Campo i de Ponent per acabar d’explorar.",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -1367,13 +1374,14 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 60
+        "order": 60,
+        "audioUrl": "./audio/urban-6_desc_ca.mp3"
       },
       {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Benvingudes i benvinguts al museu a l'aire lliure més gran de la nostra ciutat, l'Espai d'Art Urbà Ponent. En aquest passeig de Ponent, he volgut que la mar i l'arquitectura es troben. A través d'angles que desafien la gravetat, t’ofereixo una mirada diferent sobre els nostres gegants, el Gran Hotel Bali i l’Edifici Intempo. Són imatges que capturen la mística vertical de Benidorm i que van viatjar fins a Nova York per demostrar que la nostra ciutat és pur art urbà. Alça la mirada i gaudeix del vertigen i la moda. En acabar, podries visitar l’Espai d’Art Urbà Els Tolls per completar la teua experiencia descobrint els edificis més alts de la ciutat.",
+        "description": "Benvingudes i benvinguts al museu a l'aire lliure més gran de la nostra ciutat, l'Espai d'Art Urbà Ponent. En aquest passeig de Ponent, he volgut que la mar i l'arquitectura es troben. A través d'angles que desafien la gravetat, t’oferisc una mirada diferent sobre els nostres gegants, el Gran Hotel Bali i l’Edifici Intempo. Són imatges que capturen la mística vertical de Benidorm i que van viatjar fins a Nova York per demostrar que la nostra ciutat és pur art urbà. Alça la mirada i gaudeix del vertigen i la moda. En acabar, podries visitar l’Espai d’Art Urbà Els Tolls per completar la teua experiencia descobrint els edificis més alts de la ciutat.",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -1538,7 +1546,8 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 70
+        "order": 70,
+        "audioUrl": "./audio/urban-7_desc_ca.mp3"
       },
       {
         "id": "indoor-1",
@@ -1754,7 +1763,7 @@ window.translations = {
         "id": "urban-1",
         "title": "El Pontet",
         "subtitle": "City intervention",
-        "description": "Welcome to the heart of Benidorm. Here, at the Castell, white stone and infinite blue embrace in a silence steeped in tradition. We await you all with four vast horizons where the sea merges with the purest and most intimate style. Feel the breeze and let these perspectives tell you our story. When you are finished, you can walk down to the authentic freshness of El Campo or let yourselves be dazzled by the light of the Art Space of Hispanitat.",
+        "description": "Welcome to the heart of Benidorm. Here, at the Castell, white stone and infinite blue embrace in a silence steeped in tradition. We await you all with four vast horizons where the sea merges with the purest and most intimate style. Feel the breeze and let these perspectives tell you our story. When you are finished, you can walk down to the authentic freshness of El Campo or let yourselves be dazzled by the light of the Art Urban Space of Hispanitat.",
         "photos": [
           {
             "id": "urban-1-photo-1",
@@ -1806,7 +1815,7 @@ window.translations = {
         "id": "urban-2",
         "title": "Hispanitat",
         "subtitle": "City intervention",
-        "description": "At this point, we discover the magic of the night: from the circular lights to the silhouette of the Madeira Hotel. Notice where each photo was taken, as you are standing very close by. And when you finished, continue your walk towards the Art Space El Pont; fashion awaits you right above your head. The night begins!",
+        "description": "At this point, we discover the magic of the night: from the circular lights to the silhouette of the Madeira Hotel. Notice where each photo was taken, as you are standing very close by. And when you finished, continue your walk towards the Urban Art Space El Pont; fashion awaits you right above your head. The night begins!",
         "photos": [
           {
             "id": "urban-2-photo-1",
@@ -2084,7 +2093,7 @@ window.translations = {
         "id": "urban-6",
         "title": "Els Tolls",
         "subtitle": "City intervention",
-        "description": "At the Els Tolls Urban Art Space, a visual dialogue awaits you between the modern lines of our towers and the most avant-garde fashion. Most of the photographs are from the ‘Benidorm Vertical’ editorial, a shoot captured in December 2019 that was featured in several magazines, including one in New York. Here, you can observe the buildings of the Llevant area. If you wish to continue with the Ponent section, El Campo and Ponent await you to complete your exploration.",
+        "description": "At the Els Tolls Urban Art Space, a visual dialogue awaits you between the modern lines of our towers and the most avant-garde fashion. Most of the photographs are from the ‘Benidorm Vertical’ editorial, a shoot captured in December 2019 that was featured in several magazines, including one in New York. Here, you can observe the buildings of the Llevant area. If you wish to continue with the Ponent section, the Urban Art Spaces El Campo and Ponent await you to complete your exploration.",
         "photos": [
           {
             "id": "urban-6-photo-1",
