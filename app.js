@@ -153,13 +153,13 @@ function renderApp() {
                 <div class="mb-16 fade-in">
                     <span class="font-mono ${getDynamicText('label')} uppercase text-accent mb-4 block">${sectionLabel}</span>
                     <h2 class="font-display text-5xl lg:text-8xl py-1 uppercase mb-6 tracking-tight">${room.title}</h2>
-                    <p class="w-full ${getDynamicText('lead')} text-white/80 font-light leading-relaxed mb-6">${room.description}</p>
                     ${room.audioUrl ? `
-                    <button data-action="play-external-audio" data-id="${room.id}" data-audio-url="${room.audioUrl}" class="bg-black/60 rounded-full px-4 py-2 border border-white/20 inline-flex items-center gap-3 hover:bg-white/10 transition-colors">
+                    <button data-action="play-external-audio" data-id="${room.id}" data-audio-url="${room.audioUrl}" class="bg-black/60 rounded-full px-4 py-2 border border-white/20 inline-flex items-center gap-3 hover:bg-white/10 transition-colors mb-6">
                         <i data-feather="${playingExternalId === room.id ? 'pause' : 'play'}" class="w-4 h-4 text-white fill-white stroke-white"></i>
                         <span class="text-white text-xs font-mono tracking-widest uppercase">${t.nav.audioguia}</span>
                     </button>
                     ` : ''}
+                    <p class="w-full ${getDynamicText('lead')} text-white/80 font-light leading-relaxed mb-6">${room.description}</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 grid-flow-row-dense fade-in">
                     ${photosHtml}
@@ -282,13 +282,13 @@ function renderApp() {
                         <h2 class="font-display text-4xl lg:text-5xl uppercase tracking-tight text-white">${t.manifesto.title}</h2>
                     </div>
                     <div class="lg:w-3/4 fade-in">
-                        <p class="${getDynamicText('manifesto')} font-light leading-relaxed text-white/80 mb-6">${t.manifesto.text}</p>
                         ${t.manifesto.audioUrl ? `
-                        <button data-action="play-external-audio" data-id="manifesto" data-audio-url="${t.manifesto.audioUrl}" class="bg-black/60 rounded-full px-4 py-2 border border-white/20 inline-flex items-center gap-3 hover:bg-white/10 transition-colors">
+                        <button data-action="play-external-audio" data-id="manifesto" data-audio-url="${t.manifesto.audioUrl}" class="bg-black/60 rounded-full px-4 py-2 border border-white/20 inline-flex items-center gap-3 hover:bg-white/10 transition-colors mb-6">
                             <i data-feather="${playingExternalId === 'manifesto' ? 'pause' : 'play'}" class="w-4 h-4 text-white fill-white stroke-white"></i>
                             <span class="text-white text-xs font-mono tracking-widest uppercase">${t.nav.audioguia}</span>
                         </button>
                         ` : ''}
+                        <p class="${getDynamicText('manifesto')} font-light leading-relaxed text-white/80 mb-6">${t.manifesto.text}</p>
                     </div>
                 </div>
             </section>`;
@@ -303,13 +303,13 @@ function renderApp() {
                     <div class="w-full md:w-1/2 fade-in">
                         <span class="font-mono ${getDynamicText('label')} text-accent uppercase tracking-widest mb-4 block">${t.author.title}</span>
                         <h2 class="font-display text-5xl lg:text-7xl uppercase mb-8 text-bg">${t.author.name}</h2>
-                        <p class="${getDynamicText('lead')} font-light leading-relaxed text-bg/70 mb-6">${t.author.bio}</p>
                         ${t.author.audioUrl ? `
-                        <button data-action="play-external-audio" data-id="author" data-audio-url="${t.author.audioUrl}" class="bg-black/10 rounded-full px-4 py-2 border border-black/20 inline-flex items-center gap-3 hover:bg-black/20 transition-colors">
+                        <button data-action="play-external-audio" data-id="author" data-audio-url="${t.author.audioUrl}" class="bg-black/10 rounded-full px-4 py-2 border border-black/20 inline-flex items-center gap-3 hover:bg-black/20 transition-colors mb-6">
                             <i data-feather="${playingExternalId === 'author' ? 'pause' : 'play'}" class="w-4 h-4 text-bg fill-bg stroke-bg"></i>
                             <span class="text-bg text-xs font-mono tracking-widest uppercase">${t.nav.audioguia}</span>
                         </button>
                         ` : ''}
+                        <p class="${getDynamicText('lead')} font-light leading-relaxed text-bg/70 mb-6">${t.author.bio}</p>
                     </div>
                 </div>
             </section>`;
