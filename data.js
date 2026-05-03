@@ -128,7 +128,7 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "Intervención en la ciudad",
-        "description": "En el Espacio de Arte El Pont, verás cómo transformamos la calle Emilio Ortuño en el silencio de 2020. Fue con la editorial ‘Benidorm Horizontal’ cuando recorrimos muchas localizaciones con diferentes outfits. Aquí puedes ver dos diferentes. Cuando acabes, sigue hacia Carrascos para más geometría, o vuelve a la Hispanidad para disfrutar de las luces de la noche.",
+        "description": "En el Espacio de Arte Urbano El Pont, verás cómo transformamos la calle Emilio Ortuño en el silencio de 2020. Fue con la editorial ‘Benidorm Horizontal’ cuando recorrimos muchas localizaciones con outfits variados. Aquí puedes ver dos diferentes. Cuando acabes, sigue hacia El Carrasco para más geometría, o vuelve a la Hispanidad para disfrutar de las luces de la noche.",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -155,7 +155,7 @@ window.translations = {
             "url": "./img/urban-3_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Calle Emilio Ortuño, frente al hotel Bristol. La última foto hecha arriba del Puente. Sin el ruido habitual de los coches en esa calle, pudimos centrar toda la atención en el detalle y la elegancia, transformando una calle tan transitada en un auténtico escenario de moda.",
+            "description": "Calle Emilio Ortuño, frente al Hotel Bristol. La última foto hecha arriba del Puente. Sin el ruido habitual de los coches en esa calle, pudimos centrar toda la atención en el detalle y la elegancia, transformando una calle tan transitada en un auténtico escenario de moda.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-3_photo_3_es.mp3"
@@ -165,7 +165,7 @@ window.translations = {
             "url": "./img/urban-3_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "Calle del Pont, editorial ‘Benidorm Horizontal’. En esta imagen, si miramos al fondo detrás de la pareja, divisamos el Puente y el hotel Bristol. Para conseguir este 'look', tuvimos que correr al hotel a cambiarnos y volver en un momento; una coreografía de moda sobre un asfalto que aún estaba medio dormido.",
+            "description": "Calle del Pont, editorial ‘Benidorm Horizontal’. En esta imagen, si miramos al fondo detrás de la pareja, divisamos el Puente y el Hotel Bristol. Para conseguir este 'look', tuvimos que correr al hotel a cambiarnos y volver en un momento; una coreografía de moda sobre un asfalto que aún estaba medio dormido.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-3_photo_4_es.mp3"
@@ -183,13 +183,14 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 30
+        "order": 30,
+        "audioUrl": "./audio/urban-3_desc_es.mp3"
       },
       {
         "id": "urban-4",
         "title": "El Campo",
         "subtitle": "Intervención en la ciudad",
-        "description": "En el Espacio de Arte El Campo disfrutaréis de la fuerza del color donde el Benidorm de toda la vida se viste de gala. Aquí os propongo un juego: buscad las localizaciones desde cada punto donde os encontráis en cada momento. Y, al terminar, preparaos para la gran final: próxima estación, el Espacio de Arte Urbano de Poniente.",
+        "description": "En el Espacio de Arte Urbano El Campo disfrutaréis de la fuerza del color donde el Benidorm de toda la vida se viste de gala. Aquí os propongo un juego: buscad las localizaciones desde cada punto donde os encontráis en cada momento. Y, al terminar, preparaos para la gran final: próxima estación, el Espacio de Arte Urbano de Poniente.",
         "photos": [
           {
             "id": "urban-4-photo-1",
@@ -244,7 +245,8 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 40
+        "order": 40,
+        "audioUrl": "./audio/urban-4_desc_es.mp3"
       },
       {
         "id": "urban-5",
@@ -995,7 +997,7 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "Intervenció a la ciutat",
-        "description": "En l'Espai d'Art El Pont, veuràs com vam transformar el carrer Emilio Ortuño en el silenci de 2020. Va ser amb l’editorial ‘Benidorm Horitzontal’ amb la que vam  recórrer moltes localitzacions amb diferents outfits. Ací pots veure dos de diferents. Quan acabes, segueix cap a Carrascos per a més geometria, o torna a la Hispanitat per gaudir els llums de la nit.",
+        "description": "En l'Espai d'Art Urbà El Pont, veuràs com vam transformar el carrer Emilio Ortuño en el silenci de 2020. Va ser amb l’editorial ‘Benidorm Horitzontal’ amb la que vam  recórrer moltes localitzacions amb outfits variats. Ací pots veure dos de diferents. Quan acabes, segueix cap al Carrasco per a més geometria, o torna a la Hispanitat per gaudir els llums de la nit.",
         "photos": [
           {
             "id": "urban-3-photo-1",
@@ -1022,7 +1024,7 @@ window.translations = {
             "url": "./img/urban-3_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Carrer Emilio Ortuño, davant l'hotel Bristol. L’última foto feta dalt del Pont. Sense el soroll habitual dels cotxes a eixe carrer, vam poder centrar tota l'atenció en el detall i l'elegància, transformant un carrer tan transitat en un autèntic escenari de moda.",
+            "description": "Carrer Emilio Ortuño, davant l'Hotel Bristol. L’última foto feta dalt del Pont. Sense el soroll habitual dels cotxes a eixe carrer, vam poder centrar tota l'atenció en el detall i l'elegància, transformant un carrer tan transitat en un autèntic escenari de moda.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-3_photo_3_ca.mp3"
@@ -1032,7 +1034,7 @@ window.translations = {
             "url": "./img/urban-3_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "Carrer del Pont, editorial ‘Benidorm Horitzontal’. En esta imatge, si mirem al fons darrere de la parella, divisem el Pont i l'hotel Bristol. Per a aconseguir este 'look', vam haver de córrer a l'hotel a canviar-nos i tornar en un moment; una coreografia de moda sobre un asfalt que encara estava mig adormit.",
+            "description": "Carrer del Pont, editorial ‘Benidorm Horitzontal’. En esta imatge, si mirem al fons darrere de la parella, divisem el Pont i l'Hotel Bristol. Per a aconseguir este 'look', vam haver de córrer a l'hotel a canviar-nos i tornar en un moment; una coreografia de moda sobre un asfalt que encara estava mig adormit.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-3_photo_4_ca.mp3"
@@ -1050,13 +1052,14 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 30
+        "order": 30,
+        "audioUrl": "./audio/urban-3_desc_ca.mp3"
       },
       {
         "id": "urban-4",
         "title": "El Campo",
         "subtitle": "Intervenció a la ciutat",
-        "description": "En l’Espai d’Art El Campo gaudireu de la força del color on el Benidorm de tota la vida es vist de gala. Vos propose un joc: busqueu les localitzacions de les fotos des del mateix punt on vos trobeu en cada moment. I, en acabar, prepareu-vos per a la gran final: pròxima estació, l'Espai d'Art Urbà de Ponent.",
+        "description": "En l’Espai d’Art Urbà El Campo gaudireu de la força del color on el Benidorm de tota la vida es vist de gala. Vos propose un joc: busqueu les localitzacions de les fotos des del mateix punt on vos trobeu en cada moment. I, en acabar, prepareu-vos per a la gran final: pròxima estació, l'Espai d'Art Urbà de Ponent.",
         "photos": [
           {
             "id": "urban-4-photo-1",
@@ -1111,7 +1114,8 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 40
+        "order": 40,
+        "audioUrl": "./audio/urban-4_desc_ca.mp3"
       },
       {
         "id": "urban-5",
@@ -1861,7 +1865,7 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "City intervention",
-        "description": "At the El Pont Urban Art Space, you will see how we transformed Emilio Ortuño Street amidst the silence of 2020. It was for the 'Benidorm Horizontal' editorial that we explored numerous locations with various outfits; you can see two of them here. When you’re finished, continue towards Carrascos for more geometry, or head back to Hispanitat to enjoy the lights of the night.",
+        "description": "At the El Pont Urban Art Space, you will see how we transformed Emilio Ortuño Street amidst the silence of 2020. It was for the 'Benidorm Horizontal' editorial that we explored numerous locations with various outfits; you can see two of them here. When you’re finished, continue towards El Carrasco for more geometry, or head back to Hispanitat to enjoy the lights of the night.",
         "photos": [
           {
             "id": "urban-3-photo-1",
