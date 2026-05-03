@@ -116,8 +116,27 @@ galleryFolders.forEach(galleryFolder => {
     console.log(`\nProcesando galería: ${roomId} ...`);
     const roomConfig = parseKeyValue(path.join(galleryPath, 'room_config.txt'));
 
-    const photoFolders = fs.readdirSync(galleryPath).filter(f => fs.statSync(path.join(galleryPath, f)).isDirectory());
-    photoFolders.sort();
+    let photoFolders = fs.readdirSync(galleryPath).filter(f => fs.statSync(path.join(galleryPath, f)).isDirectory());
+    
+    // Read config for each photo to support custom order and visibility
+    const photoConfigs = {};
+    photoFolders = photoFolders.filter(f => {
+        const pPath = path.join(galleryPath, f);
+        let config = parseKeyValue(path.join(pPath, 'photo_config.txt'));
+        if (Object.keys(config).length === 0) {
+            config = parseKeyValue(path.join(pPath, 'room_config.txt'));
+        }
+        if (config.visible === 'false') return false;
+        photoConfigs[f] = config;
+        return true;
+    });
+
+    photoFolders.sort((a, b) => {
+        const orderA = photoConfigs[a].order !== undefined ? parseInt(photoConfigs[a].order, 10) : 999;
+        const orderB = photoConfigs[b].order !== undefined ? parseInt(photoConfigs[b].order, 10) : 999;
+        if (orderA !== orderB) return orderA - orderB;
+        return a.localeCompare(b);
+    });
 
     const newPhotos = { 'es': [], 'ca': [], 'en': [] };
 
@@ -142,7 +161,7 @@ galleryFolders.forEach(galleryFolder => {
         }
 
         const getAudioUrl = (lang) => {
-            const audioFile = files.find(f => f.match(new RegExp(`audio_${lang}\\.(mp3|wav|ogg|m4a)$`, 'i')));
+            const audioFile = files.find(f => f.match(new RegExp(`^audio_${lang}\\.(mp3|wav|ogg|m4a)$`, 'i')));
             if (audioFile) {
                 const ext = path.extname(audioFile);
                 const newAudioName = `${roomId}_photo_${pIndex + 1}_${lang}${ext}`;
@@ -158,6 +177,12 @@ galleryFolders.forEach(galleryFolder => {
             return `Descripción pendiente... (${lang})`;
         };
 
+        const getTitle = (lang) => {
+            const txtFile = path.join(photoPath, `title_${lang}.txt`);
+            if (fs.existsSync(txtFile)) return fs.readFileSync(txtFile, 'utf8').trim();
+            return `Obra ${(pIndex+1).toString().padStart(2,'0')}`;
+        };
+
         const getYear = () => {
             const txtFile = path.join(photoPath, 'year.txt');
             if (fs.existsSync(txtFile)) return fs.readFileSync(txtFile, 'utf8').trim();
@@ -170,7 +195,7 @@ galleryFolders.forEach(galleryFolder => {
                 id: photoId,
                 url: imgUrl,
                 orientation: orientation,
-                title: `Obra ${(pIndex+1).toString().padStart(2,'0')}`,
+                title: getTitle(lang),
                 description: getDesc(lang),
                 year: getYear(),
                 isMasterpiece: isMaster,
