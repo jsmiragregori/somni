@@ -432,13 +432,13 @@ function renderApp() {
         ${lightboxState.isOpen ? (() => {
             const photo = lightboxState.photos[lightboxState.currentIndex];
             return `
-            <div class="fixed inset-0 z-[999] bg-black text-white" data-action="close-lightbox">
+            <div class="fixed inset-0 z-[999] bg-black text-white" data-action="toggle-lightbox-text">
                 
                 <!-- Image: fills entire screen -->
                 <img
                     src="${photo.url}"
                     alt="${photo.title}"
-                    class="absolute inset-0 w-full h-full object-contain pointer-events-none select-none"
+                    class="absolute inset-0 w-full h-full object-contain pointer-events-none select-none cursor-pointer"
                 >
 
                 <!-- Bottom gradient overlay with description -->
