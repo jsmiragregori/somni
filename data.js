@@ -104,7 +104,7 @@ window.translations = {
             "url": "./img/urban-2_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Calle Gambo, editorial Benidorm de noche. Si miras al fondo de la imagen, detrás de la modelo, verás el hotel Madeira. Es el mismo edificio que, si apartas la vista de la foto y miras a tu izquierda, domina la calle donde te encuentras ahora. Me encanta cómo su silueta vigila el ritmo de nuestros pasos.",
+            "description": "Calle Gambo, editorial Benidorm de noche. Si miras al fondo de la imagen, detrás de la modelo, verás el Hotel Madeira. Es el mismo edificio que, si apartas la vista de la foto y miras a tu izquierda, domina la calle donde te encuentras ahora. Me encanta cómo su silueta vigila el ritmo de nuestros pasos.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-2_photo_2_es.mp3"
@@ -114,7 +114,7 @@ window.translations = {
             "url": "./img/urban-2_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Planta 20 del hotel Madeira, editorial Benidorm Horizontal. Estamos casi en el mismo punto donde te encuentras ahora, pero veinte plantas más arriba para divisar esta vista panorámica de Benidorm. Un regalo visual para contemplar cómo el Sol se funde con nuestra ciudad.",
+            "description": "Planta 20 del Hotel Madeira, editorial Benidorm Horizontal. Estamos casi en el mismo punto donde te encuentras ahora, pero veinte plantas más arriba para divisar esta vista panorámica de Benidorm. Un regalo visual para contemplar cómo el Sol se funde con nuestra ciudad.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-2_photo_3_es.mp3"
@@ -128,14 +128,14 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "Intervención en la ciudad",
-        "description": "Aquí, verás cómo transformamos la calle Emilio Ortuño en el silencio de 2020. Fue con la editorial ‘Benidorm Horizontal’ cuando recorrimos muchas localizaciones con diferentes outfits. Aquí puedes ver dos diferentes. Cuando acabes, sigue hacia Carrascos para más geometría, o vuelve a la Hispanidad para disfrutar de las luces de la noche.",
+        "description": "En el Espacio de Arte El Pont, verás cómo transformamos la calle Emilio Ortuño en el silencio de 2020. Fue con la editorial ‘Benidorm Horizontal’ cuando recorrimos muchas localizaciones con diferentes outfits. Aquí puedes ver dos diferentes. Cuando acabes, sigue hacia Carrascos para más geometría, o vuelve a la Hispanidad para disfrutar de las luces de la noche.",
         "photos": [
           {
             "id": "urban-3-photo-1",
             "url": "./img/urban-3_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Calle Emilio Ortuño, noviembre de 2020, editorial ‘Benidorm Horizontal’. Esta imagen se tomó justo encima de tu cabeza, arriba del Puente. Era época post-pandemia y el silencio nos permitió capturar un Benidorm casi vacío, con el hotel Madeira vigilando una ciudad que, poco a poco, volvía a la vida.",
+            "description": "Calle Emilio Ortuño, noviembre de 2020, editorial ‘Benidorm Horizontal’. Esta imagen se tomó justo encima de tu cabeza, arriba del Puente. Era época post-pandemia y el silencio nos permitió capturar un Benidorm casi vacío, con el Hotel Madeira vigilando una ciudad que, poco a poco, volvía a la vida.",
             "year": "2020",
             "isMasterpiece": true,
             "audioUrl": "./audio/urban-3_photo_1_es.mp3"
@@ -887,7 +887,8 @@ window.translations = {
     "manifesto": {
       "title": "L'exposició",
       "text": "Soc Maria José Lozano. Per a mi, Benidorm no és només una ciutat de gratacels; és ma casa i el lloc on he après a mirar el cel amb fascinació. Soc docent i una ment inquieta, i la fotografia és el meu llenguatge per a celebrar la vida. El que va començar com una passió m'ha portat a guanyar un Premi Sony World Photography i a veure les meues imatges en revistes de Nova York, però la meua major il·lusió és compartir avui aquesta mirada amb tu. Et convide a buscar els codis QR que trobaràs en el cantó de cada mupi; si els escaneges amb el mòbil, t'explicaré personalment el 'secret' i la història que s'amaga darrere de cada instantània. Deixa't portar per la curiositat i atreveix-te a somiar en vertical. Comencem?",
-      "label": "Introducció"
+      "label": "Introducció",
+      "audioUrl": "./audio/manifesto_audio_ca.mp3"
     },
     "pauses": {
       "pause1": "Observa el buit, no com a absència, sinó com el llenç on passa la vida.",
@@ -969,7 +970,7 @@ window.translations = {
             "url": "./img/urban-2_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Carrer Gambo, editorial Benidorm de nit. Si mires al fons de la imatge, darrere de la model, veuràs l'hotel Madeira. És el mateix edifici que, si apartes la vista de la foto i mires a la teua esquerra, domina el carrer on et trobes ara. M'encanta com la seua silueta vigila el ritme dels nostres passos.",
+            "description": "Carrer Gambo, editorial Benidorm de nit. Si mires al fons de la imatge, darrere de la model, veuràs l'Hotel Madeira. És el mateix edifici que, si apartes la vista de la foto i mires a la teua esquerra, domina el carrer on et trobes ara. M'encanta com la seua silueta vigila el ritme dels nostres passos.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-2_photo_2_ca.mp3"
@@ -979,7 +980,7 @@ window.translations = {
             "url": "./img/urban-2_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Planta 20 de l'hotel Madeira, editorial Benidorm Horitzontal. Estem quasi al mateix punt on et trobes ara, però vint plantes més amunt per a divisar esta vista panoràmica de Benidorm. Un regal visual per a contemplar com el Sol es fon amb la nostra ciutat.",
+            "description": "Planta 20 de l'Hotel Madeira, editorial Benidorm Horitzontal. Estem quasi al mateix punt on et trobes ara, però vint plantes més amunt per a divisar esta vista panoràmica de Benidorm. Un regal visual per a contemplar com el Sol es fon amb la nostra ciutat.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-2_photo_3_ca.mp3"
@@ -987,20 +988,21 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 20
+        "order": 20,
+        "audioUrl": "./audio/urban-2_desc_ca.mp3"
       },
       {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Ací, veuràs com vam transformar el carrer Emilio Ortuño en el silenci de 2020. Va ser amb l’editorial ‘Benidorm Horitzontal’ amb la que vam  recórrer moltes localitzacions amb diferents outfits. Ací pots veure dos de diferents. Quan acabes, segueix cap a Carrascos per a més geometria, o torna a la Hispanitat per gaudir els llums de la nit.",
+        "description": "En l'Espai d'Art El Pont, veuràs com vam transformar el carrer Emilio Ortuño en el silenci de 2020. Va ser amb l’editorial ‘Benidorm Horitzontal’ amb la que vam  recórrer moltes localitzacions amb diferents outfits. Ací pots veure dos de diferents. Quan acabes, segueix cap a Carrascos per a més geometria, o torna a la Hispanitat per gaudir els llums de la nit.",
         "photos": [
           {
             "id": "urban-3-photo-1",
             "url": "./img/urban-3_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Carrer Emilio Ortuño, novembre de 2020, editorial ‘Benidorm Horitzontal’. Esta imatge es va prendre just dalt del teu cap, dalt del Pont. Era època post-pandèmia i el silenci ens va permetre capturar un Benidorm gairebé buit, amb l’hotel Madeira vigilant una ciutat que, a poc a poc, tornava a la vida.",
+            "description": "Carrer Emilio Ortuño, novembre de 2020, editorial ‘Benidorm Horitzontal’. Esta imatge es va prendre just dalt del teu cap, dalt del Pont. Era època post-pandèmia i el silenci ens va permetre capturar un Benidorm gairebé buit, amb l’Hotel Madeira vigilant una ciutat que, a poc a poc, tornava a la vida.",
             "year": "2020",
             "isMasterpiece": true,
             "audioUrl": "./audio/urban-3_photo_1_ca.mp3"
@@ -1859,7 +1861,7 @@ window.translations = {
         "id": "urban-3",
         "title": "El Pont",
         "subtitle": "City intervention",
-        "description": "Here, you will see how we transformed Emilio Ortuño Street amidst the silence of 2020. It was for the 'Benidorm Horizontal' editorial that we explored numerous locations with various outfits; you can see two of them here. When you’re finished, continue towards Carrascos for more geometry, or head back to Hispanitat to enjoy the lights of the night.",
+        "description": "At the El Pont Urban Art Space, you will see how we transformed Emilio Ortuño Street amidst the silence of 2020. It was for the 'Benidorm Horizontal' editorial that we explored numerous locations with various outfits; you can see two of them here. When you’re finished, continue towards Carrascos for more geometry, or head back to Hispanitat to enjoy the lights of the night.",
         "photos": [
           {
             "id": "urban-3-photo-1",

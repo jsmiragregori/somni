@@ -196,6 +196,17 @@ galleryFolders.forEach(galleryFolder => {
             if (fs.existsSync(menuTitleFile)) roomDef.menuTitle = fs.readFileSync(menuTitleFile, 'utf8').trim();
             else delete roomDef.menuTitle; // Limpiar si no existe
 
+            // ── NUEVO: Audio para descripción de la sala ──
+            const descAudioFile = fs.readdirSync(galleryPath).find(f => f.match(new RegExp(`^desc_audio_${lang}\\.(mp3|wav|ogg|m4a)$`, 'i')));
+            if (descAudioFile) {
+                const ext = path.extname(descAudioFile);
+                const newAudioName = `${roomId}_desc_${lang}${ext}`;
+                fs.copyFileSync(path.join(galleryPath, descAudioFile), path.join(AUDIO_DEST, newAudioName));
+                roomDef.audioUrl = `./audio/${newAudioName}`;
+            } else {
+                delete roomDef.audioUrl;
+            }
+
             const sectionId = roomId.split('-').slice(0, -1).join('-');
             roomDef.sectionId = sectionId;
             roomDef.visible = roomConfig.visible !== 'false';
@@ -234,6 +245,22 @@ if (fs.existsSync(generalTextsDir)) {
         checkAndSet(`pausa2_${lang}.txt`, data[lang].pauses, 'pause2');
         checkAndSet(`pausa_title_${lang}.txt`, data[lang].pauses, 'title');
         checkAndSet(`bio_${lang}.txt`, data[lang].author, 'bio');
+
+        const processGeneralAudio = (prefix, targetObj) => {
+            const files = fs.readdirSync(generalTextsDir);
+            const audioFile = files.find(f => f.match(new RegExp(`^${prefix}_audio_${lang}\\.(mp3|wav|ogg|m4a)$`, 'i')));
+            if (audioFile) {
+                const ext = path.extname(audioFile);
+                const newAudioName = `${prefix}_audio_${lang}${ext}`;
+                fs.copyFileSync(path.join(generalTextsDir, audioFile), path.join(AUDIO_DEST, newAudioName));
+                targetObj.audioUrl = `./audio/${newAudioName}`;
+            } else {
+                delete targetObj.audioUrl;
+            }
+        };
+
+        processGeneralAudio('manifesto', data[lang].manifesto);
+        processGeneralAudio('bio', data[lang].author);
 
         const privacyMdPath = path.join(generalTextsDir, `privacy_${lang}.md`);
         if (fs.existsSync(privacyMdPath)) {
