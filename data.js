@@ -252,7 +252,7 @@ window.translations = {
         "id": "urban-5",
         "title": "El Carrasco",
         "subtitle": "Intervención en la ciudad",
-        "description": "En el Espacio de Arte El Carrasco, la arquitectura y la moda se alían para sorprenderos. En este punto, donde el parc de l’Aigüera y el Ayuntamiento se tocan, la ciudad se vuelve geometría pura. Fijaos bien: en cada mupi tenéis un doble regalo; la fuerza de una imagen de cuerpo entero y la magia de un detalle que nos habla de cerca. Disfrutad de este diálogo visual y, al terminar, elegid vuestra próxima aventura: la modernidad de Els Tolls o la frescura de El Campo. ¡Vamos allá!",
+        "description": "En el Espacio de Arte Urbano El Carrasco, la arquitectura y la moda se alían para sorprenderos. En este punto, donde El parc de l’Aigüera y el Ayuntamiento se tocan, la ciudad se vuelve geometría pura. Fijaos bien: en cada mupi tenéis un doble regalo; la fuerza de una imagen de cuerpo entero y la magia de un detalle que nos habla de cerca. Disfrutad de este diálogo visual y, al terminar, elegid vuestra próxima aventura: la modernidad de Els Tolls o la frescura de El Campo. ¡Vamos allá!",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -349,7 +349,7 @@ window.translations = {
             "url": "./img/urban-5_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "Fijaos aquí en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta de los Carrascos.",
+            "description": "Fijaos aquí en la fuerza y la seguridad de esta imagen. Los complementos y el cabello al aire provocan dinamismo y movimiento. El Auditorio Julio Iglesias al fondo nos recuerda dónde estamos. Esta es la emoción que cierra nuestra subida por la cuesta del Carrasco.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_10_es.mp3"
@@ -363,7 +363,7 @@ window.translations = {
         "id": "urban-6",
         "title": "Els Tolls",
         "subtitle": "Intervención en la ciudad",
-        "description": "En el Espacio de Arte Els Tolls te espera un diálogo visual entre las líneas modernas de nuestras torres y la moda más vanguardista. La mayoría de las fotografías pertenecen a la editorial ‘Benidorm Vertical’, una sesión realizada en diciembre de 2019 que fue publicada por diversas revistas, entre ellas una de Nueva York. Aquí podrás observar los edificios de la zona de Levante. Si quieres seguir con la parte de Poniente, te esperan El Campo y Poniente para terminar de explorar.",
+        "description": "En el Espacio de Arte Urbano Els Tolls te espera un diálogo visual entre las líneas modernas de nuestras torres y la moda más vanguardista. La mayoría de las fotografías pertenecen a la editorial ‘Benidorm Vertical’, una sesión realizada en diciembre de 2019 que fue publicada por diversas revistas, entre ellas una de Nueva York. Aquí podrás observar los edificios de la zona de Levante. Si quieres seguir con la parte de Poniente, te esperan El Campo y Poniente para terminar de explorar.",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -514,7 +514,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervención en la ciudad",
-        "description": "Bienvenidas y bienvenidos al museo al aire libre más grande de nuestra ciudad, el Espacio de Arte Ponent. En este paseo de Poniente, he querido que el mar y la arquitectura se encuentren. A través de ángulos que desafían la gravedad, te ofrezco una mirada diferente sobre nuestros gigantes: el Gran Hotel Bali y el Edificio Intempo. Son imágenes que capturan la mística vertical de Benidorm y que viajaron hasta Nueva York para demostrar que nuestra ciudad es puro arte urbano. Alza la mirada y disfruta del vértigo y la moda. Cuando acabes, podrías visitar el Espacio de Arte Urbano Els Tolls para completar tu experiencia descubriendo los edificios más altos de la ciudad.",
+        "description": "Bienvenidas y bienvenidos al museo al aire libre más grande de nuestra ciudad, el Espacio de Arte Urbano Ponent. En este paseo de Poniente, he querido que el mar y la arquitectura se encuentren. A través de ángulos que desafían la gravedad, te ofrezco una mirada diferente sobre nuestros gigantes: el Gran Hotel Bali y el Edificio Intempo. Son imágenes que capturan la mística vertical de Benidorm y que viajaron hasta Nueva York para demostrar que nuestra ciudad es puro arte urbano. Alza la mirada y disfruta del vértigo y la moda. Cuando acabes, podrías visitar el Espacio de Arte Urbano Els Tolls para completar tu experiencia descubriendo los edificios más altos de la ciudad.",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -561,7 +561,7 @@ window.translations = {
             "url": "./img/urban-7_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Bienvenidos al interior de l'Edifici Intempo, octubre de 2021. Desde estos apartamentos tan altos, la ciudad desaparece y solo queda el azul, que atraviesa el cristal y lo inunda todo. ¿Te imaginas flotar así? Es el mismo horizonte infinito que tienes ahora frente a tí en Poniente.",
+            "description": "Bienvenidos al interior de l'Edifici Intempo, octubre de 2021. Desde estos apartamentos tan altos, la ciudad desaparece y solo queda el azul que atraviesa el cristal y lo inunda todo. ¿Te imaginas flotar así? Es el mismo horizonte infinito que tienes ahora frente a tí en Poniente.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_5_es.mp3"
@@ -611,7 +611,7 @@ window.translations = {
             "url": "./img/urban-7_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "Esta imagen nos transporta a abril de 2021, durante la exposición Galaxia Hung. Aunque aquí vemos las figuras con el fondo del Hotel Madeira, su explosión de color y fantasía ya formaba parte del paisaje urbano de nuestra ciudad.",
+            "description": "Esta imagen nos transporta a abril de 2021, durante la exposición \"Galaxia Hung\". Aunque aquí vemos las figuras con el fondo del Hotel Madeira, su explosión de color y fantasía ya formaba parte del paisaje urbano de nuestra ciudad.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_10_es.mp3"
@@ -631,7 +631,7 @@ window.translations = {
             "url": "./img/urban-7_photo_12.jpg",
             "orientation": "portrait",
             "title": "Obra 12",
-            "description": "Una nueva terraza del Edificio Intempo nos regala esta estampa de la modelo con el mar de fondo. La luz de octubre baña la escena, creando una atmósfera de serenidad absoluta.\"",
+            "description": "Una nueva terraza del Edificio Intempo nos regala esta estampa de la modelo con el mar de fondo. La luz de octubre baña la escena y crea una atmósfera de serenidad absoluta.\"",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_12_es.mp3"
@@ -1121,7 +1121,7 @@ window.translations = {
         "id": "urban-5",
         "title": "El Carrasco",
         "subtitle": "Intervenció a la ciutat",
-        "description": "En l’Espai d’Art El Carrasco, l’arquitectura i la moda s’alien per a sorprendre-vos. En aquest punt, on el parc de l’Aigüera i l'Ajuntament es toquen, la ciutat es torna geometria pura. Fixeu-vos bé: a cada mupi teniu un doble regal; la força d'una imatge de cos sencer i la màgia d'un detall que ens parla de prop. Gaudiu d'aquest diàleg visual i, en acabar, trieu la vostra pròxima aventura: la modernitat dels Tolls o la frescor del Campo. Comencem!",
+        "description": "En l’Espai d’Art Urbà El Carrasco, l’arquitectura i la moda s’alien per a sorprendre-vos. En aquest punt, on el Parc de l’Aigüera i l'Ajuntament es toquen, la ciutat es torna geometria pura. Fixeu-vos bé: a cada mupi teniu un doble regal; la força d'una imatge de cos sencer i la màgia d'un detall que ens parla de prop. Gaudiu d'aquest diàleg visual i, en acabar, trieu la vostra pròxima aventura: la modernitat dels Tolls o la frescor del Campo. Comencem!",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -1218,7 +1218,7 @@ window.translations = {
             "url": "./img/urban-5_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "Fixeu-vos ací en la força i la seguretat d'aquesta imatge. Els complements i els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera dels Carrascos.",
+            "description": "Fixeu-vos ací en la força i la seguretat d'aquesta imatge. Els complements i els cabells al vent defineixen dinamisme. L'Auditori Julio Iglesias al fons ens recorda on som. Aquesta és l'emoció que tanca la nostra pujada per la costera del Carrasco.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_10_ca.mp3"
@@ -1232,7 +1232,7 @@ window.translations = {
         "id": "urban-6",
         "title": "Els Tolls",
         "subtitle": "Intervenció a la ciutat",
-        "description": "En l’Espai d’Art Els Tolls t'espera un diàleg visual entre les línies modernes de les nostres torres i la moda més avantguardista. La majoria de les fotografies són de l’editorial ‘Benidorm Vertical’, sessió realitzada el desembre de 2019 i que va ser publicada per revistes, entre elles una de Nova York. Ací podràs observar els edificis de la part de Llevant. Si vols seguir amb la part de Ponent, t’esperen El Campo i Ponent per acabar d’explorar.",
+        "description": "En l’Espai d’Art Urbà Els Tolls t'espera un diàleg visual entre les línies modernes de les nostres torres i la moda més avantguardista. La majoria de les fotografies són de l’editorial ‘Benidorm Vertical’, sessió realitzada el desembre de 2019 i que va ser publicada per revistes, entre elles una de Nova York. Ací podràs observar els edificis de la part de Llevant. Si vols seguir amb la part de Ponent, t’esperen El Campo i Ponent per acabar d’explorar.",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -1269,7 +1269,7 @@ window.translations = {
             "url": "./img/urban-6_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "Seguim a l'Edifici Kronos. La verticalitat dels gratacels fa joc amb la destressa de la model per guardar l’equilibri amb uns talons tan alts damunt del banc. És la mimesi total entre moda i arquitectura.",
+            "description": "Seguim a l'Edifici Kronos. La verticalitat dels gratacels fa joc amb la destresa de la model per guardar l’equilibri amb uns talons tan alts damunt del banc. És la mimesi total entre moda i arquitectura.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_4_ca.mp3"
@@ -1383,7 +1383,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Benvingudes i benvinguts al museu a l'aire lliure més gran de la nostra ciutat, l'Espai d'Art Ponent. En aquest passeig de Ponent, he volgut que la mar i l'arquitectura es troben. A través d'angles que desafien la gravetat, t’ofereixo una mirada diferent sobre els nostres gegants, el Gran Hotel Bali i l’Edifici Intempo. Són imatges que capturen la mística vertical de Benidorm i que van viatjar fins a Nova York per demostrar que la nostra ciutat és pur art urbà. Alça la mirada i gaudeix del vertigen i la moda. En acabar, podries visitar l’Espai d’Art Urbà Els Tolls per completar la teua experiencia descobrint els edificis més alts de la ciutat.",
+        "description": "Benvingudes i benvinguts al museu a l'aire lliure més gran de la nostra ciutat, l'Espai d'Art Urbà Ponent. En aquest passeig de Ponent, he volgut que la mar i l'arquitectura es troben. A través d'angles que desafien la gravetat, t’ofereixo una mirada diferent sobre els nostres gegants, el Gran Hotel Bali i l’Edifici Intempo. Són imatges que capturen la mística vertical de Benidorm i que van viatjar fins a Nova York per demostrar que la nostra ciutat és pur art urbà. Alça la mirada i gaudeix del vertigen i la moda. En acabar, podries visitar l’Espai d’Art Urbà Els Tolls per completar la teua experiencia descobrint els edificis més alts de la ciutat.",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -1430,7 +1430,7 @@ window.translations = {
             "url": "./img/urban-7_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Benvinguts a l'interior de l'Edifici Intempo, octubre de 2021. Des d'aquests apartaments tant alts, la ciutat desapareix i només queda el blau, que travessa el vidre i ho inunda tot. T'imagines flotar així? És el mateix horitzó infinit que tens ara davant teu a Ponent.",
+            "description": "Benvinguts a l'interior de l'Edifici Intempo, octubre de 2021. Des d'aquests apartaments tant alts, la ciutat desapareix i només queda el blau que travessa el vidre i ho inunda tot. T'imagines flotar així? És el mateix horitzó infinit que tens ara davant teu a Ponent.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_5_ca.mp3"
@@ -1480,7 +1480,7 @@ window.translations = {
             "url": "./img/urban-7_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "Aquesta imatge ens transporta a l'abril de 2021, durant l'exposició Galaxia Hung. Encara que aquí veiem les figures amb el fons de l'Hotel Madeira, la seua explosió de color i fantasia ja formava part del paisatge urbà de la nostra ciutat.",
+            "description": "Aquesta imatge ens transporta a l'abril de 2021, durant l'exposició \"Galaxia Hung\". Encara que aquí veiem les figures amb el fons de l'Hotel Madeira, la seua explosió de color i fantasia ja formava part del paisatge urbà de la nostra ciutat.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_10_ca.mp3"
@@ -1500,7 +1500,7 @@ window.translations = {
             "url": "./img/urban-7_photo_12.jpg",
             "orientation": "portrait",
             "title": "Obra 12",
-            "description": "Una nova terrassa de l'Edifici Intempo ens regala aquesta estampa de la model amb la mar de fons. La llum d'octubre banya l'escena, creant una atmosfera de serenitat absoluta.",
+            "description": "Una nova terrassa de l'Edifici Intempo ens regala aquesta estampa de la model amb la mar de fons. La llum d'octubre banya l'escena i crea una atmosfera de serenitat absoluta.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_12_ca.mp3"
@@ -1987,7 +1987,7 @@ window.translations = {
         "id": "urban-5",
         "title": "El Carrasco",
         "subtitle": "City intervention",
-        "description": "At the El Carrasco Urban Art Space, architecture and fashion unite to surprise you. At this spot, where parc de l’Aigüera meets the Town Hall, the city turns into pure geometry. Take a close look: each display offers a double treat; the power of a full-body shot and the magic of a detail that speaks to you. Enjoy this visual dialogue and, when you’re done, choose your next adventure: the modernity of Els Tolls or the freshness of El Campo. Let’s go!",
+        "description": "At the El Carrasco Urban Art Space, architecture and fashion unite to surprise you. At this spot, where The parc de l’Aigüera meets the Town Hall, the city turns into pure geometry. Take a close look: each display offers a double treat; the power of a full-body shot and the magic of a detail that speaks to you. Enjoy this visual dialogue and, when you’re done, choose your next adventure: the modernity of Els Tolls or the freshness of El Campo. Let’s go!",
         "photos": [
           {
             "id": "urban-5-photo-1",
@@ -2084,7 +2084,7 @@ window.translations = {
             "url": "./img/urban-5_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "Notice here the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrascos slope.",
+            "description": "Notice here the strength and confidence in this image. The accessories and her wind-blown hair define dynamism. The Julio Iglesias Auditorium in the background reminds us exactly where we are. This is the emotion that closes our climb up the Carrasco slope.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_10_en.mp3"
@@ -2296,7 +2296,7 @@ window.translations = {
             "url": "./img/urban-7_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Welcome inside the Intempo Building, October 2021. From these high apartments, the city disappears, and only the blue remains, crossing the glass and flooding everything. Can you imagine floating like that? It is the same infinite horizon that you have right now in front of you at Ponent.",
+            "description": "Welcome inside the Intempo Building, October 2021. From these high apartments, the city disappears, and only the blue remains crossing the glass and flooding everything. Can you imagine floating like that? It is the same infinite horizon that you have right now in front of you at Ponent.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_5_en.mp3"
@@ -2346,7 +2346,7 @@ window.translations = {
             "url": "./img/urban-7_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "This image transports us back to April 2021, during the Galaxia Hung exhibition. Although here we see the figures against the backdrop of the Madeira Hotel, their explosion of color and fantasy was already part of our city's urban landscape.",
+            "description": "This image transports us back to April 2021, during the \"Galaxia Hung\" exhibition. Although here we see the figures against the backdrop of the Madeira Hotel, their explosion of color and fantasy was already part of our city's urban landscape.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_10_en.mp3"
@@ -2517,7 +2517,8 @@ window.translations = {
       "bio": "<b>Maria José Lozano Pérez (Benidorm, 1972), Computer Engineer and Senior Professor of Secondary Education, captures as a photographer the beauty in the geometry and verticality of her city.</b> Driven by her passion for photography and Benidorm’s skyscrapers, what began in 2019 has evolved into an artistic project with international reach, blending architecture, fashion, and Mediterranean essence.<br/>\r\nHer vision transforms the city into a cutting-edge stage. Her <b>work, defined by symmetry, light, and the search for the human figure</b>, has travelled from Benidorm to the pages of fashion magazines in New York and Paris.<br/>\r\nWinner of the <b>«Sony World Photography Awards» (2018)</b> and <b>honored with the «City of Benidorm Cultural Merit Distinction»</b>, she now returns to the streets so that residents and tourists can rediscover the city through her eyes: an encounter that celebrates urban evolution, perseverance, and her <i>Somni Vertical</i>.<br/>\r\n<i>\"My gratitude to my home town, which always makes me look up.\"</i>",
       "image": "./img/bio_image.jpg",
       "menu_title": "The Artist",
-      "menuTitle": "The Artist"
+      "menuTitle": "The Artist",
+      "audioUrl": "./audio/bio_audio_en.mp3"
     },
     "contact": {
       "label": "Contact",
