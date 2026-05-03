@@ -1759,7 +1759,8 @@ window.translations = {
     "manifesto": {
       "title": "The exposition",
       "text": "I am Maria José Lozano. To me, Benidorm is not just a city of skyscrapers; it is my home and the place where I learned to look at the sky with fascination. I am a teacher and a restless mind, and photography is my language to celebrate life. What began as a passion led me to win a Sony World Photography Award and to see my images in New York magazines, but my greatest joy is sharing this vision with you today. I invite you to look for the QR codes in the corner of each display; if you scan them with your phone, I will personally tell you the 'secret' and the story behind each snapshot. Let curiosity guide you and dare to dream vertically. Shall we begin?",
-      "label": "Introduction"
+      "label": "Introduction",
+      "audioUrl": "./audio/manifesto_audio_en.mp3"
     },
     "pauses": {
       "pause1": "Observe the void, not as absence, but as the canvas where life happens.",
@@ -2517,8 +2518,7 @@ window.translations = {
       "bio": "<b>Maria José Lozano Pérez (Benidorm, 1972), Computer Engineer and Senior Professor of Secondary Education, captures as a photographer the beauty in the geometry and verticality of her city.</b> Driven by her passion for photography and Benidorm’s skyscrapers, what began in 2019 has evolved into an artistic project with international reach, blending architecture, fashion, and Mediterranean essence.<br/>\r\nHer vision transforms the city into a cutting-edge stage. Her <b>work, defined by symmetry, light, and the search for the human figure</b>, has travelled from Benidorm to the pages of fashion magazines in New York and Paris.<br/>\r\nWinner of the <b>«Sony World Photography Awards» (2018)</b> and <b>honored with the «City of Benidorm Cultural Merit Distinction»</b>, she now returns to the streets so that residents and tourists can rediscover the city through her eyes: an encounter that celebrates urban evolution, perseverance, and her <i>Somni Vertical</i>.<br/>\r\n<i>\"My gratitude to my home town, which always makes me look up.\"</i>",
       "image": "./img/bio_image.jpg",
       "menu_title": "The Artist",
-      "menuTitle": "The Artist",
-      "audioUrl": "./audio/bio_audio_en.mp3"
+      "menuTitle": "The Artist"
     },
     "contact": {
       "label": "Contact",
