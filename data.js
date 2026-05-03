@@ -1774,7 +1774,7 @@ window.translations = {
         "id": "urban-1",
         "title": "El Pontet",
         "subtitle": "City intervention",
-        "description": "Welcome to the heart of Benidorm. Here, at the Castell, white stone and infinite blue embrace in a silence steeped in tradition. We await you all with four vast horizons where the sea merges with the purest and most intimate style. Feel the breeze and let these perspectives tell you our story. When you are finished, you can walk down to the authentic freshness of El Campo or let yourselves be dazzled by the light of the Art Space of Hispanitat.\"",
+        "description": "Welcome to the heart of Benidorm. Here, at the Castell, white stone and infinite blue embrace in a silence steeped in tradition. We await you all with four vast horizons where the sea merges with the purest and most intimate style. Feel the breeze and let these perspectives tell you our story. When you are finished, you can walk down to the authentic freshness of El Campo or let yourselves be dazzled by the light of the Art Space of Hispanitat.",
         "photos": [
           {
             "id": "urban-1-photo-1",
@@ -1819,7 +1819,8 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 10
+        "order": 10,
+        "audioUrl": "./audio/urban-1_desc_en.mp3"
       },
       {
         "id": "urban-2",
@@ -1860,7 +1861,8 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 20
+        "order": 20,
+        "audioUrl": "./audio/urban-2_desc_en.mp3"
       },
       {
         "id": "urban-3",
@@ -1921,7 +1923,8 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 30
+        "order": 30,
+        "audioUrl": "./audio/urban-3_desc_en.mp3"
       },
       {
         "id": "urban-4",
@@ -1944,7 +1947,7 @@ window.translations = {
             "url": "./img/urban-4_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Let’s get closer to the detail. Notice the golden columns of the Intempo Building and the reflections that multiply its verticality. Now, turn your gaze to the left: at the end of the street, you will see the golden silhouette of the actual building, mirroring the very same pattern you see in the photograph.”",
+            "description": "Let’s get closer to the detail. Notice the golden columns of the Intempo Building and the reflections that multiply its verticality. Now, turn your gaze to the left: at the end of the street, you will see the golden silhouette of the actual building, mirroring the very same pattern you see in the photograph.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-4_photo_2_en.mp3"
@@ -1982,7 +1985,8 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 40
+        "order": 40,
+        "audioUrl": "./audio/urban-4_desc_en.mp3"
       },
       {
         "id": "urban-5",
@@ -2093,7 +2097,8 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 50
+        "order": 50,
+        "audioUrl": "./audio/urban-5_desc_en.mp3"
       },
       {
         "id": "urban-6",
@@ -2244,7 +2249,8 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 60
+        "order": 60,
+        "audioUrl": "./audio/urban-6_desc_en.mp3"
       },
       {
         "id": "urban-7",
@@ -2415,7 +2421,8 @@ window.translations = {
         ],
         "sectionId": "urban",
         "visible": true,
-        "order": 70
+        "order": 70,
+        "audioUrl": "./audio/urban-7_desc_en.mp3"
       },
       {
         "id": "indoor-1",
@@ -2518,7 +2525,8 @@ window.translations = {
       "bio": "<b>Maria José Lozano Pérez (Benidorm, 1972), Computer Engineer and Senior Professor of Secondary Education, captures as a photographer the beauty in the geometry and verticality of her city.</b> Driven by her passion for photography and Benidorm’s skyscrapers, what began in 2019 has evolved into an artistic project with international reach, blending architecture, fashion, and Mediterranean essence.<br/>\r\nHer vision transforms the city into a cutting-edge stage. Her <b>work, defined by symmetry, light, and the search for the human figure</b>, has travelled from Benidorm to the pages of fashion magazines in New York and Paris.<br/>\r\nWinner of the <b>«Sony World Photography Awards» (2018)</b> and <b>honored with the «City of Benidorm Cultural Merit Distinction»</b>, she now returns to the streets so that residents and tourists can rediscover the city through her eyes: an encounter that celebrates urban evolution, perseverance, and her <i>Somni Vertical</i>.<br/>\r\n<i>\"My gratitude to my home town, which always makes me look up.\"</i>",
       "image": "./img/bio_image.jpg",
       "menu_title": "The Artist",
-      "menuTitle": "The Artist"
+      "menuTitle": "The Artist",
+      "audioUrl": "./audio/bio_audio_en.mp3"
     },
     "contact": {
       "label": "Contact",
