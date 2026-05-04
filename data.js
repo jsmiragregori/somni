@@ -21,8 +21,9 @@ window.translations = {
     },
     "manifesto": {
       "title": "La exposición",
-      "text": "Soy Maria José Lozano. Para mí, Benidorm no es solo una ciudad de rascacielos; es mi casa y el lugar donde he aprendido a mirar el cielo con fascinación. Soy docente y una mente inquieta, y la fotografía es mi lenguaje para celebrar la vida. Lo que empezó como una pasión me ha llevado a ganar un Premio Sony World Photography y a ver mis imágenes en revistas de Nueva York, pero mi mayor ilusión es compartir hoy esta mirada contigo. Te invito a buscar los códigos QR que encontrarás en la esquina de cada mupi; si los escaneas con el móvil, te contaré personalmente el 'secreto' y la historia que se esconde detrás de cada instantánea. Déjate llevar por la curiosidad y atrévete a soñar en vertical. ¿Empezamos?",
-      "label": "Introducción"
+      "text": "Soy Maria José Lozano. Para mí, Benidorm no es solo una ciudad de rascacielos; es mi casa y el lugar donde he aprendido a mirar el cielo con fascinación. Soy docente y una mente inquieta, y la fotografía es mi lenguaje para celebrar la vida. Lo que empezó como una pasión me ha llevado a ganar un Premio Sony World Photography y a ver mis imágenes en revistas internacionales, pero mi mayor ilusión es compartir hoy esta mirada contigo. Te invito a buscar los códigos QR que encontrarás en la esquina de cada mupi; si los escaneas con el móvil, te contaré personalmente el 'secreto' y la historia que se esconde detrás de cada instantánea. Déjate llevar por la curiosidad y atrévete a soñar en vertical. ¿Empezamos?",
+      "label": "Introducción",
+      "audioUrl": "./audio/manifesto_audio_es.mp3"
     },
     "pauses": {
       "pause1": "Observa el vacío, no como ausencia, sino como el lienzo donde ocurre la vida.",
@@ -366,7 +367,7 @@ window.translations = {
         "id": "urban-6",
         "title": "Els Tolls",
         "subtitle": "Intervención en la ciudad",
-        "description": "En el Espacio de Arte Urbano Els Tolls te espera un diálogo visual entre las líneas modernas de nuestras torres y la moda más vanguardista. La mayoría de las fotografías pertenecen a la editorial ‘Benidorm Vertical’, una sesión realizada en diciembre de 2019 que fue publicada por diversas revistas, entre ellas una de Nueva York. Aquí podrás observar los edificios de la zona de Levante. Si quieres seguir con la parte de Poniente, te esperan los Espacios de Arte Urbanos de El Campo y de Ponent para terminar de explorar.",
+        "description": "En el Espacio de Arte Urbano Els Tolls te espera un diálogo visual entre las líneas modernas de nuestras torres y la moda más vanguardista. La mayoría de las fotografías pertenecen a la editorial ‘Benidorm Vertical’, una sesión realizada en diciembre de 2019 que fue publicada por diversas revistas, entre ellas una de Nueva York. Aquí podrás observar los edificios de la zona de Levante. Si quieres seguir con la parte de Poniente, te esperan los Espacios de Arte Urbanos de El Campo y Ponent para terminar de explorar.",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -776,7 +777,8 @@ window.translations = {
       "title": "La Mirada de Maisse",
       "bio": "<b>Maria José Lozano Pérez (Benidorm, 1972), ingeniera Informática y catedrática de Enseñanza Secundaria, capta como fotógrafa la belleza en la geometría y la verticalidad de su ciudad.</b> Movida por su pasión por la fotografía y por los rascacielos de Benidorm, lo que comenzó en 2019 se ha convertido en un proyecto artístico de proyección internacional que fusiona arquitectura, moda y esencia mediterránea.<br/>\r\nSu mirada convierte la ciudad en un escenario de vanguardia. Un <b>trabajo marcado por la simetría, la luz y la búsqueda de la figura humana</b> que ha viajado desde Benidorm hasta revistas de moda de Nueva York y París.<br/>\r\nGanadora del <b>«Sony World Photography Awards» (2018)</b> y <b>«Distinguida al Mérito Cultural Ciudad de Benidorm»</b>, vuelve ahora a las calles para que el vecindario y los turistas redescubran la ciudad a través de sus ojos: un encuentro que celebra la evolución urbana, la constancia y su <i>Somni Vertical</i>.<br/>\r\n<i>\"Mi agradecimiento a mi pueblo, que me hace mirar siempre hacia arriba.\"</i>",
       "image": "./img/bio_image.jpg",
-      "menuTitle": "La Artista"
+      "menuTitle": "La Artista",
+      "audioUrl": "./audio/bio_audio_es.mp3"
     },
     "contact": {
       "label": "Contacto",
@@ -883,7 +885,7 @@ window.translations = {
     },
     "manifesto": {
       "title": "L'exposició",
-      "text": "Soc Maria José Lozano. Per a mi, Benidorm no és només una ciutat de gratacels; és ma casa i el lloc on he après a mirar el cel amb fascinació. Soc docent i una ment inquieta, i la fotografia és el meu llenguatge per a celebrar la vida. El que va començar com una passió m'ha portat a guanyar un Premi Sony World Photography i a veure les meues imatges en revistes de Nova York, però la meua major il·lusió és compartir avui aquesta mirada amb tu. Et convide a buscar els codis QR que trobaràs en el cantó de cada mupi; si els escaneges amb el mòbil, t'explicaré personalment el 'secret' i la història que s'amaga darrere de cada instantània. Deixa't portar per la curiositat i atreveix-te a somiar en vertical. Comencem?",
+      "text": "Soc Maria José Lozano. Per a mi, Benidorm no és només una ciutat de gratacels; és ma casa i el lloc on he après a mirar el cel amb fascinació. Soc docent i una ment inquieta, i la fotografia és el meu llenguatge per a celebrar la vida. El que va començar com una passió m'ha portat a guanyar un Premi Sony World Photography i a veure les meues imatges en revistes internacionals, però la meua major il·lusió és compartir avui aquesta mirada amb tu. Et convide a buscar els codis QR que trobaràs en el cantó de cada mupi; si els escaneges amb el mòbil, t'explicaré personalment el 'secret' i la història que s'amaga darrere de cada instantània. Deixa't portar per la curiositat i atreveix-te a somiar en vertical. Comencem?",
       "label": "Introducció",
       "audioUrl": "./audio/manifesto_audio_ca.mp3"
     },
@@ -1229,7 +1231,7 @@ window.translations = {
         "id": "urban-6",
         "title": "Els Tolls",
         "subtitle": "Intervenció a la ciutat",
-        "description": "En l’Espai d’Art Urbà Els Tolls t'espera un diàleg visual entre les línies modernes de les nostres torres i la moda més avantguardista. La majoria de les fotografies són de l’editorial ‘Benidorm Vertical’, sessió realitzada el desembre de 2019 i que va ser publicada per revistes, entre elles una de Nova York. Ací podràs observar els edificis de la part de Llevant. Si vols seguir amb la part de Ponent, t’esperen els Espais d'Art Urbans del Campo i de Ponent per acabar d’explorar.",
+        "description": "En l’Espai d’Art Urbà Els Tolls t'espera un diàleg visual entre les línies modernes de les nostres torres i la moda més avantguardista. La majoria de les fotografies són de l’editorial ‘Benidorm Vertical’, sessió realitzada el desembre de 2019 i que va ser publicada per revistes, entre elles una de Nova York. Ací podràs observar els edificis de la part de Llevant. Si vols seguir amb la part de Ponent, t’esperen els Espais d'Art Urbans del Campo i Ponent per acabar d’explorar.",
         "photos": [
           {
             "id": "urban-6-photo-1",
@@ -1381,7 +1383,7 @@ window.translations = {
         "id": "urban-7",
         "title": "Ponent",
         "subtitle": "Intervenció a la ciutat",
-        "description": "Benvingudes i benvinguts al museu a l'aire lliure més gran de la nostra ciutat, l'Espai d'Art Urbà Ponent. En aquest passeig de Ponent, he volgut que la mar i l'arquitectura es troben. A través d'angles que desafien la gravetat, t’oferisc una mirada diferent sobre els nostres gegants, el Gran Hotel Bali i l’Edifici Intempo. Són imatges que capturen la mística vertical de Benidorm i que van viatjar fins a Nova York per demostrar que la nostra ciutat és pur art urbà. Alça la mirada i gaudeix del vertigen i la moda. En acabar, podries visitar l’Espai d’Art Urbà Els Tolls per completar la teua experiencia descobrint els edificis més alts de la ciutat.",
+        "description": "Benvingudes i benvinguts al museu a l'aire lliure més gran de la nostra ciutat, l'Espai d'Art Urbà Ponent. En aquest passeig de Ponent, he volgut que la mar i l'arquitectura es troben. A través d'angles que desafien la gravetat, t’oferisc una mirada diferent sobre els nostres gegants, el Gran Hotel Bali i l’Edifici Intempo. Són imatges que capturen la mística vertical de Benidorm i que van viatjar fins a Nova York per demostrar que la nostra ciutat és pur art urbà. Alça la mirada i gaudeix del vertigen i la moda. En acabar, podries visitar l’Espai d’Art Urbà Els Tolls per completar la teua experiència descobrint els edificis més alts de la ciutat.",
         "photos": [
           {
             "id": "urban-7-photo-1",
@@ -1640,7 +1642,8 @@ window.translations = {
       "bio": "<b>Maria José Lozano Pérez (Benidorm, 1972), enginyera Informàtica i catedràtica d'Ensenyament Secundari, capta com a fotògrafa la bellesa en la geometria i la verticalitat de la seua ciutat.</b> Moguda per la seua passió per la fotografia i pels gratacels de Benidorm, el que va començar l’any 2019 s’ha convertit en un projecte artístic de projecció internacional que fusiona arquitectura, moda i essència mediterrània.<br/>\r\nLa seua mirada converteix la ciutat en un escenari d’avantguarda. Un <b>treball marcat per la simetria, la llum i la recerca de la figura humana</b> que ha viatjat des de Benidorm fins a revistes de moda de Nova York i París.<br/>\r\nGuanyadora del <b>«Sony World Photography Awards» (2018)</b> i <b>«Distingida al Mèrit Cultural Ciutat de Benidorm»</b>, torna ara als carrers perquè veïnat i turistes redescobrisquen la ciutat a través dels seus ulls: una trobada que celebra l'evolució urbana, la constància i el seu <i>Somni Vertical</i>.<br/>\r\n<i>\"El meu agraïment al meu poble, que em fa mirar sempre cap amunt.\"</i>",
       "image": "./img/bio_image.jpg",
       "menu_title": "L'Artista",
-      "menuTitle": "L'Artista"
+      "menuTitle": "L'Artista",
+      "audioUrl": "./audio/bio_audio_ca.mp3"
     },
     "contact": {
       "label": "Contacte",
@@ -1747,7 +1750,7 @@ window.translations = {
     },
     "manifesto": {
       "title": "The exposition",
-      "text": "I am Maria José Lozano. To me, Benidorm is not just a city of skyscrapers; it is my home and the place where I learned to look at the sky with fascination. I am a teacher and a restless mind, and photography is my language to celebrate life. What began as a passion led me to win a Sony World Photography Award and to see my images in New York magazines, but my greatest joy is sharing this vision with you today. I invite you to look for the QR codes in the corner of each display; if you scan them with your phone, I will personally tell you the 'secret' and the story behind each snapshot. Let curiosity guide you and dare to dream vertically. Shall we begin?",
+      "text": "I am Maria José Lozano. To me, Benidorm is not just a city of skyscrapers; it is my home and the place where I learned to look at the sky with fascination. I am a teacher and a restless mind, and photography is my language to celebrate life. What began as a passion led me to win a Sony World Photography Award and to see my images in international magazines, but my greatest joy is sharing this vision with you today. I invite you to look for the QR codes in the corner of each display; if you scan them with your phone, I will personally tell you the 'secret' and the story behind each snapshot. Let curiosity guide you and dare to dream vertically. Shall we begin?",
       "label": "Introduction",
       "audioUrl": "./audio/manifesto_audio_en.mp3"
     },
