@@ -54,7 +54,7 @@ window.translations = {
             "url": "./img/urban-1_photo_2.jpg",
             "orientation": "landscape",
             "title": "Obra 02",
-            "description": "El Castillo de Benidorm, editorial Benidorm Horizontal. Aquí, pasado y futuro se miran cara a cara. Es fascinante cómo se funde la complicidad de la pareja con el mar, el skyline de Ponent y las montañas al fondo, como testigos de un sueño que no se detiene.",
+            "description": "El Castell de Benidorm, editorial Benidorm Horizontal. Aquí, pasado y futuro se miran cara a cara. Es fascinante cómo se funde la complicidad de la pareja con el mar, el skyline de Ponent y las montañas al fondo, como testigos de un sueño que no se detiene.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-1_photo_2_es.mp3"
@@ -158,7 +158,7 @@ window.translations = {
             "url": "./img/urban-3_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Calle Emilio Ortuño, frente al Hotel Bristol. La última foto hecha arriba del Puente. Sin el ruido habitual de los coches en esa calle, pudimos centrar toda la atención en el detalle y la elegancia, transformando una calle tan transitada en un auténtico escenario de moda.",
+            "description": "Calle Emilio Ortuño, frente al Hotel Bristol. La última foto hecha arriba del Puente. Sin el ruido habitual de los coches en esta calle, pudimos centrar toda la atención en el detalle y la elegancia, transformando una calle tan transitada en un auténtico escenario de moda.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-3_photo_3_es.mp3"
