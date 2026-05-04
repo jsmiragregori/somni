@@ -192,7 +192,7 @@ window.translations = {
         "id": "urban-4",
         "title": "El Campo",
         "subtitle": "Intervención en la ciudad",
-        "description": "En el Espacio de Arte Urbano El Campo disfrutaréis de la fuerza del color donde el Benidorm de toda la vida se viste de gala. Aquí os propongo un juego: buscad las localizaciones desde cada punto donde os encontráis en cada momento. Y, al terminar, preparaos para la gran final: próxima estación, el Espacio de Arte Urbano de Poniente.",
+        "description": "En el Espacio de Arte Urbano El Campo disfrutaréis de la fuerza del color donde el Benidorm de toda la vida se viste de gala. Aquí os propongo un juego: buscad las localizaciones desde cada punto donde os encontráis en cada momento. Y, al terminar, preparaos para la gran final: próxima estación, el Espacio de Arte Urbano Ponent.",
         "photos": [
           {
             "id": "urban-4-photo-1",
@@ -1055,7 +1055,7 @@ window.translations = {
         "id": "urban-4",
         "title": "El Campo",
         "subtitle": "Intervenció a la ciutat",
-        "description": "En l’Espai d’Art Urbà El Campo gaudireu de la força del color on el Benidorm de tota la vida es vist de gala. Vos propose un joc: busqueu les localitzacions de les fotos des del mateix punt on vos trobeu en cada moment. I, en acabar, prepareu-vos per a la gran final: pròxima estació, l'Espai d'Art Urbà de Ponent.",
+        "description": "En l’Espai d’Art Urbà El Campo gaudireu de la força del color on el Benidorm de tota la vida es vist de gala. Vos propose un joc: busqueu les localitzacions de les fotos des del mateix punt on vos trobeu en cada moment. I, en acabar, prepareu-vos per a la gran final: pròxima estació, l'Espai d'Art Urbà Ponent.",
         "photos": [
           {
             "id": "urban-4-photo-1",
@@ -1919,7 +1919,7 @@ window.translations = {
         "id": "urban-4",
         "title": "El Campo",
         "subtitle": "City intervention",
-        "description": "At the El Campo Urban Art Space you will enjoy the power of color, where the soul of traditional Benidorm is dressed to the nines. I invite you all to a game: try to find the locations of the photos from right where you are standing. And when you’re done, get ready for the grand finale: next stop, the Urban Art Space of Ponent.",
+        "description": "At the El Campo Urban Art Space you will enjoy the power of color, where the soul of traditional Benidorm is dressed to the nines. I invite you all to a game: try to find the locations of the photos from right where you are standing. And when you’re done, get ready for the grand finale: next stop, the Urban Art Space Ponent.",
         "photos": [
           {
             "id": "urban-4-photo-1",
