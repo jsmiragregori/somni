@@ -210,7 +210,7 @@ window.translations = {
             "url": "./img/urban-4_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Aproximémonos al detalle. Fíjate en las columnas doradas del Intempo y en los reflejos que multiplican la verticalidad. Ahora, gira la vista a tu izquierda: al fondo de la calle verás la silueta dorada del edificio real, repitiendo el mismo patrón de la fotografía.",
+            "description": "Aproximémonos al detalle. Fíjate en las columnas doradas del Edificio Intempo y en los reflejos que multiplican la verticalidad. Ahora, gira la vista a tu izquierda: al fondo de la calle verás la silueta dorada del edificio real, repitiendo el mismo patrón de la fotografía.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-4_photo_2_es.mp3"
@@ -220,7 +220,7 @@ window.translations = {
             "url": "./img/urban-4_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Terraza del hotel Milords Suites. Editorial ‘Benidorm Horizontal’. Esta era nuestra base de operaciones para los cambios de vestuario. Fijaos en los ojos de sorpresa de Eva, cómo expresa el encanto que acaba de descubrir: el Hotel Bali y las luces de Ponent se deshacen en un 'bokeh' que nos transporta a una ciudad nocturna y elegante.",
+            "description": "Terraza del Hotel Milords Suites. Editorial ‘Benidorm Horizontal’. Esta era nuestra base de operaciones para los cambios de vestuario. Fijaos en los ojos de sorpresa de Eva, cómo expresa el encanto que acaba de descubrir: el Hotel Bali y las luces de Ponent se deshacen en un 'bokeh' que nos transporta a una ciudad nocturna y elegante.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-4_photo_3_es.mp3"
@@ -262,7 +262,7 @@ window.translations = {
             "url": "./img/urban-5_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Plaza del Ayuntamiento, editorial ‘Benidorm Horizontal’. En este plano celebramos la complicidad y el detalle. Los materiales artesanales de los modelos fueron diseñados por la diseñadora de nuestro equipo para dialogar con el cielo de Benidorm. Todo se preparó minutos antes en un hotel cercano para capturar la luz mediterránea exacta.",
+            "description": "Plaza del Ayuntamiento, editorial ‘Benidorm Horizontal’. En este plano celebramos la complicidad y el detalle. Los materiales artesanales de los modelos fueron diseñados por la diseñadora de nuestro equipo para dialogar con el cielo de Benidorm. Todo se planificó unos meses antes y se colocó en el mismo lugar para capturar la luz mediterránea exacta.",
             "year": "2020",
             "isMasterpiece": true,
             "audioUrl": "./audio/urban-5_photo_1_es.mp3"
@@ -272,7 +272,7 @@ window.translations = {
             "url": "./img/urban-5_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Bienvenidos a la editorial 'Benidorm Horizontal'. Fijaos en el contraste: el azul eléctrico del outfit y los globos contrastan con la geometría de los edificios del findo fondo. Es la moda conquistando el espacio público.",
+            "description": "Bienvenidos a la editorial 'Benidorm Horizontal'. Fijaos en el contraste: el azul eléctrico del outfit y los globos contrastan con la geometría de los edificios del fondo. Es la moda conquistando el espacio público.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_2_es.mp3"
@@ -332,7 +332,7 @@ window.translations = {
             "url": "./img/urban-5_photo_8.jpg",
             "orientation": "portrait",
             "title": "Obra 08",
-            "description": "El Parque de l’Aigüera es un oasis de diseño. Aquí, la modelo se funde con la naturaleza y las líneas rectas trazadas por el arquitecto Ricardo Bofill. Es el 'bosque urbano' donde Benidorm respira.",
+            "description": "El parque de l’Aigüera es un oasis de diseño. Aquí, la modelo se funde con la naturaleza y las líneas rectas trazadas por el arquitecto Ricardo Bofill. Es el 'bosque urbano' donde Benidorm respira.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_8_es.mp3"
@@ -1084,7 +1084,7 @@ window.translations = {
             "url": "./img/urban-4_photo_3.jpg",
             "orientation": "portrait",
             "title": "Obra 03",
-            "description": "Terrassa de l'hotel Milords Suites. Editorial ‘Benidorm Horitzontal’. Aquesta era la nostra base d'operacions per als canvis de vestuari. Fixeu-vos en els ulls de sorpresa d’Eva, com expressa l’encant que acaba de descobrir: l'hotel Bali i les llums de Ponent es desfan en un 'bokeh' que ens transporta a una ciutat nocturna i elegant.",
+            "description": "Terrassa de l'Hotel Milords Suites. Editorial ‘Benidorm Horitzontal’. Aquesta era la nostra base d'operacions per als canvis de vestuari. Fixeu-vos en els ulls de sorpresa d’Eva, com expressa l’encant que acaba de descobrir: l'hotel Bali i les llums de Ponent es desfan en un 'bokeh' que ens transporta a una ciutat nocturna i elegant.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-4_photo_3_ca.mp3"
@@ -1104,7 +1104,7 @@ window.translations = {
             "url": "./img/urban-4_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Castell de Benidorm, editorial Benidorm Horitzontal. En cada sessió treballem fins a sis 'looks' diferents. Volia que Benidorm lluïra com un escenari de gran producció, com en les revistes de Nova York que han publicat el meu treball. Una mirada sofisticada a la nostra pròpia casa.\"",
+            "description": "Castell de Benidorm, editorial Benidorm Horitzontal. En cada sessió treballem fins a sis 'looks' diferents. Volia que Benidorm lluïra com un escenari de gran producció, com en les revistes de Nova York que han publicat el meu treball. Una mirada sofisticada a la nostra pròpia casa.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-4_photo_5_ca.mp3"
@@ -1119,14 +1119,14 @@ window.translations = {
         "id": "urban-5",
         "title": "El Carrasco",
         "subtitle": "Intervenció a la ciutat",
-        "description": "En l’Espai d’Art Urbà El Carrasco, l’arquitectura i la moda s’alien per a sorprendre-vos. En aquest punt, on el Parc de l’Aigüera i l'Ajuntament es toquen, la ciutat es torna geometria pura. Fixeu-vos bé: a cada mupi teniu un doble regal; la força d'una imatge de cos sencer i la màgia d'un detall que ens parla de prop. Gaudiu d'aquest diàleg visual i, en acabar, trieu la vostra pròxima aventura: la modernitat dels Tolls o la frescor del Campo. Comencem!",
+        "description": "En l’Espai d’Art Urbà El Carrasco, l’arquitectura i la moda s’alien per a sorprendre-vos. En aquest punt, on el parc de l’Aigüera i l'Ajuntament es toquen, la ciutat es torna geometria pura. Fixeu-vos bé: a cada mupi teniu un doble regal; la força d'una imatge de cos sencer i la màgia d'un detall que ens parla de prop. Gaudiu d'aquest diàleg visual i, en acabar, trieu la vostra pròxima aventura: la modernitat dels Tolls o la frescor del Campo. Comencem!",
         "photos": [
           {
             "id": "urban-5-photo-1",
             "url": "./img/urban-5_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Plaça de l’Ajuntament, editorial ‘Benidorm Horitzontal’. En aquest pla celebrem la complicitat i el detall. Els materials que llueixen els models són artesanals, dissenyats exclusivament per la dissenyadora del nostre equip per a dialogar amb el cel de Benidorm. Tot el que veieu va ser preparat minuts abans en un hotel proper per a capturar la llum mediterrània exacta.",
+            "description": "Plaça de l’Ajuntament, editorial ‘Benidorm Horitzontal’. En aquest pla celebrem la complicitat i el detall. Els materials que llueixen els models són artesanals, dissenyats exclusivament per la dissenyadora del nostre equip per a dialogar amb el cel de Benidorm. Tot el que veieu va ser planificat uns mesos abans i col·locat en el mateix lloc per a capturar la llum mediterrània exacta.",
             "year": "2020",
             "isMasterpiece": true,
             "audioUrl": "./audio/urban-5_photo_1_ca.mp3"
@@ -1196,7 +1196,7 @@ window.translations = {
             "url": "./img/urban-5_photo_8.jpg",
             "orientation": "portrait",
             "title": "Obra 08",
-            "description": "El Parc de l'Aigüera és un oasi de disseny. Ací, la model es fon amb la natura i les línies rectes que va traçar l'arquitecte Ricardo Bofill. És el 'bosc urbà' on Benidorm respira.",
+            "description": "El parc de l'Aigüera és un oasi de disseny. Ací, la model es fon amb la natura i les línies rectes que va traçar l'arquitecte Ricardo Bofill. És el 'bosc urbà' on Benidorm respira.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_8_ca.mp3"
