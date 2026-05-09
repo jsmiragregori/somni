@@ -292,6 +292,14 @@ if (fs.existsSync(generalTextsDir)) {
             data[lang].privacy = data[lang].privacy || {};
             data[lang].privacy.html = marked.parse(fs.readFileSync(privacyMdPath, 'utf8').trim());
         }
+
+        data[lang].credits = data[lang].credits || {};
+        checkAndSet(`credits_title_${lang}.txt`, data[lang].credits, 'title');
+        
+        const creditsMdPath = path.join(generalTextsDir, `credits_${lang}.md`);
+        if (fs.existsSync(creditsMdPath)) {
+            data[lang].credits.html = marked.parse(fs.readFileSync(creditsMdPath, 'utf8').trim());
+        }
     }
 
     // Imágenes
@@ -349,7 +357,8 @@ if (fs.existsSync(generalTextsDir)) {
         { id: 'manifesto', visible: true, order: 2 },
         { id: 'gallery', visible: true, order: 3 },
         { id: 'author', visible: true, order: 4 },
-        { id: 'contact', visible: true, order: 5 },
+        { id: 'credits', visible: true, order: 5 },
+        { id: 'contact', visible: true, order: 6 },
     ];
     for (const lang of ['es', 'ca', 'en']) {
         data[lang].pageSections = defaultPageSections.map(def => {

@@ -75,7 +75,8 @@ function renderApp() {
         { id: 'manifesto', visible: true, order: 2 },
         { id: 'gallery', visible: true, order: 3 },
         { id: 'author', visible: true, order: 4 },
-        { id: 'contact', visible: true, order: 5 },
+        { id: 'credits', visible: true, order: 5 },
+        { id: 'contact', visible: true, order: 6 },
     ];
     const gallerySections = t.sections || [
         { id: 'urban', title: t.labels ? t.labels.urban_space : 'Urbano', visible: true, order: 1 },
@@ -246,6 +247,7 @@ function renderApp() {
                             }
                             if (ps.id === 'manifesto') return `<li><a href="#manifesto" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-6">${t.nav.manifiesto}</a></li>`;
                             if (ps.id === 'author') return `<li><a href="#author" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-6">${t.author.menuTitle || t.author.title || t.nav.autor}</a></li>`;
+                            if (ps.id === 'credits' && t.credits && t.credits.title) return `<li><a href="#credits" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-6">${t.credits.title}</a></li>`;
                             if (ps.id === 'contact') return `<li><a href="#contact" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-6">${t.nav.contacto}</a></li>`;
                             return '';
                         }).join('')}
@@ -312,6 +314,53 @@ function renderApp() {
                         <p class="${getDynamicText('lead')} font-light leading-relaxed text-bg/70 mb-6">${t.author.bio}</p>
                     </div>
                 </div>
+            </section>`;
+                if (ps.id === 'credits' && t.credits) return `
+            <section id="credits" class="py-24 lg:py-32 px-6 bg-zinc-900 border-t border-white/5 relative">
+                <div class="max-w-5xl mx-auto fade-in">
+                    <h2 class="font-display text-5xl lg:text-7xl uppercase mb-16 text-white text-center">${t.credits.title || ''}</h2>
+                    <div class="credits-content text-white/80 font-light leading-relaxed">
+                        ${(t.credits.html || '').replaceAll('</strong>:', '</strong>')}
+                    </div>
+                </div>
+                <style>
+                    .credits-content ul {
+                        list-style: none;
+                        padding: 0;
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                        row-gap: 3rem;
+                        column-gap: 4rem;
+                    }
+                    .credits-content li {
+                        display: flex;
+                        flex-direction: column;
+                        font-size: 1.125rem;
+                        border-top: 1px solid rgba(255,255,255,0.05);
+                        padding-top: 1rem;
+                    }
+                    .credits-content strong {
+                        color: #f51c20;
+                        font-family: 'JetBrains Mono', monospace;
+                        font-size: 0.85rem;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        letter-spacing: 0.1em;
+                        margin-bottom: 0.5rem;
+                        display: block;
+                    }
+                    .credits-content p {
+                        text-align: center;
+                        font-size: 1.25rem;
+                        font-style: italic;
+                        color: rgba(255,255,255,0.6);
+                        margin-bottom: 5rem;
+                        max-width: 600px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        letter-spacing: 0.05em;
+                    }
+                </style>
             </section>`;
                 return '';
             }).join('')}
