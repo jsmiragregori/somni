@@ -319,7 +319,7 @@ function renderApp() {
             <section id="credits" class="py-24 lg:py-32 px-6 bg-zinc-900 border-t border-white/5 relative">
                 <div class="max-w-5xl mx-auto fade-in">
                     <h2 class="font-display text-5xl lg:text-7xl uppercase mb-16 text-white text-center">${t.credits.title || ''}</h2>
-                    <div class="credits-content text-white/80 font-light leading-relaxed">
+                    <div class="credits-content text-white/80 ${getDynamicText('body')} font-light leading-relaxed">
                         ${(t.credits.html || '').replaceAll('</strong>:', '</strong>')}
                     </div>
                 </div>
@@ -335,14 +335,13 @@ function renderApp() {
                     .credits-content li {
                         display: flex;
                         flex-direction: column;
-                        font-size: 1.125rem;
                         border-top: 1px solid rgba(255,255,255,0.05);
                         padding-top: 1rem;
                     }
                     .credits-content strong {
-                        color: #f51c20;
+                        color: #ff6b6b;
                         font-family: 'JetBrains Mono', monospace;
-                        font-size: 0.85rem;
+                        font-size: 0.95em;
                         font-weight: 600;
                         text-transform: uppercase;
                         letter-spacing: 0.1em;
@@ -351,7 +350,7 @@ function renderApp() {
                     }
                     .credits-content p {
                         text-align: center;
-                        font-size: 1.25rem;
+                        font-size: 1.25em;
                         font-style: italic;
                         color: rgba(255,255,255,0.6);
                         margin-bottom: 5rem;
