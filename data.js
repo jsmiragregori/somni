@@ -302,7 +302,7 @@ window.translations = {
             "url": "./img/urban-5_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Adéntrate en el verde de l’Aigüera. Estás ante Patricia en la que fue mi primera sesión con modelos en Benidorm en agosto de 2018. Estas fotos intentan ofrecer un contraste vital con el hormigón y con la figura humana que se funde con la naturaleza.",
+            "description": "Adéntrate en el verde de l’Aigüera. Estás ante Patricia en la que fue mi primera sesión con modelos en Benidorm en agosto de 2018. Estas fotos intentan ofrecer un contraste vital con el hormigón y la figura humana que se funde con la naturaleza.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_5_es.mp3"
@@ -312,7 +312,7 @@ window.translations = {
             "url": "./img/urban-5_photo_6.jpg",
             "orientation": "portrait",
             "title": "Obra 06",
-            "description": "Benidorm no son solo rascacielos; también tiene pulmones verdes. En este plano más cercano, Patricia nos invita a hacer una pausa. Fíjate en la textura de la madera y la luz solar: Ofrécete un momento para relajarte y reflexionar.",
+            "description": "Benidorm no es solo rascacielos; también tiene pulmones verdes. En este plano más cercano, Patricia nos invita a hacer una pausa. Fíjate en la textura de la madera y la luz solar: ofrécete un momento para relajarte y reflexionar.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_6_es.mp3"
@@ -1175,7 +1175,7 @@ window.translations = {
             "url": "./img/urban-5_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Endinsa't en el verd de l'Aigüera. Estàs davant de Patricia en la que va ser la meua primera sessió amb models a Benidorm en agost de 2018. Aquestes fotos intenten oferir un contrast vital amb el formigó i amb la figura humana que es fon amb la natura.",
+            "description": "Endinsa't en el verd de l'Aigüera. Estàs davant de Patricia en la que va ser la meua primera sessió amb models a Benidorm en agost de 2018. Aquestes fotos intenten oferir un contrast vital amb el formigó i la figura humana que es fon amb la natura.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_5_ca.mp3"
@@ -1185,7 +1185,7 @@ window.translations = {
             "url": "./img/urban-5_photo_6.jpg",
             "orientation": "portrait",
             "title": "Obra 06",
-            "description": "Benidorm no és només gratacels; també té pulmons verds. En aquest pla més proper, Patricia ens convida a fer una pausa. Fixa't en la textura de la fusta i la llum solar: ofereix-te un moment per a relajar-te i reflexionar.",
+            "description": "Benidorm no és només gratacels; també té pulmons verds. En aquest pla més proper, Patricia ens convida a fer una pausa. Fixa't en la textura de la fusta i la llum solar: ofereix-te un moment per a relaxar-te i reflexionar.",
             "year": "2018",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_6_ca.mp3"
