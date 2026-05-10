@@ -774,7 +774,7 @@ window.translations = {
     ],
     "author": {
       "name": "Biografía",
-      "title": "La autora",
+      "title": "Conoce a la autora",
       "bio": "<b>Maria José Lozano Pérez (Benidorm, 1972), ingeniera Informática y catedrática de Enseñanza Secundaria, capta como fotógrafa la belleza en la geometría y la verticalidad de su ciudad.</b> Movida por su pasión por la fotografía y por los rascacielos de Benidorm, lo que comenzó en 2019 se ha convertido en un proyecto artístico de proyección internacional que fusiona arquitectura, moda y esencia mediterránea.<br/>\r\nSu mirada convierte la ciudad en un escenario de vanguardia. Un <b>trabajo marcado por la simetría, la luz y la búsqueda de la figura humana</b> que ha viajado desde Benidorm hasta revistas de moda de Nueva York y París.<br/>\r\nGanadora del <b>«Sony World Photography Awards» (2018)</b> y <b>«Distinguida al Mérito Cultural Ciudad de Benidorm»</b>, vuelve ahora a las calles para que el vecindario y los turistas redescubran la ciudad a través de sus ojos: un encuentro que celebra la evolución urbana, la constancia y su <i>Somni Vertical</i>.<br/>\r\n<i>\"Mi agradecimiento a mi pueblo, que me hace mirar siempre hacia arriba.\"</i>",
       "image": "./img/bio_image.jpg",
       "menuTitle": "La Artista",
@@ -2521,7 +2521,7 @@ window.translations = {
     ],
     "author": {
       "name": "Biography",
-      "title": "The author",
+      "title": "Meet the author",
       "bio": "<b>Maria José Lozano Pérez (Benidorm, 1972), Computer Engineer and Senior Professor of Secondary Education, captures as a photographer the beauty in the geometry and verticality of her city.</b> Driven by her passion for photography and Benidorm’s skyscrapers, what began in 2019 has evolved into an artistic project with international reach, blending architecture, fashion, and Mediterranean essence.<br/>\r\nHer vision transforms the city into a cutting-edge stage. Her <b>work, defined by symmetry, light, and the search for the human figure</b>, has travelled from Benidorm to the pages of fashion magazines in New York and Paris.<br/>\r\nWinner of the <b>«Sony World Photography Awards» (2018)</b> and <b>honored with the «City of Benidorm Cultural Merit Distinction»</b>, she now returns to the streets so that residents and tourists can rediscover the city through her eyes: an encounter that celebrates urban evolution, perseverance, and her <i>Somni Vertical</i>.<br/>\r\n<i>\"My gratitude to my home town, which always makes me look up.\"</i>",
       "image": "./img/bio_image.jpg",
       "menu_title": "The Artist",
