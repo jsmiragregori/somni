@@ -494,7 +494,7 @@ window.translations = {
             "url": "./img/urban-6_photo_13.jpg",
             "orientation": "portrait",
             "title": "Obra 13",
-            "description": "Fíjate en las luces del fondo: es lo que llamamos bokeh. Ese desenfoque mágico crea una atmósfera de ensueño que cierra perfectamente la historia que empezamos a pie de calle..",
+            "description": "Fíjate en las luces del fondo: es lo que llamamos bokeh. Ese desenfoque mágico crea una atmósfera de ensueño que cierra perfectamente la historia que empezamos a pie de calle.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_13_es.mp3"
@@ -1377,7 +1377,7 @@ window.translations = {
             "url": "./img/urban-6_photo_14.jpg",
             "orientation": "portrait",
             "title": "Obra 14",
-            "description": "Cala del Ti Ximo, desembre de 2019. Els darrers instants de l'editorial 'Benidorm Vertical'. La model es despulla de l'arquitectura i el ciment de la ciutat i es lliura a la màgia de la natura. Amb els peus descalços a la platja i l'esguard clos, es converteix en l'ànima d'aquesta posta de sol, un tancament de somni per a l'itinerari que hem recorregut.",
+            "description": "Cala del Ti Ximo, desembre de 2019. Darrers instants de l'editorial 'Benidorm Vertical'. La model es despulla de l'arquitectura i el ciment de la ciutat i es lliura a la màgia de la natura. Amb els peus descalços a la platja i l'esguard clos, es converteix en l'ànima d'aquesta posta de sol, un tancament de somni per a l'itinerari que hem recorregut.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_14_ca.mp3"
@@ -1743,7 +1743,7 @@ window.translations = {
     },
     "credits": {
       "title": "Crèdits",
-      "html": "<p>A ma mare, que em va ensenyar a mirar</p>\n<ul>\n<li><strong>Autora i fotògrafa</strong>: Maria José Lozano Pérez</li>\n<li><strong>Il·luminació</strong>: Salva Mira Gregori</li>\n<li><strong>Aplicació web</strong>: Salva Mira Gregori</li>\n<li><strong>Àudios</strong>: Maria José Lozano Pérez</li>\n<li><strong>Estilisme i disseny</strong>: Mila Palazzi</li>\n<li><strong>Maquillatge i Perruqueria</strong>: Marta Gallego</li>\n<li><strong>Models</strong>: Eva Mora Miranda, Víctor Montesinos, Sara Najjari, Patricia Ribes</li>\n<li><strong>Suport institucional</strong>: Ajuntament de Benidorm, Regidoria de Patrimoni Històric, Benidorm Film Office</li>\n<li><strong>Postproducció</strong>: Impursa</li>\n<li>**Correcció de textos: Pasqual Almiñana Orozco</li>\n<li><strong>Col·laboradors i patrocinadors</strong>: Sendin tiendas de moda, Bombonettshoes, Globos a la Carta, Como orito en paño, Yuliams Pelucas, Hotel Madeira, Edificio Intempo, Hotel Milord&#39;s Suites</li>\n</ul>\n"
+      "html": "<p>A ma mare, que em va ensenyar a mirar</p>\n<ul>\n<li><strong>Autora i fotògrafa</strong>: Maria José Lozano Pérez</li>\n<li><strong>Il·luminació</strong>: Salva Mira Gregori</li>\n<li><strong>Aplicació web</strong>: Salva Mira Gregori</li>\n<li><strong>Àudios</strong>: Maria José Lozano Pérez</li>\n<li><strong>Estilisme i disseny</strong>: Mila Palazzi</li>\n<li><strong>Maquillatge i Perruqueria</strong>: Marta Gallego</li>\n<li><strong>Models</strong>: Eva Mora Miranda, Víctor Montesinos, Sara Najjari, Patricia Ribes</li>\n<li><strong>Suport institucional</strong>: Ajuntament de Benidorm, Regidoria de Patrimoni Històric, Benidorm Film Office</li>\n<li><strong>Postproducció</strong>: Impursa</li>\n<li><strong>Correcció de textos</strong>: Pasqual Almiñana Orozco</li>\n<li><strong>Col·laboradors i patrocinadors</strong>: Sendin tiendas de moda, Bombonettshoes, Globos a la Carta, Como orito en paño, Yuliams Pelucas, Hotel Madeira, Edificio Intempo, Hotel Milord&#39;s Suites</li>\n</ul>\n"
     }
   },
   "en": {
