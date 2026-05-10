@@ -44,7 +44,7 @@ window.translations = {
             "url": "./img/urban-1_photo_1.jpg",
             "orientation": "landscape",
             "title": "Obra 01",
-            "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial Benidorm Vertical, nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
+            "description": "Cala del Ti Ximo, diciembre de 2019. Al final de un día intenso de sesión de la editorial 'Benidorm Vertical', nos relajamos con la luz del atardecer que lo volvió todo mágico. Nuestra playa más íntima nos ofrecía un instante de paz para cerrar el sueño.",
             "year": "2019",
             "isMasterpiece": true,
             "audioUrl": "./audio/urban-1_photo_1_es.mp3"
@@ -54,7 +54,7 @@ window.translations = {
             "url": "./img/urban-1_photo_2.jpg",
             "orientation": "landscape",
             "title": "Obra 02",
-            "description": "El Castell de Benidorm, editorial Benidorm Horizontal. Aquí, pasado y futuro se miran cara a cara. Es fascinante cómo se funde la complicidad de la pareja con el mar, el skyline de Ponent y las montañas al fondo, como testigos de un sueño que no se detiene.",
+            "description": "El Castell de Benidorm, editorial 'Benidorm Horizontal'. Aquí, pasado y futuro se miran cara a cara. Es fascinante cómo se funde la complicidad de la pareja con el mar, el skyline de Ponent y las montañas al fondo, como testigos de un sueño que no se detiene.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-1_photo_2_es.mp3"
@@ -64,7 +64,7 @@ window.translations = {
             "url": "./img/urban-1_photo_3.jpg",
             "orientation": "landscape",
             "title": "Obra 03",
-            "description": "Plaza del Ayuntamiento, editorial Benidorm Horizontal, noviembre de 2020. Una oda a la geometría y al color azul. Fijaos en los reflejos del cristal; están pensados para resaltar la fuerza de la moda en un entorno transparente y moderno.",
+            "description": "Plaza del Ayuntamiento, editorial 'Benidorm Horizontal', noviembre de 2020. Una oda a la geometría y al color azul. Fijaos en los reflejos del cristal; están pensados para resaltar la fuerza de la moda en un entorno transparente y moderno.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-1_photo_3_es.mp3"
@@ -74,7 +74,7 @@ window.translations = {
             "url": "./img/urban-1_photo_4.jpg",
             "orientation": "landscape",
             "title": "Obra 04",
-            "description": "Calle Russafa, noviembre de 2020. Editorial Benidorm Horizontal. Eran las siete de la mañana en un Benidorm post-pandemia. ¿La anécdota? Aprovechamos el silencio y el vacío de la ciudad para bailar sobre esas curvas tan originales. Un grito de esperanza.",
+            "description": "Calle Russafa, noviembre de 2020. Editorial 'Benidorm Horizontal'. Eran las siete de la mañana en un Benidorm post-pandemia. ¿La anécdota? Aprovechamos el silencio y el vacío de la ciudad para bailar sobre esas curvas tan originales. Un grito de esperanza.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-1_photo_4_es.mp3"
@@ -96,7 +96,7 @@ window.translations = {
             "url": "./img/urban-2_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Avenida Mediterráneo, marzo de 2021, editorial Benidorm de noche. Lo que más me gusta de esta imagen es cómo las luces circulares parecen ovnis suspendidos a juego con los círculos del paso de cebra. Un juego de futurismo y originalidad en el corazón de nuestra ciudad.",
+            "description": "Avenida Mediterráneo, marzo de 2021, editorial 'Benidorm de noche'. Lo que más me gusta de esta imagen es cómo las luces circulares parecen ovnis suspendidos a juego con los círculos del paso de cebra. Un juego de futurismo y originalidad en el corazón de nuestra ciudad.",
             "year": "2021",
             "isMasterpiece": true,
             "audioUrl": "./audio/urban-2_photo_1_es.mp3"
@@ -106,7 +106,7 @@ window.translations = {
             "url": "./img/urban-2_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Calle Gambo, editorial Benidorm de noche. Si miras al fondo de la imagen, detrás de la modelo, verás el Hotel Madeira. Es el mismo edificio que, si apartas la vista de la foto y miras a tu izquierda, domina la calle donde te encuentras ahora. Me encanta cómo su silueta vigila el ritmo de nuestros pasos.",
+            "description": "Calle Gambo, editorial 'Benidorm de noche'. Si miras al fondo de la imagen, detrás de la modelo, verás el Hotel Madeira. Es el mismo edificio que, si apartas la vista de la foto y miras a tu izquierda, domina la calle donde te encuentras ahora. Me encanta cómo su silueta vigila el ritmo de nuestros pasos.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-2_photo_2_es.mp3"
@@ -230,7 +230,7 @@ window.translations = {
             "url": "./img/urban-4_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "Escalinata del Castillo, editorial Benidorm Horizontal. Para lograr esta imagen tuvimos que correr: cambio de vestuario en el hotel y vuelta rápida para no perder la luz. El esfuerzo merece la pena al ver cómo el blanco de la piedra resalta la elegancia del momento.",
+            "description": "Escalinata del Castillo, editorial 'Benidorm Horizontal'. Para lograr esta imagen tuvimos que correr: cambio de vestuario en el hotel y vuelta rápida para no perder la luz. El esfuerzo merece la pena al ver cómo el blanco de la piedra resalta la elegancia del momento.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-4_photo_4_es.mp3"
@@ -240,7 +240,7 @@ window.translations = {
             "url": "./img/urban-4_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Castell de Benidorm, editorial Benidorm Horizontal. En cada sesión trabajamos hasta seis 'looks' diferentes. Quería que Benidorm luciera como un escenario de gran producción, como en las revistas de Nueva York que han publicado mi trabajo. Una mirada sofisticada a nuestra propia casa.",
+            "description": "Castell de Benidorm, editorial 'Benidorm Horizontal'. En cada sesión trabajamos hasta seis 'looks' diferentes. Quería que Benidorm luciera como un escenario de gran producción, como en las revistas de Nueva York que han publicado mi trabajo. Una mirada sofisticada a nuestra propia casa.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-4_photo_5_es.mp3"
@@ -404,7 +404,7 @@ window.translations = {
             "url": "./img/urban-6_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "Seguimos en el Edificio Kronos. La verticalidad de los rascacielos hace juego con la destreza de la modelo para mantener el equilibrio con unos tacones tan altos sobre el banco. Es la mimesis total entre moda y arquitectura.",
+            "description": "Seguimos en el Edificio Kronos. La verticalidad de los rascacielos hace juego con la destreza de la modelo para mantener el equilibrio con unos tacones tan altos sobre el banco. Es la mímesis total entre moda y arquitectura.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_4_es.mp3"
@@ -444,7 +444,7 @@ window.translations = {
             "url": "./img/urban-6_photo_8.jpg",
             "orientation": "portrait",
             "title": "Obra 08",
-            "description": "Nos hemos movido hasta el Rincón de l'Oix para encontrar el Edificio Don Jorge, de 136 metros de altura y 36 plantas. Los edificios de Benidorm no son solo cemento; son reflectores gigantes de la luz del Mediterráneo.",
+            "description": "Nos hemos movido hasta el Racó de l'Oix para encontrar el Edificio Don Jorge, de 136 metros de altura y 36 plantas. Los edificios de Benidorm no son solo cemento; son reflectores gigantes de la luz del Mediterráneo.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_8_es.mp3"
@@ -454,7 +454,7 @@ window.translations = {
             "url": "./img/urban-6_photo_9.jpg",
             "orientation": "portrait",
             "title": "Obra 09",
-            "description": "Si os fijáis, el outfit de la modelo ha cambiado. Tuvimos que hacerlo con el vestidor portátil para no perder ni un minuto de luz en esta sesión de Benidorm Vertical en diciembre de 2019.",
+            "description": "Si os fijáis, el outfit de la modelo ha cambiado. Tuvimos que hacerlo con el vestidor portátil para no perder ni un minuto de luz en esta sesión de 'Benidorm Vertical' en diciembre de 2019.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_9_es.mp3"
@@ -484,7 +484,7 @@ window.translations = {
             "url": "./img/urban-6_photo_12.jpg",
             "orientation": "portrait",
             "title": "Obra 12",
-            "description": "Terminamos el día de sesión de la editorial Benidorm Vertical en La Creu. Las vistas desde aquí arriba son el mejor resumen de la ciudad. Es el lugar donde Benidorm se desnuda y nos muestra toda su magnitud cuando cae la noche.\"",
+            "description": "Terminamos el día de sesión de la editorial 'Benidorm Vertical' en La Creu. Las vistas desde aquí arriba son el mejor resumen de la ciudad. Es el lugar donde Benidorm se desnuda y nos muestra toda su magnitud cuando cae la noche.\"",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_12_es.mp3"
@@ -616,7 +616,7 @@ window.translations = {
             "url": "./img/urban-7_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "Esta imagen nos transporta a abril de 2021, durante la exposición \"Galaxia Hung\". Aunque aquí vemos las figuras con el fondo del Hotel Madeira, su explosión de color y fantasía ya formaba parte del paisaje urbano de nuestra ciudad.",
+            "description": "Esta imagen nos transporta a abril de 2021, durante la exposición 'Galaxia Hung'. Aunque aquí vemos las figuras con el fondo del Hotel Madeira, su explosión de color y fantasía ya formaba parte del paisaje urbano de nuestra ciudad.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_10_es.mp3"
@@ -917,7 +917,7 @@ window.translations = {
             "url": "./img/urban-1_photo_1.jpg",
             "orientation": "landscape",
             "title": "Obra 01",
-            "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial Benidorm Vertical, ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
+            "description": "Cala del Ti Ximo, desembre de 2019. Al final d'un dia intens de sessió de l’editorial 'Benidorm Vertical', ens vam relaxar amb la llum del capvespre que ho va fer tot màgic. La nostra platja més íntima ens oferia un instant de pau per a tancar el somni.",
             "year": "2019",
             "isMasterpiece": true,
             "audioUrl": "./audio/urban-1_photo_1_ca.mp3"
@@ -927,7 +927,7 @@ window.translations = {
             "url": "./img/urban-1_photo_2.jpg",
             "orientation": "landscape",
             "title": "Obra 02",
-            "description": "El Castell de Benidorm, editorial Benidorm Horitzontal. Ací, el passat i el futur es miren cara a cara. És fascinant com es fon la complicitat de la parella amb la mar, l’skyline de Ponent i les muntanyes al fons, com a testimonis d'un somni que no s'atura.",
+            "description": "El Castell de Benidorm, editorial 'Benidorm Horitzontal'. Ací, el passat i el futur es miren cara a cara. És fascinant com es fon la complicitat de la parella amb la mar, l’skyline de Ponent i les muntanyes al fons, com a testimonis d'un somni que no s'atura.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-1_photo_2_ca.mp3"
@@ -937,7 +937,7 @@ window.translations = {
             "url": "./img/urban-1_photo_3.jpg",
             "orientation": "landscape",
             "title": "Obra 03",
-            "description": "Plaça de l'Ajuntament, editorial Benidorm Horitzontal, novembre de 2020. Una oda a la geometria i al color blau. Fixeu-vos en els reflexos del vidre; estan pensats per a ressaltar la força de la moda en un entorn transparent i modern.",
+            "description": "Plaça de l'Ajuntament, editorial 'Benidorm Horitzontal', novembre de 2020. Una oda a la geometria i al color blau. Fixeu-vos en els reflexos del vidre; estan pensats per a ressaltar la força de la moda en un entorn transparent i modern.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-1_photo_3_ca.mp3"
@@ -947,7 +947,7 @@ window.translations = {
             "url": "./img/urban-1_photo_4.jpg",
             "orientation": "landscape",
             "title": "Obra 04",
-            "description": "Carrer Russafa, novembre de 2020. Editorial Benidorm Horitzontal.  Eren les set del matí en un Benidorm post-pandèmia. L'anècdota? Aprofitem el silenci i el buit de la ciutat per a ballar sobre eixes corbes tan originals. Un crit d'esperança.",
+            "description": "Carrer Russafa, novembre de 2020. Editorial 'Benidorm Horitzontal'.  Eren les set del matí en un Benidorm post-pandèmia. L'anècdota? Aprofitem el silenci i el buit de la ciutat per a ballar sobre eixes corbes tan originals. Un crit d'esperança.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-1_photo_4_ca.mp3"
@@ -969,7 +969,7 @@ window.translations = {
             "url": "./img/urban-2_photo_1.jpg",
             "orientation": "portrait",
             "title": "Obra 01",
-            "description": "Avinguda Mediterrani, març de 2021, editorial Benidorm de nit. El que més m'agrada d'esta imatge és com les llums circulars semblen ovnis suspesos fent joc amb els cercles del pas de zebra. Un joc de futurisme i originalitat en el cor de la nostra ciutat.",
+            "description": "Avinguda Mediterrani, març de 2021, editorial 'Benidorm de nit'. El que més m'agrada d'esta imatge és com les llums circulars semblen ovnis suspesos fent joc amb els cercles del pas de zebra. Un joc de futurisme i originalitat en el cor de la nostra ciutat.",
             "year": "2021",
             "isMasterpiece": true,
             "audioUrl": "./audio/urban-2_photo_1_ca.mp3"
@@ -979,7 +979,7 @@ window.translations = {
             "url": "./img/urban-2_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Carrer Gambo, editorial Benidorm de nit. Si mires al fons de la imatge, darrere de la model, veuràs l'Hotel Madeira. És el mateix edifici que, si apartes la vista de la foto i mires a la teua esquerra, domina el carrer on et trobes ara. M'encanta com la seua silueta vigila el ritme dels nostres passos.",
+            "description": "Carrer Gambo, editorial 'Benidorm de nit'. Si mires al fons de la imatge, darrere de la model, veuràs l'Hotel Madeira. És el mateix edifici que, si apartes la vista de la foto i mires a la teua esquerra, domina el carrer on et trobes ara. M'encanta com la seua silueta vigila el ritme dels nostres passos.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-2_photo_2_ca.mp3"
@@ -1103,7 +1103,7 @@ window.translations = {
             "url": "./img/urban-4_photo_4.jpg",
             "orientation": "portrait",
             "title": "Obra 04",
-            "description": "Escalinata del Castell, editorial Benidorm Horitzontal. Per a aconseguir aquesta imatge vam haver de córrer: canvi de vestuari a l’hotel i tornada ràpida per a no perdre la llum. L’esforç paga la pena quan veus com el blanc de la pedra ressalta l’elegància del moment.",
+            "description": "Escalinata del Castell, editorial 'Benidorm Horitzontal'. Per a aconseguir aquesta imatge vam haver de córrer: canvi de vestuari a l’hotel i tornada ràpida per a no perdre la llum. L’esforç paga la pena quan veus com el blanc de la pedra ressalta l’elegància del moment.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-4_photo_4_ca.mp3"
@@ -1113,7 +1113,7 @@ window.translations = {
             "url": "./img/urban-4_photo_5.jpg",
             "orientation": "portrait",
             "title": "Obra 05",
-            "description": "Castell de Benidorm, editorial Benidorm Horitzontal. En cada sessió treballem fins a sis 'looks' diferents. Volia que Benidorm lluïra com un escenari de gran producció, com en les revistes de Nova York que han publicat el meu treball. Una mirada sofisticada a la nostra pròpia casa.",
+            "description": "Castell de Benidorm, editorial 'Benidorm Horitzontal'. En cada sessió treballem fins a sis 'looks' diferents. Volia que Benidorm lluïra com un escenari de gran producció, com en les revistes de Nova York que han publicat el meu treball. Una mirada sofisticada a la nostra pròpia casa.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-4_photo_5_ca.mp3"
@@ -1145,7 +1145,7 @@ window.translations = {
             "url": "./img/urban-5_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "Benvinguts a l'editorial Benidorm Horitzontal. Fixeu-vos en el contrast: el blau elèctric de l'outfit i els globus contrasten amb la geometria dels edificis del fons. És la moda conquistant l'espai públic.",
+            "description": "Benvinguts a l'editorial 'Benidorm Horitzontal'. Fixeu-vos en el contrast: el blau elèctric de l'outfit i els globus contrasten amb la geometria dels edificis del fons. És la moda conquistant l'espai públic.",
             "year": "2020",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-5_photo_2_ca.mp3"
@@ -1307,7 +1307,7 @@ window.translations = {
             "url": "./img/urban-6_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "En aquesta imatge, fixa't en la posat de la model. Com cada nova posada està treballada prèviament per oferir eixe diàleg entre model i gratacel que fa que siga tan íntim.",
+            "description": "En aquesta imatge, fixa't en el posat de la model. Com cada nova posada està treballada prèviament per oferir eixe diàleg entre model i gratacel que fa que siga tan íntim.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_7_ca.mp3"
@@ -1327,7 +1327,7 @@ window.translations = {
             "url": "./img/urban-6_photo_9.jpg",
             "orientation": "portrait",
             "title": "Obra 09",
-            "description": "Si vos fixeu, l’outfit de la model ha canviat i ho vam haver de fer amb el vestidor portàtil, per no perdre ni un minut de llum en esta sessió de Benidorm Vertical el desembre de 2019.",
+            "description": "Si vos fixeu, l’outfit de la model ha canviat i ho vam haver de fer amb el vestidor portàtil, per no perdre ni un minut de llum en esta sessió de 'Benidorm Vertical' el desembre de 2019.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_9_ca.mp3"
@@ -1357,7 +1357,7 @@ window.translations = {
             "url": "./img/urban-6_photo_12.jpg",
             "orientation": "portrait",
             "title": "Obra 12",
-            "description": "Acabem el dia de sessió de l’editorial Benidorm Vertical a La Creu. Les vistes des d'ací dalt són el millor resum de la ciutat. És el lloc on Benidorm es despulla i ens mostra tota la seua magnitud quan cau la nit.",
+            "description": "Acabem el dia de sessió de l’editorial 'Benidorm Vertical' a La Creu. Les vistes des d'ací dalt són el millor resum de la ciutat. És el lloc on Benidorm es despulla i ens mostra tota la seua magnitud quan cau la nit.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_12_ca.mp3"
@@ -1489,7 +1489,7 @@ window.translations = {
             "url": "./img/urban-7_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "Aquesta imatge ens transporta a l'abril de 2021, durant l'exposició \"Galaxia Hung\". Encara que aquí veiem les figures amb el fons de l'Hotel Madeira, la seua explosió de color i fantasia ja formava part del paisatge urbà de la nostra ciutat.",
+            "description": "Aquesta imatge ens transporta a l'abril de 2021, durant l'exposició 'Galaxia Hung'. Encara que aquí veiem les figures amb el fons de l'Hotel Madeira, la seua explosió de color i fantasia ja formava part del paisatge urbà de la nostra ciutat.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_10_ca.mp3"
@@ -1743,7 +1743,7 @@ window.translations = {
     },
     "credits": {
       "title": "Crèdits",
-      "html": "<p>A ma mare, que em va ensenyar a mirar</p>\n<ul>\n<li><strong>Autora i fotògrafa</strong>: Maria José Lozano Pérez</li>\n<li><strong>Il·luminació</strong>: Salva Mira Gregori</li>\n<li><strong>Aplicació web</strong>: Salva Mira Gregori</li>\n<li><strong>Àudios</strong>: Maria José Lozano Pérez</li>\n<li><strong>Estilisme i disseny</strong>: Mila Palazzi</li>\n<li><strong>Maquillatge i Perruqueria</strong>: Marta Gallego</li>\n<li><strong>Models</strong>: Eva Mora Miranda, Víctor Montesinos, Sara Najjari, Patricia Ribes</li>\n<li><strong>Suport institucional</strong>: Ajuntament de Benidorm, Regidoria de Patrimoni Històric, Benidorm Film Office</li>\n<li><strong>Postproducció</strong>: Impursa</li>\n<li><strong>Col·laboradors i patrocinadors</strong>: Sendin tiendas de moda, Bombonettshoes, Globos a la Carta, Como orito en paño, Yuliams Pelucas, Hotel Madeira, Edificio Intempo, Hotel Milord&#39;s Suites</li>\n</ul>\n"
+      "html": "<p>A ma mare, que em va ensenyar a mirar</p>\n<ul>\n<li><strong>Autora i fotògrafa</strong>: Maria José Lozano Pérez</li>\n<li><strong>Il·luminació</strong>: Salva Mira Gregori</li>\n<li><strong>Aplicació web</strong>: Salva Mira Gregori</li>\n<li><strong>Àudios</strong>: Maria José Lozano Pérez</li>\n<li><strong>Estilisme i disseny</strong>: Mila Palazzi</li>\n<li><strong>Maquillatge i Perruqueria</strong>: Marta Gallego</li>\n<li><strong>Models</strong>: Eva Mora Miranda, Víctor Montesinos, Sara Najjari, Patricia Ribes</li>\n<li><strong>Suport institucional</strong>: Ajuntament de Benidorm, Regidoria de Patrimoni Històric, Benidorm Film Office</li>\n<li><strong>Postproducció</strong>: Impursa</li>\n<li>**Correcció de textos: Pasqual Almiñana Orozco</li>\n<li><strong>Col·laboradors i patrocinadors</strong>: Sendin tiendas de moda, Bombonettshoes, Globos a la Carta, Como orito en paño, Yuliams Pelucas, Hotel Madeira, Edificio Intempo, Hotel Milord&#39;s Suites</li>\n</ul>\n"
     }
   },
   "en": {
@@ -2201,7 +2201,7 @@ window.translations = {
             "url": "./img/urban-6_photo_9.jpg",
             "orientation": "portrait",
             "title": "Obra 09",
-            "description": "If you notice, the model’s outfit has changed. We had to use the portable dressing room so as not to lose a single minute of light during this Benidorm Vertical shoot in December 2019.",
+            "description": "If you notice, the model’s outfit has changed. We had to use the portable dressing room so as not to lose a single minute of light during this 'Benidorm Vertical' shoot in December 2019.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_9_en.mp3"
@@ -2231,7 +2231,7 @@ window.translations = {
             "url": "./img/urban-6_photo_12.jpg",
             "orientation": "portrait",
             "title": "Obra 12",
-            "description": "We finish the Benidorm Vertical editorial shoot at La Creu. The views from up here are the best summary of the city. It is where Benidorm reveals its true self and shows its full magnitude as night falls.",
+            "description": "We finish the 'Benidorm Vertical' editorial shoot at La Creu. The views from up here are the best summary of the city. It is where Benidorm reveals its true self and shows its full magnitude as night falls.",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-6_photo_12_en.mp3"
@@ -2363,7 +2363,7 @@ window.translations = {
             "url": "./img/urban-7_photo_10.jpg",
             "orientation": "portrait",
             "title": "Obra 10",
-            "description": "This image transports us back to April 2021, during the \"Galaxia Hung\" exhibition. Although here we see the figures against the backdrop of the Madeira Hotel, their explosion of color and fantasy was already part of our city's urban landscape.",
+            "description": "This image transports us back to April 2021, during the 'Galaxia Hung' exhibition. Although here we see the figures against the backdrop of the Madeira Hotel, their explosion of color and fantasy was already part of our city's urban landscape.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_10_en.mp3"
