@@ -536,7 +536,7 @@ window.translations = {
             "url": "./img/urban-7_photo_2.jpg",
             "orientation": "portrait",
             "title": "Obra 02",
-            "description": "La silueta que ves es el Gran Hotel Bali, diciembre de 2019. Tienes exactamente la misma vista frente a ti, pero desde un ángulo que te hace sentir que flotas sobre la ciudad. Esta fotografía de la editorial 'Benidorm Vertical' cruzó el océano para brillar en las revistas de Nueva York. ¿Sientes su grandeza?",
+            "description": "La silueta que ves es el Gran Hotel Bali, diciembre de 2019. Tienes exactamente la misma vista frente a tí, pero desde un ángulo que te hace sentir que flotas sobre la ciudad. Esta fotografía de la editorial 'Benidorm Vertical' cruzó el océano para brillar en las revistas de Nueva York. ¿Sientes su grandeza?",
             "year": "2019",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_2_es.mp3"
@@ -586,7 +586,7 @@ window.translations = {
             "url": "./img/urban-7_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "¿Te imaginas estar en la planta 46, flotando sobre la ciudad? Aquí, en el Spa del Edificio Intempo, el tiempo se detiene. Mira cómo la isla vigila el horizonte al fondo de la imagen: es el mismo perfil que tienes ahora frente a ti, pero visto desde un cielo que tuvimos que descubrir y fotografiar en un solo día, sin saber qué nos encontraríamos.\"",
+            "description": "¿Te imaginas estar en la planta 46, flotando sobre la ciudad? Aquí, en el Spa del Edificio Intempo, el tiempo se detiene. Mira cómo la isla vigila el horizonte al fondo de la imagen: es el mismo perfil que tienes ahora frente a tí, pero visto desde un cielo que tuvimos que descubrir y fotografiar en un solo día, sin saber qué nos encontraríamos.\"",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_7_es.mp3"
@@ -636,7 +636,7 @@ window.translations = {
             "url": "./img/urban-7_photo_12.jpg",
             "orientation": "portrait",
             "title": "Obra 12",
-            "description": "Una nueva terraza del Edificio Intempo nos regala esta estampa de la modelo con el mar de fondo. La luz de octubre baña la escena y crea una atmósfera de serenidad absoluta.\"",
+            "description": "Una nueva terraza del Edificio Intempo nos regala esta estampa de la modelo con el mar de fondo. La luz de octubre baña la escena creando una atmósfera de serenidad absoluta.\"",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_12_es.mp3"
@@ -1459,7 +1459,7 @@ window.translations = {
             "url": "./img/urban-7_photo_7.jpg",
             "orientation": "portrait",
             "title": "Obra 07",
-            "description": "T'imagines estar a la planta 46, flotant sobre la ciutat? Ací, a l'Spa de l'Edifici Intempo, el temps s'atura. Mira com l'Illa vigila l'horitzó al fons de la imatge: és el mateix perfil que tens ara davant teu, però vist des d'un cel que vam haver de descobrir i fotografiar en un sol dia, sense saber què ens trobaríem.",
+            "description": "T'imagines estar a la planta 46, flotant sobre la ciutat? Ací, a l'Spa de l'Edifici Intempo, el temps s'atura. Mira com l'Illa vigila l'horitzó al fons de la imatge: és el mateix perfil que tens ara davant de tu, però vist des d'un cel que vam haver de descobrir i fotografiar en un sol dia, sense saber què ens trobaríem.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_7_ca.mp3"
@@ -1509,7 +1509,7 @@ window.translations = {
             "url": "./img/urban-7_photo_12.jpg",
             "orientation": "portrait",
             "title": "Obra 12",
-            "description": "Una nova terrassa de l'Edifici Intempo ens regala aquesta estampa de la model amb la mar de fons. La llum d'octubre banya l'escena i crea una atmosfera de serenitat absoluta.",
+            "description": "Una nova terrassa de l'Edifici Intempo ens regala aquesta estampa de la model amb la mar de fons. La llum d'octubre banya l'escena creant una atmosfera de serenitat absoluta.",
             "year": "2021",
             "isMasterpiece": false,
             "audioUrl": "./audio/urban-7_photo_12_ca.mp3"
