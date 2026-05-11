@@ -11,7 +11,8 @@ window.translations = {
       "lang_es": "ES",
       "lang_ca": "VAL",
       "lang_en": "EN",
-      "audioguia": "Audioguía"
+      "audioguia": "Audioguía",
+      "home": "Inicio"
     },
     "hero": {
       "title": "Benidorm,<br>Somni Vertical",
@@ -884,7 +885,8 @@ window.translations = {
       "lang_es": "ES",
       "lang_ca": "VAL",
       "lang_en": "EN",
-      "audioguia": "Audioguia"
+      "audioguia": "Audioguia",
+      "home": "Inici"
     },
     "hero": {
       "title": "Benidorm,<br>Somni Vertical",
@@ -1758,7 +1760,8 @@ window.translations = {
       "lang_es": "ES",
       "lang_ca": "VAL",
       "lang_en": "EN",
-      "audioguia": "Audioguide"
+      "audioguia": "Audioguide",
+      "home": "Home"
     },
     "hero": {
       "title": "Benidorm,<br>Somni Vertical",
