@@ -844,19 +844,24 @@ window.translations = {
         "order": 3
       },
       {
-        "id": "author",
+        "id": "map",
         "visible": true,
         "order": 4
       },
       {
-        "id": "credits",
+        "id": "author",
         "visible": true,
         "order": 5
       },
       {
-        "id": "contact",
+        "id": "credits",
         "visible": true,
         "order": 6
+      },
+      {
+        "id": "contact",
+        "visible": true,
+        "order": 7
       }
     ],
     "socials": {
@@ -871,6 +876,14 @@ window.translations = {
     "credits": {
       "title": "Créditos",
       "html": "<p>A mi madre, que me enseñó a mirar</p>\n<ul>\n<li><strong>Autora y fotógrafa</strong>: Maria José Lozano Pérez</li>\n<li><strong>Iluminación</strong>: Salva Mira Gregori</li>\n<li><strong>Aplicación web</strong>: Salva Mira Gregori</li>\n<li><strong>Audios</strong>: Maria José Lozano Pérez</li>\n<li><strong>Estilismo y diseño</strong>: Mila Palazzi</li>\n<li><strong>Maquillaje y Peluquería</strong>: Marta Gallego</li>\n<li><strong>Modelos</strong>: Eva Mora Miranda, Víctor Montesinos, Sara Najjari, Patricia Ribes</li>\n<li><strong>Apoyo institucional</strong>: Ayuntamiento de Benidorm, Concejalía de Patrimonio Histórico, Benidorm Film Office</li>\n<li><strong>Postproducción</strong>: Impursa</li>\n<li><strong>Colaboradores y patrocinadores</strong>: Sendin tiendas de moda, Bombonettshoes, Globos a la Carta, Como orito en paño, Yuliams Pelucas, Hotel Madeira, Edificio Intempo, Hotel Milord&#39;s Suites</li>\n</ul>\n"
+    },
+    "map": {
+      "url": "https://www.google.com/maps/d/u/0/embed?mid=1Zh_geoM9NUbvxnX7lmABPkvI1RKWSLk&ehbc=2E312F",
+      "visible": true,
+      "order": "4",
+      "title": "Ubicaciones",
+      "description": "Explora los espacios de arte de la exposición Somni Vertical a través de nuestro mapa interactivo.",
+      "button": "Abrir en Google Maps"
     }
   },
   "ca": {
@@ -1719,19 +1732,24 @@ window.translations = {
         "order": 3
       },
       {
-        "id": "author",
+        "id": "map",
         "visible": true,
         "order": 4
       },
       {
-        "id": "credits",
+        "id": "author",
         "visible": true,
         "order": 5
       },
       {
-        "id": "contact",
+        "id": "credits",
         "visible": true,
         "order": 6
+      },
+      {
+        "id": "contact",
+        "visible": true,
+        "order": 7
       }
     ],
     "socials": {
@@ -1746,6 +1764,14 @@ window.translations = {
     "credits": {
       "title": "Crèdits",
       "html": "<p>A ma mare, que em va ensenyar a mirar</p>\n<ul>\n<li><strong>Autora i fotògrafa</strong>: Maria José Lozano Pérez</li>\n<li><strong>Il·luminació</strong>: Salva Mira Gregori</li>\n<li><strong>Aplicació web</strong>: Salva Mira Gregori</li>\n<li><strong>Àudios</strong>: Maria José Lozano Pérez</li>\n<li><strong>Estilisme i disseny</strong>: Mila Palazzi</li>\n<li><strong>Maquillatge i Perruqueria</strong>: Marta Gallego</li>\n<li><strong>Models</strong>: Eva Mora Miranda, Víctor Montesinos, Sara Najjari, Patricia Ribes</li>\n<li><strong>Suport institucional</strong>: Ajuntament de Benidorm, Regidoria de Patrimoni Històric, Benidorm Film Office</li>\n<li><strong>Postproducció</strong>: Impursa</li>\n<li><strong>Correcció de textos</strong>: Pasqual Almiñana Orozco</li>\n<li><strong>Col·laboradors i patrocinadors</strong>: Sendin tiendas de moda, Bombonettshoes, Globos a la Carta, Como orito en paño, Yuliams Pelucas, Hotel Madeira, Edificio Intempo, Hotel Milord&#39;s Suites</li>\n</ul>\n"
+    },
+    "map": {
+      "url": "https://www.google.com/maps/d/u/0/embed?mid=1Zh_geoM9NUbvxnX7lmABPkvI1RKWSLk&ehbc=2E312F",
+      "visible": true,
+      "order": "4",
+      "title": "Ubicacions",
+      "description": "Explora els espais d'art de l'exposició Somni Vertical a través del nostre mapa interactiu.",
+      "button": "Obrir a Google Maps"
     }
   },
   "en": {
@@ -2594,19 +2620,24 @@ window.translations = {
         "order": 3
       },
       {
-        "id": "author",
+        "id": "map",
         "visible": true,
         "order": 4
       },
       {
-        "id": "credits",
+        "id": "author",
         "visible": true,
         "order": 5
       },
       {
-        "id": "contact",
+        "id": "credits",
         "visible": true,
         "order": 6
+      },
+      {
+        "id": "contact",
+        "visible": true,
+        "order": 7
       }
     ],
     "socials": {
@@ -2621,6 +2652,14 @@ window.translations = {
     "credits": {
       "title": "Credits",
       "html": "<p>To my mother, who taught me how to see</p>\n<ul>\n<li><strong>Author and photographer</strong>: Maria José Lozano Pérez</li>\n<li><strong>Lighting</strong>: Salva Mira Gregori</li>\n<li><strong>Web application</strong>: Salva Mira Gregori</li>\n<li><strong>Audios</strong>: Maria José Lozano Pérez</li>\n<li><strong>Styling and design</strong>: Mila Palazzi</li>\n<li><strong>Makeup and Hair</strong>: Marta Gallego</li>\n<li><strong>Models</strong>: Eva Mora Miranda, Víctor Montesinos, Sara Najjari, Patricia Ribes</li>\n<li><strong>Institutional support</strong>: Benidorm City Council, Department of Historical Heritage, Benidorm Film Office</li>\n<li><strong>Post-production</strong>: Impursa</li>\n<li><strong>Collaborators and sponsors</strong>: Sendin tiendas de moda, Bombonettshoes, Globos a la Carta, Como orito en paño, Yuliams Pelucas, Hotel Madeira, Edificio Intempo, Hotel Milord&#39;s Suites</li>\n</ul>\n"
+    },
+    "map": {
+      "url": "https://www.google.com/maps/d/u/0/embed?mid=1Zh_geoM9NUbvxnX7lmABPkvI1RKWSLk&ehbc=2E312F",
+      "visible": true,
+      "order": "4",
+      "title": "Locations",
+      "description": "Explore the art spaces of the Somni Vertical exhibition through our interactive map.",
+      "button": "Open in Google Maps"
     }
   }
 };

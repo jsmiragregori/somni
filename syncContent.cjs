@@ -257,6 +257,8 @@ if (fs.existsSync(generalTextsDir)) {
         mergeConfig(data[lang].footer, parseKeyValue(path.join(generalTextsDir, `footer_labels_${lang}.txt`)));
         data[lang].socials = data[lang].socials || {};
         mergeConfig(data[lang].socials, parseKeyValue(path.join(generalTextsDir, `socials_config.txt`)));
+        data[lang].map = data[lang].map || {};
+        mergeConfig(data[lang].map, parseKeyValue(path.join(generalTextsDir, `map_config.txt`)));
 
         // --- Casos especiales (archivos individuales antiguos) ---
         const checkAndSet = (filename, targetObj, targetProp) => {
@@ -270,6 +272,9 @@ if (fs.existsSync(generalTextsDir)) {
         checkAndSet(`pausa2_${lang}.txt`, data[lang].pauses, 'pause2');
         checkAndSet(`pausa_title_${lang}.txt`, data[lang].pauses, 'title');
         checkAndSet(`bio_${lang}.txt`, data[lang].author, 'bio');
+        checkAndSet(`map_title_${lang}.txt`, data[lang].map, 'title');
+        checkAndSet(`map_desc_${lang}.txt`, data[lang].map, 'description');
+        checkAndSet(`map_button_${lang}.txt`, data[lang].map, 'button');
 
         const processGeneralAudio = (prefix, targetObj) => {
             const files = fs.readdirSync(generalTextsDir);
@@ -356,9 +361,10 @@ if (fs.existsSync(generalTextsDir)) {
         { id: 'hero', visible: true, order: 1 },
         { id: 'manifesto', visible: true, order: 2 },
         { id: 'gallery', visible: true, order: 3 },
-        { id: 'author', visible: true, order: 4 },
-        { id: 'credits', visible: true, order: 5 },
-        { id: 'contact', visible: true, order: 6 },
+        { id: 'map', visible: true, order: 4 },
+        { id: 'author', visible: true, order: 5 },
+        { id: 'credits', visible: true, order: 6 },
+        { id: 'contact', visible: true, order: 7 },
     ];
     for (const lang of ['es', 'ca', 'en']) {
         data[lang].pageSections = defaultPageSections.map(def => {

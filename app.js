@@ -246,6 +246,7 @@ function renderApp() {
                                 }).join('');
                             }
                             if (ps.id === 'manifesto') return `<li><a href="#manifesto" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-6">${t.nav.manifiesto}</a></li>`;
+                            if (ps.id === 'map' && t.map && t.map.title) return `<li><a href="#map" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-6">${t.map.title}</a></li>`;
                             if (ps.id === 'author') return `<li><a href="#author" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-6">${t.author.menuTitle || t.author.title || t.nav.autor}</a></li>`;
                             if (ps.id === 'credits' && t.credits && t.credits.title) return `<li><a href="#credits" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-6">${t.credits.title}</a></li>`;
                             if (ps.id === 'contact') return `<li><a href="#contact" data-action="toggle-menu" class="font-display uppercase tracking-wide hover:text-accent transition-colors text-center block text-3xl lg:text-5xl mt-6">${t.nav.contacto}</a></li>`;
@@ -296,6 +297,29 @@ function renderApp() {
             </section>`;
                 if (ps.id === 'gallery') return `
             <div id="rooms" class="relative z-10">${roomsHtml}</div>`;
+                if (ps.id === 'map' && t.map) return `
+            <section id="map" class="py-24 lg:py-32 bg-zinc-950 border-t border-white/5 relative">
+                <div class="max-w-7xl mx-auto px-6 mb-12 fade-in">
+                    <span class="font-mono ${getDynamicText('label')} text-accent uppercase tracking-widest mb-4 block">${t.map.title}</span>
+                    <h2 class="font-display text-5xl lg:text-7xl uppercase mb-6 text-white">${t.map.title}</h2>
+                    <p class="${getDynamicText('lead')} font-light leading-relaxed text-white/80 max-w-3xl">${t.map.description || ''}</p>
+                </div>
+                <div class="w-full lg:max-w-7xl lg:mx-auto lg:px-6">
+                    <div class="w-full h-[60vh] min-h-[400px] lg:h-[70vh] relative fade-in lg:rounded-sm overflow-hidden border-y lg:border border-white/10 bg-zinc-900">
+                        ${t.map.url ? `
+                        <iframe 
+                            src="${t.map.url}" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            class="absolute inset-0 w-full h-full"
+                        ></iframe>` : ''}
+                    </div>
+                </div>
+            </section>`;
                 if (ps.id === 'author') return `
             <section id="author" class="py-32 px-6 bg-white text-bg border-t border-white/5">
                 <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-center">
