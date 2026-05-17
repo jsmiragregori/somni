@@ -302,7 +302,7 @@ function renderApp() {
                 <div class="max-w-7xl mx-auto px-6 mb-12 fade-in">
                     <span class="font-mono ${getDynamicText('label')} text-accent uppercase tracking-widest mb-4 block">${t.map.title}</span>
                     <h2 class="font-display text-5xl lg:text-7xl uppercase mb-6 text-white">${t.map.title}</h2>
-                    <p class="${getDynamicText('lead')} font-light leading-relaxed text-white/80 max-w-3xl">${t.map.description || ''}</p>
+                    <p class="${getDynamicText('lead')} font-light leading-relaxed text-white/80">${t.map.description || ''}</p>
                 </div>
                 <div class="w-full lg:max-w-7xl lg:mx-auto lg:px-6">
                     <div class="w-full h-[60vh] min-h-[400px] lg:h-[70vh] relative fade-in lg:rounded-sm overflow-hidden border-y lg:border border-white/10 bg-zinc-900">
