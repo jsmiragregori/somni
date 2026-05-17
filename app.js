@@ -300,7 +300,7 @@ function renderApp() {
                 if (ps.id === 'map' && t.map) return `
             <section id="map" class="py-24 lg:py-32 bg-zinc-950 border-t border-white/5 relative">
                 <div class="max-w-7xl mx-auto px-6 mb-12 fade-in">
-                    <span class="font-mono ${getDynamicText('label')} text-accent uppercase tracking-widest mb-4 block">${t.map.title}</span>
+                    <span class="font-mono ${getDynamicText('label')} text-accent uppercase tracking-widest mb-4 block">${t.map.label || t.map.title}</span>
                     <h2 class="font-display text-5xl lg:text-7xl uppercase mb-6 text-white">${t.map.title}</h2>
                     <p class="${getDynamicText('lead')} font-light leading-relaxed text-white/80">${t.map.description || ''}</p>
                 </div>

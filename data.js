@@ -883,7 +883,8 @@ window.translations = {
       "order": "4",
       "title": "Espacios de Arte Urbanos",
       "description": "La exposición se despliega por 7 Espacios de Arte Urbano (EAU) de Benidorm, con un total de 57 fotografías. Utiliza este mapa interactivo para localizar cada punto. Al hacer clic sobre cada marcador, podrás consultar la dirección exacta y acceder directamente a la audioguía personalizada de cada serie.",
-      "button": "Abrir en Google Maps"
+      "button": "Abrir en Google Maps",
+      "label": "Mapa virtual"
     }
   },
   "ca": {
@@ -1771,7 +1772,8 @@ window.translations = {
       "order": "4",
       "title": "Espais d'Art Urbans",
       "description": "L'exposició es desplega per 7 Espais d'Art Urbà (EAU) de Benidorm, amb un total de 57 fotografies. Fes servir aquest mapa interactiu per a localitzar cada punt. En fer clic sobre cada marcador, podràs consultar l'adreça exacta i accedir directament a l'audioguia personalitzada de cada sèrie.",
-      "button": "Obrir a Google Maps"
+      "button": "Obrir a Google Maps",
+      "label": "Mapa virtual"
     }
   },
   "en": {
@@ -2659,7 +2661,8 @@ window.translations = {
       "order": "4",
       "title": "Urban Art Spaces",
       "description": "The exhibition is spread across 7 Urban Art Spaces (EAU) in Benidorm, featuring a total of 57 photographs. Use this interactive map to locate each point. By clicking on each marker, you can view the exact address and directly access the personalized audio guide for each series.",
-      "button": "Open in Google Maps"
+      "button": "Open in Google Maps",
+      "label": "Virtual map"
     }
   }
 };

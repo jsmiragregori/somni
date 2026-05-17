@@ -273,6 +273,7 @@ if (fs.existsSync(generalTextsDir)) {
         checkAndSet(`pausa_title_${lang}.txt`, data[lang].pauses, 'title');
         checkAndSet(`bio_${lang}.txt`, data[lang].author, 'bio');
         checkAndSet(`map_title_${lang}.txt`, data[lang].map, 'title');
+        checkAndSet(`map_label_${lang}.txt`, data[lang].map, 'label');
         checkAndSet(`map_desc_${lang}.txt`, data[lang].map, 'description');
         checkAndSet(`map_button_${lang}.txt`, data[lang].map, 'button');
 
